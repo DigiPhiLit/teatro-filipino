@@ -1,7 +1,7 @@
 from google import genai
 from google.genai import types
 
-API_KEY = "AIzaSyCVItBlmYGatWzQzTEGTa-TGiZH0vn9oMk"
+API_KEY = "PON AQUÍ TU API KEY"
 client = genai.Client(api_key=API_KEY)
 MODEL_ID = "gemma-4-26b-a4b-it"
 
