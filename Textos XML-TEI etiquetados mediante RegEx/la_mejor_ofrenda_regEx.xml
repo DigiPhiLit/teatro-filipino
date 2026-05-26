@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es" xml:id="CORPUS-alvero-lamejorofrenda">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La mejor ofrenda</title>
+        <author>
+          <persName>
+            <forename>Rosa L. Sevilla De</forename>
+            <surname>Alvero</surname>
+          </persName>
+        </author>
+
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Rosa L. Sevilla De Alvero</author>
+          <title>La mejor ofrenda</title>
+          <pubPlace>Manila</pubPlace>
+          <publisher></publisher>
+          <date when="1917">1917</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="subgenre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+        <person xml:id="caeeltelon" sex="MALE">
+          <persName>Cae El Telón</persName>
+        </person>
+        <person xml:id="erroresmasnotables" sex="MALE">
+          <persName>Errores Mas Notables</persName>
+        </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+    <castList>
+      <castItem>
+        <role xml:id="caeeltelon">CAE EL TELÓN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="erroresmasnotables">ERRORES MAS NOTABLES</role>
+      </castItem>
+    </castList>
+    </front>
+    <body>
+        <stage type="action">PRIMER ACTO</stage>
+        <stage type="action">La escena pasa en el jardín de un colegio de Manila.</stage>
+        <stage type="action">DECORACIÓN</stage>
+        <stage type="action">Jardín y pradera con exuberante vegetación.</stage>
+    <div type="act" n="1">
+      <div type="scene" n="1">
+        <head>ESCENA 1ª</head>
+        <stage type="action">Flor, Crisanta y Colegialas en la hora de recreo.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Vayamos, compañeras,</stage>
+        <stage type="action">Vayamos a jugar.</stage>
+        <stage type="action">¡Qué bella es la mañana!</stage>
+        <stage type="action">Trepemos el corral</stage>
+        <stage type="action">Vamos a la pradera,</stage>
+        <stage type="action">Mas allá del solar,</stage>
+        <stage type="action">Juguemos á la comba</stage>
+        <stage type="action">A correr y á saltar</stage>
+        <stage type="action">Correr, saltar,</stage>
+        <stage type="action">Brincar y jugar</stage>
+        <stage type="action">No hay nada más dichoso</stage>
+        <stage type="action">Que nuestra tierna edad.</stage>
+        <stage type="action">HABLADO</stage>
+        <stage type="action">Paz. ¡Ea! Basta de bulla y decidámonos á qué jugaremos, que ya es tarde.</stage>
+        <stage type="action">Flor.- Pues, á la gallina ciega.</stage>
+        <stage type="action">Angela. ¡Cállese la mocosa! Buen gallo eres tú, y de pelea.</stage>
+        <stage type="action">Flor. ¿Y qué? Pues, ¿qué te has creído? Aunque pequeña, soy más que VV. Mi papá es</stage>
+        <stage type="action">Honorable.</stage>
+        <stage type="action">Angela. ¡Honorable, Honorable! Si hay más honorables que chiquillos en la calle.</stage>
+        <stage type="action">Flor. Lo que tienes es que te pudres de envidia cuando nos ves en auto.</stage>
+        <stage type="action">Angela. ¡Psé! Como si no supiera que no lo habéis pagado aún.</stage>
+        <stage type="action">Crisanta. Pero, ¿queréis dejaros de disputas?</stage>
+        <stage type="action">Parecéis Diputados o Senadores.</stage>
+        <stage type="action">Paz. Dí más bien Concejales y Alcaldes.</stage>
+        <stage type="action">¡Disputar por una nonada!</stage>
+        <stage type="action">Angela. Ya que os habéis vuelto tan parlamentarias tomemos por votación un acuerdo y así habrá más democracia.</stage>
+        <stage type="action">Todas. Sí, sí, votemos.</stage>
+        <stage type="action">Paz. ¡A saltar á la comba!</stage>
+        <stage type="action">Flor. ¡A la gallina ciega!</stage>
+        <stage type="action">Crisanta. ¡Al escondite!</stage>
+        <stage type="action">Angela. ¡Al salto espino!</stage>
+        <stage type="action">Rufina. ¡Al patintero!</stage>
+        <stage type="action">Paz. ¡Eh! ¡Callad! Que así nunca acabaremos.</stage>
+        <stage type="action">Yo propondré dos juegos. Las que quieran lo primero que levanten la mano; las partidarias del segundo que no la levanten.</stage>
+        <stage type="action">Flor. Sí, y propondréis lo que queráis á capricho y os saldréis con la vuestra. ¡Vaya si os conozco!</stage>
+        <stage type="action">Angela. ¡Dale con la manía!</stage>
+        <stage type="action">Flor. ¿Y acaso no! Parecéis personas mayores.</stage>
+        <stage type="action">Proclaman la democracia y quieren empuñar el mango de la sartén, in saeculo sueculorum ¡Czarismo puro! Lo que es á mí no me tomáis el pelo.</stage>
+        <stage type="action">Paz. Entretanto, nos quedamos disputando tontamente y ¡adiós, independencia! digo,</stage>
+        <stage type="action">¡adiós, hora de juego! Se vienen los muchachos y nos fastidian, ¡Cuidado que sois bachilleras!</stage>
+        <stage type="action">Crisanta. Que decida Pacita.</stage>
+        <stage type="action">Todas. Sí, sí, que lo decida.</stage>
+        <stage type="action">Paz. Pues, propongo lo que quiere Flor y lo que quiero yo. A saltar á la comba ó á la gallina ciega. ¿Qué preferís?</stage>
+        <stage type="action">Todas. A saltar, á saltar.</stage>
+        <stage type="action">Angela. ¿Quién da la cuerda?</stage>
+        <stage type="action">Francisco. Yo, yo daré la cuerda.</stage>
+        <stage type="action">Adela. Y yo también.</stage>
+        <stage type="action">Flor. [Aparte]. Allí se quedan VV saltando como unas ranas. No faltaba más. ¡Ah! Ya que rabio, que rabien también ellas.</stage>
+        <stage type="action">Cogeré la manguera y les regalaré un baño de ducha. Aunque sería mejor tirarles petardos. ¡Ya! ¡Ser derrotada por unas tontas como estas! Papá fue derrotado pero se salió con la suya. Lo que él decía: «Sé pillo y triunfarás». Veremos quien gana. Ellas ó yo. La cuestión es que yo goce y ellas estallen como un triquetraque de despecho y rabia.</stage>
+        <stage type="action">Allá veremos. (Se va).</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA 2ª</head>
+        <stage type="action">Las mismas menos Flor.</stage>
+        <stage type="action">Angela. ¡A ver! dad la cuerda.</stage>
+        <stage type="action">MUSICA</stage>
+        <stage type="action">Todas. (Cantando) uno, dos, tres.</stage>
+        <stage type="action">Vamos, niñas, á saltar</stage>
+        <stage type="action">Dad la comba y a brincar,</stage>
+        <stage type="action">A mecernos y girar</stage>
+        <stage type="action">Como las olas del mar.</stage>
+        <stage type="action">Flor. (Asomándose) ¡Cómo se divierten las graciosas! (amenazando) ya os llegará el diluvio; lo veréis</stage>
+        <stage type="action">Paz. Retirémonos que parece que está lloviendo, mirad!</stage>
+        <stage type="action">Crisanta. En efecto, vámonos que se hace fuerte el chaparrón.</stage>
+        <stage type="action">Ángela. ¡Qué ha de llover! Parece mentira que seáis tan cándidas [observando] ¿No reparáis que viene de abajo el agua? Estoy segura de que es la diableja de Flor la autora de esta judiada. [Vase al fondo á ver] En efecto, allá se fue corriendo al verme asomar la jeta.</stage>
+        <stage type="action">Paz. Entonces, no hagamos caso y sigamos jugando.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Uno, dos, tres</stage>
+        <stage type="action">Saltar, brincar</stage>
+        <stage type="action">Vivir y gozar</stage>
+        <stage type="action">Correr y bailar</stage>
+        <stage type="action">¡Qué rico es jugar!</stage>
+        <stage type="action">[Estalla un petardo].</stage>
+        <stage type="action">Socorro. ¡Ay, qué susto!</stage>
+        <stage type="action">Trinidad. ¡Dios me libre! ¡qué barbaridad!</stage>
+        <stage type="action">Paz. ¿Pero ¿qué os pasa? ¿Por qué no dais la cuerda y estáis allí como unos estafermos?</stage>
+        <stage type="action">Socorro. ¿Pero no ves que estalló un volcán debajo de mis pies? ¡Ay, qué miedo! Ya no quiero jugar.</stage>
+        <stage type="action">Angela. No seas tonta y sigue dando la cuerda.</stage>
+        <stage type="action">Socorro. [Vuelve a su sitio para dar la cuerda y estalla otro petardo] ¡Ay! ¡No puedo!</stage>
+        <stage type="action">¡Oh! ¿Ves? Si aquí hay un volcán. ¡Ay!</stage>
+        <stage type="action">¡Santa Bárbara bendita! ¡Jesús María</stage>
+        <stage type="action">José! [Se santigua]</stage>
+        <stage type="action">Angela [Reparando] ¡Ah! Ya veo. Otro milagro de</stage>
+        <stage type="action">Flor! Si os digo que esa es más mala que la fiebre amarilla. Vayamos todas á darla una paliza para que se escarmiente.</stage>
+        <stage type="action">Todas. ¡Eso es! Vayamos á darla una tunda.</stage>
+        <stage type="action">Paz. ¡Por Dios! No seáis violentas, dejadla, que ya se cansará. ¿No ven VV. que si le damos importancia se saldrá con la suya?</stage>
+        <stage type="action">No la hagais caso y sigamos jugando.</stage>
+        <stage type="action">Todas. Sí, sí, dejémosla y que se fastidie.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Saltar, brincar</stage>
+        <stage type="action">Correr y bailar</stage>
+        <stage type="action">Vivir y gozar</stage>
+        <stage type="action">¡Qué rico es jugar!</stage>
+        <stage type="action">Flor. [Asomándose rabiosa] ¿Que no me haréis caso? Ya lo veremos. Vaya si me saldré con la mía. Llamaré á los niños y ya veréis si podréis seguir jugando ¡Majaderas!</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Todas. Saltar, brincar</stage>
+        <stage type="action">Correr y bailar</stage>
+        <stage type="action">Vivir y gozar</stage>
+        <stage type="action">Qué rico es jugar</stage>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA 3ª</head>
+        <stage type="action">Las mismas, Vicente y soldados.</stage>
+        <stage type="action">Se oye ruido de tambores</stage>
+        <stage type="action">Vicente. Squad right, March - Squad right, March.</stage>
+        <stage type="action">As skirmisher, guide right, March.-</stage>
+        <stage type="action">Company Halt.</stage>
+        <stage type="action">Todas. ¡Ay! Ya vienen los diablillos</stage>
+        <stage type="action">Vicente. ¿Qué diablillos ni qué niño muerto andáis diciendo ahí? Nosotros somos los alemanes y venimos á intimidaros á vosotros los aliados á que dejéis esta plaza y si no...</stage>
+        <stage type="action">Angela. Y si no ¿qué?</stage>
+        <stage type="action">Vicente. Pues, ipun pururum, pururum! y basta de razones.</stage>
+        <stage type="action">Todas. Pues, no queremos.</stage>
+        <stage type="action">Vicente. ¿Si? (dirigiéndose á los soldados). Load</stage>
+        <stage type="action">-Aim - Fire - fire at will.</stage>
+        <stage type="action">Soldados (Ejecutando las órdenes y haciendo fuego, tiran pepitas de tamarindo por proyectiles y dicen) Pum, ipururupum!</stage>
+        <stage type="action">Todas. ¡Ay! ¡Ay! ¡Ay! Ya nos lo pagaréis. [Se  repliegan á un lado]</stage>
+        <stage type="action">Vicente. (Dirigiéndose a los soldados) Suspend firing.</stage>
+        <stage type="action">[Mira á las niñas] Qué ¿no os vais aún?</stage>
+        <stage type="action">Todas. No.</stage>
+        <stage type="action">Vicente. [A los soldados] Fire at will.</stage>
+        <stage type="action">Soldados. ¡Pum, pururum! pururum.</stage>
+        <stage type="action">Todas. ¡Ay, Ay! (Huyen despavoridas)</stage>
+        <stage type="action">Vicente. Suspend firing! ...</stage>
+        <stage type="action">Mirando en derredor</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA 4ª</head>
+        <stage type="action">Angela [Malandrines! (Repara en Flor que va con los chicos) ¡Ah! Ya decía yo que nos los trajo esa mala pulga. Como pueda, ya te aplastaré, ¡Cucaracha!</stage>
+        <stage type="action">Flor. (Sacando la lengua) ¡Eh! Rabia, rabia, mala pécora [A los niños] Así, duro, y á la cabeza. ¡Ay; qué gusto, pero qué gusto!</stage>
+        <stage type="action">¡Que rabien!</stage>
+        <stage type="action">Huye Angela rabiando</stage>
+        <stage type="action">Vicente. Esto es ya plaza tomada.</stage>
+        <stage type="action">Adelante y á otra parte con la música.</stage>
+        <stage type="action">Dirigiéndose a los niños</stage>
+        <stage type="action">Fall in Right guide, S1ad, March-</stage>
+        <stage type="action">Column right. Column, right. Column, right.</stage>
+        <stage type="action">Column, right.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">I am a beautiful red red drum</stage>
+        <stage type="action">And I train with the soldiers boy</stage>
+        <stage type="action">As up the street we come</stage>
+        <stage type="action">Wonderful is our noise</stage>
+        <stage type="action">There is Tom and Jim and Phil</stage>
+        <stage type="action">And Dick and Need and Fred</stage>
+        <stage type="action">While widow cutters bill</stage>
+        <stage type="action">And I march on ahead</stage>
+        <stage type="action">With a tat, ta tat tat, ta tat tat</stage>
+        <stage type="action">And a tium ti ti tium ti ti tium</stage>
+        <stage type="action">There is bushel of fun in that</stage>
+        <stage type="action">For boys with little red drum</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA 5ª</head>
+        <stage type="action">Flor. [Se adelanta sola dirigiéndose al público]</stage>
+        <stage type="action">¡Al fin, al fin me he vengado</stage>
+        <stage type="action">De esa patulea ignara!</stage>
+        <stage type="action">¡Ni que fuera yo una cúrsi!</stage>
+        <stage type="action">Yo, la perla de mi casa,</stage>
+        <stage type="action">Yo, la hija del Honorable</stage>
+        <stage type="action">Barbarito Cascarrabias</stage>
+        <stage type="action">Locotosme y otras hiervas, que las Islas Divorciadas</stage>
+        <stage type="action">Gobierna interinamente.</stage>
+        <stage type="action">Lo que es á mí no me aplanan,</stage>
+        <stage type="action">Que hija soy de mi papá</stage>
+        <stage type="action">A quien le sobran agallas</stage>
+        <stage type="action">Para hacer de una gorra un sayo</stage>
+        <stage type="action">Y un pantalón de una saya.</stage>
+        <stage type="action">¿Qué creyeron las muy tontas?</stage>
+        <stage type="action">¿Qué iba a verme turulata?</stage>
+        <stage type="action">Pues no, señor, que en listura,</stage>
+        <stage type="action">Yo, Flor, les doy quince y raya,</stage>
+        <stage type="action">Que no en balde soy pimpollo</stage>
+        <stage type="action">Del señor de Cascarrabias</stage>
+        <stage type="action">Y conozco los intringulis.</stage>
+        <stage type="action">De la gramatica parda.</stage>
+        <stage type="action">Para aprender me metieron</stage>
+        <stage type="action">De este colegio en las aulas;</stage>
+        <stage type="action">Pero, que si quieres, yo</stage>
+        <stage type="action">Me aferro en mi eterna máxima</stage>
+        <stage type="action">En cuestión de libros, y es;</stage>
+        <p>«¡Que se los lleva la trampa!»</p>
+        <stage type="action">Me atengo á la de Papá</stage>
+        <p>«Con ser pillo, sobra y basta,»</p>
+        <stage type="action">Que lo demás es pamplina,</stage>
+        <stage type="action">Basagulo y hojarasca.</stage>
+        <stage type="action">La Religión ¿que me importa,</stage>
+        <stage type="action">Si no vale tres patatas?</stage>
+        <stage type="action">¿Moral? Lo que me conviene.</stage>
+        <stage type="action">¿Patriotismo? ¡Pura guasa!</stage>
+        <stage type="action">Que el, estómago este lleno</stage>
+        <stage type="action">Y estén repletas las arcas</stage>
+        <stage type="action">Debe ser el sueño único</stage>
+        <stage type="action">De una vida aprovechada.</stage>
+        <stage type="action">Trátenme á cuerpo de rey</stage>
+        <stage type="action">Y á los otros á patadas</stage>
+        <stage type="action">Que eso de la abnegación</stage>
+        <stage type="action">Y la paciencia sin taza</stage>
+        <stage type="action">Es canción que se ha compuesto</stage>
+        <stage type="action">Para niñas mentecatas.</stage>
+        <stage type="action">No hay divisa más segura</stage>
+        <stage type="action">Que la que papá proclama:</stage>
+        <p>«Ojo por ojo -me dice-</p>
+        <stage type="action">Y diente por diente» -y, Tablas.</stage>
+        <stage type="action">Y yo, que en todo lo sigo,</stage>
+        <stage type="action">Sigo á ciegas dicha máxima.</stage>
+        <stage type="action">Muchas veces mi maestra</stage>
+        <stage type="action">Me ha dicho -Mira, muchacha,</stage>
+        <stage type="action">Tú has de ser buena y humilde,</stage>
+        <stage type="action">Cariñosa, amable y mansa,</stage>
+        <stage type="action">Y una abeja en el trabajo,</stage>
+        <stage type="action">Y un angelito en tu casa»</stage>
+        <stage type="action">Pero no sabe la pobre</stage>
+        <stage type="action">Que estas virtudes cristianas</stage>
+        <stage type="action">Son trastos viejos, y que hoy</stage>
+        <stage type="action">La mujer nueva reclama</stage>
+        <stage type="action">Con los progresos del siglo,</stage>
+        <stage type="action">Otros moldes y pragmáticas.</stage>
+        <stage type="action">¡Viva pues la vida nueva!</stage>
+        <stage type="action">¡Venga música y jarana!</stage>
+        <stage type="action">Que todo el resto es pamema</stage>
+        <stage type="action">Cuento tártaro y camama</stage>
+        <stage type="action">Oyese ruido de pasos</stage>
+        <stage type="action">¡Aquí vienen! yo me marcho,</stage>
+        <stage type="action">Por no mirarle la cara</stage>
+        <stage type="action">A esa Angelita á quien odio</stage>
+        <stage type="action">¡Por tonta y por Mojigata!</stage>
+      </div>
+      <div type="scene" n="6">
+        <head>ESCENA 6ª</head>
+        <stage type="action">Aparecen las otras colegialas</stage>
+        <stage type="action">Todas. Aquí estaba.</stage>
+        <stage type="action">Yo la he visto. Tal vez estará ideando alguna nueva trastada.</stage>
+        <stage type="action">Si no fuera por Pacita, ya me tomaba la revancha</stage>
+        <stage type="action">Paz. ¡Vamos! Déjala tranquila y pensemos en la</stage>
+        <stage type="action">Velada que estamos organizando.</stage>
+        <stage type="action">Si, á ensayar.</stage>
+        <stage type="action">Mauricia. Oíd, entonces, y decid, si recito bien. Es una poesía que encontré no sé dónde; de autor que desconozco en absoluto, pero que me gusta mucho</stage>
+        <stage type="action">Todas. Que hable la pequeñita.</stage>
+        <stage type="action">Mauricia. (Declamando)</stage>
+        <stage type="action">Por mi Dios y por mi sangre,</stage>
+        <stage type="action">Te hago ofrenda de mi vida;</stage>
+        <stage type="action">Lo que soy y lo que tengo.</stage>
+        <stage type="action">Te lo debo, Patria mía.</stage>
+        <stage type="action">Lo que canto y lo que sueño</stage>
+        <stage type="action">Todo el cáliz, de mi vida,</stage>
+        <stage type="action">Ante el ara de tu Héroe,</stage>
+        <stage type="action">Te lo brindo, Patria mía.</stage>
+        <stage type="action">No me arredran los embates</stage>
+        <stage type="action">De la lucha por la vida</stage>
+        <stage type="action">Porque sé que la victoria</stage>
+        <stage type="action">Siempre es tuya, Patria mía</stage>
+        <stage type="action">Y si pierdo en la batalla</stage>
+        <stage type="action">Los alientos de mi vida,</stage>
+        <stage type="action">Clamará mi último grito.</stage>
+        <stage type="action">¡Vive y triunfa, Patria mía!</stage>
+        <stage type="action">Lo que soy y lo que tengo</stage>
+        <stage type="action">Te lo debo, Patria mía,</stage>
+        <stage type="action">De mi vida te hice ofrenda,</stage>
+        <stage type="action">Usa, Patria, de mi vida.</stage>
+        <stage type="action">Todas. ¡Bien, por la pequeñita!</stage>
+        <stage type="action">Socorro. Eres una declamadora en miniatura.</stage>
+        <stage type="action">Mauricia. Y si me hago grande ¿qué seré?</stage>
+        <stage type="action">Socorro. Una grandísima majadera, digo, declamadora</stage>
+        <stage type="action">Todas. ¡Ja ja ja! (Riendo)</stage>
+        <stage type="action">Mauricia. ¿Crees que me aplaudirán?</stage>
+        <stage type="action">Socorro. Ya lo creo; y te echarán flores de malva, para que no so te suba el viento á la cabeza.</stage>
+        <stage type="action">¡Ea! Basta de bromas y que tome otra la palabra.</stage>
+        <stage type="action">Angela. Yo recitaré el poema de Guerrero. «Á</stage>
+        <stage type="action">Rizal».</stage>
+        <stage type="action">Todas. Venga de ahí.</stage>
+        <stage type="action">Angela. ¡Todavía sufrimos!... Fiero látigo</stage>
+        <stage type="action">Otra vez nuestras frentes ensangrienta,</stage>
+        <stage type="action">Y en nuestro hogar bendito,</stage>
+        <stage type="action">En el polvo sagrado de tu huesa,</stage>
+        <stage type="action">Han descansado sus hirientes garras</stage>
+        <stage type="action">Aguilas carniceras.</stage>
+        <stage type="action">¿Oyes? Es el tronido de la lucha;</stage>
+        <stage type="action">Es tu raza oprimida que protesta,</stage>
+        <stage type="action">Vibrando con el arma,</stage>
+        <stage type="action">Tu verbo redentor en la contienda..</stage>
+        <stage type="action">¡Raza de bravos que aprendió en tus libros</stage>
+        <stage type="action">A quebrantar cadenas! ...</stage>
+        <stage type="action">¡Oh! Si pudieras aún, Mártir preclaro,</stage>
+        <stage type="action">Mover tu pluma, azote de los déspotas!</stage>
+        <stage type="action">Tal vez el rayo ardiente</stage>
+        <stage type="action">De tu robusto acento contuviera</stage>
+        <stage type="action">La inicia espoliación y los voraces</stage>
+        <stage type="action">Instintos de la hiena</stage>
+        <stage type="action">Pero, ¡no! Aleccionada por ti mismo</stage>
+        <stage type="action">Y avezada al combate y la tormenta,</stage>
+        <stage type="action">De pie y puesta en las nubes</stage>
+        <stage type="action">La siempre altiva y varonil cabeza,</stage>
+        <stage type="action">Sabrá morir ó conquistar la gloria</stage>
+        <stage type="action">Tu raza gigantesca.</stage>
+        <stage type="action">¡Paz á ti que ya has muerto!</stage>
+        <stage type="action">Cuando escuches</stage>
+        <stage type="action">Himnos grandiosos en tu noche eterna,</stage>
+        <stage type="action">Despiértate: es que entonces</stage>
+        <stage type="action">Habrá lucido el alba en nuestra tierra;</stage>
+        <stage type="action">Es que habrán perecido en nuestros campos.</stage>
+        <stage type="action">Las águilas sangrientas...</stage>
+        <stage type="action">Todas. ¡Bravo, bravíssimo!</stage>
+        <stage type="action">Crisanta. Ahora, un poco de música, ¿qué os parece?</stage>
+        <stage type="action">Todas. Sí. Sí.</stage>
+        <stage type="action">Crisanta. Cantemos, Angelita, aquel canto que nos enseñó la maestra de música, el canto de la Montaña.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Arriba, compañeras</stage>
+        <stage type="action">Dejemos la llanura,</stage>
+        <stage type="action">Del monte hacia la altura</stage>
+        <stage type="action">Trepemos sin parar.</stage>
+        <stage type="action">Arriba allá en la cuna que cubre verde alfombra.</stage>
+        <stage type="action">Tendidos á la sombra</stage>
+        <stage type="action">Podremos descansar.</stage>
+        <stage type="action">Azul, limpio y sereno</stage>
+        <stage type="action">Se extiende el horizonte,</stage>
+        <stage type="action">Feliz de monte en monte</stage>
+        <stage type="action">La vista errando va.</stage>
+        <stage type="action">Más pura y libre el alma</stage>
+        <stage type="action">Emprende aquí su vuelo</stage>
+        <stage type="action">Está más cerca el cielo,</stage>
+        <stage type="action">Lejos el mundo está.</stage>
+        <stage type="action">Todas. ¡Excelente!</stage>
+        <stage type="action">Mauricia. Parecéis verdaderas artistas.</stage>
+        <stage type="action">Crisanta y Angela. Gracias, monina.</stage>
+        <stage type="action">Crisanta. ¿Queréis que recite ahora el inspirado poe- má de Guerrero á su «Musa»?</stage>
+        <stage type="action">Todas. Sí, sí.</stage>
+        <stage type="action">Crisanta. En un ambiente de mortal tristeza</stage>
+        <stage type="action">Vive como las flores solitarias,</stage>
+        <stage type="action">Pero lleva en su pálida cabeza</stage>
+        <stage type="action">El yelmo de las musas libertarias.</stage>
+        <stage type="action">No rima en los momentos de batalla</stage>
+        <stage type="action">Del idílico amor la suave estrofa.</stage>
+        <stage type="action">Vibra, en lugar del tirso, ruda tralla</stage>
+        <stage type="action">Y le alienta al cobarde ó le apostrofa.</stage>
+        <stage type="action">Mi Musa es soberana: no se pliega</stage>
+        <stage type="action">Ante el peso brutal de su calvario,</stage>
+        <stage type="action">Ni, invidente ó estúpida, se entrega,</stage>
+        <stage type="action">Vendido su ideal al vil denario.</stage>
+        <stage type="action">Recibe en los altares del Derecho</stage>
+        <stage type="action">La hostia de las ideas redentoras,</stage>
+        <stage type="action">Como recibe impávida en su pecho</stage>
+        <stage type="action">Las burlas canallescas y traidoras</stage>
+        <stage type="action">Con velos de ideal romanticismo.</stage>
+        <stage type="action">Flotando sobre el légamo y la escoria,</stage>
+        <stage type="action">O rueda con sus penas al abismo</stage>
+        <stage type="action">O sube con sus triunfos á la gloria.</stage>
+        <stage type="action">Mi musa, como indígena, es morena;</stage>
+        <stage type="action">Ríe á la luz del sol de nuestro cielo,</stage>
+        <stage type="action">Y, adornada con alas de falena</stage>
+        <stage type="action">Hacia el patrio Ideal tiende su vuelo.</stage>
+        <stage type="action">¡Va al porvenir! La libertad la inspira,</stage>
+        <stage type="action">La espolea el vigor de nuestra raza</stage>
+        <stage type="action">Que pone en cada cuerda de su lira,</stage>
+        <stage type="action">Con el beso que premia la amenaza.</stage>
+        <stage type="action">Podrá tener sus horas de tristeza</stage>
+        <stage type="action">Mi Musa pensativa y solitaria,</stage>
+        <stage type="action">Pero brilla en su pálida cabeza</stage>
+        <stage type="action">El yelmo de la musa libertaria...</stage>
+        <stage type="action">Todas. ¡Bien! ¡muy bien!</stage>
+        <stage type="action">Crisanta. Ahora, llamemos á Flor ¡Pobrecita! Ella se aprendió la poesía de Zorrilla titulada «La Tempestad». Yo la indiqué que tomase parte en nuestra velada y está gustosa de ello. ¿Qué os parece?</stage>
+        <stage type="action">Angela. Me parece que has hecho mal en avisarla, es una mequetrefe que nos dará no pocos disgustos con su carácter estravagante.</stage>
+        <stage type="action">Crisanta. Dispénsame. Si lo hice es porque pensaba atraerla; No debe existir divisiones entre nosotras: Si es mala, nuestro deber es mejorarla, pero no rechazarla. Así honraremos mejor á Rizal ¿no te parece?</stage>
+        <stage type="action">Angela. Es verdad. Sea. Ya que lo quieres. ¡Ojalá tengas éxito en tu noble empresa!</stage>
+        <stage type="action">Crisanta. Espero que será así, si somos prudentes,</stage>
+        <stage type="action">Rufina, vete á llamarla.</stage>
+        <stage type="action">Rufina. Allá voy. (Sale)</stage>
+        <stage type="action">Angela. Pero ¿no reparáis que Pacita no dice, esta boca es mía? Miradla, abstraída en aquel rincón.</stage>
+        <stage type="action">Trinidad. ¿Qué le pasará? ¿queréis que la llame?</stage>
+        <stage type="action">Angela. Déjala. Ya la llamaremos más tarde para que recite también.</stage>
+        <stage type="action">Rufina. (Entrando). Aquí Viene Flor.</stage>
+      </div>
+      <div type="scene" n="7">
+        <head>ESCENA 7ª</head>
+        <stage type="action">Las mismas y Flor.</stage>
+        <stage type="action">Flor. ¿Qué me queréis?</stage>
+        <stage type="action">Crisanta. Aquí estamos ya ensayando y tú sola faltas para recitar tu poesía. Recítala y veremos como lo haces.</stage>
+        <stage type="action">Flor. [Despectivamente presuntuosa] Ya sabéis que declamo bien y no necesito ensayos.</stage>
+        <stage type="action">Angela. Aparte. Ah! Ya se descolgó con una de las suyas</stage>
+        <stage type="action">Crisanta. Es cierto, pero queremos aplaudirte.</stage>
+        <stage type="action">Flor. En tal caso, escuchad:</stage>
+        <stage type="action">¿Qué quieren esas nubes que con furor se agrupan</stage>
+        <stage type="action">Del aire transparente por la región azul?</stage>
+        <stage type="action">¿Qué quieren cuando el paso de su vacío ocupan</stage>
+        <stage type="action">Del Zenit suspendiendo su tenebroso tul?</stage>
+        <stage type="action">¡Cuál rápidas se agolpan, cuál ruedan y se ensanchan</stage>
+        <stage type="action">Y al firmamento trepan en lóbrego montón.</stage>
+        <stage type="action">Y el puro azul alegre del firmamento manchan</stage>
+        <stage type="action">Sus misteriosos grupos en torva confusión.</stage>
+        <stage type="action">Resbalan lentamente por cima de los montes,</stage>
+        <stage type="action">Avanzan en silencio sobre el rugiente mar,</stage>
+        <stage type="action">Los huecos oscurecen de entrambos horizontes</stage>
+        <stage type="action">El orbe y las tinieblas bajo ellas va á quedar.</stage>
+        <stage type="action">La luna huyó al mirarlas: huyeron las estrellas</stage>
+        <stage type="action">Su claridad escasa la inmensidad sorbió;</stage>
+        <stage type="action">Ya reinan solamente por los espacios ellas;</stage>
+        <stage type="action">Do quiera se ven tinieblas, más firmamento no.</stage>
+        <stage type="action">En vano nuestros ojos se afanan por hallarle</stage>
+        <stage type="action">Del tenebroso velo que lo embozo detrás.</stage>
+        <stage type="action">Que cuanto más los ojos se empeñan en buscarle,</stage>
+        <stage type="action">Se esconde el firmamento de nuestros ojos más</stage>
+        <stage type="action">¡Las nubes solamente! ¡Las nubes se acrecientan</stage>
+        <stage type="action">Sobre el dormido mundo! Las nubes por doquier!</stage>
+        <stage type="action">A cada instante que huye la lobreguez aumentan</stage>
+        <stage type="action">Y se las ve en montones sin límites crecer.</stage>
+        <stage type="action">Ya montes gigantescos semejan sus contornos</stage>
+        <stage type="action">Al brillo de un relámpago que aumenta la ilusión,</stage>
+        <stage type="action">Ya de volcanes ciento los inflamados hornos,</stage>
+        <stage type="action">Ya de movibles monstruos aligero escuadrón.</stage>
+        <stage type="action">Ya sinitan apiñadas de los espesos pinos</stage>
+        <stage type="action">Las desiguales copas y el campo desigual.</stage>
+        <stage type="action">Ya informes pelotones de objetos peregrinos que mudan de colores, de forma y de local.</stage>
+        <stage type="action">¿Qué brazo las impile? Qué espíritu las guía</stage>
+        <stage type="action">Que habla dentro de ellas con tan gigante voz,</stage>
+        <stage type="action">Cuando retumba el trueno y cuando va bravía</stage>
+        <stage type="action">Rugiendo de su vientre la tempestad veloz?...</stage>
+        <stage type="action">¡Señor, yo te conozco! La noche azul serena,</stage>
+        <stage type="action">Me dice desde lejos: «Tu Dios se esconde allí»</stage>
+        <stage type="action">Pero la noche oscura, la de nublados llena.</stage>
+        <stage type="action">Me dice más pujante: «Tu Dios se acerca á ti».</stage>
+        <stage type="action">Te acercas, sí; conozco las orlas de tu manto</stage>
+        <stage type="action">En esa ardiente nube con que ceñido estás</stage>
+        <stage type="action">El resplandor conozco de tu semblante santo.</stage>
+        <stage type="action">Cuando, al cruzar el éter, relampagueando vas</stage>
+        <stage type="action">Conozco de tus pasos las invisibles huellas,</stage>
+        <stage type="action">Del repentino trueno en el crujiente son,</stage>
+        <stage type="action">Las chispas de tu carro conozco en las centellas</stage>
+        <stage type="action">Tu aliento en el rugido del rápido Aquilón.</stage>
+        <stage type="action">¿Quién ante tí parece? ¿Quien es en tu presencia</stage>
+        <stage type="action">Más que una arista seca que el aire va á romper?</stage>
+        <stage type="action">Tus ojos son el día: Tu soplo la existencia:</stage>
+        <stage type="action">Tu alfombra el firmamento: la eternidad tu ser</stage>
+        <stage type="action">Tu espíritu infinito resbala ante mis ojos,</stage>
+        <stage type="action">Aunque mi vista impura tu aparición no ve,</stage>
+        <stage type="action">Mi alma se estremece y ante tu faz de hinojos</stage>
+        <stage type="action">Te adora en esas nubes mi solitaria fe</stage>
+        <stage type="action">Todas. ¡Bien! ¡Bravíssimo!</stage>
+        <stage type="action">Flor. Gracias.</stage>
+        <stage type="action">Angelita. Y tu, Pacita ¿qué piensas que estás allí tan absorta?</stage>
+        <stage type="action">Paz. Pienso que la poesía es sublime, y la música armoniosa, y las flores delicadas, y que todo es bueno cuando se ha ideado para honrar al gran Patriota, pero yo pienso que hay algo que es una ofrenda más digna de El.</stage>
+        <stage type="action">Todas. Y ¿cuál? Dilo pronto.</stage>
+        <stage type="action">Paz. Que imitemos sus ejemplos y practiquemos sus doctrinas</stage>
+        <stage type="action">Crisanta. Y en donde crees que se halla el compendio de sus altas enseñanzas?</stage>
+        <stage type="action">Paz. ¿En donde queréis que se halle sino en el</stage>
+        <stage type="action">Evangelio de la raza?</stage>
+        <stage type="action">Francisca ¿Y cuál es ese Evangelio?</stage>
+        <stage type="action">Paz. El Ultimo Adios, queridas,</stage>
+        <stage type="action">Testamento que escribiera</stage>
+        <stage type="action">En la solemne y tristísima</stage>
+        <stage type="action">Hora final de sus luchas,</stage>
+        <stage type="action">Cuando estaba aún en capilla;</stage>
+        <stage type="action">¡Santo aroma de su ensueño.</stage>
+        <stage type="action">Quinta esencia de su vida,</stage>
+        <stage type="action">Con que embriagar ha querido</stage>
+        <stage type="action">A sus muy amadas Islas</stage>
+        <stage type="action">Y empapar el alma toda</stage>
+        <stage type="action">De la raza filipina! ...</stage>
+        <stage type="action">Todas. ¡Es cierto!</stage>
+        <stage type="action">Paz. Notad, si no,</stage>
+        <stage type="action">La abnegación infinita</stage>
+        <stage type="action">Conque comienza el poema;</stage>
+        <stage type="action">La ecuanimidad que inspira</stage>
+        <stage type="action">Su estrofa segunda; el hábito</stage>
+        <stage type="action">La esperanza siempre viva</stage>
+        <stage type="action">Y sacrificio patriótico</stage>
+        <stage type="action">De la tercera; la digna</stage>
+        <stage type="action">Ansia filial que, en la cuarta, en nuestros pechos infiltra;</stage>
+        <stage type="action">El generoso entusiasmo</stage>
+        <stage type="action">Que bulle y arde en la quinta;</stage>
+        <stage type="action">La ternura de la sexta;</stage>
+        <stage type="action">La romántica delicia</stage>
+        <stage type="action">De la séptima, reverso</stage>
+        <stage type="action">Del afán positivista;</stage>
+        <stage type="action">La amistad con que, en la octava,</stage>
+        <stage type="action">Placidamente delira;</stage>
+        <stage type="action">La piedad que, en la novena;</stage>
+        <stage type="action">Cual llama de cirio vibra;</stage>
+        <stage type="action">El suave anhelo de paz</stage>
+        <stage type="action">De la décima; la íntima</stage>
+        <stage type="action">Aspiración de ser útil</stage>
+        <stage type="action">Y leal á Filipinas,</stage>
+        <stage type="action">Que inculca en la estrofa undécima;</stage>
+        <stage type="action">La nobleza que palpita</stage>
+        <stage type="action">En la duodécima; el grito</stage>
+        <stage type="action">De fe ardiente, y la fibra</stage>
+        <stage type="action">De patriotismo que toda</stage>
+        <stage type="action">La décima tercia animan;</stage>
+        <stage type="action">Y, en fin, la gran caridad</stage>
+        <stage type="action">De su alma que se resigna</stage>
+        <stage type="action">Al golpe postrero, y hace</stage>
+        <stage type="action">De ese poema una biblia</stage>
+        <stage type="action">Su corazón generoso,</stage>
+        <stage type="action">Sin doblez y sin perfidia,</stage>
+        <stage type="action">Quiso dejar á la Patria</stage>
+        <stage type="action">Herencia tan peregrina,</stage>
+        <stage type="action">Para que todos copiemos</stage>
+        <stage type="action">Sus grandes virtudes cívicas.</stage>
+        <stage type="action">¿No os parece que la ofrenda</stage>
+        <stage type="action">Más oportuna y más digna</stage>
+        <stage type="action">Fuera seguir del Patriota</stage>
+        <stage type="action">Las inmortales doctrinas?</stage>
+        <stage type="action">Todas. ¡Oh, si! nuestra ansia es saber</stage>
+        <stage type="action">De memoria esa poesía.</stage>
+        <stage type="action">Recítala, y que su llama</stage>
+        <stage type="action">Llene de fe nuestra vida.</stage>
+        <stage type="action">Paz. Oídla pues, compañeras,</stage>
+        <stage type="action">Y ella sea nuestra guía.</stage>
+        <stage type="action">Adiós, Patria adorada, región del sol querida,</stage>
+        <stage type="action">Perla del mar de Oriente nuestro perdido edén,</stage>
+        <stage type="action">A darte voy alegre la triste, mustia vida,</stage>
+        <stage type="action">Si fuera más brillante, más fresca, más florida,</stage>
+        <stage type="action">También por ti la diera, la diera por tu bien.</stage>
+        <stage type="action">En campos de batalla luchando con delirio,</stage>
+        <stage type="action">Otros te dan sus vidas, sin dudas, sin pesar,</stage>
+        <stage type="action">El sitio nada importa, ciprés, laurel ó lirio,</stage>
+        <stage type="action">Cadalso ó campo abierto combato ó cruel martirio,</stage>
+        <stage type="action">Lo mismo es si lo piden la Patria y el hogar.</stage>
+        <stage type="action">Yo muero cuando veo que el cielo se colora,</stage>
+        <stage type="action">Y al fin anuncia el día tras lóbrego capuz,</stage>
+        <stage type="action">Si grana necesitas para teñir tu aurora</stage>
+        <stage type="action">Vierte la sangre mía, derrámala en buen hora</stage>
+        <stage type="action">Y dórela un reflejo de su naciente luz.</stage>
+        <stage type="action">Mis sueños cuando apenas niño ó adolescente,</stage>
+        <stage type="action">Mis sueños cuando joven ya lleno de vigor</stage>
+        <stage type="action">Fueron el verte un día, joya del mar de Oriente</stage>
+        <stage type="action">Secos los negros ojos, alta la tersa frente,</stage>
+        <stage type="action">Sin ceños sin arrugas, sin manchas de rubor.</stage>
+        <stage type="action">Ensueño de mi vida, mi ardiente vivo anhelo</stage>
+        <stage type="action">Salud! Te grita el alma que pronto va á partir.</stage>
+        <stage type="action">Salud! ¡Oh! Que es hermoso caer por darte vuelo,</stage>
+        <stage type="action">Morir por darte vida, morir bajo tu cielo,</stage>
+        <stage type="action">Y en tu encantada tierra la eternidad dormir.</stage>
+        <stage type="action">Si sobre mi sepulcro vieres brotar un día</stage>
+        <stage type="action">Entre la humilde hierba, sencilla humilde flor,</stage>
+        <stage type="action">Acércala a tus labios y besa el alma mía,</stage>
+        <stage type="action">Y sienta yo en mi frente, bajo la tumba fría</stage>
+        <stage type="action">De tu ternura el soplo, de tu hábito el calor.</stage>
+        <stage type="action">Deja á la luna verme con luz tranquila y suave</stage>
+        <stage type="action">Deja que el alba envíe su resplandor fugaz,</stage>
+        <stage type="action">Deja gemir el viento con su murmullo grave,</stage>
+        <stage type="action">Y si desciende y posa sobre mi cruz un ave,</stage>
+        <stage type="action">Deja que el ave entone su cántico de paz.</stage>
+        <stage type="action">Deja que el sol ardiente las lluvias evapore,</stage>
+        <stage type="action">Y al cielo tornen puras con mi clamor en pos;</stage>
+        <stage type="action">Deja que un ser amigo mi fin temprano llore,</stage>
+        <stage type="action">Y en las serenas tardes, cuando por mí alguien ore,</stage>
+        <stage type="action">Ora también ¡oh Patria! por mi descanso, á Dios.</stage>
+        <stage type="action">Ora por todos cuantos murieron sin ventura,</stage>
+        <stage type="action">Por cuantos padecieron tormentos sin igual.</stage>
+        <stage type="action">Por nuestras pobres madres que gimen su amargura</stage>
+        <stage type="action">Por huérfanos y viudas, por presos  en tortura,</stage>
+        <stage type="action">Y ora por ti que veas tu redención final.</stage>
+        <stage type="action">Y cuando en noche oscura, se envuelva el cementerio</stage>
+        <stage type="action">Y sólo, sólo muertos queden velando allí,</stage>
+        <stage type="action">No turbes su reposo, no turbes el misterio,</stage>
+        <stage type="action">Tal vez acordes oigas, de cítara o salterio:</stage>
+        <stage type="action">Soy yo, querida Patria, yo que te canto á ti.</stage>
+        <stage type="action">Y cuando ya mi tumba, de todos olvidada,</stage>
+        <stage type="action">No tenga cruz ni piedra que marquen su lugar,</stage>
+        <stage type="action">Deja que la are el hombre la esparza con la azada,</stage>
+        <stage type="action">Y mis cenizas, antes que vuelvan á la nada,</stage>
+        <stage type="action">El polvo de tu alfombra que vayan á formar.</stage>
+        <stage type="action">Entonces nada importa me pongas en olvido</stage>
+        <stage type="action">Tu atmósfera, tu espacio, tus valles cruzaré,</stage>
+        <stage type="action">Vibrante y limpia nota seré para tu oido;</stage>
+        <stage type="action">Aroma, luz, colores, rumor, canto gemido,</stage>
+        <stage type="action">Constante repitiendo la esencia de mi fe.</stage>
+        <stage type="action">¡Mi Patria idolatrada, dolor de mis dolores,</stage>
+        <stage type="action">Querida Filipinas, oye el postrer adiós!</stage>
+        <stage type="action">Ahí te dejo todo mis padres, mis amores,</stage>
+        <stage type="action">Voy á do no hay esclavos, verdugos ni opresores,</stage>
+        <stage type="action">Donde la fe no mata, donde el que reina es Dios.</stage>
+        <stage type="action">¡Adiós, padres, hermanos, trozos del alma mía,</stage>
+        <stage type="action">Amigos de la infancia en el perdido hogar!</stage>
+        <stage type="action">Dad gracias que descanse del fatigoso día.</stage>
+        <stage type="action">¡Adiós, dulce extranjera, mi amiga, mi alegría!</stage>
+        <stage type="action">¡Adiós, queridos seres! ... Morir es descansar.</stage>
+        <stage type="action">Todas. ¡Sublime, inolvidable!</stage>
+        <stage type="action">Angela. Ahora cantemos algo.</stage>
+        <stage type="action">Crisanta. Sí, conocemos la Velada con el canto que</stage>
+        <stage type="action">Dª Rosa compuso para la Patria con la música inspirada del profesor Malaquías.</stage>
+        <stage type="action">Todas. Sí, sí, á cantar.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">¡Oh Patria adorada!</stage>
+        <stage type="action">Recibe la ofrenda que del pecho ha brotado</stage>
+        <stage type="action">De cantar tu esplendor.</stage>
+        <stage type="action">Si bien pobre y seco</stage>
+        <stage type="action">El fruto del cariño</stage>
+        <stage type="action">Que á tus pies ofrendo.</stage>
+        <stage type="action">Acéptalo con amor.</stage>
+        <stage type="action">De tu faz resplandeciente</stage>
+        <stage type="action">De Virgen de Malasia</stage>
+        <stage type="action">Las sombras han huido</stage>
+        <stage type="action">De tétrico dolor.</stage>
+        <stage type="action">Tus lágrimas enjuga</stage>
+        <stage type="action">Oh Madre adorada</stage>
+        <stage type="action">Cayeron ya las cadenas</stage>
+        <stage type="action">De tus manos y tus pies.</stage>
+        <stage type="action">Por fin lució la aurora</stage>
+        <stage type="action">Tanto tiempo anhelada</stage>
+        <stage type="action">Amplia independencia</stage>
+        <stage type="action">Tu pueblo gozará.</stage>
+        <stage type="action">Y tu corazón Madre</stage>
+        <stage type="action">Esperar ya podría</stage>
+        <stage type="action">Que á tus amados hijos</stage>
+        <stage type="action">Un lazo unirá.</stage>
+        <stage type="action">CAE EL TELÓN.</stage>
+        <stage type="action">FIN DEL 1er ACTO</stage>
+        <stage type="action">SEGUNDO ACTO</stage>
+      </div>
+      <div type="scene" n="8">
+        <head>ESCENA 1ª</head>
+        <stage type="action">La escena pasa en un florido jardín, con grupos de arbustos de sumpaguitas, gumamelas y no me olvides; entre las cuales se asoman niñas disfrazadas de estas tres clases de flores. Y en el fondo un monumento á Rizal.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Danza del Céfiro y de las flores.</stage>
+        <stage type="action">Saldrá el Céfiro danzando fantásticamente al son de la música. Después danzarán las gumamelas, seguirán las sampaguitas y por último las No Me Olvides las  cuales volverán después de la fantástica danza á sus respectivos arbustos.</stage>
+      </div>
+      <div type="scene" n="9">
+        <head>ESCENA 2ª</head>
+        <stage type="action">(Sale Flor meditabunda).</stage>
+        <stage type="action">Soliloquio de Flor</stage>
+        <stage type="action">Todo es alegría y todo alborozo,</stage>
+        <stage type="action">La vida dichosa satura el espacio;</stage>
+        <stage type="action">Más ¡ay! en pecho impera el vacío</stage>
+        <stage type="action">Mientras gayas flores decoran el campo.</stage>
+        <stage type="action">Las niñas más pobres de cariño gozan,</stage>
+        <stage type="action">Bríndales sus padres ósculos y abrazos,</stage>
+        <stage type="action">En tanto mi vida, privada de amores.</stage>
+        <stage type="action">Como flor sin riego muere en desamparo</stage>
+        <stage type="action">Mi madre prefiere los lances del juego.</stage>
+        <stage type="action">La danza y el lujo, «flirt» y el sarao,</stage>
+        <stage type="action">Y olvida que su hija fallece de angustia</stage>
+        <stage type="action">Al ver de otras madres el cariño santo.</stage>
+        <stage type="action">Mi padre tampoco mi nombre recuerda,</stage>
+        <stage type="action">Su sed de riquezas de dicha y boato</stage>
+        <stage type="action">Le seca las fauces y el alma, y no ansía</stage>
+        <stage type="action">Más que de su arcas el triunfo soñado.</stage>
+        <stage type="action">Me colman es cierto de ricos joyeles,</stage>
+        <stage type="action">De oro y de gemas de lindos regalos,</stage>
+        <stage type="action">Más muero de envidia al ver que las otras,</stage>
+        <stage type="action">Aunque pobres gozan del paterno afecto</stage>
+        <stage type="action">Hoy, todas reciben amantes visitas,</stage>
+        <stage type="action">Solícitos padres, tiéndeles los brazos</stage>
+        <stage type="action">Y con labios llenos de ternura inmensa</stage>
+        <stage type="action">Besan de los sienes filiales los lauros.</stage>
+        <stage type="action">Por eso, ando huida de aquello lugares</stage>
+        <stage type="action">Que han dejado en mi alma un gran desencanto</stage>
+        <stage type="action">Al verme aun en medio de las multitudes</stage>
+        <stage type="action">Aislada cual ave perdida en un páramo</stage>
+        <stage type="action">A veces yo creo poder ser dichosa</stage>
+        <stage type="action">En esta egoísta soledad, sembrando</stage>
+        <stage type="action">La semilla negra de venganzas crueles,</stage>
+        <stage type="action">De sombríos duelos y rencores bárbaros.</stage>
+        <stage type="action">Pero, hoy comprendo que mi empeño es loco;</stage>
+        <stage type="action">Que mi afán es torpe y mi sueño vano;</stage>
+        <stage type="action">Ahora confieso que es vida muy dura</stage>
+        <stage type="action">Vivir sin amores, vivir como ya pájaro</stage>
+        <stage type="action">Maldito y sin rumbo, vivir sin el goce</stage>
+        <stage type="action">De alguna esperanza ó un recuerdo santo.</stage>
+        <stage type="action">Más, ya es cosa inútil que yo me arrepiento</stage>
+        <stage type="action">La vida no tuerce su curso fijado</stage>
+        <stage type="action">Seré cual mis padres mi espíritu hicieron</stage>
+        <stage type="action">Ahora cancerosa, corazón malsano.</stage>
+        <stage type="action">Se va</stage>
+      </div>
+      <div type="scene" n="10">
+        <head>ESCENA 3ª</head>
+        <stage type="action">Crisanta y colegialas.</stage>
+        <stage type="action">Crisanta. Os dijo que aquí estaremos mejor.</stage>
+        <stage type="action">Paz. ¡Qué bonitas flores! Diríase que se abrieron para el día de Riza!</stage>
+        <stage type="action">Angela. ¿Sabes que admiro tu patriotismo? La verdad es que aunque lo quiera, no puedo sentirlo tan intento. Una docena como tú, tan entusiasta y tan patriota y tan inteligente y activa, cambiaría esta sociedad tan fría y tan calculadora de nuestro pueblo de hoy.</stage>
+        <stage type="action">Paz. Gracias, querida por tus alabanzas; pero, no las merezco: si acaso lo merecen mis padres que me han educado así, y formaron en mí ese modo de ser que tanto admiras. Me parecen tan naturales esos sentimientos, que lo que me admira es que se pueda sentir y obrar de otro modo contrario.</stage>
+        <stage type="action">Crisanta. Pues, hija, ya ves como hay tantos y tantísimos, que llaman patriotismo á la ambición egoísta, religión á la superchería y así por el estilo...</stage>
+        <stage type="action">Ángela. Porque hay tantos y tantísimos padres que se ocupan más del panguingue y de la gallera, que de educar á sus hijos. Eso es todo.</stage>
+        <stage type="action">Paz. Desgraciadamente, es verdad.</stage>
+        <stage type="action">Crisanta. Y gracias á que hay escuelas... que si no, peor que te peor.</stage>
+        <stage type="action">Angela. Desengáñate, las escuelas no pueden en modo alguno sustituir á los padres. Allí se instruye pero no se educa.</stage>
+        <stage type="action">Paz. Hay excepciones. Ya ves tu lo que se desvive la maestra por educarnos.</stage>
+        <stage type="action">Ángela. A un eso. El gran número de alumnas, la falta de tiempo y otros muchos motivos, impiden á la mejor maestra poder sustituir cumplidamente á los padres; y además no todas las escuelas tienen maestras celosas, capaces y buenas.</stage>
+        <stage type="action">Paz. Pues, que escojan la mejor.</stage>
+        <stage type="action">Angela. Pero ¿cómo quieras tú que escojan si te digo que muchos padres prefieren tirar el dinero en la gallera y en el panguingue y sufren un desmayo cada vez que dan un peso á la escuela en beneficio de sus hijos?</stage>
+        <stage type="action">Paz. No seas tan pesimista.</stage>
+        <stage type="action">Crisanta. Creo que Angelita tiene razón.</stage>
+        <stage type="action">Paz. Pero, ¿sabéis que su sentirlo nos hemos vuelto filósofas y politiqueras? Dejemos á los padres, á los hijos y á los espíritus malos y metamos entre pecho y espalda estos regalitos de nuestros padres, que dicen: ¡comedme! Creo que para eso hemos venido.</stage>
+        <stage type="action">Angela. Aquí os ofrezco unos emparedados tan gruesos como las murallas de la puerta Quezon.</stage>
+        <stage type="action">Crisanta. Y yo unas castañas y unas manzanas que dan gusto con solo verlas.</stage>
+        <stage type="action">Paz. Y yo unos dulces de «La Perla» riquísimos.</stage>
+        <stage type="action">Angela. Pues, ya podemos empezar el festín. [Se sientan en un banco rústico abre el cesto y empiezan á comer].</stage>
+        <stage type="action">Crisanta. Sí, empecemos. Vamos, Pacita, mira cómo no nos hacemos de rogar.</stage>
+        <stage type="action">Angela. Pareces un obús para derribar murallas.</stage>
+        <stage type="action">Crisanta. ¡Pues no faltaba más!</stage>
+        <stage type="action">Ángela. Ahora las manzanas.</stage>
+        <stage type="action">Paz. Yo prefiero las castañas.</stage>
+        <stage type="action">Crisanta. Toma y dame algunos dulces.</stage>
+        <stage type="action">Angela. ¡Superior! ¡riquísimo! pero falta agua.</stage>
+        <stage type="action">Paz. Aquí hay una botella y un vasito de papel.</stage>
+        <stage type="action">Crisanta. Bien, eres la provisión en persona.</stage>
+        <stage type="action">Toman agua</stage>
+        <stage type="action">Angela. (Mirando el reloj) ¡Ay hijas! Nos hemos detenido demasiado. Voy á dejaros, que la maestra me espera para ultimar los preparativos para el homenaje que celebramos en honor del gran Patriota.</stage>
+        <stage type="action">Paz. Yo me iré contigo. (Se van Angela y Pacita).</stage>
+      </div>
+      <div type="scene" n="11">
+        <head>ESCENA 4ª</head>
+        <stage type="action">Crisanta sola</stage>
+        <stage type="action">Crisanta. Aquí me quedo. Voy á coger algunas flores para la decoración del monumento.</stage>
+        <stage type="action">Pero, me siento triste no sé por que.</stage>
+        <stage type="action">Es que me acuerdo de papá que también murió por la Patria, pero yace tan olvidado, que yo, con ser su hija, ignoro donde reposan su restos, y no tengo el consuelo de adornar su tumba con esas hermosas flores, ni puedo calentar sus huesos con el calor de mis lágrimas (llora: transición) Pero el dolor agosta y la tristeza consume. Creo que honraré mejor su recuerdo ejerciendo el bien. Esto debe serle mas grato á papá (animada). Yo siento que me sonríe desde el cielo cuando hago alguna cosa laudable. ¡Ea!</stage>
+        <stage type="action">Ahuyentemos la pena cantando.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Dulce las horas en la propia Patria</stage>
+        <stage type="action">Donde es amigo cuanto alumbra el sol;</stage>
+        <stage type="action">Vida es la brisa que en sus campos vuela</stage>
+        <stage type="action">Grata la muerte y más tierno el amor.</stage>
+        <stage type="action">Ardientes besos en lo labios juegan</stage>
+        <stage type="action">De una madre en el seno al despertar</stage>
+        <stage type="action">Buscan los brazos al ceñir el cuello</stage>
+        <stage type="action">Y los ojos sonríense al mirar.</stage>
+        <stage type="action">Óyense pasos; escucha y se esconde entre  arbustos</stage>
+        <stage type="action">Crisanta. Alguien viene. Voy á ocultarme entre es tos arbustos.</stage>
+      </div>
+      <div type="scene" n="12">
+        <head>ESCENA 5ª</head>
+        <stage type="action">La misma y Flor.</stage>
+        <stage type="action">Flor. (Entra presurosa). Será cierto lo que he oído en el salón de visitas? Este periódico dicen que trae la noticia. ¡Oh!</stage>
+        <stage type="action">¡Sería horrible! Veamos.</stage>
+        <stage type="action">Un suicida</stage>
+        <stage type="action">Leyendo</stage>
+        <stage type="action">Se sabe de buena tinta, que habiendo sido detenido el Hon Bárbaro</stage>
+        <stage type="action">Cascarrabias por malas prácticas en el desempeño de su cargo, y viéndose perdido por las abrumadoras pruebas de sus rapiñas y fechorías, dio fin á su miserable existencia ingiriéndose una gran cantidad de ácido fénico. Su señora de fugó con su amante á la vecina colonia inglesa, llevándose cuanto pudo de los bienes mal adquiridos de su desventurado esposo (Suelta el periódico)</stage>
+        <stage type="action">¡Horror! ¡Mi padre un ladrón! ¡Mi madre una perdida! Y yo, sola, abandonada en la miseria y en el deshonor. ¡Oh!</stage>
+        <stage type="action">¡Prefiero mil veces la muerte á esta mísera existencia! ¡Sola y de todos despreciada... Sola  y de todos odiada y olvidada, y abandona.</stage>
+        <stage type="action">da por mis propios padres... (Indignada)</stage>
+        <stage type="action">¡Ah! Y han huido y me hunden en la ignominia. ¡Maldigo esta existencia que en mala hora me dieron! Pronto seré el blanco de las burlas y del escarnio de mis compañeras... Yo que siempre las he despreciado por creerlas indignas de mi trato y de mi persona... (Llora desesperada) (Con resolución) Pero, no, no han de burlarse de mí. ¡Lo juro! Antes, morir: para eso soy yo hija de mi padre. (Saca un cortaplumas) Esté será mi libertador... Un poco de valor y todo habrá concluido. (Dirige el arma contra su pecho).</stage>
+        <stage type="action">[Sale Crisanta y la detiene].</stage>
+        <stage type="action">Crisanta. ¡No! No atentes contra la vida.</stage>
+        <stage type="action">Flor. ¡Déjame! ¿Para qué la quiero, ni de qué puede servirme ya?</stage>
+        <stage type="action">Crisanta. Tú no eres dueña de ella.</stage>
+        <stage type="action">Flor. Mi vida es mía y he de hacer de ella lo que me dé la gana.</stage>
+        <stage type="action">Crisanta. Te engañas, Flor. [Coge el arma y lo  arroja lejos de sí]. Tu vida es de tu</stage>
+        <stage type="action">Dios y de tu Patria.</stage>
+        <stage type="action">Flor. ¿De Dios? Si estoy abandonada de El, si que existe. ¿De mi Patria? ¿Para qué me ha de necesitar, si soy tan despreciable?</stage>
+        <stage type="action">Crisanta. No, Flor Dios no te abandona. El ha dispuesto que esté hoy aquí para evitar tu eterna desventura Dios me puso tu camino para impedir que te pierdas para siempre. Y ¿La Patria? ¡Oh! La</stage>
+        <stage type="action">Patria necesita de todos sus hijos, para que estos labren su dicha y su felicidad, y para compartir con ellos su suerte dichosa ó desgraciada. No hay ser, por desgraciado que sea, que no pueda regenerarse, si quiere ser útil á sí mismo y á los demás.</stage>
+        <stage type="action">Flor. Parece que tienes razón. Pero... Cómo quieres que me arregle, sola, abandonada y sin recursos? Todos me despreciarán.</stage>
+        <stage type="action">Crisanta. Ya ves que no te desprecio.</stage>
+        <stage type="action">Flor. Tú, porque eres buena. No todas serán como tú. Además...</stage>
+        <stage type="action">Crisanta. Además, ¿qué?</stage>
+        <stage type="action">Flor. Con qué recursos quieres que cuente?</stage>
+        <stage type="action">Crisanta. Con los que te proporcione la Providencia.</stage>
+        <stage type="action">Flor. Dudo...</stage>
+        <stage type="action">Crisanta. Cree y espera. Yo también me vi huérfana y sola como tú. El incendió arrasó nuestro hogar. Mis padres murieron en defensa de la Patria, y mis hermanos y  yo, solas, sin sostén y sin amparo, nos vimos en medio de la ruina y de la desolación. Ya ves que Dios no nos abandonó y llamó al corazón de los buenos para que amparasen nuestra orfandad.</stage>
+        <stage type="action">Flor. Vuestras frentes no tenían el estigma del deshonor como la mía.</stage>
+        <stage type="action">Crisanta. La caridad compadece más al que es más desgraciado</stage>
+        <stage type="action">Flor. ¿Qué quieres, pues, que haga?</stage>
+        <stage type="action">Crisanta. Vive y trabaja. Yo demás lo dispondrá</stage>
+        <stage type="action">Dios.</stage>
+        <stage type="action">Flor. Pero...</stage>
+        <stage type="action">Óyese cantar desde el interior</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Desde adentro</stage>
+        <stage type="action">Patria. Amadas del alma, florecitas mías</stage>
+        <stage type="action">Preciosos capullos del humano rosal:</stage>
+        <stage type="action">Vuestro seno guarda divinas semillas</stage>
+        <stage type="action">De vida fecunda y felicidad.</stage>
+        <stage type="action">Crisanta. Oyes esa voz dulcísima, grata como la esperanza, suave y divina como la ilusión?</stage>
+        <stage type="action">Flor. ¡Es verdad!</stage>
+        <stage type="action">Crisanta. ¿No te sientes revivir oyendo tan grato acento?</stage>
+        <stage type="action">Flor. ¡Oh sí! Me siento otra. Ven Ocultémonos para no ahuyentarla, y así sabremos quien es. (Se esconden)</stage>
+      </div>
+      <div type="scene" n="13">
+        <head>ESCENA 6ª</head>
+        <stage type="action">Las mismas y la Patria acompañada de la Fe, la Esperanza y la Caridad que aparece lentamente cantando hasta llegar á la escena.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Patria. Amadas del alma, florecitas mías</stage>
+        <stage type="action">Preciosos capullos del humano rosal;</stage>
+        <stage type="action">Vuestro seno guarda divinas semillas</stage>
+        <stage type="action">De vida fecunda y felicidad.</stage>
+        <stage type="action">La suerte del mundo está en vuestras manos,</stage>
+        <stage type="action">Sabed la nobleza de vuestra misión;</stage>
+        <stage type="action">De santas virtudes sed rútido ejemplo</stage>
+        <stage type="action">Y de la Patria la gloria y honor.</stage>
+        <stage type="action">Flor. ¿Quién sois, que así llenáis mi pecho de tan grata esperanza?</stage>
+        <stage type="action">Patria. Soy la madre de los héroes y tu madre, hija mía.</stage>
+        <stage type="action">Flor. Yo, ¿su hija? Soy indigna de ese nombre.</stage>
+        <stage type="action">Sin duda ignoráis quien soy ¿No sabéis, acaso, que soy una infeliz, más digna del desprecio que de ser una heroína?</stage>
+        <stage type="action">Patria. Sé que eres desgraciada, pero sabe que la desgracia es forjadora de héroes</stage>
+        <stage type="action">Flor. Y ¿creéis que pueda yo llegar á serlo?</stage>
+        <stage type="action">Patria. Sí, si cumples con tu deber.</stage>
+        <stage type="action">Flor. Y ¿qu deber es el mío?</stage>
+        <stage type="action">Patria. Vivir por Dios y por tu Patria.</stage>
+        <stage type="action">Flor. No tengo alientos de vivir tan sola y abandonada...</stage>
+        <stage type="action">Patria. Crisanta te ha de sostener ¿no es verdad hija mía?</stage>
+        <stage type="action">Crisanta. ¡Oh, sí! Yo os lo prometo</stage>
+        <stage type="action">Patria. Sed buenas para con todos. Esa es la dicha verdadera, aunque dicha ignorada por las almas egoístas, cuyos goces no son más que falsos espejismos, que se desvanecen al decrecer su fortuna, como estos se disuelven al oscurecerse el sol.</stage>
+        <stage type="action">Flor. Y ¿cómo podremos encontrar esa dicha que tan hermosa nos pintáis?</stage>
+        <stage type="action">Patria. En el ejercicio del bien. La mujer, sobre todo, no se halla en su elemento sino difundiendo la vida y la felicidad en torno suyo. Ese es su noble destino En sus  manos están la vida y la dicha de la humanidad y difundirlas es su ministerio; lo cual es sólo realizable por la virtud y  heroísmo. Cada mujer encierra madre, y cada madre encierra heroína, si es que cumple su deber. Como las flores vuestras hermanas, sois portadoras del  germen de la vida, del perfume y de la ambrosía. La vida, el consuelo y la felicidad del hombre y del mundo entero, están en vuestras manos, y sólo con la bondad podréis realizar vuestra santa misión. ¿Que? Te animas á vivir y cumplir tan noble destino?</stage>
+        <stage type="action">Flor. Sí. Pero ¿será posible que pueda yo, llegar á cumplirlo? Sola y abandonada. ¿Quién me sostendrá en mi desamparo?</stage>
+        <stage type="action">Patria. La Caridad. Esa hermosa estrella ha de ser  tu sostén. [La entrega una niña disfrazada como estrella de caridad]</stage>
+        <stage type="action">Flor. Y si desfallezco ¿quien ha de alentarme en mi camino?</stage>
+        <stage type="action">Patria. La Esperanza, Ahí te la dejo. Ella será tu dulce amiga. [La entrega la estrella de la esperanza. Otra niña disfrazada de tal]</stage>
+        <stage type="action">Flor. Y, si no hallo ningún consuelo ni alivio en la tierra ¿quien proporcionará un lenitivo á mis males?</stage>
+        <stage type="action">Patria. La Fé. Esa celestial estrella te colocará por encima de los dolores y amarguras de la vida. Ahí os las dejo. [La entrega una niña disfrazada de Fé.] Me voy.</stage>
+        <stage type="action">¡Adiós hijas queridas!</stage>
+        <stage type="action">Flor y Crisanta. Y vos, ¿Como os llamáis? Cuál es vuestro nombre?</stage>
+        <stage type="action">Patria. Soy Patria. (Se va)</stage>
+      </div>
+      <div type="scene" n="14">
+        <head>ESCENA 7ª</head>
+        <stage type="action">Las mismas menos la Patria</stage>
+        <stage type="action">Crisanta. Ya se fue.</stage>
+        <stage type="action">Flor. Sigámosla.</stage>
+        <stage type="action">Crisanta. ¡Imposible! Ya se perdieron sus huellas.</stage>
+        <stage type="action">Flor. Y ¿qué hacemos?</stage>
+        <stage type="action">Crisanta. Recojamos esas estrellas y depositémoslas en un puesto digno desde donde puedan irradiar sus fulguraciones divinas</stage>
+        <stage type="action">Flor.  Y ¿cual es ese digno lugar</stage>
+        <stage type="action">Crisanta. El monumento del Patriota.</stage>
+        <stage type="action">Flor. Corramos á llevarlas allí</stage>
+        <stage type="action">Las coloca en triángulo al  pie de la estatua</stage>
+        <stage type="action">Crisanta. Es preciso que completemos nuestra ofrenda.</stage>
+        <stage type="action">Flor. Y ¿que quieres que hagamos?</stage>
+        <stage type="action">Crisanta. Las virtudes son el adorno más precioso, según nos dijo la Patria.</stage>
+        <stage type="action">Flor. Y ¿como podremos materializarlas?</stage>
+        <stage type="action">Crisanta. Busquemos su simbolismo en esas flores hermosas.</stage>
+        <stage type="action">Flor. Aplaudo tu idea.</stage>
+        <stage type="action">Crisanta. Cojamos esas sampagnitas, que podrían simbolizar la sencillez y la inocencia, la rectitud de intención y la pureza del alma.</stage>
+        <stage type="action">Flor. Vayamos pronto por ellas.</stage>
+        <stage type="action">(Las recogen y depositan en forma de  triángulo al pié del monumento.</stage>
+        <stage type="action">Crisanta. Y esas rojas gumamelas que parecen cristalización de la sangre de los patriotas,</stage>
+        <stage type="action">¿no te parecen que recuerdan el valor y fortaleza de sus almas, su sangriento heroísmo, el amor ardiente é intenso que tuvieron á la Patria.</stage>
+        <stage type="action">Flor. Tienes razón, vayamos á recogerlas y engarcémoslas en la guirnalda (Las coloca en hilera á un lado)</stage>
+        <stage type="action">Crisanta. Aquí falta algo, que simbolice las virtudes ignoradas, los ocultos sacrificios, la ab- negación sublime y el martirio voluntario de las almas generosas.</stage>
+        <stage type="action">Flor. Ves esas flores tristes y ocultas, en la maleza, esas flores azules, que dan, al verlas, nostálgicas tristezas? Ellas las puedan simbolizar. ¿No te parece?</stage>
+        <stage type="action">Crisanta. Es verdad. Vayamos á sacarlas y completemos con ellas la decoración. (Las coloca al otro lado. (Flor, contemplando la decoración del monumento)</stage>
+        <stage type="action">Flor. ¿Sabes que esto se parece algo á nuestra querida bandera?</stage>
+        <stage type="action">Crisanta. ¡Ah! no querida, falta lo más esencial, que es el sol que ilumina con fulgores de libertad, de amor y de justicia</stage>
+        <stage type="action">Flor. ¡Ciertamente! Aún estamos en la noche de la historia de la Patria.</stage>
+        <stage type="action">[Oyense cantos belicos desde dentro)</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">I am a beautiful red red drum</stage>
+        <stage type="action">And I train with the soldiers boys,</stage>
+        <stage type="action">As up the street we come</stage>
+        <stage type="action">Wonderful is our noise</stage>
+        <stage type="action">There is Tom and Jim and Phil</stage>
+        <stage type="action">And Dick and Need and Fred</stage>
+        <stage type="action">While widow cutters bill</stage>
+        <stage type="action">And I march on ahead</stage>
+        <stage type="action">With a tat, ta tat tat, ta tat tat</stage>
+        <stage type="action">And a tium ti ti tium ti ti tium</stage>
+        <stage type="action">There is bushel of fun in that</stage>
+        <stage type="action">For boys with little red drum.</stage>
+        <stage type="action">Crisanta. Ya vienen.</stage>
+        <stage type="action">Flor. ¿Como me tratarán? Deja que me esconda (Se esconde detrás del monumento)</stage>
+      </div>
+      <div type="scene" n="15">
+        <head>ESCENA 8ª</head>
+        <stage type="action">Las mismas, Vicente, soldados y colegialas</stage>
+        <stage type="action">Vicente. Squad, left March.- Squad left March!-</stage>
+        <stage type="action">Company Halt First company, right face. Column left. Forward- March-</stage>
+        <stage type="action">Company Halt Left face.</stage>
+        <stage type="action">Second company- left face. Column right-</stage>
+        <stage type="action">Forward- March Company, Halt-</stage>
+        <stage type="action">Right face- Right dress.- Present, Arm.</stage>
+        <stage type="action">-Order, Arm (El batallón escolar ejecutará la voces del mando, poniéndose en columna en cada lado del monumento)</stage>
+        <stage type="action">Vienen las colegialas</stage>
+        <stage type="action">Paz. ¡Oh! ¡que soberbia decoración!</stage>
+        <stage type="action">Angela. ¡Que estrellas tan bellas y que flores más hermosas!</stage>
+        <stage type="action">Crisanta. Hay algo que es más bello.</stage>
+        <stage type="action">Ángela. ¿Cual?</stage>
+        <stage type="action">Crisanta. El perdón de las injurias.</stage>
+        <stage type="action">Ángela. ¿Qué quieres decir?</stage>
+        <stage type="action">Crisanta. Que una pobre huérfana arrepentida de sus yerros, quiere ser vuestra amiga.</stage>
+        <stage type="action">Ángela. ¿Se puede saber quién es?</stage>
+        <stage type="action">Flor (sale). Soy yo, perdonadme por mis primeras faltas.</stage>
+        <stage type="action">Ángela. Flor, ¿que es lo que dices?</stage>
+        <stage type="action">Flor. Que yo os he ofendido mucho, perdonadme compañeras.</stage>
+        <stage type="action">Paz. ¡Oh sí! Con toda el alma (le abraza)</stage>
+        <stage type="action">Ángela [á Flor] También yo te perdono Flor, Ven á mis brazos, ya que eres tan desgraciada.</stage>
+        <stage type="action">Todas. Y también nosotras te perdonamos.</stage>
+        <stage type="action">Paz. Yo hablaré á mis padres para que te protejan y puedas seguir tus estudios.</stage>
+        <stage type="action">Flor. Mil gracias, y que Dios te premie.</stage>
+        <stage type="action">Angela. Yo, por mi parte hablaré á los míos para que remedien tu desdicha.</stage>
+        <stage type="action">Todas. ¡Que viva la ofrenda!</stage>
+        <stage type="action">Flor. ¡Oh, gracias sois muy buenas. Y tú</stage>
+        <stage type="action">Angelita, eres un ángel. Y yo, que he sido tan mala.</stage>
+        <stage type="action">Ángela. Dejemos eso á un lado.</stage>
+        <stage type="action">Paz. Ahora cantemos en honor de las almas generosas, entonando el himno que compuso el Profesor Malaquías.</stage>
+        <stage type="action">Todas. Si, entonemos el himno, que Azanza compuso en honor del rey de las grandes almas.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Todas. Para Tí, toda gloria</stage>
+        <stage type="action">¡Oh ídolo de la raza</stage>
+        <stage type="action">Que labraste el futuro</stage>
+        <stage type="action">De nuestra libertad</stage>
+        <stage type="action">El altar de la Patria</stage>
+        <stage type="action">Que tu Evangelio abraza</stage>
+        <stage type="action">Arde en la apoteosis.</stage>
+        <stage type="action">De su inmortalidad.</stage>
+        <stage type="action">Crisanta y Angela. A través de los siglos</stage>
+        <stage type="action">Recibirán las flores.</stage>
+        <stage type="action">De nuestro pensamiento</stage>
+        <stage type="action">Que tu genio creó,</stage>
+        <stage type="action">La unidad en tu culto</stage>
+        <stage type="action">Une nuestros amores,</stage>
+        <stage type="action">En Luzón y Visayas</stage>
+        <stage type="action">Mindanao y Joló</stage>
+        <stage type="action">CAE EL TELÓN</stage>
+        <stage type="action">FIN.</stage>
+        <stage type="action">4 de Marzo de 1917</stage>
+        <stage type="action">Rosa L.Sevilla de Alvero.</stage>
+      <sp who="#erroresmasnotables">
+        <speaker>ERRORES MAS NOTABLES</speaker>
+        <p>Pág. Línea.      SE LEE                                      DEBE LEERSE 3       8        Felicidad                                   Trinidad 18     27       el habito                                    el halito 24     31       Ahora cancerosa                              Almas cancerosa 26     18       Bien, eres la provicion                      Bien, eres la previsión 28     14       contra la vida                               contra tu vida 30     11       sed rutido ejemplo                           sed nítido ejemplo 31      7         encierra madre                             encierra una madre 31      8         encierra heroina                           encierra una heroína 31      9         Soy Patria                                 Soy la Patria 34      7         primeras faltas                            pasadas faltas</p>
+        <p>NOTA: -Habiéndolo adoptado para esta obra por premura de tiempo algunas partituras de música ya hechas, he respetado la letra de algunos cantos como el canto de «La Montaña», el de los soldados el de la huérfana en «Dulces las horas» y el himno final.</p>
+        <p>De nuestro pensamiento Que tu genio creó, La unidad en tu culto Une nuestros amores, En Luzón y Visayas Mindanao y Joló</p>
+        <stage type="action">CAE EL TELÓN</stage>
+      </sp>
+        <stage type="action">FIN.</stage>
+        <stage type="action">4 de Marzo de 1917.</stage>
+        <stage type="action">Rosa L. Sevilla de Alvero.</stage>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>
