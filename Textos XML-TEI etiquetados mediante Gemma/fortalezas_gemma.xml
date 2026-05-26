@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es"
+xml:id="CORPUS-gurrea-fortalezas">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Fortalezas</title>
+        <author>
+          <persName>
+            <forename>Adelina</forename>
+            <surname>Gurrea</surname>
+          </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Adelina Gurrea</author>
+          <title>Fortalezas</title>
+          <pubPlace>[Ciudad, País]</pubPlace>
+          <publisher>[Editorial]</publisher>
+          <date when=""></date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Spanish</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="subgenre">Comedia</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="amelia" sex="FEMALE">
+            <persName>Amelia</persName>
+          </person>
+          <person xml:id="mercedes" sex="FEMALE">
+            <persName>Mercedes</persName>
+          </person>
+          <person xml:id="carmita" sex="FEMALE">
+            <persName>Carmita</persName>
+          </person>
+          <person xml:id="juana" sex="FEMALE">
+            <persName>Juana</persName>
+          </person>
+          <person xml:id="don_miguel" sex="MALE">
+            <persName>Don Miguel</persName>
+          </person>
+          <person xml:id="mario" sex="MALE">
+            <persName>Mario</persName>
+          </person>
+          <person xml:id="juan" sex="MALE">
+            <persName>Juan</persName>
+          </person>
+          <person xml:id="felix" sex="MALE">
+            <persName>Félix</persName>
+          </person>
+          <person xml:id="amigo_1" sex="MALE">
+            <persName>Amigo Primero</persName>
+          </person>
+          <person xml:id="amigo_2" sex="MALE">
+            <persName>Amigo Segundo</persName>
+          </person>
+          <person xml:id="cartero" sex="MALE">
+            <persName>El Cartero</persName>
+          </person>
+          <person xml:id="portera" sex="FEMALE">
+            <persName>La Portera</persName>
+          </person>
+          <person xml:id="contable" sex="MALE">
+            <persName>El Contable</persName>
+          </person>
+          <person xml:id="jefe_almacen" sex="MALE">
+            <persName>El Jefe de Almacén</persName>
+          </person>
+          <person xml:id="todos" sex="UNKNOWN">
+            <persName>Todos</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <castItem>
+          <role xml:id="amelia">AMELIA</role>
+          <roleDesc>28 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="mercedes">MERCEDES</role>
+          <roleDesc>24 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="carmita">CARMITA</role>
+          <roleDesc>36 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="juana">JUANA</role>
+          <roleDesc>60 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="don_miguel">DON MIGUEL</role>
+          <roleDesc>50 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="mario">MARIO</role>
+          <roleDesc>32 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="juan">JUAN</role>
+          <roleDesc>23 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="felix">FÉLIX</role>
+          <roleDesc>42 años.</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="amigo_1">Amigo Primero</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="amigo_2">Amigo Segundo</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="cartero">El Cartero</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="portera">La Portera</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="contable">El Contable</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="jefe_almacen">El Jefe de Almacén</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="todos">TODOS</role>
+          <roleDesc/>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTO I</head>
+        <stage type="action">Año, 1930. Despacho de Don Miguel en una importante compañía comercial, de la cual es director. A la derecha una gran mesa de despacho y puerta que da al cuarto de trabajo de la secretaria del director. A la izquierda, puerta de salida para la calle. Repartidos por el escenario convenientemente hay un tresillo, unas sillas, una mesa al fondo con revistas, un fichero y demás muebles convenientes. Es sábado, a la hora del cierre de oficinas. Don Miguel tiene la visita de tres amigos que han ido a buscarle.</stage>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Bueno, ¿acabas o no acabas?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>En cuanto firme unas cartas que me va a traer la secretaria.</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Y luego, ¿a dónde vamos?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pues hoy a comer nada más.</p>
+        </sp>
+        <sp who="#todos">
+          <speaker>TODOS.</speaker>
+          <p>Pero hombre, si es sábado.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Sí, pero tengo un exceso de correspondencia.</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>¿Y trabaja contigo la secretaria?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>A ver si te vas a creer que me voy a sentar a la máquina a escribir desde el "muy señor mío" hasta el "q.e.s.m."</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Hombre, no seas guasón. ¿Qué más da contestar unas cartas un sábado que un lunes?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Es que para el lunes ya habrá otras que escribir, y estaríamos siempre retrasados, lo cual no es serio.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>De todas maneras, me extraña mucho esa seriedad, Miguel. A ver si es que te ha entrado el sarampión.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Qué sarampión?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Ese que entra a los hombres de tu edad, aquel del "diablo que harto de carne se metió a fraile".</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>El del hogar, la casita, la mujer buena, y aquí no ha pasado nada: "papá siempre fue un santo".</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Hacedme el favor. Los amigos sois los peores enemigos del hombre. Os afanáis en ponerle una aureola, sea la que sea, y fabricáis para mí, en este caso, un estúpido historial galante que me puede perjudicar.</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>Veis, veis, como ya le importa el que le pueda perjudicar ¡Uy qué grave se está poniendo esto!</p>
+        </sp>
+        <sp who="#todos">
+          <speaker>TODOS.</speaker>
+          <p><stage type="action">(Guaseándose)</stage> ¡Oooooooh!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Vaya un pitorreo tonto. ¿No comprendéis que para eso de la casita y la mujercita, haría falta que yo enamorase a una mujer buena?</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>¿Pero es que tú no has conquistado nunca a una mujer buena?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No, no la he conquistado. Primero, porque no he tenido ni tiempo ni seriedad para ello. Desde muy joven, tuve que luchar por la vida, y desde muy joven también, empecé a tener suerte con las mujeres. Y cuando un hombre tiene suerte con las mujeres, nunca le llega a interesar seriamente ninguna.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>¿Y segundo?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Segundo...porque... huuu... qué dificilísimo es acertar con una mujer verdaderamente buena.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>¿Hay tan pocas?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No es que haya pocas. Es que se finge tanto que ya no se sabe quién es quién.</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p><stage type="action">(Con mucha guasa)</stage> ¿Y por eso te has quedado soltero?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Quizás.</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>A pesar de las redes que te han tendido.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Quizás.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Quizás, dice. Y sé hasta de quién se ha metido monja por su desvío.</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>Y esa, ¿tampoco era buena?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Por qué iba a serlo? ¿Por el hecho de haber entrado luego en un convento? ¿Porque cuando la dije la primera palabra de amor no había pronunciado aún el "Sí" tímido y cursi, que por ser la menor cantidad de amor, no se sabe siquiera si lo es? Si supierais que algunas veces me he acercado a esa clase de mujeres para convencerlas que ellas eran lo mismo, exactamente lo mismo que la fulanita o la menganita, a quien ponían como un trapo porque exponía ciegamente su reputación en un gesto de franqueza o de pasión? Amigos míos, no es buena toda la que no hizo nada para obligarnos a pensar que no era mala. Muchas, no dejan de serlo por cobardía.</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p><stage type="action">(Levantándose)</stage> Adiós, ¡discursito tenemos!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Sin darse por aludido)</stage> Pero si de repente se pudiera borrar la tradición, la fuerza del ambiente, el prejuicio creado... si se pudiera dormir a la humanidad y al despertarla hacerla perder la noción del pasado, entonces veríamos que tantas mujeres modosas, recatadas, buenas hoy, obraban impulsadas por el corazón, como obran las juzgadas de ahora, las que han comprendido que la vida es algo más que matar el sentimiento, por dar gusto al resto de la humanidad.</p>
+        </sp>
+        <stage type="action">(Amigo 1º. que ha estado paseándose impaciente por la habitación, se le queda mirando y gira el brazo derecho como si estuviese dando cuerda a un gramófono. Miguel continúa hablando sin mirarle siquiera)</stage>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Sin pensar que la humanidad no las dará nunca, nunca, ese rayito de alegría o de felicidad que sacrifican por respeto a ella. Haciendo la comparación con algo de menor importancia...</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Entrando con unos papeles en la mano y entregándolos)</stage> Aquí tiene Ud., Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Tranquilo)</stage> Muy bien, muchas gracias.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Quiere Ud. algo más?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Ahora no. Pero, ¿podría Ud. venir esta tarde?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿A qué hora quiere Ud. que venga?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>A su conveniencia. Yo comeré aquí mismo, así es que cuando Ud. quiera, sin prisa, viene Ud. y terminamos lo que queda.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Perfectamente. <stage type="action">(Se va por la puerta de la derecha. Todos, menos Don Miguel, la siguen con la vista)</stage></p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p>Pero ¡qué criatura más monísima, ladrón! ¿Tiene novio?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No lo sé. Si quieres se lo preguntaré.</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p><stage type="action">(impacientísimo)</stage> ¿De modo que ahora ni a comer siquiera?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Ni a comer. ¿Qué?</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Nada, que tú te lo pierdes. <stage type="action">(Dándose importancia)</stage> ¡Si supieras quién viene con nosotros esta tarde!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Quién?</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Una tontería. La mujer más estupenda de Madrid. ¡Carmita Velasco!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Interrumpiendo)</stage> Entonces el que se lo va a perder vas a ser tú. Porque en cuanto sepa que no voy yo, ya no os acompaña.</p>
+        </sp>
+        <sp who="#amigo_1">
+          <speaker>AMIGO 1º.</speaker>
+          <p>Eso ya lo veríamos. Vaya con el presumido. ¡Ah! ¿qué te has creído lo del apodo? "El invencible", ¡Laureolas!... Vamos, Pep.</p>
+        </sp>
+        <sp who="#amigo_2">
+          <speaker>AMIGO 2º.</speaker>
+          <p><stage type="action">(Levantándose cachazudamente)</stage> Vamos, hombre. <stage type="action">(Se van)</stage></p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p><stage type="action">(Levantándose)</stage> Yo también me voy. ¿Quieres algo?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Sí, que encargues en el café de abajo que me suban un biftec con patatas, y una ración de ensalada rusa, pan y vino.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Bueno, pues hasta más ver. Buen provecho. <stage type="action">(cogiendo el sombrero)</stage> El almuerzo, ¿lo quieres ahora mismo?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Levantándose y yendo hacia Félix)</stage> Sí, voy a comer deprisa y voy a echarme un rato en ese sofá.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>¿Sabes, Miguel que me parece muy raro todo esto? Tú, que no has perdido una tarde de sábado en tu vida para divertirte, comiendo aquí como cualquier burgués, tumbándote a echar una siestecita... <stage type="action">(poniéndole una mano sobre el hombro)</stage> Miguel... el invencible...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Qué quieres, será que me voy haciendo viejo, pero no tengo ánimo hoy para la alegría y el placer comprados, será que...</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Saliendo con el sombrero y el abrigo puestos)</stage> Hasta luego, Don Miguel, <stage type="action">(A Félix)</stage> Buenos días. <stage type="action">(Don Miguel y Félix la miran irse y callan, Félix mirando a Don Miguel significativamente. Pausa larga que interrumpe Félix)</stage></p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Bueno, pues diré que te suban todo eso enseguida. Adiós, hombre.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Pensativo)</stage> Adiós, Félix. <stage type="action">(Vuelve a su mesa, se sienta)</stage> El lnvencible, siempre se es invencible hasta el momento en que verdaderamente hace falta vencer; vencer un corazón o vencerse a sí mismo... <stage type="action">(suspira)</stage> Bah, firmaremos estas cartas. <stage type="action">(Empieza a leer y a firmar. Pausa en que sólo se oye un ligero murmullo cortado, al releer Don Miguel las cartas, y el roce de la pluma al firmarlas. Suena el timbre de la puerta).</stage></p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Casi gritando)</stage> Adelante.</p>
+        </sp>
+        <sp who="#cartero">
+          <speaker>CARTERO.</speaker>
+          <p><stage type="action">(Entrando)</stage> Buenos días.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Hola. Déjelas aquí. <stage type="action">(El cartero deja un montón de cartas, saluda y se va. Don Miguel las va mirando, se para en una que mira con más detenimiento) Amelia Garcés, matasellos de Moscallosa... la de todos los sábados... Amelia Garcés... (la deja a un lado separada de las otras. Vuelve a la tarea de releer y firmar.)</stage></p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Desde dentro)</stage> ¿Se puede?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pase, Juan.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Entrando con la bandeja)</stage> Aquí tiene el almuerzo el señorito.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Vete colocándolo aquí. <stage type="action">(Juan lo va colocando delante de Don Miguel)</stage></p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>¿El señorito está malo?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Estoy perfectamente. ¿Por qué me lo preguntas?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Perdone el señorito, pero me parece raro que el señorito no coma hoy en otra parte.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Qué quieres? Cuando hay que trabajar...</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Tiene razón el señorito... El biftec está recién hecho... Era el mejor trozo de solomillo que había en la cocina, y yo le dije al jefe: "¡Hágamelo pa el señorito Miguel"...La ensalada es fresca de hoy... El pan, el vino..."</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Es del blanco embotellado?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Sí, señor, del que suele tomar el señorito. También le he traído café aunque no me lo ha pedido, pero como yo sé que el señorito no deja nunca de tomar café después de comer...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Es verdad, no había encargado café, ¡cómo tendré yo la cabeza! <stage type="action">(Comienza a comer. Pausa)</stage></p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>A to esto, señorito, yo me debía d'ir, pero si al señorito no le molesto, me esperaré a que termine, pa llevarme el servicio y no tener que volver a subir. Eso, si el señorito no prefiere que lo deje solo, y si no molesto.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No molestas, Juan, siéntate.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Sentándose sobre la mesa del fondo)</stage> Gracias, señorito.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Que continúa comiendo)</stage> Y qué ¿te va gustando más Madrid?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Sí, señorito, pero no es que Madrid sea más bonito ahora que antes, quia, Madrid siempre me pareció bonito, lo que tié es que ahora la novia se ha venío a servir, y ya tié uno con quien pasear y hablar tos los días.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pero, ¿la ves todos los días?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Andá, ya lo creo, toas las noches después de cenar; como su señorita tié un perro y está mu emperrá con él, pues le tié que sacar mi novia toas a que haga... je, no se lo puedo decir al señorito porque está comiendo...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Ya, ya.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Usté perdone. Pues como tie orden de no subirlo hasta que el animalito haya... terminado, pues se m'ha ocurrío una cosa que me estoy con mi novia mucho más rato.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y qué se te ha ocurrido?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Je, je, señorito, je, pues que en cuanto veo que el animalito s'arrima a un arbolillo pa cumplir, le arreo una patá, que el animalito, de la impresión, se le olvida lo que tenía qu'hacer. Je, je, je.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Reconviniéndole)</stage> Hombre, hombre...</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Ah, pero alguien le fue con el cuento a la señorita y que he tenío un susto mu grande, señorito.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y cómo lo arreglaste?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Pues na. Aquella noche bajó mi novia y me dijo bajito: "No toques al perro, por Dios, que la señorita s'ha enterao y nos vigilan." Figúrese, señorito, mi apuro. Pero yo soy mu listo... y como toas las noches le llevaba a mi novia algo del café, pues que en cuanto que llegó la hora de la sentencia, saqué una chuleta que traía, y se la di, y la señorita, al enterarse de que en vez de darle al chucho una patá, le daba una chuleta, pues que l'ha subió el sueldo a mi novia y too... je, je, je.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pero ahora, ¿estarás menos con ella?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Quiá, señorito. Lo que antes lo arreglaba yo con una pata, ahora lo arreglo con una pata: con una pata de pollo o tajá por el estilo, porque asín que noto que el animalito nos va a cortar la entrevista... le enseño la patita o el muslito y se tira sobre ello, y se l'olvía entoavía más lo que tenía qu'hacer. Je je, señorito, si es que yo soy mu listo.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No está mal, hombre. <stage type="action">(Pausa)</stage> ¿Y cuándo te casas?</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Ay, señorito, si por mí fuera, enseguía. Lo malo es que no tié uno pa pan siquiera. Y ca vez está uno más aburrío de estar tan solo. ¿Usted me ve a mí que parece que estoy siempre de tan buen humor? Bueno, pues estoy mu triste, señorito, con esto de no poder casarme.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pero, hombre, siendo tan joven, y pudiéndote entretener con la novia, ¿qué prisa tienes? Estando soltero tendrás tus ventajas y tus compensaciones.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Quiá, quiá. Yo no he comprendido nunca como un hombre que tié pa casarse no se casa, y Dios le tié que castigar por tonto. Pero, señorito, si se tie que estar mucho mejor en casita que dando tumbos por el Retiro, pasando frío, y donde too el mundo le vé a uno y donde la novia, porque es honrá, no quiere que la vean que la hace uno... vamos, esas cosas naturales, usté comprende, señorito. Y se desespera uno y cá vez tié uno más ganas de casarse. <stage type="action">(Pausa)</stage> Porque es que además, yo quiero mucho a mi novia, señorito, y el querer no sé que tié que se come la voluntad, y hasta despierto sueño con una de esas casitas de pobres, tan pequeñas y tan oscuras -esas que cuestan siete u ocho duros-, que se encuentran o que no se encuentran, señorito, pero que una vez en ellas se debe de sentir mucho más el calor del querer. Y deben de saber más bien esos guisos que hace la mujer, que a lo mejor están mu malos, pero que porque los ha hecho ella los encuentra uno tan ricos... y no los cambiaba uno por los de la mesa del rey. Y luego... si viene un chiquitín, mejor, y si no, mejor también, que así, sin tener que atenderle, tendrá uno más tiempo pa atenderse el uno al otro, y quererse más. Yo no sé, si luego tuviese un pequeño, si lo querría mucho, pero ahora, ahora, señorito Miguel, no me importa más que ella, me basta ella, señorito, me basta ella.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Que ha ido poniéndose mustio con la oratoria del enamorado, deja de comer)</stage> Tienes razón, tienes razón, Juan, siempre debe bastar con "ella", pero lo malo es que no todos tienen esa "ella". Anda, recoge y llévate esto.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Saltando de su asiento)</stage> Pero, ¿no come más el señorito? Si apenas ha tocado la ensalada. ¡Con lo rica que está hoy la ensalada rusa!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Llévasela al perrito.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>No la entiende, señorito; es pekinése.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Levantándose)</stage> Toma. <stage type="action">(Le da 5 pesetas)</stage></p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Mirando el billete que le han dado)</stage> No tengo vuelta, señorito.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No hace falta que me la des.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Incrédulo)</stage> ¿Me da Ud. cinco pesetas?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Sí. Convida a la novia.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Gracias, señorito, es Ud. mu bueno.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Soy como siempre he sido. Es tan fácil que tú pases el domingo contento, y ese dinero me importa a mí tan poco, que ahí va, no porque sea yo más bueno, sino porque sólo ahora me he dado cuenta de que te hace falta para comprar una cosa tan grande, tan grande, que no la puedo comprar yo, con toda mi fortuna.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p><stage type="action">(Con aire de ignorancia)</stage> El señorito perdone; no le entiendo, pero estoy mu agradecío. <stage type="action">(Pausa)</stage> Y no le molesto más, voy a recoger. <stage type="action">(Recogiendo)</stage> El café se lo dejo.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Encendiendo un pitillo)</stage> Sí, déjamelo.</p>
+        </sp>
+        <sp who="#juan">
+          <speaker>JUAN.</speaker>
+          <p>Muchas gracias, señorito, por todo; muchas gracias. Si quiere algo, no tié más que mandarme recao, a cualquier hora. Adiós, señorito. <stage type="action">(Marchándose ya)</stage> Muchas gracias. <stage type="action">(Se va. Al cabo de un momento, se oye un murmullo de dentro y la voz de Juan)</stage> Sí, si señora, está.</p>
+        </sp>
+        <stage type="action">(Carmita aparece en la puerta y se queda parada mirando fijamente a Don Miguel. Este, sorprendido, hace lo propio. Al fin reacciona y sonriendo con elegancia dice...)</stage>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pasa, mujer.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¿No me esperabas, verdad?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Cómo querías que te esperase a estas horas, y cuando te creía ya camino de la sierra, o de Toledo, con mis amigos? ¡Siéntate, siéntate!</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Con tus amigos... ¿tú has creído, de verdad, que yo estaba en camino con tus amigos? Bueno.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No veo que tenga nada de particular. No sería la primera vez que te fueras con mis amigos o con los que no lo son.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Antes de conocerte, sí; después, no.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Es posible, o mejor dicho, es verdad. Ahora recuerdo que después de conocerme no has ido nunca con mis amigos... Pero irás.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>O no iré. Eso depende...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Depende?</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Sí, depende.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Bueno, pues... depende. <stage type="action">(Pausa)</stage> ¿Y a qué has venido?</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>A saber por qué no has venido tú.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Hombre, ya te lo habrán dicho los amigos.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Pero, tú les mientes a tus amigos, y yo prefiero... <stage type="action">(recalcando)</stage> prefiero que me mientas a mí. <stage type="action">(Desafiándole con la mirada).</stage></p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Ea, pues te lo diré. No he ido porque tengo mucha correspondencia que despachar. Mira, mira qué montón de cartas tengo aquí. <stage type="action">(Señalando)</stage></p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Sonriendo con ironía)</stage> Está bien. Pero ahora no estabas trabajando. ¿Qué hacías ahora aquí solo?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Qué iba a hacer a estas horas y solo? Tiene gracia. Acababa de comer. ¿No has visto al mozo? Y me disponía a dormir un rato. Bien puedes decir que eres la única mujer que me ha quitado el sueño. <stage type="action">(Ríe)</stage></p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Molesta)</stage> Tendré paciencia... Pero no me iré.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Despistado siempre)</stage> No me molestas. Charlaremos un rato. Precisamente estaba yo hoy un poco triste. Ese mozo me ha dicho unas cosas que, francamente, me han hecho descubrir que soy capaz de ponerme cursi.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¿El mozo? ¿Y qué te ha dicho ese paleto que te haya podido interesar?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No lo entenderías si te lo repitiera. Je, tiene gracia. Tú, Carmita, no entender lo que dice un mozo de café. Pero estoy seguro de que no lo entenderías.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¡Estás insoportable, Miguel! ¡Cualquiera diría que siempre habíamos hablado así, como si estuviésemos delante de gente. Y, sin embargo, Miguelillo, <stage type="action">(acercándose cariñosa)</stage> ya sabes tú que yo no he querido a nadie, a nadie más que a ti.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Puede... Pero esto mismo se lo habrás dicho a muchos.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Pasional)</stage> Sí, se lo he dicho a muchos, pero tú sabes por qué se lo he dicho. No pretendas hacerme creer que después de tantas aventuras y de tanto mundo, pienses que siempre que una mujer dice a un hombre "no quiero a nadie más que a ti", sea porque verdaderamente le quiera. ¡Esto se dice tantas veces en la vida cuando hay interés por medio y cuando no lo hay! ¡Hasta las mujeres casadas se lo dicen a sus maridos...! Bueno, estas más que ninguna, porque qué remedio les queda. Pero tratándose de mí, que sabes que he vivido siempre, como he vivido, bien seguro debes estar que lo he dicho muchas veces sin sentirlo, y bien segura estoy yo, que sintiéndolo, no lo he dicho hasta que te lo dije a ti, Miguelillo, ¡Cómo iba yo a sospechar que se podía querer así en la vida!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Riendo)</stage> Oye, ¿has hablado con el mozo?</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Muy molesta)</stage> ¿Por qué lo preguntas?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Porque lo parece.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Me he puesto cursi, ¿verdad? Bueno, pues vamos a terminar de una vez. Quiero que hablemos en serio. Es la única manera de entendernos y de saber a qué atenernos. ¿Puedo empezar?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Si te empeñas. Ya ves que he procurado evitar hasta este momento el decirte cosas desagradables, el herir susceptibilidades, pero, si es necesario que hablemos, hablaremos. ¿Qué pretendes?</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>Primero, decirte lo que ya te he dicho, que sólo a ti he querido, y que nunca pensé que se pudiera querer tanto; luego no ocultar la intención que me trajo aquí, ver si podía conseguir que tú... no... que me quisieras de igual modo, eso no lo he pretendido nunca, pero por lo menos que respetases este cariño, que lo soportases, ya que supongo que tú seguirás viviendo como has vivido hasta ahora, sin compromiso sentimental ninguno, el amo del amor que no llora, que sólo ríe... "el invencible".</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pero, perdona... Si tengo que sonreirme a pesar mío; tst, ¿cómo puedes tú pensar que yo pueda aceptar a una mujer así, la mujer que fue de todos, y si lo fue sin amor, peor aún. <stage type="action">(Carmen quiere interrumpir)</stage> sí, peor aún, para la dignidad de un hombre, aunque para su sentimentalismo pueril fuese mejor. ¿Cómo puedo yo en serio tenerte en mis brazos ni besar tu boca con ilusión, si en todo momento tendría que acordarme que estaba besando los besos de los demás y acariciando las caricias pagadas de otros hombres? <stage type="action">(ella hace un gesto de dolor)</stage> Muy duro, muy cruel todo lo que te digo, pero tú me has obligado a esta sinceridad. <stage type="action">(Callan)</stage> ¿Y si sólo por compasión te fuera a soportar? ¿Dónde dejar humanamente este cargamento de amor propio que todos llevamos dentro? Y ¿cómo soportar la burla silenciosa y quizás hasta hablada, que me diría con el gesto, con la sonrisita irónica, con la indirecta envenenada: "Miguel, cobijado como un mendigo, en una ruina pulverizada por las pasiones mezquinas de los hombres que pagan"? ¿Cómo contrarrestar esta fuerza necia, despiadada a veces, pero real siempre, que se llama pequeña honrilla en el hombre". ¡Imposible! Sólo un amor ciego, irresponsable, podría saltar por ella, y yo no puedo sentirlo por ti. ¿Cómo he de sentirlo, si hasta ahora ni siquiera sé donde tengo el corazón? <stage type="action">(Conmovido)</stage></p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¿Y si en vez de cobijarte en una ruina te cobijaras en un gesto de redención? No serías el primero. Se mira hoy con tanta simpatía al hombre que redime a la mujer caída. Yo no daría motivos para que nadie pensase que esta redención no había sido efectiva, no los daría, ante todo porque te quiero, y luego, porque la gratitud me obligaría a compensarte de la vergüenza de haber aceptado mi pasado. No pienses que vengo a ti guiada por algún interés, todos podrían tener derecho a pensarlo, todos menos tú, y sólo de ti me dolería. ¿El dinero? A mí no me falta y sabes que dos de las fortunas más fuertes de Madrid están dispuestas a enriquecerme y sabes también, que bolsa que cayó en mis manos, salió vacía.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No sigas, no sigas. Todo eso lo sé, Carmita. Y me duele que me quieras, porque es un imposible lo que pretendes. Sé razonable, tú tan sensata siempre... y digámonos adiós con serenidad. Te prometo mi amistad, Carmita; seremos amigos mientras podamos serlo.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¿Eso quiere decir que quizás algún día alguien te pueda impedir que lo seas?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y si así fuera? El hombre no es dueño de su futuro... podría enamorarme... desear un hogar...</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Interrumpiendo celosa)</stage> Miguel, tú ya estás enamorado.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No, no lo estoy; ni siquiera sé si podré llegar a enamorarme. Mi corazón crió callo en la batalla... y es tan difícil llegar al fondo cuando hay que atravesar tanta corteza muerta.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Obsesionada)</stage> Y claro, esa mujer de quien tú podrías llegar a enamorarte, tendría que ser una mujer que siempre fue honrada...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Lentamente)</stage> Así es... <stage type="action">(callan, luego él la mira)</stage> ¿Pero lloras? No llores, Carmita... Si tenías sueños de paz, de remanso familiar, de castidad cristiana ¿por qué no defendiste tus derechos a estos goces? ¿Por qué los tiraste por en medio para beber la pasión y el amor, sin límites ni fronteras?</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Enjugándose)</stage> Porque el amor que yo soñé al abrir los ojos a la vida, al sentirme de pronto mujer, no lo encontré, ni veía que lo encontrase nadie, y creí que sólo era un sueño, un imposible. Entonces me rebelé contra la realidad y no supe resignarme a entrar en el rebaño de las que aceptaban cobardes, rumiando la vulgaridad del matrimonio sin amor, o lo que es peor aún, con amor convencional. Y la inquietud me perdió, porque además jamás sospeché que pudiera encontrar un hombre como tú. ¡Tan vulgares y necios eran todos los que me rodeaban! Pues si yo hubiese sospechado que había un Miguel en el mundo ¿Estaría yo aquí ahora mendigándote cariño?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Entrando)</stage> Buenas tardes. <stage type="action">(Al ver que hay otra persona) Ay, perdonen, no quisiera molestar.</stage></p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Gravemente)</stage> No molesta Ud. a nadie. Pase, Amelia. <stage type="action">(Amelia entra y se va por la puerta de la derecha)</stage></p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Levantándose y cogiendo a Don Miguel de un brazo)</stage> ¿Quién es esta mujer?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Mi secretaria.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Agresiva y nerviosa)</stage> Tu secretaria, tu secretaria... Y, ¿por esta mujer has despreciado las horas de alegría que te ofrecía yo hoy? Y ¿por esta mujer <stage type="action">(levantando paulatinamente la voz)</stage> te has quedado en Madrid, este sábado? Y ¿por esta mujer...?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No chilles que te puede oír. Esta mujer...</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Interrumpiéndole)</stage> Mejor, si eso es lo que quiero, que me oiga, si me tiene que oír. Carmita Velasco vuelve a ser Carmita Velasco, se acordó un momento que había nacido una señorita y como una señorita te he hablado, pero vivió siempre como una hembra y una hembra vuelve a ser...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Calla, mujer, calla.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Sin oírle)</stage> Te defenderé para mí, contra ella y contra todas. Y no porque te quiera, ¿qué te has creído tú? Sino porque a Carmita Velasco no le arrebató nadie, ningún hombre.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Calla, calla.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>No me da la gana. La arrancaré el corazón y te lo arrancaré a tí.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Asiéndola fuertemente por la muñeca)</stage> Calla de una vez y vete.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p>¿Tienes miedo al escándalo? Pues lo daré...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Exasperado) (Empujándola hacia la puerta violentamente)</stage> Vete, Carmita, te lo mando, te lo ruego.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Forcejeando)</stage> Pues no me voy, no me voy...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Descompuesto)</stage> Vete ahora mismo, si no...</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Desafiándole con la mirada)</stage> Si no, ¿qué?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Despacio, serenándose)</stage> Si no, no me volverás a ver en la vida, ¡en la vida!</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Pausa) (Casi llorando)</stage> Y si me voy, ¿te veré?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Luchando)</stage> Esta noche.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Incrédula)</stage> ¿Me lo juras?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Te lo juro.</p>
+        </sp>
+        <sp who="#carmita">
+          <speaker>CARMITA.</speaker>
+          <p><stage type="action">(Llorando)</stage> Pues adiós, Miguel. <stage type="action">(Mutis) (Don Miguel se pasea nervioso e intenta reponerse)</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Saliendo con el block y el lápiz)</stage> A sus órdenes, Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Turbado)</stage> Perdone, Amelia; no estoy en condiciones de empezar a trabajar y sobre todo me creo en el deber de dar a Ud. una explicación, de pedirla que perdone la violencia de haberla hecho oír involuntariamente, palabras que la han debido molestar.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No le comprendo. Ud. no tiene por qué darme a mí explicación alguna. Es Ud. el jefe, es Ud. algo así como el dueño de la casa y yo tengo la obligación de no haber oído, aunque hubiese oído.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Si fuese Ud. otra empleada cualquiera, quizás, pero es Ud. una señorita que tuvo que venir a una oficina porque la vida la exigió que viniese, pero una señorita al fin; y a una mujer de su educación se la deben suponer altos grados de sensibilidad, por los que ningún caballero debe saltar. Además, para mí, Ud. no es sólo una empleada, es algo más.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Muchas gracias, aunque no acabe de comprenderle. Estoy muy agradecida por las consideraciones que conmigo tuvo siempre, pero eso no debe significar para mí un derecho, para dejar de ser, siempre que en esta oficina me halle, una simple subalterna.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Hay momentos, Amelia, en que el ser jefe no significa nada ante ciertas razones morales que están siempre muy por encima de las jerarquías y de la disciplina. Y en esos momentos el hombre debe ser ante todo un caballero, y la mujer oírlo, no como una simple subalterna, sino como mujer consciente de su condición de tal y de su dignidad. Y eso quiero que sea Ud., por lo menos hasta que termine de darla las explicaciones que debo darla.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Pero en nombre de esa misma condición de mujer y de esa dignidad, yo podría negarme a escuchar.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Humillado)</stage> Perfectamente, está Ud. en su derecho. ¿Se niega Ud.?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No, Don Miguel. Puede Ud. decirme lo que guste.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Gracias. Usted ha visto aquí a una mujer. Esa mujer ha entrado sin haberla llamado yo, sin consentimiento mío, sin saber yo siquiera que iba a venir. Ha venido... porque muchas veces no se puede evitar el que le busquen a uno, personas que no tiene uno gusto en ver, y menos en un sitio como éste. Quien haya visto entrar a esa mujer, tendrá derecho a pensar que no venía aquí para nada santo, y quien la haya visto entrar a Ud. después, podría suponer lo que yo no quiero que se piense de Ud., por mi culpa y por la de la otra. Puede Ud. pues retirarse si gusta.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>De ninguna manera, Don Miguel. Yo no fabrico mi conciencia con las conciencias de los demás; la mía es mía y tan mía, que con sólo saberme yo buena, me basta. Sería ridículo que por unas gentes que no conozco -y que aunque conociese no serían nunca capaces de pagarme la delicadeza de no darles motivo para pensar mal de mí- faltase ahora a mi deber, a la ley del agradecimiento, y le dejase solo esta tarde, con todo este trabajo, sabiendo que le hago a Ud. falta.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Triste y lentamente)</stage> Sí, me hace Ud. falta, Amelia. Sí me hace Ud. falta y sobre todo esta tarde. Pero así y todo, yo preferiría que se fuera.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Por Usted?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Pues entonces me quedo. Aunque yo quisiera que Ud, me diera permiso para dejar de ser, unos momentos más, la empleada, y me permitiera decir a Ud algo respecto a la entrada de esa mujer aquí, para que viese que no fue suya toda la culpa.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Concedido.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Pero ha de ser prometiéndome que no se va Ud. a incomodar por nada, por nada, aunque le dijese cosas poco agradables.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Se lo prometo <stage type="action">(más contento)</stage> a cambio de que Ud. me prometa que tampoco se incomodará por nada que la pueda decir yo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Prometido.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Aunque fuese algo que ni remotamente pudiese Ud. sospechar?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Un sí es no es guasona)</stage> Aunque fuese eso.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Está Ud segura?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Sonriendo)</stage> Don Miguel, ¿es que Ud. sería capaz de no estarlo? Pues amor con amor se paga.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Serio)</stage> ¿Usted cree?... Pues siéntese Amelia. <stage type="action">(Amelia se sienta en el sofá y Don Miguel se reclina contra el ángulo de la mesa. (Pausa) Ah, tiene Ud. ahí una carta, Amelia, se me había olvidado. (Va por ella).</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Levantándose)</stage> No se moleste, la cogeré yo. <stage type="action">(Don Miguel se la alarga. Ella vuelve a sentarse y se queda mirando el sobre)</stage></p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Puede Ud. leerla; mientras tanto ojearé yo la correspondencia.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No, Don Miguel, de ninguna manera.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Si prefiere Ud. entrar en su cuarto de trabajo y leerla allí.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Si no es eso. Si es que yo no leo esta carta hasta mañana.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Hasta mañana? Pues yo creía que le interesaba mucho.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Y me interesa. Es lo que más me interesa en el mundo, Don Miguel. Pero no la leo hasta mañana. ¡Es mi sol de Domingo!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No insisto, podría ser indiscreción. Estábamos...</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Estábamos en que vamos a terminar pronto, porque hay mucho que hacer. Usted me decía que esa mujer, Carmita, había entrado aquí sin su consentimiento, sin haberla llamado, sin saber siquiera que iba a venir, porque muchas veces no se puede evitar que le busquen a uno personas que no tiene uno gusto en ver... Don Miguel... todo esto me parece a mí algo falso, y sobre todo algo cruel. A esa mujer que ahora viene aquí sin su consentimiento y a quien no tiene Ud. gusto en ver, la debe haber dado algún derecho alguna vez para que ella se haya atrevido a venir. Usted no me podría asegurar que sólo la había tratado en visita, y que ella era una cínica al tomarse esa libertad.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No, no lo es, desde luego.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Entonces, alguna vez fue para Ud. algo más que la persona que no se desea ver, quizás que se desea ver muy a menudo y si con palabras verdaderas o mentidas ya, la hizo concebir una ilusión, ¿qué extraño que venga a reclamarle algo de lo prometido, si lo prometido se ofreció sin que se pidiera siquiera?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Ya sé, Amelia, que eso no tiene nada de extraño, lo raro es que viniese a pedirme lo que no prometí jamás. Y además hay que distinguir...</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Ya distingo. Pero mi moral es ésta. El hombre con verdadera dignidad, por estimación propia, no debía acercarse nunca a una mujer, de quien se pudiese avergonzar después. Y si una mujer de esa clase le gustó y hasta llegó a quererla, debía ser hombre ante todo, aceptando las responsabilidades y teniendo la valentía de no negarla ante los hombres para aparentar ser más recto o más bueno. Antes de comer, y delante de sus amigos, borraba Ud. los límites, y casi negaba la existencia de la mujer verdaderamente buena, sin saber que esa clase de mujeres, se merecen, muchas veces, bastante más de lo que la sociedad las da. Pero hay un punto del que ni los hombres inteligentes saben prescindir; la pequeña vanidad de hombre. Y no discutamos más, porque aunque Ud. llegase a convencerme, todavía tendría yo que preguntarle. ¿Por qué, si verdaderamente cree que esa mujer no merece más que menosprecio, que no la echó Ud. de aquí, desde el primer momento? ¿Por qué permitió Ud. que se quedara y con ello perjudicara a la otra, a la honrada? Si tan insignificante y despreciable era, ¿por qué tuvo Ud. miedo de echarla, y por qué para que se marchara la tuvo que prometer que iría a verla esta noche?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Basta, le suplico. Me está Ud. diciendo cosas muy fuertes.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Acuérdese que prometió no incomodarse, Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Y no me incomodo, me duelen. Yo no puedo explicarle que hay momentos en la vida, en que uno no es dueño de sí mismo, en que hay tentaciones irresistibles, en que la voluntad, y la estimación de sí mismo, y hasta el concepto de la dignidad, se anulan ante el empuje misterioso del... amor... -llamémoslo así por delicadeza-</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Tristemente)</stage> Unos más y otros menos, todos tenemos lo nuestro, Don Miguel, pero hay algo más fuerte que todo eso, la voluntad... y el que dice "no quiero", triunfa. Y Ud. ¿triunfó siempre?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Siempre. Y seguiré triunfando, porque tengo fe.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>A pesar de la fe, cuando la hora suprema llega, no basta la voluntad.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Eso que Ud. llama "la hora suprema", no llega si se sabe huir de ella a tiempo.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Y si a pesar de huir ¿Le alcanza a uno?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Exaltada)</stage> La voluntad vuela más, y no le alcanzan.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Mirándola con admiración. Pausa)</stage> ¡Si supiera Ud. Amelia, cuánta envidia la tengo!</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Extrañada)</stage> ¿Por qué?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Porque sabe Ud. ser buena de veras. Usted no se ha dado cuenta de lo difícil que es ser bueno de veras, y ser fuerte de veras... ¡como Ud. lo es!</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Levantándose)</stage> Qué cosas se le ocurren. No diga Ud. eso, Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Eso y mucho más quisiera yo decirla hoy. Como si la rueda de la vida se me hubiese parado pronto, y de pronto también, sin lo borroso de la velocidad, la viese clara, con sus desgastes y sus mellas, dentelladas del vivir, me he dado cuenta que han pasado muchos años, y que no he hecho nada digno ni grande en ellos. Y se ha apoderado de mí una tristeza tan honda y tan desoladora, que yo, el hombre de nervios fuertes, el insensible, me he emocionado hoy como un adolescente, cuando el mozo del café me contó, con una sencillez casi cruda, su amor por su novia, su deseo de hogar, sus ansias de nido. Y no sé por qué - también, instintivamente, -quizás por el sabor de bondad y dulzura que tenía su relato- me he acordado de Ud. Amelia, y me ha dado pena, el que Ud. reciba todos los sábados esa carta que no lee Ud. hasta el día siguiente, y que es su sol de Domingo. Y me ha dado un poco de rabia que no me quisiera Ud. explicar, por qué no la lee Ud. hasta el domingo, a pesar de ser lo que más le interesa en la vida, Amelia, ¿Es verdad que quiere Ud. mucho, mucho a su novio?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Que ha ido poniéndose seria, emocionada, con miedo)</stage> ¿Mi novio? ¡Si yo no tengo novio, Don Miguel!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(La mira triste)</stage> ¿No me merezco una confidencia?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No le miento. Yo no tengo novio.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y esa carta?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Esa carta es de un amigo.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Recalcando)</stage> ¿Sólo amigo?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Sordamente)</stage> Sólo.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Acercándose)</stage> Entonces, ¿puedo decirle a Ud. que la quiero, que la ofrezco mi nombre y mi hogar, para toda la vida?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Asustada) (Queriendo interrumpirle)</stage> No, no, eso no, Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Tristemente)</stage> Soy demasiado viejo...</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No, no es eso. Yo le quiero a Ud., yo estoy agradecidísima, pero no puedo, no puedo quererle como Ud. me pide, Don Miguel. ¡Como a un superior, como a un amigo, como a un padre, como a un Dios, sí; para casarme, no, no puedo!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¡Qué triste es oírlo! Lo que más duele, cuando se ve uno canas en el espejo es que las mujeres nos digan que nos quieren así, como Ud. me quiere a mí, y tener que resignarse, mientras el corazón aún tiene juventud y busca una mujer.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Nerviosísima, con desesperación)</stage> Pero si no es eso, Don Miguel. Los años no significan nada. Si ese fuera el único impedimento yo no vacilaría en aceptar sus proposiciones, pero no es eso, créame, Don Miguel; es algo más grande, tan grande, que puede más que mi admiración y mi cariño por Ud.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Mirándola, como queriendo leer en su fondo)</stage> No la comprendo no puedo siquiera adivinar, y me tortura no saber su secreto, porque yo la quiero tanto, Amelia, que no puedo resignarme a aceptar su negativa así, sin más explicación. ¿Soy indiscreto? Perdone, y calle, si es que el hablar la hace daño.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Lucha, y al fin se decide)</stage> No, Don Miguel, Ud. se merece esta confidencia.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Gracias, Amelia.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Lentamente)</stage> El hombre que me escribe todos los sábados, es sólo un amigo, un amigo del alma, que llena toda una - vida, un refugio espiritual, una pasión del espíritu, si Ud. quiere, pero un amigo; no mentí al decirle esto. Pero ese amigo, a pesar de quererle y de quererme, como más no se quiso nunca, no es mi novio, ni mi amante, ni quizás llegue nunca a ser mi esposo, porque ese hombre está casado.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Sordamente)</stage> ¡Ah...!</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Se asombra Ud.? ¿Le sorprende? Y sin embargo este amor, que para otro hombre menos espiritual que Ud. -pese a sus apariencias de conquistador materialista-, aparecería un pecado, llena tanto mi vida, y realiza tan completamente mis sueños de cariño, que no sé cambiar las angustias de la ausencia, el aislamiento y la soledad forzosa, por otro amor más legal, y el bienestar y la felicidad que me pudiera traer. Lo he pensado tantas veces, al sentir pasar los años y verme envejecer en el futuro; pero nunca he podido encontrar una fórmula para mi felicidad, más que ésta: "esperar", esperar siempre, porque estoy segura de que nada podría hacerme feliz más que este cariño.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Hace mucho tiempo que conoce Ud. a ese hombre?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>De hecho, dos años. En espíritu, desde que me sentí mujer, porque él encarna mis sueños de adolescencia, el presentimiento del amor que había de llegar. Y si es verdad que antes vivimos otra vida, él debe ser el gran amante de mi otra existencia, quizás mi pasión imposible, que truncó el destino, y - al que alcanzó la muerte con la gran sed sin satisfacer, palpitando en los labios... ¡tan lejos y tan eterno le presiente mi corazón! <stage type="action">(Repentinamente, como temiendo haber dicho demasiado o no haber sido comprendida)</stage> Usted no se reirá de lo que le digo, ¿verdad Don Miguel?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>No, Amelia, me descubro el alma en señal de respeto, y quisiera saber más.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Más? ¿Más todavía?</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Sí; donde le conoció, cómo brotó ese idilio, qué circunstancias le rodearon. Cuéntemelo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Recordando)...</stage> Fue en el dolor y en la amarga inquietud de un sanatorio donde le conocí. Mi madre, en una alcoba, muy grave, una niña suya, la única que tiene, en la otra. Todos los días el saludo y la pregunta oficial: "¿Cómo está la niña?" "¿Cómo está su mamá?" Y tantas veces preguntamos, que a fuerza de fingir interés, nos interesamos de veras. Así un día y otro; y almas roídas por un mismo temor, ensombrecidas, y asustadas de un mismo espectro, el de la muerte, pronto llegan a hacerse cristalinas, a necesitarse para alcanzar consuelo... Yo comprendí que era bueno, leal, muy hombre y muy desgraciado. Él vio en mí tristeza, soledad, desamparo, y un sueño de amor en mi frente, y una sed de cariño en mis labios. <stage type="action">(Pausa)</stage> Su mujer... una pobre mujer de éstas, - que no sabe uno si son buenas por ser tontas o si son tontas por ser demasiado buenas, tenía, y tiene, porque aún vive, un alma tan simple, un temperamento tan incoloro, un espíritu tan vulgar, vivía tan exenta de inquietudes, de desdoblamientos, de pliegues en el alma, que resultaba algo así como esas paredes tan blancas de Andalucía, que de puro blancas hieren la vista, y molestan, esas superficies tan lisas, que no se puede andar sobre ellas sin resbalar y caer. Era buena, ya lo he dicho, buena madre, dama caritativa, pero todo lo hacía tan simplemente, tan puerilmente, que no despertaba ni respeto su virtud, ni agradecimiento su caridad, ni amor su suprema bondad. No sé si Ud. me comprenderá, pero era un ser en fin, incapaz de hacer feliz a un hombre regularmente espiritual e inteligente, y menos satisfacer, ni parcialmente siquiera, el ansia de comprensión, de correspondencia física y moral, que el alma inquieta, rebelde, ávida de renovación y de vida, de su marido, necesitaba... En estas circunstancias, ya comprenderá Ud., Don Miguel, cuán fácil fue lo que sucedió; para que un amor penetre en un corazón, hace falta que lo encuentre vacío. Yo me río de esas pobres almas cándidas, que muy indignadas gritan: "Me robó el amor de Fulano", sin pensar que el amor no se roba nunca, es como la atmósfera, sólo ocupa lo que está desocupado, y somos nosotros, nosotros, los que lo dejamos ir no sabiendo llenar el gran vacío del corazón que deseamos nuestro.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p><stage type="action">(Viendo que Amelia interrumpe su relato)</stage> Siga... siga.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>El día que murió mi madre, le sentí moverse en torno mío, para todo, le adiviné llorando conmigo, y le sentí tan cerca, tan cerca, que a ratos me asustaba de pensar que fuese ya algo tan mío... <stage type="action">(Llorando)</stage> La cerró los ojos, la vistió, la llevó al cementerio. Una vez en mi casa, me vino a ver. ¡Desolación en mi alma, crepúsculo de invierno sobre Rosales y el Guadarrama! Viéndome llorar una vez más, me cogió las manos, y al mirarle yo con los ojos arrasados en lágrimas, para preguntarle mudamente qué podía significar él para mi desamparo, me besó la frente, tan limpiamente, tan buenamente, que no pude decirle nada. Me dio las gracias por mi confianza y me habló de lo que podía ser nuestro cariño, el gran refugio del alma. La mía tan ensombrecida por el dolor y la pobreza; la suya tan defraudada, tan estafada por la vida; todas las palpitaciones del espíritu concentradas en una sola aspiración, en un solo ideal; querer mucho, mucho y bien. Y cuando me dijo que de todas sus desgracias, la más grande era haberme encontrado demasiado tarde para tomarme en nombre de la Ley de Dios y de los hombres, lloraba como un niño; y cuando me preguntó si a pesar de su situación, podría yo aceptar su amistad, por lo menos hasta que un amor viniese a prometerme un puesto legal en la vida, yo sentí su ternura más grande que mi desgracia, más fuerte que mi prudencia, más justificada que mi conveniencia, y ciega me eché en sus brazos y ciega también, le dije "para siempre".</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y eso fue todo? ¿Al tenerla en sus brazos ese hombre siguió siendo tan caballero?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Eso fue todo, Don Miguel.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>¿Y ése es su triunfo? ¿Haber sabido defender esa amistad amorosa limpia hasta ahora?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Ese es mi triunfo y el suyo. El también ha comprendido que sólo así podía durar.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Quizá por eso, por miedo a perderla, ha conseguido sentirse siempre ángel delante de Ud. y nunca hombre.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No sé, pero no me lo diga Ud. Tengo yo tanta ilusión con pensar que sólo por amor a mi amor, me quiere...</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Perdone, Amelia.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No, si no hay nada que perdonar, si es natural que Ud. piense eso. Si es tan raro, tan maravilloso, que sólo nosotros que lo sentimos, podemos tener la certeza de su existencia, sólo nosotros podemos vivir seguros de que el milagro existe y existirá, blanco y ennoblecido, cada vez más grande, cada vez más bueno. Y que sabremos defenderlo como se defiende lo mejor de la vida.</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Y aunque así fuese, ¿Usted está segura de que siempre le ha de satisfacer vivir de ese modo? ¿No hay en Ud. sueños de hogar, de verse reflejada y prolongada en su vida, en sus virtudes, en su nombre, por un hijo?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Es que si ese hijo no pudiese ser la prolongación y el reflejo de él también, prefiero no tenerlo... Y además... ¡Quién sabe!</p>
+        </sp>
+        <sp who="#don_miguel">
+          <speaker>DON MIGUEL.</speaker>
+          <p>Pero, si Dios mismo, le asegurase a Ud. que ese, "¡Quién sabe!" no llegará jamás, ¿seguiría Ud. queriéndole?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Aunque nunca llegase. Aunque tuviese la certeza de que mis años se iban a marchitar sin conocer el frescor del rocío, la caricia, el amor; que la muerte me iba a sorprender sola como hoy, que con ella acaba todo y que no le iba a encontrar ni en el "más allá" siquiera; que mi espera iba a ser más eterna que la eternidad, y mi soledad más infinita que el infinito, sin esperar nada, y dándolo todo, le QUERRIA SIEMPRE, Don Miguel, SIEMPRE. <stage type="action">(Llorando enternecida y exaltada).</stage></p>
+        </sp>
+        <stage type="action">TELÓN LENTO.</stage>
+      </div>
+      <div type="act" n="2">
+        <head>ACTO II</head>
+        <stage type="action">Gabinete en casa de Amelia. Dos puertas, una al fondo para salir a la calle y otra a la derecha, que comunica con otras habitaciones de la casa. A la derecha una mesa y tresillo. En el fondo otra mesa con un teléfono. A la izquierda cama turca o diván con ventanal detrás. Lámpara de pie y butacón; librería al otro lado. Una habitación, en fin, amueblada con gusto sobrio muy a lo inglés. Sobre la mesa y sillas hay unos ramos de flores. Al levantarse el telón está Amelia recostada en el diván ojeando una revista y entra Mercedes con una taza de café humeante.</stage>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>Mira chica, vengo de la cocina y me he traído esta taza de café, luego tomaré otra con vosotros; es mi vicio y no puedo sustraerme a la tentación de tomar dos tazas hoy. Además, esos señores sabe Dios a qué hora vendrán.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Ah, pues muy pronto. A las tres y media tienen que estar todos en sus respectivas oficinas.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Saboreando el café)</stage> Está riquísimo. ¿Quieres un poco?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>No, ya sabes que yo lo tomo casi por compromiso. El café tiene sabor de familia. Por eso a mí no me gusta.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¿Tan mal te fue con la tuya?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Como a todo el mundo que sobresale un poco del nivel de los demás. Falta de comprensión y de sentido de admiración. En mi casa solo mi madre estaba conmigo.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>Es verdad. Y qué extraño a pesar de tu bondad. En el colegio, en cambio, sucedía lo contrario, te quería y te mimaba todo el mundo. Tenías un verdadero "success".</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Es que el colegio no tenía ambiente de hogar, o por lo menos de ese tipo de hogar tan burgués y tan vulgar, donde por fuerza han de oírse los gritos a la cocinera, las protestas ante la sisa inevitable, los adjetivos airados a la doncella que rompe los cacharros. Todo ello me ponía a mí de tan mal humor, que siempre me han dado lástima esos pobres maridos pulcros de espíritu e inteligentes, soportando, en medio de sus trabajos de arte o de literatura, la torturante vulgaridad de una mujer sin disciplina casera, en este sentido.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Que sigue tomando el café con verdadera fruición)</stage> Eres la misma de siempre, Amelia. ¡La eterna preocupada por todos los problemas! ¿Qué te importa a ti eso? Si ahora vives tranquila, y además no tendrás que casarte con ninguna señora de esas. <stage type="action">(Riendo y saboreando una cucharadita de café)</stage> Mira, el café está: ¡gloria pura! Y como ya queda muy poco te vas a tomar dos cucharaditas por lo menos. Te lo mando yo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Rechazando)</stage> No, no quiero.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Presentándola la cucharilla)</stage> Sí, sí, anda que quiero yo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Que no, te he dicho.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>Que sí, abre la boca.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Casi chillando)</stage> Déjame que me vas a manchar el traje. Te he dicho que no.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Con dulzura)</stage> Anda no seas terca, dame ese gusto, por ser hoy tu santo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Tomándolo)</stage> ¡Uy qué pesada te pones! Trae.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Riendo victoriosa)</stage> Hay que ver lo pronto que cedes en cuanto se te pide una cosa con cariño.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¡Tonta!</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p><stage type="action">(Entrando)</stage> Han llamado Uds.? Porque a mí me ha parecido oír unos gritos.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¡La Señorita Mercedes, que se empeña en que todo el mundo ha de probar y encontrar riquísimo el café!</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p><stage type="action">(Asustada)</stage> ¿Es que no lo está?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Sí mujer, no te apures.</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p><stage type="action">(Refunfuñando)</stage> Ya que no se les convida más que a café, por lo menos que sea un café digno de la casa y de la cocinera. ¿Verdad, señorita Mercedes? Que eso de invitar sólo a café es muy pobre</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Calla Juana, calla. No puede olvidarse de los banquetes de la abuela y de aquella mesa que antes de la ruina acogía diariamente a dos o tres convidados, por lo menos. Mi madre, tan íntima y tan recogida siempre, no se llegó a acostumbrar a ese contacto diario con los extraños. Había nacido para algo mejor; para educarme, y no omitió un detalle ni un esfuerzo, ni una ternura para hacer de mí algo perfecto. Ya ves como fracasó. Amaba su tierra, como todas las inglesas y me traía los mejores libros de su literatura, y me llevaba a mí a ella, porque así creía que la llevaba también lo mejor de España. <stage type="action">(Suspirando)</stage> ¡Y cómo me gustaba a mi ir a Inglaterra!</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p>Pues a mí no me gusta nada aquello. Sin entender a nadie y todos tan tiesos, y siempre tan deprisa, y el año entero sin sol, y tantas consideraciones y pamplinas con los perros y los gatos como si fueran más que personas.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Amelia y Mercedes se ríen)</stage> Pero ¡qué independencia más hermosa, Juana!</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p>¡Bah, bah, a mí me gustan más las gentes de aquí, las amigas y las comadres. Son más expansivas, más abiertas y chismorrean más. <stage type="action">(Suena el timbre)</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Ya están ahí esos. <stage type="action">(Juana sale a abrir)</stage></p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¿Y quienes van a venir?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Sin darle importancia)</stage> Pues nadie... es que ayer se enteraron que hoy era mi santo y me dijo Félix: "¿A que no es Ud. capaz de convidarnos a tomar un café después de comer?" Y claro, viene él con el Jefe del almacén y el Contable.</p>
+        </sp>
+        <sp who="#juana">
+          <speaker>JUANA.</speaker>
+          <p><stage type="action">(Entra corriendo con dos ramos de flores, uno de claveles otro magnífico de azucenas)</stage> Miren, miren que preciosidad, miren que divinidad.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES Y AMELA.</speaker>
+          <p>¡Uy qué bonitos, qué hermosos! <stage type="action">(Coge Amelia los ramos)</stage></p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¿Quién los envía?</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p><stage type="action">(Leyendo las tarjetas)</stage> Los claveles son de Félix, y éste de Don Miguel.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>De él habían de ser, la delicadeza y el gusto al escoger las flores. <stage type="action">(En ese momento entran los convidados)</stage></p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Hemos encontrado la puerta abierta y hemos entrado. <stage type="action">(Saludos de rigor, felicitaciones, etc. etc.)</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Siéntense, siéntense. Y mil gracias, Félix, por sus flores que son preciosas. <stage type="action">(A Juana) Juana, sirve enseguida el café. <stage type="action">(Deja los ramos sobre algún mueble) (Se colocan, Mercedes con el Jefe y el contable en el tresillo; Amelia y Félix en él diván).</stage></p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Antes de que se me olvide, me encargó Miguel la dijese que no dejaría de venir esta tarde, en cuanto pudiera, y que no se ha invitado a tomar café también, porque con esto de andar tan desarreglado, no solo le tienen prohibido el café, sino hasta el acordarse de él ni de nada después de las comidas.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Don Miguel siempre tan especial.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Y que Ud. lo diga; tan especial y sobre todo tan singular. Como que no hay dos como él... <stage type="action">(Entra Juana con el servicio de café) (Lo coloca sobre la mesa. Mercedes sirve)</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¡Usted opina así?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Sí, Amelia y Ud. también. <stage type="action">(Mercedes que está repartiendo las tazas, alarga una a Amelia)</stage></p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>Anda, Amelia, aunque no quieras. <stage type="action">(Sigue distribuyendo tazas hasta que todos tienen la suya. Se acerca con el azucarero a Félix) Sírvase, Félix. (Se sirve) Y a ti, Amelia, te lo serviré yo a mi gusto (Le echa varios terrones).</stage></p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Basta, basta. <stage type="action">(Vuelve Mercedes a su sitio y ofrece al Jefe y al Contable, luego se sirve ella).</stage></p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¿Y qué decía Ud. que le pasaba a Don Miguel?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Pues que no acaba de ponerse bueno, desde la enfermedad tan grave de este invierno, está el pobre fastidiado.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¡Qué raro, él que siempre ha sido tan fuerte!</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Y tan alegre, y tan enérgico. Pero de repente, un día comenzó a ponerse de mal humor, a perder la alegría, hasta que cayó en cama. Me acuerdo que un sábado no hubo quien le sacase de la oficina, so pretexto de que tenía que terminar de despachar la correspondencia. Amelia lo sabe puesto que la tocó trabajar aquella tarde, también. Ya ve, él que jamás, jamás, había perdido ocasión de divertirse los sábados y los domingos y todos los días que podía.</p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>Don Miguel es otro, hasta para el trabajo, antes el moverse para todo era en él cosa completamente natural, ahora se nota que hace un esfuerzo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Pobre, es que ahora tiene poca salud, pero yo espero que en cuanto entre de lleno la primavera, volverá a ser el Don Miguel fuerte, alegre y simpático de antes.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Miguel es un niño mal criado, siempre se salió con la suya, y alguna contrariedad fuerte debe tener para haber decaído de esa manera. No se resigna a vivir vencido.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>Pues algún día tenía que llegar el imposible que no se puede vencer.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Sí, pero por más negra que haya visto la cosa, estoy seguro que aún fábrica proyectos su cerebro, e ilusiones su corazón para alcanzar lo que desea. La enfermedad ha sido sólo una caída momentánea y al final resultará el invencible de siempre.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Tiene ese apodo?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Se lo ha ganado. Posee el secreto del triunfo; saber esperar todo lo preciso, sin impacientarse, y ser luego oportuno para dar el golpe de gracia. Es el hombre más admirable que he conocido.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Usted cree?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Sí, Amelia, y Ud. también. <stage type="action">(Bajito lo último)</stage></p>
+        </sp>
+        <sp who="#jefe_almacen">
+          <speaker>EL JEFE.</speaker>
+          <p>¿Y será algún amor lo que trae a Don Miguel tan de cabeza?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Puede serlo, aunque a él le sobran amores en la vida.</p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>Pero si dicen que se ha puesto malo de disgusto y de asco porque una tal Carmita Velasco le persigue y se empeña en que se case con ella.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>¿Y tú te lo has creído?</p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>A ver: alguna causa había de haber para ese cambio tan repentino.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Pues a Miguel, ni le importa Carmita, ni la teme. Lo que ocurre es que esa mujer es tan obstinadamente insistente que no sé quién va a salirse con la suya, si Miguel arreglando a su gusto el asunto, o ella, consiguiendo que la lleve a la vicaría, o a su casa, que para el caso es lo mismo.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Esa mujer es sincera y quiere mucho a Don Miguel.</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p><stage type="action">(Que hasta ahora no ha tenido tiempo para intervenir porque se hallaba muy ocupada con su taza de café, da el último sorbo y dice).</stage> Y hay que ver cómo se ha sacrificado por él durante toda su enfermedad.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Eso sí, no hubo medio de echarla de allí, ni por las buenas ni por las malas.</p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>Caramba, pues si tan poca gracia le hace a Don Miguel y tan poco miedo la tiene, ¿Por qué no la prohibió que se quedase a cuidarle?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Pues, ¿no lo oyes? Porque no hubo medio de que se fuera. De noche se sentaba en un sillón y se pasaba las horas atenta a cualquier movimiento del enfermo. Don Miguel tenía la cabeza trastornada con la fiebre y apenas se daba cuenta de nada, pero en los momentos de lucidez decía siempre, "esa mujer que se vaya".</p>
+        </sp>
+        <sp who="#mercedes">
+          <speaker>MERCEDES.</speaker>
+          <p>¿Y no se fue?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>¡Qué se iba a ir! Siempre que se lo mandaba respondía lo mismo. "Cuando te pongas bien, ya me iré, no tengas cuidado Miguel." Al fin tuvieron que darla alcoba y cama, para que pudiera descansar. El día que el médico dio de alta al enfermo le dijo ella. "Cuídate mucho Miguel, por tu vida, y para que no tengas que volver a verme tan cerca de ti." Y se fue.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>¿Y no creen Uds. que todo eso es admirable?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Y tan admirable. Miguel mismo lo debió comprender así, cuando al mirar yo sus ojos fijos en la puerta que se cerró tras ella, noté en ellos la rojez y el brillo de los ojos que lloran. Entonces me dijo señalándose la frente con el dedo: "La razón y la lógica están aquí, pero esto es lo que manda". <stage type="action">(Se pasa el dedo al corazón).</stage></p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>¡Qué interesante!</p>
+        </sp>
+        <sp who="#jefe_almacen">
+          <speaker>EL JEFE.</speaker>
+          <p>Usted debe saber esa historia y nos la va a contar.</p>
+        </sp>
+        <sp who="#contable">
+          <speaker>EL CONTABLE.</speaker>
+          <p>Sí, sí, cuente.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>Un cuento lo cuenta cualquiera, lo que es difícil es decir la verdad siempre. Las más de las veces porque no se sabe, ni aún tratándose de uno mismo. <stage type="action">(Sacando el reloj) (Levantándose)</stage> Las tres y media. Ya es tarde para llegar a tiempo a la oficina. Tendremos que decir adiós con mucha prisa, y con mucha prisa también, dar a Uds. las gracias por este delicioso ratito. A los pies de Ud. Amelia. <stage type="action">(Dándola la mano y luego a Mercedes. Los demás hacen lo propio. Yendo hacia la puerta) Gracias que Miguel no os verá llegar tarde.</stage></p>
+        </sp>
+        <sp who="#jefe_almacen">
+          <speaker>EL JEFE.</speaker>
+          <p>Pero ya pensará que habiendo estado aquí no podíamos llegar a tiempo.</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p>No, no pensará nada. <stage type="action">(En la puerta ya, y algo vuelto al público)</stage> Está haciendo su reposo y le han prohibido pensar, pero estará esperando, esperando el momento oportuno para triunfar.</p>
+        </sp>
+        <sp who="#amelia">
+          <speaker>AMELIA.</speaker>
+          <p>Pero, ¿usted cree que llegará a triunfar?</p>
+        </sp>
+        <sp who="#felix">
+          <speaker>FÉLIX.</speaker>
+          <p><stage type="action">(Mirándola significativamente)</stage> Sí, Amelia y Ud. también. Adiós. <stage type="action">(Se van)</stage></p>
+        </sp>
+        <stage type="action">(Amelia quédase mirando la puerta por donde ha desaparecido Félix y su última frase, mientras Mercedes coge la taza que ha dejado ésta y la rebaña. Amelia se vuelve y la sorprende en esta operación).</stage>
+        <sp who="#amelia">
+          <
