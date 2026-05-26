@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xml:lang="es" xml:id="COPRUS-gurrea-filipinasautohistorico">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Filipinas: Auto histórico satírico</title>
+        <author>
+        <persName>
+            <forename>Adelina</forename> 
+            <surname>Gurrea</surname>
+          </persName>
+        </author>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="printSource">
+           <publisher>Imprenta Agustiniana</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <date when="1954">1954</date>
+        </bibl>
+        <bibl type="digitalSource">
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <pubPlace>Alicante</pubPlace>
+          <idno type="https://www.cervantesvirtual.com/nd/ark:/59851/bmcrn560"/>
+            <date>2016</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+            <term type="genre">teatro</term>
+            <term type="subgenre">satira</term>
+            <term type="form">prose</term>
+        </keywords>
+      </textClass>
+
+      <particDesc>
+        <listPerson>
+          <person xml:id="filipinas" sex="FEMALE">
+            <persName>Filipinas</persName>
+          </person>
+          <person xml:id="espana" sex="FEMALE">
+            <persName>España</persName>
+          </person>
+          <person xml:id="tiosam" sex="MALE">
+            <persName>Tio Sam</persName>
+          </person>
+          <person xml:id="historia" sex="FEMALE">
+            <persName>Voz de la historia</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords scheme="http://dracor.org/vocab/genre">
+            <term>Auto</term>
+            <term>Satire</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+        <castList>
+            <castItem>
+                <role xml:id="filipinas">Personaje alegórico</role>
+                <actor>Katy Tapia</actor>
+            </castItem>
+            <castItem>
+                <role xml:id="españa">Personaje alegórico</role>
+                <actor>Ofelia Gosálvez</actor>
+            </castItem>
+            <castItem>
+                <role xml:id="tiosam">Personaje alegórico</role>
+                <actor>Joquín Dicenta</actor>
+            </castItem>
+            <castItem>
+                <role xml:id="historia">Narradora / Personaje alegórico</role>
+                <actor>adelina Gurrea</actor>
+            </castItem>
+        </castList>
+    </front>
+
+    <body> 
+        <div type="act" n="1"> 
+            <head>Acto único</head> 
+            <div type="scene" n="1" xml:id="sc1"> 
+                <head>Escena única</head> 
+                <stage type="setting"> Al levantarse el telón está el Tío Sam paseándose impacientemente por el escenario. Al cabo de un rato, consulta el reloj de su mano derecha, luego se saca el que tiene colgado 
+                    por una cadena del bolsillo del chaleco, se mira otro reloj en la muñeca izquierda y, finalmente, saca otro relojito que lleva escondido en el bolsillo izquierdo del chaleco. 
+                </stage>
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker>
+                    <p>No cabe duda esta es la hora, los cuatro relojes la marcan exactamente. Yo sé que los latinos y los orientales no son puntuales, pero es mucho el retraso. Caramba, sino fuera por no desairar a la Historia, me largaba. 
+                        Aunque también la Historia se las trae, la he llamado ya dos veces y no contesta. A ver.
+                        <stage type="action">Llamando</stage> 
+                        Dña. Historia, Dña. Historia 
+                        <stage type="action">Silencio</stage> 
+                        Lo dicho, aun no ha venido.
+                        <stage type="action">Vuelve a pasearse</stage> 
+                        En fin... no sé qué hacer, estoy perdiendo el tiempo, mi precioso tiempo yankee. Bueno, leeré la prensa. 
+                        <stage type="action">Se sienta en un banco al fondo y saca de sus bolsillos unos periódicos</stage> 
+                        Veamos qué dicen mis predilectos hijos, los periodistas. A fuerza de mentiras me tienen a mi también hundido en un mar de confusiones. <stage type="action">(Va hojeando)</stage> "América posee la cantidad suficiente de bombas atómicas para hacer frente 
+                        a los rusos en un conflicto bélico", 
+                        <stage type="action">Vuelve a otra hoja</stage> 
+                        "En caso de conflicto América no podrá defenderse porque no posee las suficientes bombas atómicas". Lo veis, los muy... 
+                        <stage type="action">Tira el periódico al suelo y coge otro</stage> 
+                        "Rusia tiene tantas bombas atómicas como los Estados Unidos". 
+                        <stage type="action">A la vuelta</stage> 
+                        El senador X declara en una convención que Rusia no se atreve a provocar una guerra porque no tiene bombas atómicas. 
+                        <stage type="action">Furioso tira el periódico y lo patea</stage> 
+                        Los muy, los muy... burrr. 
+                        <stage type="action">Vuelve a mirar sus relojes</stage> 
+                        Y nada, España y Filipinas sin aparecer. Yo me voy. 
+                        <stage type="action">Llamando</stage> 
+                        Dña. Historia...
+                    </p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Hola, hombre.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>Ya era hora. Has llegado tarde.</p>
+                 </sp> 
+                 <sp who="#historia"> 
+                    <speaker>Historia</speaker>
+                    <p>La historia tiene que llegar tarde. Es su obligación.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>¿Su obligación? No bromee, Dña. Historia, que estoy de mal humor.</p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Mi obligación, Tío Sam. Yo tengo que llegar cuando todo ha pasado, cuando todo se ha hablado, cuando las aguas se han serenado y los hechos están sedimentados en el fondo del agua clarificada, 
+                        para que yo los pueda ver y registrarlos.
+                    </p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>Pues yo creo que las cosas deben de hacerse sobre la marcha.</p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Entonces estaría yo como tus periódicos.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>¿Qué pasa con mis periódicos?</p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>¿No los ves ahí, tirados por el suelo?</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>Ah. <stage type="action">los recoje y se los vuelve a meter en los bolsillos</stage> 
+                        ¿Puedes decirme, Dña. Historia, cuándo piensan venir tu gran España y tu joven Filipinas?
+                    </p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Pues... ten paciencia.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>Ya la he tenido y no pienso seguir teniéndola.</p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>No pierdas los modales.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p>Los modales... ¿y eso qué es?</p> 
+                </sp> 
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Es verdad, me olvidaba de que... ejem...</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p><stage type="action">Interrumpiendo</stage> La historia no debe olvidar nunca.</p> 
+                </sp> 
+
+                <stage type="setting"> Se oye cantar desde dentro un aire español. Aparecen en escena España y la joven Filipinas. </stage> 
+                
+                <sp who="#historia"> 
+                    <speaker>Historia</speaker> 
+                    <p>Razón tienes, pero a veces... olvida, olvida.</p> 
+                </sp> 
+                <sp who="#espana #filipinas"> 
+                    <speaker>España y Filipinas</speaker> 
+                    <p>Buenos días, buenos días.</p> 
+                </sp> 
+                <sp who="#tiosam"> 
+                    <speaker>Tío Sam</speaker> 
+                    <p><stage type="action">Saca su reloj</stage>Venís con una hora y cuarto de retraso.</p> 
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>¿Solo una hora y cuarto? ¡Qué lástima, Dña. España! con lo bonita que estaba aquella pelea de gallos, “Nacú” si hubiera llevado reloj.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Perdona, Tío Sam, nos hemos entretenido, el campo está hermoso en primavera, el aire perfumado embriaga los sentidos, el color de las flores invita a contemplarlas, los insectos y las mariposas...</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Y la cita a una hora en punto ¿qué? Y tenerme aquí esperando con todo lo que tengo que hacer de importancia ¿qué? ¿No veis que tengo que arreglar el mundo? 
+                        <stage type="action">dirigiéndose a Filipinas</stage> 
+                        Y tú, mocosa, ¿qué dices?
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>
+                        <stage type="action">tragando saliva</stage>
+                        Yo... yo... pues... yo... Dña. España me venía contando lo valiente que ha sido siempre. ¿Usted sabe, Tío Sam, cómo se batió en la batalla de Lepanto? ¿Y antes en Sagunto? 
+                        ¿Y luego en Zaragoza y Arapiles?... Y...
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Lo sabía pero se me había olvidado, procuraré recordarlo a ver si es verdad tal bravura y nos aliamos ahora. Pero en fin, solo por los cuentos de tu mamá no te habrás retrasado tanto.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues es que... sabes, Tío, pasamos por un gallinero y...</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Y te gustan las gallinas?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>No, me gustan los gallos. Y había uno blanco y otro rojo, ¿sabes?, que se peleaban... ¡más valientes!</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>La valiente... fresca eres tú. ¿Con que gallos, eh? Los gallos asaditos... y nada más. O para exportarlos... Bueno, me sacáis de quicio. A ver, Dña. Historia, a ver si empezamos y acabamos. 
+                        ¿Para qué nos has citado?
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>¿Para qué? Ya es hora de que empiece a recoger datos sobre vosotros. Decidme qué he de registrar en mis páginas.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Ah, pues yo acabo pronto. Escribe que cuando llegué...</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p><stage type="action">Interrumpiendo</stage>No, no, vayamos por partes. Tú eres el último...</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Yo el último? ¡Que soy el Tío Sam! ¿Te das cuenta de lo que has dicho?</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Me doy perfecta cuenta. Eres el último en hablar, porque fuiste el último en llegar a Filipinas.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Y todavía tengo que esperar más?</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Pues sí. A ver tú, Filipinas, tú hablas primero. Antes de llegar los españoles, ¿qué hacías?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues yo... pero ¿desde cuándo tengo que contar?</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Desde lo que te acuerdes.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Uy... pues me contaron que nosotros vinimos de muy lejos, de la península transgangética.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¡Dónde estará eso!</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Y andábamos de lugar en lugar peregrinando, porque siempre venía luego alguien que nos echaba... y...</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Bueno, bueno... lo que tienes que contarme es lo que sucedió desde que estuviste en el territorio que ocupas ahora.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Ah, bueno. Pues en el territorio que ocupo ahora, me contaron que al principio no había más que negritos. Pero luego esos negritos se tuvieron que ir a los montes porque vinieron los indonesios, que eran unos tíos fuertes y musculosos. 
+                        Lo malo es que a estos los echaron los malayos. Los indonesios entonces se tuvieron que largar al monte también.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>¿A vivir con los negritos?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>No, no, los negritos —¡pobres negritos!— tuvieron que subirse más arriba aún, porque no querían convivir con otras gentes.
+                        Siempre, los últimos que llegaban se quedaban en las playas y en las llanuras fértiles, para vivir cómodamente, y...
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Bueno, ¿y qué más? Anda, date prisa.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues estuvieron los malayos muchos siglos allí. El imperio Sri-vishaya duró hasta el siglo XIV y ocuparon todas las islas y subieron hasta Formosa y se preparaban para cruzar el mar y conquistar también el continente chino.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¡Cuánta historía!</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Este imperio era budista. A mitad del siglo XIV, fue derrotado el Sri-vishaya por el imperio Madhapahit, que gobernó las islas Filipinas dos siglos, hasta que fue abatido tal imperio por los musulmanes de Malaca, 
+                        que a su vez fueron derrotados por las fuerzas occidentales de Portugal. En estos momentos, con mahometanos ya en Joló y en las costas del suroeste de Mindanao y también en Manila, llegó Magallanes.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Quién?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>D. Hernando de Magallanes.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p><stage type="action">sacando un libretito y un lápiz</stage> 
+                        ¡Lo que sabe esta chica! Voy a apuntarlo, voy a apuntarlo.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Bueno, continúa, continúa.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues D. Hernando era muy buen hombre, pero muy “hambuguero”. Nos aseguró que eran invencibles y nosotros nos lo creímos; todos menos Lapu-lapu, el régulo de la isla de Mactan. Total, que Magallanes quiso demostrarnos 
+                        que él solo, con 48 hombres, podía con los mil quinientos de Lapu-lapu, y... se lo cargaron.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Lo mataron?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Lo matamos y luego matamos veinticuatro más mientras se celebraba un banquete.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Hicisteis mal. Si no hubierais matado a Magallanes, los mahometanos no se hubieran internado en Mindanao, echando raíces allí durante los cincuenta y tantos años que tardó en llegar Legazpi, y Filipinas tendría ahora una unidad religiosa, 
+                        y hubierais evitado toda la piratería mora, que os restó fuerzas para otras empresas.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Es que él era un buen hombre, como ya he dicho, pero no todos eran como él; se hicieron cosas, vamos, bastante feas.</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Cuéntalas.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>No, sería “shocking”, y... está el Tío Sam delante.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¡Mira qué rica!...</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>De todas formas, no fue nada noble matar a traición a sus compañeros en un banquete.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Teníamos que vengar agravios.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Fue una ingratitud: Magallanes os llevó la primera misa, la primera cruz, los primeros bautismos, el primer milagro y las primeras imágenes de Jesús y de la Virgen.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Eso es verdad, pero ¿qué quieres, mamá España? Entonces no entendíamos de esas cosas y no supimos agradecerlo. Ahora sí.</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>¿Y qué hicisteis con el malherido y maniatado Serrano y con el capellán de la flota, a quien condujo a su casa el enfermo curado milagrosamente días antes?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Ambut. ¡Ewan ko!</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Qué quiere decir eso?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p><stage type="action">Al Tío Sam</stage> Quiere decir “No sé”. Pero ¿cómo no lo sabes si fue en vuestra tierra donde se quedaron?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Ambut. ¡Ewan ko!</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>¿Y cómo terminó Enrique, vuestro compatriota? ¿Qué hicisteis de él?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Ambut. ¡Ewan ko!</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Te ordeno que hables y digas la verdad.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>No te canses, Dña. Historia. Cuando el filipino dice “ambut” es punto final.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Queréis seguir adelante? Se está pasando el tiempo.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues por mi parte, poco. Los moros envalentonados se fueron metiendo en Filipinas, dominaron Mindanao y Manila y se hicieron muy fuertes en Joló e islas adyacentes. Nos cazaban y nos hacían esclavos. 
+                        Se llevaban, además, nuestro oro, y nosotros luchábamos contra ellos cuando llegó Legazpi. Le recibimos bien, porque nos prometió liberarnos de ellos y, con raras excepciones, le prestamos ayuda. Así asentó España su dominio sobre mí. 
+                        Alguna vez, a lo largo de la historia, nos arrepentimos de haberla recibido bien, pero ahora nos alegramos, porque gracias a ello somos un pueblo católico y de cultura occidental.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Y tú, España, ¿qué dices que pueda quedar en la historia y añadir laureles a tu gloria?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Digo lo que todo el mundo sabe: Yo no fui por el oro ni por las riquezas a descubrir mundos. Fui para llevar la gracia de Dios a aquellos seres que vivían sumidos en la ignorancia del verdadero Dios.
+                        Mandé primero descubridores, navegantes y sabios; después envié misioneros, pero, para proteger a los misioneros, envié soldados —héroes— y cada página que escribieron con su espada vale por toda la historia entera de los demás países del mundo.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Más que nuestra guerra contra el Sur?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Calla, Tío Sam, que en esto pierdes.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>La epopeya más grande de la historia es la colonización de América y Filipinas por España. Colonización, no; formación de veinte naciones con una misma religión y una misma habla, sin destruir las razas ni 
+                        el carácter típico de los habitantes; sin arrancar las raíces autóctonas ni borrar las huellas de su pasado. Un dar sin tomar nada, un perder sin ganar, más que la gloria de crear y de formar, y la gloria de llevar almas al cielo.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Yo creo que exagera.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Tst... que en esto pierdes.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Y desde la gestación del gran milagro, hasta el marcharme vencida por razones de la vida, yo no puse más que corazón en la empresa. 
+                        Corazón de la reina Isabel, que delirante de fe vendió sus joyas para que Colón pudiese armar carabelas con que descubrir las tierras paganas. 
+                        Corazón en esa sublime legislación de las “Leyes de Indias”, donde hay mandatos como este: “Que en las capitulaciones se excuse la palabra ‘conquista’ y 
+                        usen las de ‘pacificación y población’, pues, habiéndose de hacer con toda paz y caridad, es nuestra voluntad que aún este nombre, interpretado contra nuestra intención, 
+                        no ocasione ni dé color a lo capitulado, para que no se pueda hacer fuerza ni agravio a los indios”. Corazón, en fin, 
+                        al enviar nuestros mejores sacerdotes a misionar, nuestros mejores gobernantes para regir los destinos de ultramar y nuestros
+                        mejores soldados a proteger la obra de la cruz.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Pero ¿cómo explicas entonces que Bartolomé de las Casas y Antonio Morga tuviesen que informar al Rey de los abusos 
+                        contra los indios que hacían gobernantes, encomenderos y algunas veces hasta los propios religiosos?
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Eso... eso...</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Calla, tío...</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Que no me dá la gana callar. Proclamo la libertad de expresión.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Las Casas y Morga eran españoles también, y de los buenos españoles. Si no les hubiese apoyado la fuerza de las leyes justas que quebrantaban los malos hijos de España, 
+                        no hubieran tenido base sus denuncias. Traidores y ambiciosos, los tiene cualquier nación. Lo que no ha tenido ninguna es esa generosa caridad de amparar al débil contra el fuerte, 
+                        de acunar sus derechos y defenderlos contra su propia sangre y a costa de desangrarse ella, por amamantar con lo mejor a sus cachorros.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Pero tengo noticias de que tus carabelas y tus galeones volvían a España cargados de plata, cargados de oro; luego no todo fue dar sin recibir.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Eso, eso, ahí te duele... (¡Qué suerte! oro, plata, millones...!)</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Sí, Dña. Historia, pero apunta también y recálcalo bien, que el oro y la plata de América no los acumulé en mis arcas avariciosamente, sino que los usé para defender al mundo contra el Islam, contra el protestantismo; 
+                        oro y plata que, mezclados con la sangre de mis mejores hijos, regaron el Mediterráneo hundiendo armadas de Mahoma, cuyos hijos querían abatir al Cristianismo; regaron también los campos de Flandes y de Francia poniendo barrera a las herejías de los protestantes.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Creo que se debe evitar herir susceptibilidades, dejando a un lado la cuestión religiosa.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Libertad de expresión, Tío Sam.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Te daba así, descarada.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>De Filipinas además no saqué nada, ni oro, ni plata, ni productos. No supe o no quise. Los hijos que mandé para allí se enriquecieron algunos y otros murieron pobres.
+                        Mis misioneros acababan unas veces en el martirio (en la China o el Japón) y otras veces de enfermedades tropicales. Hubo malos encomenderos, malos gobernantes y hasta malos sacerdotes, 
+                        pero mis hijos buenos fueron también muchos, y su obra, tan grandiosa, que suscitó la envidia de otros países creando, contra mí, la leyenda negra. Esa leyenda que no menciona mis "Leyes de Indias", 
+                        mis magníficos instrumentos de justicia como el "Consejo de Indias" y el "Juicio de Residencia"; ni la obra de mis intelectuales y filósofos, Vitoria, Suárez, Soto, protectores desde aquí de los indígenas
+                        frente a los desmanes de los colonizadores sin conciencia.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Has terminado ya?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Me falta poco. Quiero recalcar que la cristianización de Filipinas fue la más costosa en esfuerzo y en moneda por estar su territorio tan alejado de España, teniendo que atravesar dos océanos y un continente para llegar a ella, y que, 
+                        debido a esto, más de una vez se aconsejó a los reyes españoles que la abandonasen; pero como para ellos una sola alma de Filipinas valía más que todo el oro del mundo, allí quedó España para esta obra de redención.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Y, además de la Religión, ¿qué más dejaste en ella?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Dejé mis apellidos y mis nombres preclaros para que los usasen los filipinos, dejé mi cultura que es un compendio de las culturas griega, romana y árabe fundidas en la mía propia.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Cuántas escuelas abriste en Filipinas?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Abrí una escuela en cada parroquia y algunos colegios en Manila. Además la muy antigua Universidad de Santo Tomás...</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Números, números... ¿cuántas escuelas y cuántos maestros?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>No he medido nunca el saber y la virtud con cifras.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Muy bonita respuesta, pero muy poco práctica. Y ¿qué enseñaste en esas escuelas de parroquia?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Enseñé al hombre a conocer a Dios, le enseñé a considerar al individuo como obra especial del cielo y no como un instrumento de vida o de poder. Le enseñé lo que era la dignidad, el honor y el sentido de la libertad en el ser humano.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Bueno, no nos entendemos... Dime si les enseñaste Geografía, Aritmética, Cálculo mercantil, Física, Química, modos de hacer dinero, 
+                        forma de conquistar amigos y manera de ser felices en el matrimonio.
+                    </p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>No, esas últimas asignaturas no las he enseñado nunca.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Y cómo han podido hacer dinero, tener amigos y ser felices los filipinos? 
+                        <stage type="action">Dirigiéndose a Filipinas</stage> 
+                        Tú, contesta ¿cómo lo hacíais en tiempo de España?.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker >Filipinas</speaker>
+                    <p>Cambiando lo peor por lo mejor, comprando barato y vendiendo caro; los amigos los hacíamos convidándoles y haciéndoles favores, y éramos felices dándole 
+                        al dinero un valor relativo, tan relativo que no quisimos encarecer las cosas para que estuviesen al alcance de todos. En cuanto al matrimonio nos duraba más que a vosotros.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Y los pobres?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Los pobres tenían conformidad absoluta con la voluntad de Dios, que es la mayor felicidad. 
+                        Y como todo estaba barato, era muy fácil regalar y socorrer sin dar importancia ninguna al dar y al tomar.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Pero ¿nunca os matasteis los unos a los otros para adueñaros de minas de oro, de yacimientos de petróleo, de las cosas que enriquecen rápidamente?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>No, en un país donde no hace frío, donde los campos, los ríos y las playas eran de todos, no había pobres. 
+                        Y como tanto nuestro orientalismo como el occidentalismo de España nos decía que lo importante era el espíritu y no lo material, esta filosofía nos hacía felices.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¡No os comprendo, no os comprendo! Pero a fin de cuentas, España no puso casi escuelas, no os dejó carreteras, puentes, fábricas; no combatió las epidemias, no os enseñó higiene, y por no enseñaros ni siquiera os enseñó su lengua.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Estaba mandado en la ley 18, título 1, libro 6º de las “Leyes de Indias” que se abriesen escuelas para enseñar castellano 
+                        a los naturales, pero efectivamente esta ley no se cumplió en Filipinas y solo unos pocos aprendieron el castellano.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p><stage type="action">a Filipinas</stage> ¿Por qué no aprendisteis el castellano?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>“Talagá”, “Talagá”, era más fácil hablar en nuestros dialectos, y... ya lo aprendieron los filipinos estudiosos para entenderse con España, en nuestro nombre. 
+                        Y ya lo aprendieron los frailes para enseñarnos el catecismo.
+                    </p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Yo di lo que tenía e hice lo que pude. Llevé la vacuna contra la viruela, vivificándola de brazo en brazo, para que llegase a través de un viaje tan largo.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Y para el cólera, la disentería, el paludismo, ¿qué hicisteis?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Le faltaron brazos, Tío Sam...</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Y me sobraron microbios. Además yo no tenía tanto petróleo como tú para llenar las charcas donde se multiplicaban los mosquitos.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Son cosas demasiado serias para tomarlas a risa.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>España me enseñó a tomar a risa todo lo irremediable.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Es que hacéis cosas irremediables de lo que se puede remediar.</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Con dinero sí, pero yo era una pobretona en ese sentido. No hice carreteras en Filipinas porque tampoco las hice en España, ni puentes, ni ferrocarriles. 
+                        Ah, pero en Manila dejé un tranvía con mulas, un tren que tú no has mejorado ni extendido, una traída de aguas a la capital, dos puentes sobre el Pasig, y una hermosa carretera para subir a Baguio.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Y eso qué es comparado con los miles y miles que hice yo? Tú atravesabas los ríos en balsas de bambú y yo he hecho puentes. 
+                        Acabé con el cólera y casi con el paludismo y a medias con la disentería.
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>¿Habéis acabado de discutir? ¿Puede darme América un conjunto de su labor?</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Al grano. 
+                        <stage type="action">Sacando un escrito y recitando de carrerilla</stage>.
+                        Primero: Llevé 2.000 maestros inmediatamente detrás de mis soldados para poner una escuela en donde se pudiesen reunir diez chicos.
+                        Segundo: Enseñé mi lengua a todos los filipinos en 50 años, y esto les servirá para comerciar mejor con el mundo.
+                        Tercero: Les hice hacer gimnasia todos los días para que fuesen más fuertes, más altos, más fornidos y se les abriera el apetito.
+                        Cuarto: Les enseñé el baloncesto, la pelota base, el tenis y el boxeo para que ganasen campeonatos.
+                        Quinto: Lo mismo digo de la natación, los saltos, las carreras y demás ramos del atletismo.
+                        Sexto: Les di, no una universidad, sino muchas, y en todas y para todas hay profesores filipinos, lo cual demuestra un estado floreciente de cultura.
+                        Séptimo: Les traté siempre bien y apenas tiene Morgas la historia de mis cincuenta años con ellos.
+                        Octavo: Les di leyes humanitarias y les preparé para el gobierno en una escuela práctica y escalonada, haciéndoles intervenir paulatinamente en el gobierno del país.
+                        Noveno: Les enseñé las excelencias de la democracia y el modo de hacer unas elecciones.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p><stage type="action">Interrumpiendo</stage>Eso de las elecciones es lo que mejor nos hemos aprendido.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¡No me interrumpas! Unas elecciones para el gobierno del pueblo, para el pueblo y por el pueblo. ¿En qué número estaba?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Décimo, Tío Sam.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Décimo: Les defendí contra el Japón y el comunismo. Undécimo: Les di la independencia en cuanto acabó la guerra, y dólares para su reconstrucción.
+                        Duodécimo: Hoy Filipinas es un pueblo libre, bajo mi tutela y amparo y ¡ay de quien lo toque! He terminado, ¿me puedo ir?
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Te olvidaste de enseñarme a mí la taquigrafía, para que hubiese podido tomar nota de todo eso tan rápidamente.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>No te preocupes: te dejaré una nota y levantas acta. 
+                        <stage type="action">Vuelve a mirar sus cuatro relojes</stage>
+                        Es casi la hora: ¿me puedo ir?
+                    </p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Espera un momento. A ver. Filipinas: Has oído a España y has oído a América. 
+                        ¿Estás conforme con todo lo que han dicho?
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Conforme, excepto que el Tío Sam no ha dicho nada respecto a las relaciones comerciales que me ha impuesto con la independencia.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>En el artículo tercero aclaré que te enseñé a hacer gimnasia para abrirte el apetito. 
+                        Pues no tengo más remedio que obligarte a comprar todos mis artículos alimenticios que te gustan tanto.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>¿Y de lo demás?</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Pues de lo demás, lo mismo, sobrina predilecta.
+                        Artículos de sport para los deportes, libros, lapiceros para las escuelas y universidades y así sucesivamente.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pero ¿por qué no dices, tío, que en lo de la independencia jugó bastante papel el azúcar y la margarina, 
+                        sus fabricantes y sus importadores en América? ¿Y que vas a ir poniéndome impuestos en mis importaciones a tus territorios?
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>¿Qué quieres decir, ingrata? ¿Es posible que te duela ese poquito de ventaja que saco de ti y no te acuerdes de todo lo que te he dado? Nunca creí que me pagaras así. 
+                        Me hace mucho daño oírte y... 
+                        <stage type="action">sacando un pañuelo para enjugarse las lágrimas</stage> 
+                        y me da mucha pena este comportamiento.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Bueno tío, no es para tanto... Es que la historia, ¿sabes?, necesita conocer toda la verdad.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>No, ¡si siempre he pensado que tú querías más a tu madre España que a mí! Es natural, te tuvo a su lado tres siglos y medio y te malcrió bastante. 
+                        Pero hasta ese punto, no creí que llegáramos.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Bueno tío, no lo tomes así. Si yo te quiero también mucho. Si todo lo que nos has dado me encanta.
+                        Me pirrio por la coca-cola, me embelesan tus películas, me enloquece el chiclet, me chiflan los aparatos de radio, 
+                        me rechiflan tus automóviles y la televisión y esas camisas rameadas para mis hombres y esas corbatas con amapolas gigantes o 
+                        desnudos al relieve.
+                    </p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p><stage type="action">que se ha ido contentando, la sonríe</stage> 
+                        ¿Verdad que sí, sobrina, que todo eso es estupendo? ¡Mejor que todo lo de tu madre! 
+                        Las radiogramolas automáticas, los aviones, los trenes aerodinámicos...
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Sí, pero estos no nos los has llevado a Filipinas.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Pero te he hecho muchas, muchas carreteras.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Sí, tío, para que te compre muchos, muchos automóviles.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Qué bien me comprendes, sobrinita. Lo que siento es que no he encontrado medios de aumentar el calor de tu clima para que me compres también muchas más refrigeradoras.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pero qué tío... más... refrigerado.</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p><stage type="action">mirándola desconfiado</stage> 
+                        No será alusión...
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Soy toda candor, Tío Sam.</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Creo que debemos terminar. ¿Tienes algo más que decir, Filipinas?</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues para final —y esto va muy en serio— debo decir noblemente que no tengo más que motivos de agradecimiento hacia mi madre España y mi Tío Sam. Yo perdono y olvido todas las debilidades, 
+                        todos los defectos de su comportamiento conmigo. En el otro platillo de la balanza ¡es tanto y tan bueno lo que he recibido de los dos! Sobre los cimientos cristianos y de nobleza humana 
+                        que me legó España —su cultura, sus costumbres, su sangre, sus nombres, amalgamados con todo lo mío que quedó intacto en su valor bueno, borrando lo vicioso— sobre esa formación completa que es también armazón, 
+                        además de base; colocó América su dinamismo y su músculo y me dotó de lo material para hacerme fuerte y moderna y me hizo libre después de enseñarme normas de democracia que garantizasen mi libertad. 
+                        Y a ambas les estoy inmensamente agradecida y a ambas las quiero.
+                    </p>
+                </sp>
+
+                <stage type="action">España y América la rodean con sus brazos.</stage>
+
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>¡Gracias! ¡Gracias!</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Gracias, Filipinas noble y agradecida.</p>
+                </sp>
+                <sp who="#historia">
+                    <speaker>Historia</speaker>
+                    <p>Pues tomo nota conmovida y me retiro porque ya nada tengo que hacer aquí.</p>
+                </sp>
+                <stage type="action">
+                    Pausa. España y América continúan con sus gestos enternecidos.
+                </stage>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>de repente ¡Espera, Dña. Historia, Dña. Historia! 
+                        <stage type="action">no responde</stage> ¡Vaya! Ya se ha ido.
+                    </p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Pues ahora que se ha ido, ¿qué hacemos? ¿Me llevas, tío, al cine a ver una de miedo y me convidas a naranjada?</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>No, mejor es que te quedes con tu madre, no le vaya a doler que la dejes sola. Anda, quédate, que ahora me conviene mucho estar a bien con ella.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p><stage type="action">a España</stage> ¿Y qué hacemos, madre?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p>Pues, si quieres, me ayudas a terminar de bordar un repostero con mi escudo glorioso, y luego rezaremos el rosario en familia.</p>
+                </sp>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>¿Para que se conviertan al catolicismo todos los protestantes del mundo?</p>
+                </sp>
+                <sp who="#tiosam">
+                    <speaker>Tío Sam</speaker>
+                    <p>Eso... eso... Adiós.</p>
+                </sp>
+                <stage type="action">Tío Sam se va.</stage>
+                <sp who="#filipinas">
+                    <speaker>Filipinas</speaker>
+                    <p>Mira, madre, busquemos un término medio. ¿Por qué no me llevas al football a ver si Molowny juega realmente tan bien como Di Stéfano?</p>
+                </sp>
+                <sp who="#espana">
+                    <speaker>España</speaker>
+                    <p><stage type="action">dudando</stage> Pues mira... sí... ¡vamos! Si en realidad, hija, yo ya me he vuelto muy modernista.</p>
+                </sp>
+                <stage type="ending">FIN</stage>
+            </div>
+        </div>
+    </body>
+  </text>
+</TEI>

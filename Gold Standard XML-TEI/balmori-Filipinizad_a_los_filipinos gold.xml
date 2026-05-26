@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xml:lang="es" xml:id="CORPUS-balmori-filipinizadalosfilipinos">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Filipinizad a los filipinos</title>
+        <author>
+          <persName>
+            <forename>Jesús</forename> 
+            <surname>Balmori</surname>
+          </persName>
+        </author>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="printSource">
+          <date when="1940">1940</date>
+          <publisher>National Library of the Philippines</publisher>
+          <pubPlace>Manila</pubPlace>
+        </bibl>
+        <bibl type="digitalSource">
+          <date when="2014">2014</date>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <pubPlace>Alicante</pubPlace>
+          <ref target=" https://www.cervantesvirtual.com/nd/ark:/59851/bmc69901"/>
+        </bibl>
+      </sourceDesc>
+
+    </fileDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+
+      <particDesc>
+        <listPerson>
+          <person xml:id="mary" sex="FEMALE">
+            <persName>Mary</persName>
+          </person>
+          <person xml:id="rosy" sex="FEMALE">
+            <persName>Rosy</persName>
+          </person>
+          <person xml:id="lulu" sex="FEMALE">
+            <persName>Lulu</persName>
+          </person>
+          <person xml:id="susana" sex="FEMALE">
+            <persName>Susana</persName>
+          </person>
+          <person xml:id="george" sex="MALE">
+            <persName>George</persName>
+          </person>
+          <person xml:id="polding" sex="MALE">
+            <persName>Polding</persName>
+          </person>
+          <person xml:id="angela" sex="FEMALE">
+            <persName>Doña Ángela</persName>
+          </person>
+          <person xml:id="rafael" sex="MALE">
+            <persName>Don Rafael</persName>
+          </person>
+          <person xml:id="ramon" sex="MALE">
+            <persName>Ramón</persName>
+          </person>
+          <person xml:id="peter" sex="MALE">
+            <persName>Peter</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <castList>
+        <castItem>
+          <role xml:id="ang">Dona Angela</role>
+        </castItem>
+        <castItem> 
+          <role xml:id="susa">Susana</role>
+        </castItem>
+        <castItem> 
+          <role xml:id="ros">Rosy</role>
+        </castItem>
+        <castItem>
+          <role xml:id="lu">Lulu</role>
+        </castItem>
+        <castItem>
+          <role xml:id="mari">Mary</role>
+        </castItem>
+        <castItem>
+          <role xml:id="rafa">Don Rafael</role>
+        </castItem>
+        <castItem>
+          <role xml:id="ram">Don Ramon</role>
+        </castItem>
+        <castItem>
+          <role xml:id="poldi">Polding</role>
+        </castItem>
+        <castItem>
+          <role xml:id="georg">George</role>
+        </castItem>
+        <castItem>
+          <role xml:id="pete">Peter</role>
+        </castItem>
+      </castList>
+    </front>
+
+    <body>
+      <div>
+        <stage type="setting">Sala de casa rica en un pueblo de la Provincia de Laguna.</stage>
+      </div>
+      <div type="act" n="1">
+        <head>PRIMER ACTO</head>
+        <div type="scene" n="1">
+          <head>Escena I</head>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Os digo que es una cosa rara.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Extravagante.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Más bien, infeliz, ¿qué queréis? 
+              En toda su vida no ha salido de aquí; su mundo es Calamba, su espejo el pansul.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Con la caya y la camisa y el pañuelo del siglo diecinueve.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Y el polo hasta los tobillos, suelto o en trenzas por todo el cuerpo a la manera con que arrastra sus plumas un pavo real.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Os habeis fijado que cuando le hablan los hombres es todo como una gumamela y baja los ojos mirándose los pies.</p>
+          </sp>
+          <sp who="#mari">
+              <speaker>MARY</speaker>
+              <p>Sino mira a las nubes.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>O mira a todas partes menos a donde debe mirar.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Cuando baila pone medio metro de vacío entre ella y su pareja.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Si consiguen hacerla bailar, porque dice que no le gusta el baile.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>A la hora del "Angelus" desaparece, esté donde esté y se esconde en un rincón para orar. Luego busca a sus padres, les besa las manos, se inclina ante ellos y aguarda su bendición.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Esa acaba en un convento.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Como la del "Noli Me Tangere”.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>La que llaman María Clara?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Una cursi. Con deciros que adoraba a su novio y en vez de escaparse con él se pasó la vida y el amor gimiendo y llorando 
+              hasta morir en un claustro!....</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Porque alguien se oponía a sus amores?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Su padre, su padrino, y demás familia.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>En cualquier día me lo hacen a mí.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Ni a mí.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Es que en aquellos tiempos la mujer ignoraba sus derechos, y claro, todos y todo se la imponían.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>No viajaban, como nosotras ahora.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>viajar? No la dejaban ni asomarse a la ventana.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Eso es lo que llama Peter "Inquisision".</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Shit!.... Shit!.... Susana!.....</p>
+          </sp>
+        </div>
+        
+        <div type="scene" n="2">
+          <head>Escena II</head>
+          <stage type="entrance">DICHAS – SUSANA</stage>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Todavía aquí? Yo os creía ya en el pueblo.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Sin ti? Te esperábamos.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Qué bonita estás.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Yo?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Te has pintado?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Yo?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Tienes unos colores tan vivos!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Mis colores de siempre.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Pareces una aurora.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Qué flor tan grande! Gracias. ¿Y vuestros amigos?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Se largaron muy temprano al pueblo. Decían que a buscar Naturaleza. George, a matar patos; Peter, a ordeñar vacas; y Polding... 
+              ¿Qué dijo que iba a hacer Polding?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Torear a todos los “carabaos” que se encontrara en los caminos.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Saladísimos los tres!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Patos!... ¡Vacas!... ¡Carabaos!... ¡Con tantas cosas bonitas como tiene el pueblo!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Ah, sí?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Será porque acabamos de llegar hace dos días, pero yo no he visto nada de bonito aquí.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Cuando ella lo  dice...</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Con tantas cosas de encanto!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Oye, Susana, no te ofendas, que al fin estamos en tu pueblo, en tu casa y en tu amistad; pero a nosotras, 
+               que hemos dado varias veces la vuelta al mundo y estamos hartas de ver los pueblos maravillosos del mundo, que belleza quieres que 
+               encontremos en un Calamba, en un Manila, en un Baguio, en toda Filipinas
+            </p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡Aquel Paris!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Aquel Hollywood!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Y lo que te digo de los pueblos, te lo digo de las gentes. ¡Que mujeres, y sobre todo, que hombres!
+            </p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Aquellos americanos!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡Aquellos franceses!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¡Que diferentes de los nuestros! (Pausa)</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>
+              Yo no he visto lo que habéis visto vosotras, pero sé por los libros y por las estampas que toda la hermosura de esas tierras 
+              está fabricada por los hombres. En cambio aquí, ¡todo es obra de Dios! Las palmeras que se abren como verdes estrellas en el viento;
+              el Makiling lleno de pájaros y flores; la Laguna, como un mar, coronado de garzas, blancas nubes, y de nubes, blancas garzas entre 
+              el azul de las aguas y los cielos; nuestras casadas que parecen velos de novias, rotos por el amor; el nacer de nuestros días, radiante y luminoso
+              como el nacer de nuestra libertad; el declinar de nuestro sol abriendo con sus rayos de oro las estrellas de plata de la noche; todo, todo 
+              tan hermoso. Que pedir más sería pedir nada. Y en cuanto a los hombres que admiráis tan distintos de los nuestros, puede que tengáis rabia porque 
+              en ningún lugar del mundo han caído cantando por la redención de su patria los poetas de los versos que se llaman Rizal, para que esa redención fuera
+              conquistada luego por los poetas del derecho que se llaman Quezon.
+            </p>
+          </sp>
+           <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Pues tu hermano ni siente, ni piensa, ni habla como tú!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Porque Polding está educado en el extranjero, se separó de nosotros siendo niño, volvió hecho un hombre y ya sabéis que 
+              el ambiente y la educación influyen en el carácter.
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¿Donde te educaste tú?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>En casa</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¿Sin profesores?</p>
+            </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Mis maestros de religión, educación y moral, papá y mamá. Los de ciencias y artes, profesores privados que venían a darme lecciones.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Habrás aprendido una enormidad</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Un poco de cada cosa para saber un poco de todo. Alguna de vosotras canta?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Toca el piano?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Conoceis a Balagtas, a Cervantes, a Shakespeare, al Dante a Shiller?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Dónde están esos obicos?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>En la biblioteca de papá; son muy amigos míos.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Ah, vamos, escritores!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Grandes poetas. No os gusta la poesía?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>A mi me gusta el baile</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>A mí las películas de amor.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>A mí, el “flirt"; poder reino de todos las elegancias! bosque que parece un templo de amor. Falta una diosa únicamente.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Estoy sin dar de comer a mis pájaros, sin regar mis plantas, sin hacer mis ejercicios de piano.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Quien fuera pájaro! quien fuera flor! quien fuera podal siquiera!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Calantoría. ¿Jorge?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Haga usted el favor de llamarme George.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Perdón; me había había olvidado de su nombre.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>George</speaker>
+            <p>Usted sabe que lo diho más que galantería es una pasión sincera Susan!
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>Susana</speaker>
+            <p>Haga usted el favor de llamarme Susana.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Yo la llamaría "sugar", "darling, "sweetheart"</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>"Sugar"? Ahí tiene usted a Rosy. "Darling"? Ahí usted a Mary. "Sweetheart"? Ahí tiene usted a Lulu.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Sois vosotras las que tenéis que conocer el pueblo. No os olvidéis de ver el lago, las palmeras, las garzas, el sol...
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Te prometemos verlo todo.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Hasta luego.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>No son Paris, ni Budapest, ni Nueva York. No son la costa azul, ni Tokio, ni Roma. Son el cielo y el agua y la luz y el ave y
+              la flor y la música de un rincón de la patria, pobre madre ignorada por tus propios hijos, seno de encanto despreciado por los
+              que criaste con los jugos de tu vida y la sangre de tus venas.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="3">
+          <head>Escena IV</head>
+          <stage type="setting">SUSANA, DONA ANGELA, DON RAFAEL</stage>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Susana.</p>
+            </sp>
+            <sp who="#susa">
+              <speaker>SUSANA</speaker>
+              <p>Madre.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Ahí está Berto con los cocos frescos que le encargaste para las visitas y dos palomas del bosque, de las que cantan, y
+                moras silvestres para que hagas dulco.
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>A donde va esa que parece que va con alas?</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Berto, que la ha traído pájaros y frutas del Makiling.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Pues va encantada. Tienes una hija....</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Tenemos una hija....</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Tenemos una hija que se pasa la vida entre alas y entre flores. ¿Y sabes tú por que?</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>¿Por qué?</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Entre alas, por la madre, que es un ángel; y entre flores, por el padre que es un trovador!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Un genio inédito.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Tu lo has dicho. ¿No te escribí todas mis cartas de amor en verso?</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Todas. Y además, con los versos siempre debajo de un corazón apuñalado.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>El mío, mi corazón. Te parece que no lo apuñalaste bastante haciéndome esperar tantos años entre hacerte la corte y entrar en relaciones? 
+                El primer verdadero sí, el sí de que verdaderamente me querías, me lo diste al pie del altar, cuando al vuelo las campanas anunciaban a las gentes que ya eras mi esposa.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Que tiempos aquellos, Rafael!</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Los mismos de ahora para nosotros, Angela!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Cuando éramos novios me llamabas Angeling.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>porque no encontré jamás un consonante a Angela. En cambio recuerda cómo llamándote Angeling, venía después invariablemente  
+                el serafin, el querubin, el jardín y el te adoro sin principio ni fin!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Tu no has cambiado.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Ni tú. Pudo cambiar la vida en torno nuestro, pero no al par que nosotros mismos. Nosotros estamos estancados en la misma vida, en el mismo espíritu, 
+                en el mismo sentimiento. En la noche y el día, la misma claridad. En la carne y el alma, el amor que no muere.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Si todos los hombres fueran como tú!</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Y todas las mujeres fueran como tú!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Las mujeres y los hombres de hoy, me asustan, Rafael. Parecen hechos de otro barro; parecen alentar bajo un alma extraña.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Son otra cosa, sí.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>¿Has advertido el modo de ser de las amigas y los amigos de Polding? Cuan diferentes de Susana.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Pero cuan semejantes a Polding!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>A veces pienso que hayamos hecho mal en educar a nuestro hijo tan lejos de nuestro lado. Piensa a lo extranjero, siente a lo extranjero, hasta come a lo extranjero.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Resabios de la educación. Ya se irá amoldando. En el fondo tiene que ser comprensivo y bueno, ya que no tiene de quien heredar, 
+                de quien haber heredado, ruindades de corazón ni mezquindades de alma.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>De lo cariñoso que era, se ha tornado brusco. A su hermana la trata como a un ser inferior. Y a nosotros, a nosotros, Rafael, ya no quiere besarnos las manos......</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Nos besa en la frente.</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Con una frialdad ceremoniosa, como el en vez de besar a sus padres besara a una reliquia antigua.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Por qué no le llamas a capítulo? Por que tú, su madre, no le hablas como madre?</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Jamas. El amor de un hijo debe ser espontáneo, tierno, natural. Prefiero verlo ingrato a saberlo hipócrita. 
+                Solo que, donde vamos a parar, Rafael, el día en que nuestros hijos, por resabios de educación como tú dices, o por prejuicios de ambiente, por lo que sea, se piensen 
+                superiores a nosotros? Juventud que no sabe amar, ni honrar a su patria, como quieres que sepa honrar ni amar a su madre?</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Esperanza del Apostol que no se hace realidad!</p>
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>Fue más bien su ilusión de poeta!...Pero, escucha, el torbellino llega.</p>
+            </sp>
+        </div>
+
+        <div type="scene" n="4">
+          <head>Escena V</head>
+          <stage type="setting">DICHOS - LULU MARY PETER POLDING GEORGE ROSY</stage>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Hipocresía.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>“Inferiority complex."</p>
+          </sp>
+          <sp who="#pete">
+            <speaker>PETER</speaker>
+            <p>Oigan ustedes esto: Ayer muy de mañana sorprendí a unas dalagas bañándose a orillas del lago. Se bañaban vestidas, envueltas de los hombros a los pies en una camisa de color por la que podían
+              filtrarse los rayos del sol sin romperlas ni mancharlas. Se limpiaban los dientes frotándose arena con los dedos. 
+              De jabón las servía una piedra blanca con que se raspaban la piel. Y con unas fibras o raíces maceradas y mezcladas a unas hierbas de
+              olor, se empapaban los cabellos. Al verme llegar, me volvieron todas las espaldas, no sin que antes una de ellas, la más desenfadada, me sacara la lengua y otra de ellas, 
+              la más agresiva, hiciera el ademan de arrojarme una piedra. Evas del paraíso diría tu hermana, Polding. Vaya unas aves y vaya un paraiso!
+            </p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Son más ariscas que los venados de las selvas.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Propongo que las demos una lección me baño cuanto antes!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Eso!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Con los "maillots" modernos.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Os van a tomar por náyades y sirenas.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Lo que somos!</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>A tí, sí, a tí te proclamo ondina, lo mismo que a esta….</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Yo me quedo en sirena.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>No me lo has dejado decir, mujer. En sirena de un “Marú."</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>George! George! que ya conoces el filo de mis uñas!</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>De tus divinas garras!</p>
+          </sp>
+        </div>
+        
+        <div type="scene" n="5">
+          <head>Escena VI</head>
+          <stage type="setting">DICHOS SUSANA</stage>
+          <sp who="#susa">
+              <speaker>SUSANA</speaker>
+              <p>¿Quién quiere agua de coco? ¿Quién quiere coco tierno?</p>
+          </sp>
+          <sp who="#pete">
+              <speaker>PETER</speaker>
+              <p>Todos.</p>
+          </sp>
+          <sp who="#lu">
+              <speaker>LULU</speaker>
+              <p>Lo único bueno de las palmas.</p>
+          </sp>
+          <sp who="#mari">
+              <speaker>MARY</speaker>
+              <p>Lo único bueno en Filipinas.</p>
+          </sp>
+          <sp who="#georg">
+              <speaker>GEORGE</speaker>
+              <p>Agua do coco venida de sus manos? Para mí, agua de rosas!</p>
+          </sp>
+          <sp who="#susa">
+              <speaker>SUSANA</speaker>
+              <p>Gracias, Jorge.</p>
+          </sp>
+          <sp who="#georg">
+              <speaker>GEORGE</speaker>
+              <p>George, por favor.</p>
+          </sp>
+          <sp who="#susa">
+              <speaker>SUSANA</speaker>
+              <p>Perdón. Gracias, George.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="final">
+          <head>ESCENA FINAL</head>
+          <stage type="ending">RAFAEL — POLDING — SUSANA</stage>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¿Vas a salir?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Tengo que verme con el agrimensor. Parece que hay un error muy grande en la medición de nuestra hacienda en Santa Rosa.</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Es que yo quería hablar contigo.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Si te es muy urgente la cuestión puedes empezar; no tengo prisa </p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Papá, hace tres meses que ha vuelto a Filipinas, y no puedo más; Filipinas me está ahogando.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Hombre, que Filipinas te está ahogando? Pero tu sabes lo que dices?</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Me está ahogando. Yo no puedo seguir viviendo aquí. Yo tengo que volverme al extranjero.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Si no es más que eso, vuelve; no seré yo el que te retenga ni un minuto</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Necesito dinero.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Y no lo tienes.</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Tu sabes que no.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Quieres que yo te lo dé?</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Quién, sino tú, ¿puede dármelo?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Y sí yo no aceptara?</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Estate seguro que haría una barbaridad muy grande.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Como por ejemplo....</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Pegarme un tiro.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Tienes revolver?</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Es una lástima, pero no te apures, que ahora mismo te voy a dar yo el mío</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¡Papá!</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¡Eres un mal hombre, eres un mal hijo, eres un mal filipino!</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¡Papá!</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Tu pobre madre y yo nos hemos desprendido gustosamente de miles de pesos para tu educación donde quisiste y solo hemos conseguido que 
+              de persona decente que te marchaste, volvieraas convertido en un canalla.
+            </p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Papá, eso!....</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Eso y más que eso vas a oír. Y si te piensas que viviéndonte a mí con amenazas y aspaveientos voy a hacerme cómplice de tus imposturas y tus prejuicios,
+              estás muy equivocado, porque te advierto que no estoy dispuesto, que no estamos dispuestas, óyelo bien, en ayudarte en nada, y como ante el fracaso de lo que
+              pretendes no cumplas tu bravata de pegarte un tiro, en el instante que vuelvas a repetírmelo, ¡te lo voy a pegar yo!
+            </p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¿Tú?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Yo.</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>Tú, ¿con qué derecho?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Yo, con el mismo derecho con que te dí la vida.</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¡Viejo loco!</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Qué has dicho?</p>
+          </sp>
+          <sp who="#poldi">
+            <speaker>POLDING</speaker>
+            <p>¡Nada!</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¡Cobarde!.... ¡Infame!.... ¡Vas a ver!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Padre!....¡Padre!....</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¡Hija de mi vida!</p>
+          </sp>
+          <stage type="action">TELÓN RÁPIDO</stage>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>SEGUNDO ACTO</head>
+        <div type="scene" n="1">
+            <head>ESCENA I</head>
+            <stage type="setting">RAFAEL — RAMON</stage>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Ya lo sabes, Ramon. Ese ha sido el caso; una rebeldía inaudita; un crimen frustrado de lesa patria y lesa paternidad: o la bolsa, o la vida.</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>¿No puede existir alguna exageración en todo esto?</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Su actitud, sus gestos, sus palabras...</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Es que del dicho al hecho...</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Tu no conoces al Polding de hoy.</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Tiene que ser el Polding de siempre.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Te digo que no, Ramon.</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Y yo te digo que sí. No se cambia con los años, ni las circunstancias pueden hacernos cambiar con el tiempo, de sangre y alma.
+                Si las raíces son fuertes y están firmes, puede el arbusto doblarse a un lado al peso del vendaval, pero también se le puede volver a su primitiva esbeltez con un poco de trabajado. Escuchame, Rafael;
+                Yo sostengo la teoría de que no hay filipino malo, de que, simplemente, somos como las varas de nuestros cañaverales. Podremos abatirnos bajo todos los vientos, pero de eso a que los vientos nos arranquen de cuaje, hay un imposible, el imposible
+                de las savias generosa y poderosa que nos sostiene y nos mantiene  siempre firme, siempre arriba. Fijate en nuestras cañas cuando barren el suele con sus hojas, dobladas bajo el horror de la tormenta. 
+                Y míralas, cuando la tormenta ya pasó, más rectas, más erguidas, más cerca de las nubes que siempre.
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Te he mandado llamar para que me aconsejes; estoy desorientado; dime que debo hacer.</p>
+            </sp>
+            <sp who="#ramon">
+              <speaker>RAMON</speaker>
+              <p>Empiezas a ponerte en razón dejando les exaltaciones de tu carácter y tu orgullo de padre, de ama de casa, de señor de la familia, a un lado, Y así vamos a entendernos muy pronto. 
+                Porque voy a decirte algo que no esperas, que te va a  sorprender enormemente y sin embargo, tengo que decirtelo para hacer Justicia... ¿Tú crees que tu hijo es responsable todo cuanto está pasando?
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>¡Hombre, Ramon!</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>sí aquí existen culpables, el único eres tú.....sí. tú, no me pongas esa cara, no te tires atrás! ......Tú por haberlo 
+                enviado fuera de vuestro amor y nuestra patria cuando más necesitado se encontraba, por su inexperiencia y por sus pocos años, de esa patria y de ese amor.
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>No comprendo....</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Ya comprenderás.......Y como tú, porque no formas tú el único caso, porque son cientos y miles, 
+                otros padres y otras madres que están llorando con lágrimas de sangre el error inmenso de haber hecho con
+                sus hijos lo que habéis hecho con Polding Angela y tú.......Prueba trasplantar al extranjero una mata de sampagas. 
+                La verás florecer. Pero su aroma, ese divino olor con que embriaga la carne de nuestras mujeres y el barro de nuestros 
+                jardines, habrá desaparecido por completo. Y allí está nuestra alma, el alma filipina, en el dulce perfume de la blanca sampaga.
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Hablas como un poeta.</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Hablo como un hombre, hablo como un verdadero filipino, te hablo como un hermano.</p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Continua.....</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Lo primero que debes hacer es no llevar las cosas por la tremonda. Filosofía, diplomacia, política. Recuerda el proverbio: Se consigue más con una gota de miel que con mil de hiel. 
+                Además, que debemos ser hombres de nuestro tiempo. Ponte en la realidad del momento presente y no quieras volver los ojos al pasado. ¡Volver la vista atrás es morder el polvo, Rafael!
+              </p>
+            </sp>
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Se me hace tan difícil el fingir, tan extraño el cambiar!.....</p>
+            </sp>
+            <sp who="#ram">
+              <speaker>RAMON</speaker>
+              <p>Ten presente que lo nuestro ha pasado a los siglos, ten en cuenta que no es tu hijo, que es toda una juventud la que desde lo alto de su exotismo sonríe despectivamente a 
+                nuestras viejas normas y costumbres. Porque todos son iguales, aunque los más no hayan salido del país, y estos mucho peores que los educados fuera, porque no tienen motivos, ni pretextos, ni razones, para
+                amar todo lo que no sea lo propio, lo que no sea filipino, empezando  por el idioma y acabando por los cigarrillos que fuman, por las ropas y el calzado que visten, por todo lo que necesitan y consumen, cuando no americano 
+                porque es caro, japonés porque es barato. Tropieza con esa imbecilidad y dime, vas a arremeter contra ella, nuevo Don Quijano, para que te voltees y te arrollen les espaa de su antifilipinismo?......Házlo, él lo quieres, 
+                si lo puedes, si estás fuerte, si te sientes házlo. Por mi parte, me declaro sin ánimos, me considero vencido!
+              </p>
+            </sp>
+        </div>
+
+        <div type="scene" n="2"> 
+            <head>ESCENA II</head> 
+            <stage type="setting">DICHOS - ÁNGELA</stage> 
+            <sp who="#ang"> 
+              <speaker>ANGELA</speaker> 
+              <p>¿Acabas de llegar, hermano?</p> 
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>Hará unos diez minutos.</p> 
+            </sp> 
+            <sp who="#ang"> 
+              <speaker>ANGELA</speaker> 
+              <p>¿Y Rafael te ha contado?...</p> 
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>¿La tempestad que habéis desatado en una taza de té?</p> 
+            </sp> 
+            <sp who="#ang">
+              <speaker>ANGELA</speaker> 
+              <p>¿Tú crees?</p>
+            </sp> 
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>Yo no creo, yo afirmo que no existen motivos para tan gran alarma.</p> 
+            </sp>
+            <sp who="#ang">
+              <speaker>ANGELA</speaker>
+              <p>¡Dios te oiga!</p>
+            </sp> 
+            <sp who="#rafa">
+              <speaker>RAFAEL</speaker>
+              <p>Ramon se muestra de un optimismo grande.</p>
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>Porque a mi vez soy padre y miro las cosas desde diferente observatorio que vosotros.</p> 
+            </sp>
+            <sp who="#ang"> 
+              <speaker>ANGELA</speaker>
+              <p>¡Estos hijos, Ramón! ¡Estos hijos de hoy!...</p>
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>Son los mismos de ayer. ¿Tenéis alguna queja de Susana?</p>
+            </sp>
+            <sp who="#ang"> 
+              <speaker>ÁNGELA</speaker>
+              <p>¡Oh, Susana!... ¡Susana es Susana!...</p>
+            </sp>
+            <sp who="#rafa"> 
+              <speaker>RAFAEL</speaker>
+              <p>Y más que eso todavía; ¡Susana es su madre!</p>
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p>¿Entonces?</p>
+            </sp>
+            <sp who="#ang"> 
+              <speaker>ÁNGELA</speaker> 
+              <p>Entonces, ¿es que debo dar vergüenza ahora llamarnos filipinos?</p> 
+            </sp>
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+              <p> No digas eso, mujer. Y no lo repitas en tu vida. Con todos nuestros errores y todos nuestros pecados, ¡siempre filipinos! 
+                Con todos nuestros vicios y todos nuestros defectos, ¡siempre filipinos! Con todos nuestros agravios y todos nuestros resabios, ¡siempre filipinos! 
+                En el bien y en el mal, en la virtud y en el rubor, en la cuna y en el instante de morir, ¡siempre filipinos! 
+              </p>
+            </sp>
+            <sp who="#ang"> 
+              <speaker>ANGELA</speaker>
+              <p>¡Filipinos!...</p>
+            </sp> 
+            <sp who="#ram"> 
+              <speaker>RAMON</speaker>  
+              <p> ¡Filipinos! De lo que más orgullosos podemos estar, de nuestro nombre. Esos que se avergüenzan de llevarlo, ¡malditos sean! </p> 
+              </sp> 
+              <sp who="#rafa"> 
+                <speaker>RAFAEL</speaker> 
+                <p>Hay quien se las echa de americano...</p> 
+              </sp> 
+              <sp who="#ram"> 
+              <speaker>RAMON</speaker> 
+                <p> Y de alemán y de inglés y de portugués, de todo lo que se piensan los desgraciados que pueda ser mejor que su propia nacionalidad. 
+                  Cojo al vuelo el caso de muchísimas mujeres adineradas, desdeñando a sus paisanos y casándose con extremos que aquí pasan por potentados en sus pueblos cuando la realidad 
+                  es que no pueden volver a ellos en la mayor parte de las veces porque andan reclamados por la policía y los tribunales de justicia... Yo tengo una comadre, víctima de tal 
+                  extranjerismo y cuyo pájaro blanco, luego de arruinarla económicamente y moralmente, tendió el vuelo a otros horizontes dejándola en el mayor de los disparos. 
+                  Cuando me viene con lágrimas y suspiros, y suele venir siempre, le pregunto: “Pero, ¿por qué se dejó usted embaucar tan lastimosamente? Joven, rica, sobrada de 
+                  pretendientes de su propia piel y sus costumbres, ¿qué hizo ese vividor para llegar a seducirla?” Y ¿sabéis lo que siempre me contesta, dolida y enamorada todavía, pese a todos los pesares? 
+                  “¡Era tan rubio!... ¡Era tan guapo!... ¡Podía pasar por el héroe de cualquier película!” 
+                </p> 
+              </sp> 
+        </div>
+
+        <div type="scene" n="3">
+            <head>ESCENA III</head>
+            <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Buenas noches, padrino.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¡Hola, flor del campo, bonita siempre!...</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Por Dios, padrino!...</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¿En dónde está Polding?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>En la galería.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¿Solo?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Solo, leyendo.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>
+              Ven, Rafael; y tú también, Ángela; vamos a darle la batalla; "vamos a convertir en carne el verbo del Presidente de la Nación".
+              "Filipinizad a los filipinos.""
+            </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="4">
+          <head>ESCENA IV</head>
+          <stage>(Susana leyendo)</stage>
+          <lg xml:id="poema1">
+            <l>Y cómo la luna brilla</l>
+            <l>Cuando el amor importuna;</l>
+            <l>Y cómo se abren las flores</l>
+            <l>Por debajo de la luna…</l>
+          </lg>
+          <lg xml:id="poema2">
+            <l>Tú y yo somos cual las alas</l>
+            <l>De las palomas nevadas,</l>
+            <l>Que siempre volamos juntas,</l>
+            <l>Estando tan separadas.</l>
+          </lg>
+          <lg xml:id="poema3">
+            <l>Bajo tus ramos de flores,</l>
+            <l>En tu pompa de zafír,</l>
+            <l>Cristal de plata del lago,</l>
+            <l>¡Déjame mirarme en tí!...</l>
+          </lg>
+        </div>
+
+        <div type="scene" n="5">
+          <head>ESCENA V</head>
+          <stage type="setting">SUSANA – GEORGE</stage>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Estorbo?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Cómo puede usted pensar tal cosa?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Es usted tan esquiva…</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Yo?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Que causa temor el acercársele.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Puede usted acercarse sin temor alguno.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Con alguna ilusión?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Quién soy yo para quitarle a usted sus ilusiones?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Es que mi ilusión es…</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡George, por Dios!</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Yo iba a decirle, yo quería decirle...</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Que su ilusión soy yo.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¡Usted!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>
+              Y yo le digo que se está usted engañando locamente a sí mismo, porque ilusión es algo muy de amor y de ensueño, y yo soy muy 
+              mucho de carne y hueso.
+            </p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>La juzgaba a usted más romántica.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Lo soy para otras cosas que no llaman la inteción de sus palabras.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Calabazas rotundas?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>
+              ¿Cómo pueden brotar calabazas donde no existe huerto? Lo que pasa, George, es que usted me cree una mujer en todo semejante
+              a las mujeres que usted conoce y en esto está usted errado por completo.
+            </p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Es que no hay corazón?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Lleno de sueños.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Es que no hay alma?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Llena de ideales.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>No la comprendo, entonces.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Ideales y sueños muy lejos de usted, con un mundo de distancia de los hombres como usted. </p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>
+              ¿Qué hay que hacer, como tiene uno que ser para ser por usted querido?
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Busca usted sinceridad en mi?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Se lo ruego.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>
+              El hombre que llegara a interesarme, si es que algún hombre pudiera llegar a tanto, tendría qye ser de músculos de acero y corazón 
+              de niño, de cuerpo limpio y pensamiento de poeta, grave, digno, valiente; que tuviera a la cabecera de su lecho la Cruz del Redentor y a los pies de 
+              la Cruz nuestra bandera como un ramo de flores. Un hombre que en vez de hablar mucho, obrara siempre; un hombre que estuviera orgulloso
+              de su patria y si mujer; un hombre con quien yo pudiera cruzar los caminos del mundo sin ningún temor, sin ningún rubor, satisfecha y segura de marchar del 
+              brazo de un hombre...
+            </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="6">
+          <head>ESCENA VI</head>
+          <stage type="setting">DICHOS – LULU – MARY</stage>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Cuándo es la boda?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Quién es el padrino?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¡Se suplica formalidad!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Habláis por mí y por esto?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>No te enfades, mujer, que es pura broma.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Ni por broma, Dios!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Nadie quiere ofenderte. Después de todo, con este o con el otro, caerás en el amor. Ninguna de nosotras escapa. 
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Yo estoy segura de escaparme.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Cómo?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Por qué?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Porque el que ama puede ser esclavizado fácilmente y yo no quiero ser esclava! ¡La libertad es más alta que el amor!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Ay, pues yo estoy deseando amar por la quinta, por la séptima vez!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Y yo!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡Hasta que suene Mendelssohn en el órgano!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡O la orquesta!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Para mí, ¡lo de menos sería el novio!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Y para mí!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Pero eso sí, nada de paisanos con la cara de este, ni el color de este, porque después vienen los hijos y en vez de niños ¡parecen chocolates!
+              ¡Hay que mejorar la raza!
+            </p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Blancos!... ¡Blancos!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Y si pueden ser, ¡rubios!</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Sois la rémora de la raza. Estoy por declararme filipino y mandaros a vosotras y a todas las de vuestra pandilla al mismísimo infierno!</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡Eso se llama envidia!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Lo mejor de una boda son las vísperas. Los "Linen Showers", los “parties" de despedida, la "trousseau, " el vestido de boda,
+              los regalos, las damas, los caballeros, los padrinos, los invitados, la iglesia llena de flores y de luces, los campaneos, 
+              la gran fiesta nupcial....
+            </p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡Toda la prensa ocupándose de los novios, publicando sus fotografías!...</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Y después de todo eso?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>La casa nueva, el coche nuevo todo nuevo y flamante! Y el marido hermoso, dorado como un sol, mirándola a una con ojos de cordero.</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Mary, ¿te acuerdas del marinero del “Taft” que tenía los ojos tan azules, tan grandes?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¡No me digas! ¡Que encanto de hombre! ¡He soñado con él más veces!...</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Con un marinero?</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Y qué? ¡Era guapísimo!</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Qué tiene que ver que fuera marinero?</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Habérmelo dicho y os caso en alta mar. No sería el primer tripulante que estuviera rodando en  un gran coche a estas horas por Manila reclinado sobre el 
+              hombro y las costillas y los bolsillos de una distinguida señorita de nuestra alta sociedad.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Y vosotros, con qué extranjeras os casáis?</p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¿Tu crees que no sabemos que la esposa de tu hermano Alexander era una lava platos de un restaurant en san Francisco?
+            </p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Y aquí dice que es hija de un magistrado.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>¿Y que tengo yo que ver con mi hermano, ni con las cosas de mi hermano? Yo soy yo, y yo me casaré..... </p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>¡Con otra lavaplatos!</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="7">
+          <head>ESCENA VII</head>
+          <stage type="setting">DICHOS – ROSY</stage>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¡Tango!... ¡Tango!... Peter ha bajado el fonógrafo al jardín, ha llegado los árboles de faroles encendidos y tenemos un salón precioso entre flores y frutas. </p>
+          </sp>
+          <sp who="#lu">
+            <speaker>LULU</speaker>
+            <p>Vamos.</p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>Yo no soy rencorosa; te cedo el primer baile, George.</p>
+          </sp>
+          <sp who="#georg">
+            <speaker>GEORGE</speaker>
+            <p>Si yo tomara en cuenta tus dichos y tun hechos, ya te hubiera estrangulado hace un años, seis meses y un día. </p>
+          </sp>
+          <sp who="#mari">
+            <speaker>MARY</speaker>
+            <p>¿Ah, sí?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Vente a ver nuestro salón de baile, aunque no bailes tú, Susana.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Vamos.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="8">
+          <head>ESCENA VIII</head>
+          <stage type="setting">RAFAEL – RAMON</stage>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Me parece que tenías razón; ese muchacho ha perdido el juicio. </p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Es horrible, es el virus, el veneno mortal del extranjerismo palpitando en cada vena a la vez que su sangre. </p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¿Por qué no cedes? Ya que porfía en irse, déjalo marchar.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Hubieramelo pedido en forma distinta en que me la pidió y quien sabe el yo le hubiera consentido. </p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Debe ser cosa de alguna mujer allá.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>No lo creo.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¿Estás seguro?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Su madre ha sondeado por ahí, y no es eso.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Pues si no es eso, es una locura. Prepárate para grandes escenas melodramáticas. </p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Te lo decía yo, Ramón.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Tu le has oído a él y me has oído a mí. Conmigo has terminado. Adios, Rafael.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Adiós Ramón, y gracias.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="9">
+          <head>ESCENA IX</head>
+          <stage type="setting">RAFAEL – ANGELA</stage>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Susana... (Pausa) Susana...</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Llamabas?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿En dónde está Susana?</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Con los jóvenes esos.Han organizado una fiesta en el jardín.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Polding con ellos?</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>No, a Polding le he dejado en su cuarto. Parece enfermo, parece un pólvora encendida.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>No hablemos más del caso.</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Aquí viene Susana.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="10">
+          <head>ESCENA X</head>
+          <stage type="setting">DICHOS – SUSANA</stage>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>
+              Me han dado una idea para cuando celebremos las flores de Mayo. Si vieras, padre, que bonito han puesto el jardin! Dicen que al
+              estilo de los Angeles. <stage type="setting">(Suena una campana lejana la hora de las animas)</stage>
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Las ocho. Recemos por las almas del purgatorio. Padre nuestro que estás en los cielos...</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="final">
+        <head>ESCENA FINAL</head>
+        <stage type="ending">DICHOS – POLDING</stage>
+        <stage type="setting">(Entra herido y desangrándose en escena)</stage>
+        <sp who="#poldi">
+          <speaker>POLDING</speaker>
+          <p>¡Madre!</p>
+        </sp>
+        <sp who="#ang">
+          <speaker>ANGELA</speaker>
+          <p>¡Hijo!</p>
+        </sp>
+        <sp who="#poldi">
+          <speaker>POLDING</speaker>
+          <p>¡Madre! Me he herido con una daga... ¡me he matado!</p>
+        </sp>
+        <sp who="#ang">
+          <speaker>ANGELA</speaker>
+          <p>Hijo, ¡Hijo de mi alma!</p>
+        </sp>
+        <sp who="#rafa">
+          <speaker>RAFAEL</speaker>
+          <p>¡Mal hijo!</p>
+        </sp>
+        <sp who="#susa">
+          <speaker>SUSANA</speaker>
+          <p>¡Padre, está muriendo!</p>
+        </sp>
+        <sp who="#rafa">
+          <speaker>RAFAEL</speaker>
+          <p>¡Mal filipino!</p>
+        </sp>
+        <sp who="#susa">
+          <speaker>SUSANA</speaker>
+          <p>¡Padre, está muriendo!</p>
+        </sp>
+        <sp who="#rafa">
+          <speaker>RAFAEL</speaker>
+          <p>¡Mal hombre!</p>
+        </sp>
+        <sp who="#susa">
+          <speaker>SUSANA</speaker>
+          <p>¡Padre, está muriendo!</p>
+        </sp>
+        <sp who="#ang">
+          <speaker>ANGELA</speaker>
+          <p>
+            ¡Muerto, Rafael, muerto mi Polding, muerto nuestro hijo!... ¡Hijo!, ¡Hijo!, ¡Hijo de mis entrañas!... Señor, señor, ¡yo lo hice hombre!,
+            ¡yo lo hice bueno!, ¡yo lo hice crsitiano!... ¿Porque has permitido que acabara así?... ¿Por qué, Señor?... ¿Por qué?... (Cae abatida en sollozos sobre el hijo muerto).
+          </p>
+        </sp>
+        <stage>TELÓN</stage>
+        </div>
+      </div>
+      
+      <div type="act" n="3">
+        <head>TERCER ACTO</head>
+        <div type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage type="setting">ANGELA – ROSY</stage>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Ya estamos a solas. Diga usted lo que tenía que decirme.
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Señora...</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Hable usted...¿Por qué se turba?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Señora...</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Por qué se detiene? ¿Qué le pasa a usted?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Es que es horrible, es que no puedo, es que ¡voy a matarme yo también! </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Pero, ¿Por qué, criatura? ¿Por qué?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Polding y yo estábamos en amores...</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Cómo?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Y más que novios. Éramos amantes.</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Amantes?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Hace dos meses siento en mi vida latir una nueva vida... El lo sabía, el lo sabía y sin embargo, ¡se mató!</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Quiere usted decir que está...</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Sí, señora.</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>
+              Madre de Dios!.. ..(Pausa) Serénese usted, no llore, que bastante llanto se ha derramado ya en esta casa... 
+              ¡No es donde tengo el corazón ni la cabeza hace ya mucho tiempo! Tras un golpe, otro golpe, un dolor tras un dolor... 
+              Y ¡Dios no tiene misericordia de nosotros!
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Parecía quererme mucho... Yo lo quería más y más... </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Y qué piensa usted hacer?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>
+              No lo sé; pero volver a mis padres, volver a mi casa en el estado en que estoy, es imposible. Tengo que acogerme al amparo 
+              de ustedes, a menos que quiera usted mentir y mienta yo diciendo que estaba casada secretamente, porque entonces el
+              niño llevaría un nombre.
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>
+              Pero, ¿cómo pudieron ustedes llegar a eso? ¿cómo pudo usted entregarse a mi hijo sin estar casada? ¿Que obstáculo existía? 
+              ¿Que les impedía a ustedes haber hecho las cosas como manda el Señor?
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>
+              El no quiso minca hacer públicos nuestros amores. Siempre ponía excusas y pretextos y razones en contra. 
+              Pero en medio de sus protestas me juraba por usted, su madre, y por Dios y por todos los santos, que me haría su esposa.
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Usted, usted, una señorita como usted...</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>
+              Fue un instante de extrovío, primero. Luego siguieron las horas de locura. Cuando a una mujer se le doblan las rodillas y cae en
+              mitad del casino, sigue tropezando y cayendo mientras su debilidad se convierte en delirio.
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Y a eso lo llaman ustedes amor??</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Amor, señora. (Pausa)</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Déjeme usted pensar, déjeme usted reflexionar, enterarle del caso a mi marido...</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¡Perdón! ¡Perdón!</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Alguien sabe algo de esto?</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¡Solamente Dios!</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Entonces, el motivo del suicidio...</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>
+              ¡Oh, no señora, no! El estaba seguro de que ustedes lo dejarían volver el extranjero y quería volver conmigo. 
+              Se mató por despecho, por orgullo, por soberbia; acaso porque !estaba harto de vivir!
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¡Sin pensar en el dolor en que me hundía!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p> Lo que en usted es dolor, en mí es más que dolor, porque ahora ¡es desesperacion! </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="2">
+        <head>ESCENA II</head>
+        <stage type="setting">ROSY – RAMON</stage>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p> No me quería; no quería a nadie; no se quería a si mismo; ¡si hubiera tenido corazón!....... ¡Si hubiera tenido corazón!.... </p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Buenos días.</p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Buenos días.</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>¿Cómo sigue usted? ¿Cómo sigue esa gente?</p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Todos bien, gracias, señor.</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Sus amigos se fueron, ¿no? Pero a usted, por lo visto, le gusta nuestro pueblo. Y tiene usted razón. Después de tanto America y tanto Europa, 
+            se le digo yo que también he viajado y acaso más que usted, esto es un renengo, esto es un paraiso, esto es la paz. </p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>¿Quiere usted que avise su llegada?</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p> Gracias, no se moleste; yo soy más de la casa que usted misma. Voy a esperar aquí a que salgan, si es que no la molesto.</p>
+           
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Por Dios, señor.</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Susana y usted deben ser muy amigas.</p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Muy amigas.</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Porque usted fue muy amiga de Polding.</p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Muy amiga.</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>¡Lástima de muchacho!</p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p> Don Ramon, cuando un hombre se mata, ¿es un valiente? o ¿es un cobarde? </p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p> Ni valiente ni cobarde. Cuando un hombre se mata no es hombre, ni cristiano, ni es nada. </p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>¿No debe uno matarse nunca?</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Si es bueno, ¿por qué? Y si es malo, ¿para qué? Ya otros se encargarán otros de matarlo. </p>
+        </sp>
+        <sp who="#ro">
+          <speaker>ROSY</speaker>
+          <p>Todos los días se mata alguien...</p>
+        </sp>
+        <sp who="#ram">
+          <speaker>RAMON</speaker>
+          <p>Por el menor motivo. Esta es la religión, la educación y la moral de la gente moderna o modernista, a elegir. Educación que por no respetar nada, ni a nadie, empieza 
+            por no respetarse a sí misma. Religión que consiste en meterse en la iglesia,  farfullar oraciones y hasta confesar y comulgar sin conocer a Dios sin haber aprendido su Doctrina, 
+            engañando al Señor, engañando al mundo, engañandose a si mismos. Y moral de cine, de amor a primera vista y besos y abrazos a cualquiera, 
+            al primero que llega, a la primera que nos sonría, ignorándose mutuamente lacras del ¡cuerpo y el alma!... Religión, educación y moral cuyo final tiene que ser, humanamente, eso: 
+            Los eternos y e informes de la prensa: Fulanita se mató porque quería ir con su galán y sus padres no se lo consintieron; Zutanita mató porque su amante, cansado de su amor, 
+            la dejo por Menganita se mató por ocultar su deshonor...Y lo que hacen, lo hacen ellos, a la par, por diversas circunstancias baladios. Estamos formando una juventud de irresponsabilidad locos, 
+            de suicidas, que no saben lo que es Dios, ni que es patria, ni saben lo que es amor!... Juventud parece ser ¡morir o matar!..Pero, está usted... ¿Por qué llora usted? ¿Por qué llora usted?......
+          </p>
+        </sp>
+        </div>
+
+        <div type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage type="setting">DICHOS – RAFAEL – ANGELA</stage>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¡Déjala llorar!</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¿Pero, por qué?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¡Déjala llorar!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Señora...</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¡Hija mía!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¿Hija?... ¿Ha dicho usted hija?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Y yo también te lo digo, y te lo digo en voz muy alta: ¡Hija mía!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Entonces es que... Oh, gracias. ¡Gracias Dios mío! 
+              <stage type="action">Solloza.</stage>
+            </p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Dejarla llorar. No hay nada más santo a los ojos de Dios que una mujer llorando. Y cuando ese llanto es de dolor de amor, que es el único dolor por el 
+              que lloran las mujeres, ¡más santo todavía!... Llora, pobre hija mía, llora con todas tus lágrimas hasta que tus ojos se sequen 
+              para siempre, pues yo te juro que esto será el último llanto de tu vida, la última nube de tu vida, porque entre esa nube y ese llanto, está formándose
+              una aurora, el niño que llega, ¡el hombre nuevo que va a nacer!.... La vida para tí y para Filipinas no es hoy; ¡la vida empieza mañana! 
+              Y los hombres del futuro, hijos de los hombres del presente, no serán como sus padres, porque se amamantarán en el seno de la patria, se nutrirán con el arroz de nuestros campos,
+              se alzarán orgullosos de su nacionalismo, y ¡hablarán su propio idioma! No, no, tu hijo no será como su padre. Yo cuidaré de él como de una esperanza inmensa. 
+              En su camino por la vida rayaré con mi corazón el sitio donde deba llegar y si intenta traspasar la raya mo encontrará a mí sobre ello, 
+              de pie, erguido, en los brazos abiertos en cruz para atajarle!
+            </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="4">
+          <head>ESCENA IV</head>
+          <stage type="setting">DICHOS – SUSANA</stage>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Qué pasa, madre?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Tú no conocías a la esposa, a la viuda de tu hermano?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿A La esposa?... ¿A La viuda?...</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Peor, abraza a tu hermana, Abrázala muy fuerte.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Eres un buen hombre.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Tenemos que hablar, Ramón.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="5">
+          <head>ESCENA V</head>
+          <stage type="setting">SUSANA – ROSY – ANGELA</stage>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>
+              Mi marido y mi hermano partirán esta misma tarde para Manila y en Manila lo arreglarán todo con tus padres. 
+              Tú te quedarás aquí, en tanto, cuidándote y cuidada por nosotras.... Hija mía, en medio de mis lutos y mis penas, que feliz 
+              me haces comprobando que morir es volver a vivir. Vida por vida. Si en mis entrañas murió el hijo, en las tuyas vuelve a ser.
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Será el mismo sin ser el mismo, porque yo también empiezo a ser otra mujer.</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Dios te ampare y te ayude.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="6">
+          <head>ESCENA VI</head>
+          <stage type="setting">ROSY – SUSANA</stage>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¿Me quieres tú?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Voy a quererte mucho.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¿No me desprecias?</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Me das una lástima muy grande.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Eres buena, Susana.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Tú también eres buena.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>He vivido hasta hoy equivocada en todo y con todos, con la vida y con las gentes. Pero no soy yo la responsable de mis errores.
+              Me educaron libre; me dejaron sola; fuí bagando por los mares del mundo como una barca sin velas, sin remos, sin timon....
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Pobre!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Cuantas veces me he reído de tí y de las mujeres como tú rigurándomelas cursis y ridículas. Vuestro pudor se me antojaba 
+              hipocresía y cobardía vuestra pureza. Ahora la muerte me ha abierto los ojos a la vida y ya sé donde se levanta el honor
+              de la carne y la dignidad del alma.... ¡Oh, si supieras cuanto sufro por todo lo pasado y todo lo presente!
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Pobre!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Te hablo así, porque hablándote así me desahogo el corazón. Y además, porque ya somos hermanas y me quieres.....
+              ¿No es verdad que me quieres? ¿No es verdad que me quieres?
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¡Voy a quererte mucho!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Yo no os voy a molestar en nada; lo único que anhelo es estar a vuestro lado; papá es inmensamente rico y yo soy su única heredera. 
+              Nada necesito que no sea cariño, que no sea calor y eso fué mi ensueño para tu hermano y para mí, un nido en lo más
+              alto y en lo más solo en donde únicamente cantaran las alondras del amor.
+              <stage type="action">(Llora.)</stage>
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Abre los ojos que los tienes muy hermosos y óyeme una cosa. Si eres tan bonita y tan joven y te sobra todo, ¿por qué te deconsuelas
+              tanto? El porvenir, es tuyo, el mundo puede reservarte todavía una gran felicidad...
+            </p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p> Quise mucho a tu hermano, lo quiero aún con todas mis entrañas, nunca me dí cuenta de quererle lo que le quiero como ahora que
+              lo he perdido... ¿Cómo poder volver a ser feliz?
+            </p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Porque a tu puerta volverá a llamar el amor.  Y no todos los amores van a ser desgraciados, porque no todos los hombres son lo mismo.</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>¡Te olvidas del niño!</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Deja eso por mi cuenta. Si vi más que ganas tengo de volver a jugar a las muñecas!......Tengo una muñeca vestida de azul!</p>
+          </sp>
+          <sp who="#ro">
+            <speaker>ROSY</speaker>
+            <p>Eres muy generosa, pero tu piedad no me consuela.</p>
+          </sp>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>¿Qué valen mis palabras ante lo que te reserva la vida? Alza la frente ante el dolor. ¿Ves? Si ya no lloras, si ya no sufres, si todo está arreglado, si como dice papá, 
+              ¡la vida empieza mañana!... Ven, vamos a mi cuarto, te voy a enseñar mi última muñeca; se parece a tí, con la cara pintadita, con los bucles rocortados,
+              con los ojos grandes, grandes, muy abiertos, y tu boca de coral y marfil.
+            </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="7">
+          <head>ESCENA VII</head>
+          <stage type="setting">RAFAEL – RAMON</stage>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>A primera hora de la mañana pasaré por tí. Y en Manilal estaremos el menor tiempo posible.</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Y en eso haremos bien.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Si te dijera que hace un siglo no voy a Manila, no me creerías. Pero es que la ciudad tiene para mí la gran virtud de marearme
+              y aburrirme.
+            </p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>Es el pueblo más sajonizado del Oriente; el más americano del mundo. De la impresión de que te encuentras en un lugar fuera de Filipinas. 
+              Casas, comercios, restauranes, paseos, teatros, clubs, cabarets, todo parece llevar el sello de "Made in the United States of America.” 
+              Y hombres y mujeres en su manera de ser y vestir; y el enorme tráfico de coches de motor; y la descortesía exótica en los viandantes; 
+              y la noche desgarrada por anuncios luminosos titilando en lo alto como constelaciones de colores... 
+              A no ser por el típico y desvencijado carromato inmortal, lo único autóctono con que se puede tropezar, Manila podría llamarse 
+              con el nombre de cualquier ciudad de America.
+            </p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Todo eso va a pasar a la historia. Nuestro porvenir está en Cristo y en mizal, en la cruz y 
+              en la ciencia, en el arte y el mundo... Nuestro mañana, es del templo y la fábrica, de la academia y del taller, de la idea en las manos de corazón.
+            </p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>¡Corazón!.......¡Corazón!.........Yo no puedo pensar así, y no puedo pensar así porque no parece sino que las manos de acero 
+              y oro con que America acarició a la raza, le haya arrancado el corazón, sin nosotros mismos darnos cuenta. ¿El viejo y elegante
+              romanticismo, el caballero filipino, ¿en dónde está? La dulce languidez, manto de pudor divino de la mujer filipina, en donde
+              está? Nos movemos como autómatas y sentimos y obramos como muñecos de un trágico guiñol movidos por los hilos de un materialismo
+              inusitado... Jovencitas que se prostituyen por poder vestir, calzar y peinar a lo occidental. Jóvenes estudiantes
+              de Universidades muchas veces, que por idénticas razones, o por no tener para cines y cabarets, concluyen el derecho y la medicina
+              en una cárcel... Creemos que es una visión digna del Dante. Y que les brujas de Macbeth no andan muy lejos de filipinas.
+            </p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>¿Te vas?</p>
+          </sp>
+          <sp who="#ram">
+            <speaker>RAMON</speaker>
+            <p>A decirle a Carmen que se prepare la maleta. Hasta mañana.</p>
+          </sp>
+        </div>
+
+        <div type="scene" n="8">
+          <head>ESCENA VIII</head>
+          <stage type="setting">RAFAEL – ANGELA</stage>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Se ha marchado Ramón?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Debe estar en la puerta de la calle. ¿Querían algo de él?</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>No, nada. ¿Os vais mañana?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>A primera hora.</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>¿Crees que los padres de Rosa se enfadarán a que viva con nosotros?</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>No lo sé, pero deben conformarse. ¿Dónde mejor que aquí se evitaría el escándalo?</p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Pobre mujer.</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Pobres mujeres, Angela. Y ¡pobre Filipinas! Y hasta que no se filipinize Filipinas, pobre Filipinas y ¡pobres de nosotros!
+              Somos un árbol muy hermoso can frutos muy amargos. ¡Somos una fuente inmensa con las aguas estancadas! ¡Somos como la luna, sin
+              fulgor propio, brillando con luz prestada siempre!
+            </p>
+          </sp>
+          <sp who="#ang">
+            <speaker>ANGELA</speaker>
+            <p>Hasta que un día...</p>
+          </sp>
+          <sp who="#rafa">
+          <speaker>RAFAEL</speaker>
+            <p>La felicidad de los hombres y los pueblos depende de ellos mismos. El que es desgraciado, ca porque quiere serlo. Recuerda al pueblo y a los hombres de nuestro ayer.
+              Piensa en nuestras dos revoluciones. Entonces, se quiso y se supo ser filipino. Entonces supo el mundo, y la misma nación que nos colonizaba, que existía Filipinas. 
+              Entonces se nos dió un libro de oro en el que bonifacio comenzó a escribir con la punta ensangredata de su bolo nuestra historia. Lástima de sangre vertida, de evangelios escritos, de ideales predicados 
+              con la acción y de libertades conquistadas a flor de martirios y heroísmos, si una vez libre Filipinas de todo extraño yugo, los filipinos estamos más que nunca esclavizados por influencias y poderes extranjeros.
+              ¡Filipinizaros! Clama Quezon desde la tribuna y Rizal desde Bagumbayan y Luna desde Cabanataun!....¡Filipinizaos! Dejad la túnica prestada para que ¡no os desnuden en medio del camino!
+              Abandonad el idioma que no os pertenece, la moda que os ridiculiza, todo lo que os afea y os arruina y ¡os deshonra! Vuestro pueblo es el pueblo más hermoso del mundo; vuestra raza la más sencilla y generosa!
+              Podeis vivir solos y orgullosos sin envidiar a nadie, envidiados por todos y ser fuertes, poderosos y ¡libres como vuestros "tamaraws" y vuestras águilas!....
+              Filipinizaros para que vuestras mujeres vuelvan a ser un sueño de poetas y vuestros hombres tornen a ser los Mabini de vuestros desafíos gloriosos y los ¡Gregorio del pilar del paso de Tirad!
+              ¡Filipinización, por amor a Dios, por amor a la libertad, por amor a vuestra raza!
+            </p>
+          </sp>
+        </div>
+
+        <div type="scene" n="final">
+          <head>ESCENA FINAL</head>
+          <stage type="ending">DICHOS – RAFAEL – SUSANA</stage>
+          <sp who="#susa">
+            <speaker>SUSANA</speaker>
+            <p>Padre, madre, dice Rosita que el niño no va a ser niño... ¡Va a ser niña!</p>
+          </sp>
+          <sp who="#rafa">
+            <speaker>RAFAEL</speaker>
+            <p>Tienes razón. Va a ser la niña más hermosa del mundo.</p>
+          </sp>
+          <sp who="#SUSANA">
+            <speaker>SUSANA</speaker>
+            <p>¿Y cómo vamos a llamarla, padre?</p>
+          </sp>
+          <sp who="#RAFAEL">
+            <speaker>RAFAEL</speaker>
+            <p>¡Vamos a llamarla Filipinas!.</p>
+          </sp>
+          <stage>TELÓN</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

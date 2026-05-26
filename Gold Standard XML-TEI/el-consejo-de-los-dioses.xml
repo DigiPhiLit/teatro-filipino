@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:lang="es">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">El Consejo de los Dioses</title>
+                <author>
+                    <persName>
+                        <forename>Dr. Jose</forename> 
+                        <surname>Rizal</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licencia</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bib type="first-published">
+                    <title>El Consejo de los Dioses: Alegoría arreglada en forma teatral</title>
+                    <date when="1915">1915</date>
+                    <publisher>Imprenta y Taller de encuadernación DEL "Día Filipino"</publisher>
+                    <pubPlace>Manila, Santa Cruz, Filipinas</pubPlace>
+                </bib>
+                <bib type="digitalSource">
+                    <date>2013</date>
+                    <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+                    <publPlace>Alicante</publPlace>
+                    <ref target="https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552"/>
+                </bib>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="es">Español</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="jupiter" sex="FEMALE">
+                        <persName>Júpiter</persName>
+                    </person>
+                    <person xml:id="juno" sex="FEMALE">
+                        <persName>Juno</persName>
+                    </person>
+                    <person xml:id="mercurio" sex="MALE">
+                        <persName>Mercurio</persName>
+                    </person>
+                    <person xml:id="minerva" sex="FEMALE">
+                        <persName>Minerva</persName>
+                    </person>
+                    <person xml:id="apolo" sex="MALE">
+                        <persName>Apolo</persName>
+                    </person>
+                    <person xml:id="venus" sex="FEMALE">
+                        <persName>Venus</persName>
+                    </person>
+                    <person xml:id="marte" sex="MALE">
+                        <persName>Marte</persName>
+                    </person>
+                    <person xml:id="momo" sex="MALE">                    
+                        <persName>Momo</persName>
+                    </person>
+                    <person xml:id="sileno" sex="MALE">
+                        <persName>Sileno</persName>
+                    </person>
+                    <person xml:id="baco" sex="MALE">
+                        <persName>Baco</persName>
+                    </person>
+                    <person xml:id="justicia" sex="FEMALE">                    
+                        <persName>Justicia</persName>
+                    </person>
+                    <person xml:id="ganimedes" sex="MALE">
+                        <persName>Ganimedes</persName>
+                    </person>
+                    <person xml:id="hebe" sex="FEMALE">
+                        <persName>Hebe</persName>
+                    </person>
+                    <personGrp xml:id="musas" sex="feMALE">
+                        <persName>Las Musas</persName>
+                    </personGrp>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="main">EL CONSEJO DE LOS DIOSES</titlePart>
+                <titlePart type="sub">ALEGORÍA</titlePart>
+            </docTitle>
+            <div type="abstract">
+                <p>Con el recuerdo del pasado entro en el porvenir.</p>
+            </div>
+        </front>
+        <body>
+            <div type="act" n="1">
+                <head>ACTO ÚNICO</head>
+                <stage type="setting">REUNIÓN DE LOS DIOSES EN EL OLIMPO.</stage> 
+                <stage>JÚPITER sentado en el trono de oro y piedras preciosas y llevando en la mano el cetro de ciprés, 
+                    tiene a sus piés al águila, cuyo plumaje de acero refleja mil diversos colores: los rayos, sus terribles armas yacen en el suelo.
+                </stage>
+                <stage>A su derecha está su esposa, la celosa JUNO, con refulgente diadema, y el vanidoso pavo real. A su izquierda
+                    la sábia PALAS (MINERVA), hija y consejera, adornada de su casco y terrible égida, ciñendo el verde olivo y sosteniendo
+                    gallardamente su pesada lanza.
+                </stage>
+                <stage>Formando severo contraste está SATURNO, acurrucado y mirando desde léjos tan hermoso grupo.</stage>
+                <stage>En gracioso desórden hállanse la hermosa VENUS, recostada en un lecho de rosas, coronada de oloroso mirto, y acariciando
+                    al AMOR; el divino APOLO, que pulsa blandamente su lira de oro y nacar y jugando con las ocho MUSAS, 
+                    mientras que MARTE, BELONA, ALCIDES Y MOMO cierran aquel círculo escogido.
+                </stage>
+                <stage type="setting">Detrás de JÚPITER de JUNO se hallan HEDE y GÁNIMEDES. Hacia el lado derecho de JÚPITER se halla la JUSTICIA, sentada
+                    en su trono, teniendo en las manos sus atributos.
+                </stage>
+
+                <div type="scene" n="1">
+                    <head>ESCENA PRIMERA</head>
+                    <stage type="entrance">LOS DIOSES y las DIOSAS y las ocho MUSAS mencionadas.</stage>
+                    <stage type="setting">Llegan la musa TERPSÍCORE primeramente, y después las NINFAS, las NÁYADES y las ONDINAS bailando y esparciendo
+                        flores al son de las liras de APOLO y de ERATO y de la flauta de EUTERPE. Después de la danza todos se colocan a ambos lados del escenario.
+                    </stage>
+                </div>
+
+                <div type="scene" n="2">
+                    <head>ESCENA SEGUNDA</head>
+                    <stage type="entrance">Dichos y MERCURIO.</stage>
+                    <sp who="#mercurio">
+                        <speaker>MERCURIO.</speaker>
+                        <p>He cumplido ya tus mandatos, soberano Padre; NEPTUNO y su corte no pueden venir pues temen perder el imperio de 
+                            los mares, á causa del actual arrojo de los hombres; VULCANO aún no ha terminado los rayos que le encargaste
+                            para armar al Olimpo y los está concluyendo; en cuanto á Pluton...
+                        </p>
+                    </sp>
+                    <sp who="#jupiter">
+                        <speaker>JÚPITER.</speaker>
+                        <stage type="action">Interrumpiendo a MERCURIO.</stage>
+                        <p>¡Basta! Tampoco los necesito. HEBE, y tú, GANÍMEDES, repartid el néctar para que beban los inmortales.</p>
+                    </sp>
+
+                    <stage type="entrance">Mientras HEBE Y GANÍMEDES llenan su cometido, llegan BACO y SILENO, éste a pié y aquél montado 
+                        en una burra con el tirso en la mano y verdes pámpanos en las sienes, cantando:
+                    </stage>
+                    <sp who="#sileno">
+                        <speaker>SILENO</speaker>
+                        <p>«El que vivir desea. Y divertirse, Abandone á Minerva: Mis viñas cuide ...»</p>
+                    </sp>
+                    <sp who="#minerva">
+                        <speaker>MINERVA.</speaker>
+                        <stage type="action">En alta voz</stage>
+                        <p>¡Silencio! ¿No ves que el poderoso JÚPITER ha de hablar?</p>
+                    </sp>
+                    <sp who="#sileno">
+                        <speaker>SILENO.</speaker>
+                        <p>¿Y qué? ¿Se ha enfadado el vencedor de los Titanes? Los Dioses toman el néctar: por consiguiente, puede cualquiera
+                            expresar su alegría de la manera como le plazca; pero ya veo que mi discípulo te ha ofendido y tomas por pretexto..
+                        </p>
+                    </sp>
+                    <sp who="#momo">
+                        <speaker>MOMO.</speaker>
+                        <stage type="action">Con voz socarron</stage>
+                        <p>Defiéndele, SILENO, porque no digan que tus discípulos son unos impertinentes.</p>
+                    </sp>
+
+                    <stage type="setting">Trata de replicar, pero JÚPITER la contiene con un gesto. Entonces manifiesta MINERVA su desprecio 
+                        con una sonrisa tan desdeñosa que altera la delicada severidad de sus hermosos labios.
+                    </stage>
+                    <stage type="action">Después de tomar todos los Dioses, de la inmortal bebida, comienza a hablar.</stage>
+
+                    <sp who="#jupiter">
+                        <speaker>JÚPITER.</speaker>
+                        <p>Hubo un tiempo, excelsos dioses, en que los soverbios hijos de la tierra pretendieron escalar el Olimpo y arrebatarme
+                            el imperio, acumulando montes sobre montes, y lo hubieran conseguido, sin duda alguna, si vuestros brazos y mis 
+                            terribles rayos no los hubieran precipitado al Tártaro, sepultando a los otros en las entrañas de la ardiente Etna.
+                            Tan fausto acontecimiento deseo celebrar con la pompa de los inmortales, hoy que la Tierra, siguiendo su eterna
+                            carrera, ha vuelto á ocupar el mismo punto en su órbita, donde giraba entonces.
+                        </p>
+                    </sp>
+                    <sp who="#jupiter">
+                        <speaker>JÚPITER</speaker>
+                        <p>Así, que yo, el Soberano de los dioses, quiero que comience la fiesta con un certamen literario. 
+                            Tengo una soberbia trompa guerrera, una lira y una corona de laurel esmeradamente fabricadas: la trompa
+                            es de un metal, que solo VULCANO conoce, más precioso que el oro y la plata; la lira, como la de APOLO, es de
+                            oro y nacar, labrada también por el mismo VULCANO, pero sus cuerdas, obra de las Musas, no conocen rivales, y la
+                            corona, tejida por las Gracias, del mejor laurel que crece en mis jardines inmortales, brilla más que todas las de los
+                            reyes de la Tierra. Las tres valen igualmente, y el que haya cultivado mejor las letras y las virtudes, ese será el
+                            dueño de tan magnificas alhajas. Presentadme, pues, vosotros el mortal que juzguéis digno de merecerlas.
+                        </p>
+                    </sp>
+                    <sp who="#juno">
+                        <speaker>JUNO.</speaker>
+                        <stage type="action">Se levanta en actitud arrogante y altiva.</stage>
+                        <p>JÚPITER, permítem que hable la primera, como tu esposa y madre de los dioses más poderosos. Ninguno mejor
+                            que yo podrá presentarte el mortal más perfecto que el divino HOMERO. Y a la verdad, ¿quién osará disputarle
+                            la supremacia, así como ninguna obra puede competir con su Iliada, valiente y atrevida, y su reflexiva y prudente
+                            Odisea? ¿Quién, como él, ha cantado tu grandeza y la de los demás dioses, tan magnificamente como si nos hubiera
+                            sorprendido en el Olimpo mismo y asistido a nuestras asambleas? ¿Quién contribuyó más á que el odoro incienso de
+                            la Arabia se quemase abundantemente ante nuestras imágenes y se nos ofreciesen pingües hecatombes, cuyo sabroso
+                            humo, subiendo en caprichosos espirales, nos era tan grato que aplacaba nuestras iras? ¿Quién, como él, refirió las batalla
+                            más sublimes en más hermosos versos? Él cantó a la divinidad, al saber, a la vírtud, el valor, al heroísmo
+                            y a la desgracia, recorriendo todos los tonos de su lira. Sea él el premiado; pues creo, como cree el Olimpo entero,
+                            que ninguno se ha hecho más acreedor a nuestras simpatías.
+                        </p>
+                    </sp>
+                    <sp who="#venus">
+                        <speaker>VENUS.</speaker>
+                        <p>Perdona, hermana y esposa del grandioso JOVE, si no soy de tu respetable opinión. Y tú, JÚPITER, visible tan sólo 
+                            para los inmortales, sé propicio a mis suplicas. Ruégote no permitas que al cantor de mi hijo ENEAS le venza HOMERO.
+                            Acuérdate de la lira de VIRGILIO, que cantó nuestras glorias y moduló las quejas del amor desgraciado; sus dulcísimos y 
+                            melancólicos versos conmueven el alma: él alabó la piedad, encarnada en el hijo de ANCHISES: sus combates no son menos 
+                            bellos que los que se efectuaron á los pies de los muros troyanos; ENEAS es más grande y piadoso que el iracundo AQUILES: 
+                            en fin, en mi sentir, VIRGILIO es muy superior al poeta de Chio. ¿No es verdad que él llena todas las cualidades que tu sagrada
+                            mente ha concebido?
+                        </p>
+                    </sp>
+
+                    <stage type="setting">Dicho esto se acomoda graciosamente en su lecho, cual la graciosa ONDINA que, medio reclinada en blanca espuma 
+                        de las azules olas, forma la joya más preciosa de un hermoso y poético lago.
+                    </stage>
+
+                    <sp who="#juno">
+                        <speaker>JUNO</speaker>
+                        <stage type="action">Airada.</stage>
+                        <p>¡Cómo! ¡Cómo el poeta romano ha de ser preferido al griego! ¿Virgilio, imitador tan sólo, ha de ser mejor que Homero? 
+                            ¿De cuándo acá la copia ha sido mejor que el original? ¡Ah, hermosa VENUS! 
+                            <stage type="action">En tono desdenoso</stage> 
+                            Veo que estás equivocada, y no lo extraño; porque no tratándose de amores no estás en tu juicio; además, el corazón y las
+                            pasiones jamás supieron descurrir. Deja el asunto; te lo suplico por tus innumerables queridos...
+                        </p>
+                    </sp>
+                    <sp who="#venus">
+                        <speaker>VENUS</speaker>
+                        <stage type="action">Interrumpiendo ruborizida.</stage>
+                        <p>¡Oh, bellísima JUNO, tan celosa como vengativa! A pesar de tu buena memoria, que siempre se acuerda de la manzana
+                            de oro que injustamente fué negada a tu renombrada y nunca bien ponderada hermosura, miro con disgusto que
+                            te olvides de lo groseras que nos ha hecho tu favorito HOMERO. Empero, si por tu parte le encuentras razonable
+                            y verídico, sea esto en buen hora, y te felicito por ello; pero por lo que á mi me toca, los dioses del Olimpo digan...
+                        </p>
+                    </sp>
+                    <sp who="#momo">
+                        <speaker>MOMO.</speaker>
+                        <stage type="action">Interrumpiendo a Venus.</stage>
+                        <p>¡Si! Que digan que tú alabas a VIRGILIO, porque él se ha portado bien contigo; que JUNO defiende a HOMERO,
+                            pues él es el cantor de las venganzas; que os hacéis mútuas caricias y atentos cumplidos. Pero, tú, JÚPITER, ¿por
+                            qué no intervienes en las disputas y te estás allí, como el ignorante, que oye embobado las trilogías en las fiestas
+                            olímpicas?
+                        </p>
+                    </sp>
+                    <sp who="#juno">
+                        <speaker>JUNO</speaker>
+                        <stage type="action">En alta voz.</stage>
+                        <p>¡Esposo! ¿Por qué permites que nos insulte así este mónstruo deforme y feo? Échale del Olimpo, pues su aliento
+                            infesta. Además...
+                        </p>
+                    </sp>
+                    <sp who="#momo">
+                        <speaker>MOMO.</speaker>
+                        <p>¡Gloria a JUNO, que nunca insulta, pues sólo me llama feo y deforme!</p>
+                    </sp>
+
+                    <stage type="action">Los dioses se rien.</stage>
+
+                    <sp who="#juno">
+                        <speaker>JUNO</speaker>
+                        <stage type="action">Palidece, su frente se arruga, y lanza una fulminante mirada a todos, especialmente á MOMO.</stage>
+                        <p>¡Calle el dios de la burla! iPor la laguna Stygia!... Pero dejemos eso, y hable MINERVA, cuya opinión ha sido
+                            siempre la mía desde lejanos tiempos.
+                        </p>
+                    </sp>
+                    <sp who="#momo">
+                        <speaker>MOMO.</speaker>
+                        <p>¡Si! Otra como tú ilustres mequetrefes, que os halláis allá donde no debéis estar.</p>
+                    </sp>
+                    <sp who="#minerva">
+                        <speaker>MINERVA.</speaker>
+                        <stage type="action">Aparenta no oirle. Levanta su casco, descubre su severa y tersa frente mansion de la inteligencia, y con voz argentina y clara, exclama.</stage>
+                        <p>Te ruego me oigas, poderoso hijo de SATURNO, que conmueves el Olimpo al fruncir tu ceño terrible, y vosotros,
+                            prudentes y venerandos dioses que presidis y gobernáis a los hombres, no toméis á mal mis palabras, siempre sometidas
+                            a la voluntad del donante. Si por acaso mis razones carecen á vuestros ojos de peso, dignáos rebatirlas y pesarlas
+                            en la balanza de la justicia. Hay en la antigua HESPERIA, más allá de los Pirineos, un hombre cuya fama ha atravesado 
+                            ya el espacio que separa al mundo de los mortales del Olimpo, ligera cual rápida centella.
+                        </p> 
+                        <p>De ignorado y oscuro que era, pasó a ser juguete de la envidia y ruines pasiones, abrumado por la desgracia, triste destino de
+                            los grandes genios. No parece otra cosa sino que el mundo, extrayendo del TÁRTARO todos los padecimientos y torturas,
+                            los ha acumulado sobre su infeliz persona. Más a pesar de tantos sufrimientos é injusticias no ha querido devolver a
+                            sus semejantes todo el dolor que de ellos recibiera, sino por piadoso y demasiado grande para vengarse, trató de corregirles
+                            y educarles, dando á luz su obra inmortal, el DON QUIJOTE hablo, pues, de CERVANTES, de ese hijo de la ESPAÑA,
+                            que más tarde será su orgullo, y que ahora perece en la más espantosa miseria.
+                        </p> 
+                        <p>El QUIJOTE, su parto grandioso, es el látigo que castiga y corrige sin que derrame sangre, pero excitando
+                            la risa; es el néctar que encierra las virtudes de la amarga medicina; es la mano halagüeña que guía enérgica a
+                            las pasiones humanas. Si me preguntáis por los obstáculos que superó, servíos escucharme un momento, y lo sabréis.
+                            Hallábase el mundo invadido por una especie de locura, tanto más triste y frenética cuanto más extendida estaba por las
+                            imbéciles plumas de imaginaciones calenturientas, cundía por todas partes el mal gusto y gastábase inútilmente en lecturas
+                            perniciosas, cuando hé aqui que aparece esa luz brillante que disipa las tinieblas de la inteligencia; y cual suelen las tímidas
+                            aves huir al divisar al cazudor ó al oir el silbido de la flecha, así desaparecieron los errores, el mal gusto y las absurdas
+                            creencias, sepultándose en la noche del olvido.
+                        </p>
+                        <p>Y si bien es verdad que el cantor de Ilión, en sus sonoros versos, abrió el primero el templo de las musas, y celebró el heroismo
+                            de los hombres y la sabiduría de los inmortales; que el cisne de Mantua consalzó la piedad del que libró á los
+                            dioses del incendio de su patria y renunció a las delicias de VENUS, por seguir tu voluntad; tú, el más grande de los dioses
+                            todos, y que los más delicados sentimientos brotaron de su lira, y su melancólico estro transporta a la mente a otras
+                            regiones; también no es menos cierto que ni uno ni otro mejoró las costumbres de su siglo, cual hizo CERVANTES. A su aparición,
+                            la Verdad volvió a ocupar su asiento, anunciando una nueva Era al mundo, entonces corrompido. Si me preguntáis
+                            por sus bellezas, a pesar de conocerlas yo, os envio a APOLO, único juez en este punto, y preguntadle si el autor del QuiJOTE
+                            ha quemado incienso en sus inmortales aras.
+                        </p>
+                    </sp>
+                    <sp who="#apolo">
+                        <speaker>APOLO</speaker>
+                        <p>Con el placer con que acojes en serena noche las quejas de FILOMENA, así serán gratas para ti mis razones, padre mío.
+                            Las nueve Hermanas y yo leímos en los jardines del Parnaso ese libro de que habla la sabía MINERVA. Su estilo festivo
+                            y su acento agradable suenan a mis oidos cual la sonora fuente que brota en la entrada de mi gruta umbría. (Os
+                            ruego no me tachéis de apasionado porque CERVANTES me haya dedicado muchas de sus bellas páginas.)
+                        </p>
+                        <p>Si en la extremada pobreza, engendradora del hambre, la miseria y las desgracias, que al infeliz de continuo acosan, un humilde
+                            hijo mío ha sabido elevar hasta mi sus cantos y armonizar sus acentos, al ofrecerme un tributo mucho más bello y
+                            precioso que mi carro reluciente é indómitos caballos; si en la hedionda mazmorra, funesto encierro para un alma que a
+                            volar aspira, su bien cortada pluma supo verter raudales de deslumbradora poesía, mucho más agradables y ricas que las
+                            linfas del dorado Pactolo, ¿por qué le hemos de negar la superioridad y no darle la victoria cuál a ingenio el más grande
+                            que los mundos vieron? Su QUIJOTE es el libro predilecto de las MUSAS, y mientras festivo consuela a tristes y
+                            melancólicos, e ilustra al ignorante, es al mismo tiempo una historia, la historia más fiel de las costumbres españolas.
+                            Opino, pues, con la sabia PALAS, y me perdonen los otros dioses que de mi parecer no participan.
+                        </p>
+                    </sp>
+                    <sp who="#juno">
+                        <speaker>JUNO.</speaker>
+                        <p>Si su mayor mérito consiste en haber soportado tantas desgracias, pues en lo demás a ninguno aventaja, 
+                            si es que no sale vencido, diré también que HOMERO, ciego y miserable, imploró en un tiempo la caridad pública 
+                            (lo que nunca ha hecho CERVANTES), recorriendo pueblos y ciudades con su lira, única amiga, y viviendo en la 
+                            más completa miseria. Esto bien lo recuerdas, ingrato APOLO.
+                        </p>
+                    </sp>
+                    <sp who="#venus">
+                        <speaker>VENUS</speaker>
+                        <p>¡¿Y qué? ¿Y VIRGILIO no ha sido también pobre? ¿No estuvo mucho tiempo manteniéndose con un pan solo, regalo de César? 
+                            La melancolía que se aspira en sus obras, ¿no dice lo bastante cuánto debió haber sufrido su corazón sensible y delicado? 
+                            ¿Habrá padecido menos que el brillante HOMERO y el festivo CERVANTES?
+                        </p>
+                    </sp>
+                    <sp who="#minerva">
+                        <speaker>MINERVA</speaker>
+                        <p>Sin duda, todo esto es cierto; pero vosotros no debéis ignorar que CERVANTES fué herido y cautivo por
+                            muchos en el inhospitalario suelo del África, donde apuró hasta las heces el cáliz de la amargura, viviendo con
+                            la continua amenaza de muerte.
+                        </p>
+                    </sp>
+                    <stage type="action">JÚPITER hace demostraciones de estar conforme con MINERVA.</stage>
+                    <sp who="#marte">
+                        <speaker>MARTE</speaker>
+                        <stage type="action">Se levanta y habla con voz atronadora é iracunda.</stage>
+                        <p>¡No, por mi lanza! ¡No! ¡Jamás! Mientras una gota de sangre inmortal aliente en mis venas, CERVANTES no triunfará.
+                            ¿Cómo permitir que el libro que echa al suelo mi gloria y ridiculiza mis hazañas se alce victorioso? JÚPITER; 
+                            yo te ayudé en otro tiempo: atiende, pues, ahora a mis razones.
+                        </p>
+                    </sp>
+                    <sp who="#juno">
+                        <speaker>JUNO</speaker>
+                        <stage type="action">Exaltada.</stage>
+                        <p>¿Oyes, justiciero JOVE, las razones del valeroso MARTE, tan sensato como esforzado? La luz y la verdad campean 
+                            en sus palabras. ¿Cómo, pues, dejaremos que el hombre, cuya gloria el tiempo respetó (y que lo diga SATURNO), 
+                            se vea pospuesto á ese advenedizo y manco, sarcasmo de la sociedad?
+                        </p>
+                    </sp>
+                    <sp who="#marte">
+                        <speaker>MARTE</speaker>
+                        <p>Y si tú, padre de los dioses y de los hombres, dudas de la fuerza de mis razonamientos, pregunta a esos otros, 
+                            si hay algo que se atreve a sostener los suyos con su brazo.
+                            <stage type="action">Se adelanta arrogante al medio, desafiando a todos con su mirada y blandiendo su acero.</stage>
+                        </p>
+                    </sp>
+                    <sp who="#minerva">
+                        <speaker>MINERVA</speaker>
+                        <stage type="action">Con rostro altanero y mirada reluciente, de un paso y exclama con voz tranquila:</stage>
+                        <p>Temerario MARTE; que te olvidas de los campos troyanos donde fuiste herido por un simple mortal: si tus
+                            razones se fundan en tu espada, las mías no temerán combatirte en tu terreno. Pero para que no se me tache
+                            de imprudente, quiero demostrarte que te equivocas mucho. CERVANTES siguió tus banderas, y te sirvió heróicamente
+                            en las aguas de Lepanto, donde su vida perdiera, si el DESTINO no le dedicase a un fin más grande.
+                            Si tiró la espada para coger la pluma, fué por la voluntad de los inmortales, y no por despreciarte, como
+                            tal vez te lo has imaginado en tu loco desvarío. 
+                            <stage type="action">Y más blandamente añade:</stage> 
+                            No seas, pues, ingrato, tú, cuyo magnánimo corazón es inaccesible al rencor y odiosas pasiones. 
+                            Puso en ridículo la caballería; porque no era ya conveniente a su siglo; además, no son esas las luchas
+                            que a ti te honran, sino las batallas campales; tú lo sabes bien. Estas son mis razones, y si no te convencen, 
+                            acepto tu reto.
+                        </p>
+                    </sp>
+                    <stage type="action">
+                        Dijo, y cual suele caliginosa nube, cargada de rayos, acercarse a otra en medio del Océano cuando el cielo se encapota, así
+                        MINERVA camina lentamente, embrazando su formidable escudo y enristrando la lanza, mensajera terrible de la destrucción.
+                        Tranquila es su mirada, pero aterradora; su voz tiene un sonido que infunde pavor.
+                    </stage>
+                    <sp who="#belona">
+                        <speaker>BELONA</speaker>
+                        <stage type="action">Se pone al lado del iracundo Marte, dispuesto a ayudarte.</stage>
+                    </sp>
+                    <sp who="#apolo">
+                        <speaker>APOLO</speaker>
+                        <stage type="action">Al ver la actitud de BELONA, suelta la lira, coge el arco, arranca de la doroda aljaba una flecha, 
+                            y colocándose al lado de MINERVA, tiende el arco, dispuesto a disparar</stage>
+                    </sp>
+                    <stage type="setting">(El Olimpo, próximo a desplomarse,: se extremece, la luz del día se obseurece, y los dioses tiemblan).</stage>
+                    
+                    <sp who="#jupiter">
+                        <speaker>JÚPITER</speaker>
+                        <stage type="action">Enojado blande un rayo y grita:</stage>
+                        <p>¡A vuestros asientos, MINERVA, APOLO; y vosotros, MARTE y BELONA! ¡No irritéis mi cólera celéste!</p>
+                        <stage type="action">
+                            Cual suelen las carniceras y terribles fieras, encerradas en jaula de hierro, obedecer sumisas a la voz 
+                            del esforzado domador, así aquellos dioses ocupan respectivamente sus puestos, amedrentados por la amenaza del 
+                            hijo de CIBELES, quien, al ver su obediencia, más blandamente añade:
+                        </stage>
+                        <p>Yo terminaré la contienda: la Justicia pesará los libros con su recta imparcialidad, y lo que ella diga, 
+                            se seguirá en el mundo, mientras que vosotros acataréis su inmutable fallo.
+                        </p>
+                    </sp>
+                    <sp who="#justicia">
+                        <speaker>JUSTICIA</speaker>
+                        <stage type="setting">
+                            Desciende de su asiento, se coloca en medio del concurso, sosteniendo su siempre imparcial balanza; mientras
+                            que MERCURIO coloca en los platillos la ENEIDA y: al QUIJOTE. Después de oscilar por mucho tiempo la
+                            aguja marcará al fin el medio, declarando que eran iguales. VENUS se asombra, pero calla. MERCURIO quita del 
+                            platillo la ENEIDA, substituyéndola con la ILIADA. Una sonrisa se dibuja en los labios de JUNO, sonrisa
+                            que se disipa rápidamente cuando vé subir y bajar a los dos platillos donde el QUIJOTE y la ILIADA están.
+                            Suspensos están los ánimos: ninguno habla, ninguno respira. Se vé volar un CÉFIRO que inmediatamente se posa
+                            en la rama de un árbol, para aguardar también la decisión del DESTINO. Al fin ambos platillos se detienen a una misma
+                            altura, y allí permanecen fijos.
+                        </stage>
+                    </sp>
+                    <sp who="#jupiter">
+                        <speaker>JÚPITER</speaker>
+                        <stage type="action">Con voz solemne.</stage>
+                        <p>Dioses y diosas: la JUSTICIA los cree iguales; doblad, pues, la frente, y demos a HOMERO la trompa,
+                            a VIRGILIO la lira y a CERVANTES el lauro; mientras que la FAMA publicará por el mundo la sentencia del
+                            DESTINO, y el cantor APOLO entonará un himno al nuevo astro, que desde hoy brillará en el cielo de la gloria
+                            y ocupará un asiento en el templo de la inmortalidad.
+                        </p>
+                    </sp>
+                    <sp who="#apolo">
+                        <speaker>APOLO</speaker>
+                        <stage type="action">Pulsa la lira a cuyo sonido se ilumina el Olimpo, entona el himno de gloria que resuena majestuosa en todo el coliseo.</stage>
+                        <p>“¡Salve, oh, tú, el más grande de los hombres, hijo predilecto de las Musas, foco de intensa luz que alumbrará
+                            a los mundos; salve! Loor á tu nombre, hermosa lumbrera, en cuyo derredor girarán en lo futuro mil
+                            inteligencias, admiradoras de tu gloria! ¡Salve, grandiosa obra de la mano del Potente, orgullo de las ESPAÑAS; flor
+                            la más hermosa que ciñe mis sienes, yo te saludo! ¡Tú eclipsarás las glorias de la antigüedad; tu nombre escrito
+                            en letras de oro en el templo de la Inmortalidad, será la desesperación de los demás ingenios! ¡Gigante poderoso,
+                            serás invencible! Colocado como soberbio monumento en medio de tu siglo, todas las miradas se encontrarán en tí.
+                            Tu brazo poderoso vencerá a tus enemigos, cual voraz incendio consume la seca pajilla. ¡Id, inspiradas MUSAS,
+                            y cogiendo del oloroso mirto, laurel bello y rosas purpurinas, tejed en honor de CERVANTES Inmortales coronas!
+                            PAN, y vosotros, SILENOS, FAUNOS y alegres SÁTIROS, danzad en la alfombra de los umbrosos bosques, en tanto
+                            que las NEREIDAS, las Náyades, las bulliciosas ONDINAS y juguetonas NINFAS, esparciendo mil aromosas flores,
+                            embellecerán con sus cantos la soledad de los mares, las lagunas; las cascadas y los ríos, y agitarán la clara
+                            superfície de las fuentes en sus variados juegos.
+                        </p>
+                    </sp>
+
+                    <stage type="setting">
+                        Se ponen a danzar las musas, las ninfas, las náyades, etc. y también BACO, MOMO, SILENO Y GANÍMEDES, siendo la principal bailarina
+                        la musa TERPSÍCORE. APOLO Y ERATO tocan la lira, EUTERPE la flauta, CLÍO, la trompeta y CALIOPE el clarín. 
+                        Entretanto los dioses y las diosas se ponen a ambos lados del escenario y sus tronos y asientos son transportados 
+                        también a un lado; se toca la marcha filipina. Se abre un segundo telón, se verá aparecer en el fondo, iluminado fantásticamente, un busto de CERVANTES, 
+                        a cuyo lado izquierdo se halla una estátua de cuerpo entero de RIZAL, coronándolo. Será substituida, entonces, la marcha nacional filipina con la marcha real española.
+                    </stage>
+                    <stage type="ending">TELON.</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

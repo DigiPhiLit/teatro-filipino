@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xml:lang="es" xml:id="CORPUS-recto-soloentrelassombras">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Solo entre las sombras</title>
+                <author>
+                    <persName>
+                        <forename>Claro M.</forename> 
+                        <surname>Recto</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl type="printSource">
+                    <publisher>Biblioteca de filipiniana</publisher>
+                    <pubPlace>Instituto Cervantes de Manila</pubPlace>
+                </bibl>
+                <bibl type="digital-source">
+                    <date when="2013">2013</date>
+                    <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+                    <pubPlace>Alicante</pubPlace>
+                    <idno type="https://www.cervantesvirtual.com/nd/ark:/59851/bmc5t5c4"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="es" usage="100">español</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://dracor.org/doc/schema">
+                    <term type="genre">drama</term>
+                    <term type="form">prose</term>
+                </keywords>
+            </textClass>
+
+            <particDesc>
+                <listPerson>
+                    <person xml:id="andres" sex="MALE">
+                        <persName>Andrés</persName>
+                    </person>
+                    <person xml:id="gabriela" sex="FEMALE">
+                        <persName>Gabriela</persName>
+                    </person>
+                    <person xml:id="marina" sex="FEMALE">
+                        <persName>Marina</persName>
+                    </person>
+                    <person xml:id="narciso" sex="MALE">
+                        <persName>Don Narciso</persName>
+                    </person>
+                    <person xml:id="luisa" sex="FEMALE">
+                        <persName>Luisa</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <castList>
+                <castItem>
+                    <role xml:id="andres">ANDRÉS</role>
+                    <roleDesc>Médico y hombre de letras</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="gabriela">GABRIELA</role>
+                    <roleDesc>Esposa de Andrés</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="marina">MARINA</role>
+                    <roleDesc>Hermana menor de Gabriela</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="narciso">DON NARCISO</role>
+                    <roleDesc>Tío materno</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="luisa">LUISA</role>
+                    <roleDesc>Amiga de la familia</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+
+        <body>
+            <div type="act" n="1">
+                <head>ACTO ÚNICO</head>
+                <stage type="setting">Sala con apariencia de sencillez y buen gusto. Ambiente de clase media profesional. A la izquierda, puerta que da al gabinete y laboratorio de Andrés. A la derecha, dos puertas; 
+                    una que comunica con las habitaciones particulares y otra con las demás dependencias de la casa. Al fondo, puerta en medio que abre paso a una amplia galería, y por ambos lados anchos 
+                    ventanales a través de los cuales se divisa la puesta del sol. Es Abril, a las cinco de la tarde.
+                </stage>
+
+                <div type="scene" n="1">
+                    <head>ESCENA PRIMERA</head>
+                    <stage type="entrance">GABRIELA, ANDRÉS y D. NARCISO</stage>
+                    <stage type="setting">Andrés, acomodado en uno de los Sillones, lee Gabriela en otro sillón hace calceta. D.Narciso entra por el foro.</stage>
+
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Buenas tardes, tío Narciso.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Hola, tío Narciso. 
+                            <stage type="action">Se levanta y hace ademán de besarle la mano</stage>
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">retirando su mano de la de Gabriela</stage>
+                        <p>¿Qué hay, sobrinos? He venido a saber de vosotros. Y Marina, ¿por dónde anda?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Desde que llegó no ha parado. Se la disputan los pacientes, los masculinos, sobre todo. Creo que incluso
+                            hay quienes se fingen enfermos. No sabe Vd. lo solicitada que está.
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Y ¿cómo le fueron las vacaciones en Zamboanga?....</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Pues, divinamente. Está hermosota. Con unos colores... ¿Verdad, Andrés?</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">Secamente</stage>
+                        <p>No he parado en eso.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Y tú, Andrés, ¿cómo tienes ese rasguño? ¿Y ese corazoncito, Gabriela? ¡Mira que no se juega con las emociones! El corazón es muy traicionero;
+                            A lo mejor... Bueno, bueno. Me alegro de que no haya sino nada... Pero ¡Caramba! Apenas se habla de otra cosa en Manila... Oye Andrés, ¿quieres decirme cómo fue todo aquello?ç
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Pues, muy sencillo. Anoche, en el club, ese bribón de Flores se permmitió insinuar delante de un corro de amigos... nada... una calumnia burda... de esas que 
+                            hay oara estrangular al que las levanta. Usted sabe cómo está Manila; hay cada lengua por ahí que no hay virtud que se cree segura.
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Pero, qué fué? Di.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Si no es cosa de decirlo.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Dilo, Andrés, qué más dá, si no hay persona discreta que lo crea.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Pues... que entre Marina y yo... una infamia... Usted ya me comprende, tío Narciso.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Sí, comprendo... Pero, Flores fué capaz?... Sin ningún fundamento?...</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Calumniar no es difícil. Fundamentos pueden inventarse... Bueno, pues oír aquello y echarme sobre él y sacudirle por el cuello, fué todo uno. 
+                            Canto me cegó la ira que no advertí como Flores pudo herirme....
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Y los que estaban presentes?</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Nos separaron.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Pregunto cómo juzgaron la conducta de Flores.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Lo que Vd. podrá imaginarse. Alguno que otro, al parecer, indignado. Los demás, y eran la mayoría, mal disimulaban su satisfacción. 
+                            Claro, un nuevo pasto para su maledicencia... La comida de las fieras...
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>¿Y Gabriela?</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Pues esta, a quien aún antes de llegar yo a casa le habían avisado por teléfono desde el club, tuve un ataque que pudo habernos costado un disgusto. Como es
+                            tan impresionable... No fué nada, afortunadamente.
+                        </p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Sí esos calumniadores pensaran en el daño que hacen...</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Bueno es no dar que hablar.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Pero mejor aún es no hacer caso de las hablillas. Que la gente murmura? qué le vamos a hacer? La sociedad vive de la maledicencia, y, como Saturno, devora a sus propios hijos.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Somos justos, Andrés. La maledicencia presta a veces un buen servicio a la causa de la moral. Para mí el "qué dirán" es una especie de espada de Damocles que nos impide cometer muchos desaguisados.
+                            En último caso, es un mal necesario. Por lo demás, sí no se ve desafiada,  la sociedad no se mete con nadie.
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>¿Y quién la desafía?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>¿Qué quiere usted decir, tío Narciso?</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Que somos esclavos de las conveniencias, y la sociedad  exige, a cambio de dejarnos en paz, que sujetemos a ellas nuestros actos. La sociedad tiene sus cánones.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Sus prejuicios; dirá usted.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Sea. Pero, ¿a qué llamas desdeñosamente prejuicios? Ideas que han envejecido algo, pero que un día fueren nuevas y presentan quizás mejores títulos a nuestro respeto que esas que ahora están de moda y 
+                            entusiasman por su novedad a una docena de bobos. No desprecies las cosas por viejas, Andrés. Hay principios de esplendor perdurable que no dejarán de alumbrar por más tumbos que dé el mundo, 
+                            como esos acantilados que resisten el hachazo de las centellas.
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Como orador y sofista, no es usted de los medianos.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Hombre, orador no diré que no pueda echar de cuando en cuando una buena parrafada, pero sofista, te digo que más lo parece quien se empeña en que la sociedad no sea lo que es: prejuicios, 
+                            como dirías, convencionalismos, respetos sociales, que todos juntos forman la vida, no la vida que soñamos, sino ésta que vivimos.
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">(Cada vez más exaltado)</stage>
+                        <p>Y ¿hay que resignarse a soportar ese yugo, sacrificando ideas y sentimientos? ¡Lucida teoría! Si de usted dependiese, no saldríamos de la rudimentaria hoja de parra.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Tiene razón Andrés.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Los que apenas nos llamanos Pedro o Juan debemos dejar que el mundo ruede por su pendiente natural, hasta que la obra del acaso o de otros factores más fuertes lo desvíe hacia un nuevo derrotero: 
+                            Si alguien, sin méritos, por vanidad o presunción, o ... por justificar un disparate, se atreve a torcer su curso, es muy justo que caiga arrollado. Y hay ciertos actos que en cualquier 
+                            tipo de sociedad constituyen una abierta provocación que ella jamás puede tolerar...
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">visiblemente afectado</stage>
+                        <p>Pero, ¿de qué me acusa esa sociedad que usted parece representar en este momento? ¿De mi modo de obrar? Me permito decirle que si yo me hallare alguna vez en un
+                            conflicto entre el juicio de la sociedad y el de mi propia conciencia, haré lo que mi conciencia dicte, y la sociedad... que se alivie... Hable usted claro, tío Narciso.
+                        </p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Por Dios, Andrés, no te alteres!</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">a Andrés</stage>
+                        <p>Si has pensado que estoy aquí para fiscalizar tus actos, has pensado un disparate. Hablaba en general, sin aludir a nadie.
+                        </p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Es verdad, Andrés, Tío Narciso no ha querido ofenderte. Ganas de llevarte la contraría, como siempre. Es que tú estás nervioso. ¿Qué te importa lo que pueden pensar los demás si estoy segura de tu cariño? </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Gracias. Gabriela, tienes razón. Eres la única que debe juzgarme. Mientras no me digas que obro mal, puedo tener la confianza de que no hay nada censurable en mi proceder.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">Aparte</stage>
+                        <p>¡Excelente teoría!</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <stage type="action">A D. NARCISO</stage>
+                        <p> Andrés me quiere mucho y nunca será capaz de apuñalarme aquí. Esta víscera es muy sensible y frágil; lo sabe él que es médico. 
+                            <stage type="action">A Andrés, con cariño</stage>
+                            ¿Verdad, esposo mío? Entre tú y la traición se levanta esta fortaleza 
+                            <stage type="action">señalando su corazón</stage>
+                            Ya ves qué débil es. Pero en ella confío, porque sé que no osarás pasar si ves que la destrozas...
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Basta, basta! No digas más! Puedes estar tranquila.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">Aparte</stage>
+                        <p> Algo le da en el corazón. Pobre Gabriela!</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Bueno, os dejo un momento; pero, cuidadito con reñir, eh?</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>¿A dónde vas, Gabriela?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Voy al hospital a ver a Charito, la de Medina. Acaban de avisar que ha tenido otro ataque. Tú sabes que padecemos del mismo mal. Esta vez parece que la pobre se va. 
+                            ¿Quiere acompañarme al hospital, tío Narciso?
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>¿Por qué no?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Espere, entonces, un ratito, que mientras Ud. y Andrés sé ponen a arreglar el mundo; o a desarreglarlo, iré al jardín a cortar unas rosas para Charito... No se ha fijado usted, tío Narciso, cómo florecen mis
+                            rosales. Da gloria verlos... Y tú, Andrés, ¿no vienes con nosotros?
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">Mal disimulando su estado de ánimo, entre emocionado y de mal talante</stage>
+                        <p>. Sí, mujer. Anda ya, que se está haciendo tarde.</p> 
+                        <stage type="exit">Vase Gabriela por el foro.</stage>
+                    </sp>
+                </div>
+
+                <div type="scene" n="2">
+                    <head>ESCENA SEGUNDA</head>
+                    <stage type="entrance">ANDRÉS y D. NARCISO; al final MARINA</stage>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">En ademán de irse</stage>
+                        <p>Usted es de casa, tío Narciso, y permitirá que me encierre en mi clínica. Tengo en estudio un caso que es de alguna urgencia. No creo que pueda ir con ustedes al hospital. 
+                            Con su permiso.
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Está bien, no quiero estorbar. Pero, francamente, he venido a decirte dos palabras. No habré de importunarte mucho.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">Sentándose, displicente</stage>
+                        <p>Bueno, ya le escucho. Puede usted empezar.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Esperé que Gabriela nos dejase solos. Ella no debe saber nada; es un crimen robarle la ilusión a esa infeliz. Anda tan enamorada de tí, y el cariño le ciega. Y para ella el golpe podría ser fatal. 
+                            ¡Como es tan romántica!... La han educado así, para el querer, para el hogar, para ser buena, nada más. No es fuerte para la lucha, para esta vida moderna, como tú, como Marina....
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Sí, sí, no siga; ya le veo venir. Soy hombre práctico y voy al grano. 
+                            <stage type="action">Burlón</stage>
+                            ¿Usted es de los que echaron a los perros famélicos de la sociedad ese hueso que roer?
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Me insultas, Andrés. Si no se tratara de esas huérfanas, las hijas de mi única hermana, me ahorraría este precioso tiempo... Ya preveía, antes de venir, que predicaría en desierto.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <stage type="action">Con sorna</stage>
+                        <p>Pero, por lo menos, usted es de los que se han puesto a roer el hueso de esa calumnia infame.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Más modos, Andrés, que tu casa no es ningún burdel.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Pero usted, ¿a qué ha venido? ¿A dar lecciones de buena crianza?</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>A algo más; a permitirme decirte cómo se vive entre personas decentes... Buena campanada has dado, y has comprometido no solo tu nombre, sino la honra de los demás,
+                            que debe merecer de tí todo respeto, si en tan poco tienes la tuya. No impide que tengas amantes: ese es un caso que sólo tu conciencia debe resolver. 
+                            Pero es que tú, hombre sin corazón y sin escrúpulos, has seducido a esa chiquilla que debiera ser sagrada para tí, porque es la hermana de tu mujer, y, por tanto, tu propia hermana, Marina...
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>¡Mentira!, ¡mentira! y ¡calumnia! No comprendo cómo ha sido usted capaz de sumarse a esos que, envidiosos de nuestra posición y de nuestra felicidad, no han hallado otro medio de 
+                            desquite que el destruir mi hogar.
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">Con desprecio</stage>
+                        <p>¡Ya lo has destruido, hipócrita!</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Piense de mí lo que guste. Pero usted nada conseguirá, porque Gabriela me cree y está segura de mi cariño, y no será Ud. capaz de asesinarla con una falsa delación.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>¡Basta de farsa! <stage type="action">Apocalíptico</stage> 
+                            En nombre de mis antepasados que vivieron y murieron con honra, de todos los míos que deben guardar incólume ese legado de honradez, vengo a exigir que hagas reparación, no, reparar no es
+                            posible, porque no se vuelve a recoger pura el agua vertida en la pocilga... pero sí a contener tu locura, poniéndote una camisa de fuerza, sí es preciso, por el bien de todos nosotros y por salvar a Gabriela que, si
+                            descubre vuestra infamia, morirá de dolor y de vergüenza, y no hablo en metáfora; morirá de verdad, no te quepa duda.
+                        </p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>¡Basta ya! ¡Calumnia, todo calumnia! Acusar es fácil. No basta decir que uno es culpable. Vengan pruebas. Le han dicho una infamia, y cualquiera se exalta. 
+                            Pero sujete usted esos nervios y crea en mi inocencia.
+                        </p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>A eso he venido, a convencerme de que no es posible que hayas perdido la razón hasta ese extremo... Desgraciadamente, es inútil toda disculpa. Tengo pruebas...</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Diga usted qué son.</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>Dije mal pruebas; porque es una sola, aunque vale por todas, porque es prueba viviente, palpitante... ¿Quieres más? ¡El fruto de vuestra infamia!</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>ANDRÉS</speaker>
+                        <p>Oh, ¡eso es falso. D. Narciso! ¡Dios otorgue su perdón a usted y a cuantos con usted me calumnian!</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <p>¡Pídeselo para tí que bien lo necesitas! Y no digo más. Pronto darás en tierra porque bailas en cuerda floja y eres mal equilibrista...</p>
+                        <stage type="action">Se dirige al foro, Andrés vase por la izquierda. Entra por el foro Marina en traje de enfermera y en la puerta se topa con D.Narciso.</stage>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Buenas tardes, tío Narciso. ¿Se marcha usted?</p>
+                    </sp>
+                    <sp who="#narciso">
+                        <speaker>D. NARCISO</speaker>
+                        <stage type="action">Ya Desde fuera, con sequedad</stage>
+                        <p>Sí, vuelvo al punto. ¡Adiós!</p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="3">
+                    <head>ESCENA TERCERA</head>
+                    <stage type="entrance">GABRIELA y MARINA</stage>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <stage type="entrance">Por la segunda derecha</stage>
+                        <stage type="action">Con un ramillete de rosas en la mano.</stage>
+                        <stage type="action">Dirigiéndose a Marina</stage>
+                        <p>¿Y tío Narciso? 
+                        <stage type="action">Coloca el ramillete sobre el velador.</stage>
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Cuando llegué se iba. Le ví marchar con un sofocón...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Nada, la discusión con Andrés.... Como tienen ideas tan divergentes... Nunca están de acuerdo... ¿Y qué tal ha sido aquello?</p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Un poco laborioso, pero no hubo novedad. La madre y el chico están perfectamente.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>¿Y no hubo escándalo? Dicen que su padre a poco la mataba...</p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <stage type="action">indiferente</stage>
+                        <p>No, nada.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Me alarma la frescura de estas jóvenes modernistas. Es que con esa libertad de ir solas a todas partes; y esa promiscuidad de sexos en las escuelas, y esas películas inflamables, no puede esperarse otro resultado.</p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>En otras partes la libertad de la juventud es mayor y hay, en cambio, un ambiente de seguridad y confianza. Por de pronto, el aire libre parece más higiénico y recomendable que aquel encierro conventual de nuestras abuelas. 
+                            Las jóvenes de hoy aprenden a ser fuertes.... 
+                        </p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Y tan fuertes. Ya vemos en qué consiste esa fuerza.</p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Si caen, será porque lo han querido.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>No veo diferencia entre dar un traspié por gusto y darlo por casualidad. De todas suertes, se le tuerce a uno el tobillo, si es que no se le rompe un hueso, y eso es lo que se trata de evitar, 
+                            y las jóvenes de hoy están más expuestas. Antes nos educaban de diferente manera....
+                        </p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>El sistema de educación es lo de menos. Sin salir de casa... se han visto casos. Y antes, con otro sistema...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Cierto. Pero antes las cifras no eran tan alarmantes. Eran casos aislados, producto de la condición humana. Hoy constituyen una plaga. Y si es cierto que la mayor parte de esas jóvenes para salvar la honra, acuden a 
+                            procedimientos criminales... ¡Qué horror! A esto hemos venido a parar con tanto progreso y tanta modernidad. Y lo sensible es que nadie, al parecer, piensa en remediarlo.
+                        </p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>La culpa no es del sistema. Eso no forma parte del plan de enseñanza.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>Lo que hay es mucha libertad y poca instrucción religiosa, y como resultado, poca decencia y poca vergüenza. La crisis en las costumbres es consecuencia de ese desequilibrio. En otras partes puede que eso esté bien. 
+                            ¡Allá ellos! Pero está visto que aquí el efecto es desastroso. Contrasta demasiado con nuestra educación de siglos y nuestro modo de ser. Y luego estos paisanos nuestros son muy dados a la exageración, 
+                            y cuando les dá por copiar resultan desdichadas caricaturas del modelo... Nustra aptitud para imitar precisamente 
+                            lo malo es asombroso. Como dijo tío Narciso en una ocasión, en esta materia de importación de novedades nuestra política es libre cambio para lo malo y arancel prohibitivo para lo bueno.
+                        </p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Los dichos de tío Narciso tienen para tí autoridad indiscutible. Los repites como textos de la sagrada escritura. Prefiero pensar y obrar por mi propia cuenta.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                        <speaker>GABRIELA</speaker>
+                        <p>No son dichos, Marina. Son sentencias, palabras antiguas que encierran la humilde pero edificante sabiduría de nuestros padres. Quien no las escucha va por el océano de la vida como un barco sin timón a la deriva, pronto a estrellarse contra el primer acantilado.</p>
+                    </sp>
+                    <sp who="#marina">
+                        <speaker>MARINA</speaker>
+                        <p>Nada, tío Narciso en duplicado al carbón.</p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="4">
+                    <head>ESCENA CUARTA</head>
+                    <stage type="entrance">Dichas y LUISA (por el foro), a poco ANDRÉS</stage>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>¡Buenas tardes!</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Hola, Luisita!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Luisa, ¿tú por aquí? ¡Milagro!....</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>¿Qué tal por esta casa? He sabido que ésta 
+                        <stage type="action">por Marina</stage> 
+                        ha vuelto de Zamboanga, y vengo a saludarla ya de paso, a enterarme también, como amiga vuestra que soy de lo de anoche en el club....
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Nada... Andrés, un rasguño. Yo.., un pequeño susto, que ya se pasó?... La causa de todo, una ligereza de ese irresponsable de Flores. Y ya lo sabes todo.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Entonces, me alegro de que la cosa no haya sido de importancia. 
+                        <stage type="action">A Marina</stage> 
+                        ¡Qué mal te has portado conmigo, ingrata!... ¡Cinco meses de ausencia, y ni una postal! Todos extrañaron tu marcha repentina a Zamboanga... Claro, sin avisar a las amigas... 
+                        Y ¿qué tal te fué por allá? Se conoce que lo tomaste a gusto; porque cinco meses en aquel destierro es para aburrirse una... ¿Piensas volver?
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Quien sabe! <stage type="entrance">(Andrés entra por la izquierda)</stage></p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¿Cómo está usted, Luisa?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Bien, Andrés, gracias. <stage type="action">A Marina</stage> Y de novios, ¿cómo andamos?</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Siempre de guasa! Déjame de novios. Nunca me ha dado el naipe por esa cursilería.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Hay que conocer a ésta <stage type="action">por Marina</stage>. El romanticismo no le atrae. En eso somos diferentes. 
+                        Dice que soy cursi, que estoy chapada a la antigua, y quizás tenga razón. No la llevo más que siete años; pero nos separa medio siglo en el modo de enamorarnos con la vida.
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Me he colocado en el término medio y no hay tirón que de allí me quite. Represento el tipo de transición. Mitad Gabriela, mitad Marina, virtud entre dos extremos viciosos. 
+                        Ni todo corazón como Gabriela, ni todo intelectualismo como Marina, Porque 
+                        <stage type="action">dirigiéndose a Marina</stage>, a ese corazón hay que darle también su parte.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Marina le dará su parte cuando llame a sus puertas el esperado mensajero. Pero, entre tanto, nada de lirismos tontos que lo gasten en vano. 
+                        Ha recibido una educación práctica, esa educación moderna que nos hace fuertes y nos enseña a pasar por encima de todo y de todos 
+                        para llegar a un ideal de nuestra vida...
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Andrés tiene argumento para todo. Gran médico como es, hubiera sido mejor abogado. Para él no hay causa perdida. 
+                        Y cuando quiere, toma con el mismo ardor e igual habilidad cualquier lado de una cuestión. Por ejemplo, cuando me hacía el amor, y también de recién casados, razonaba de diferente manera.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No hablo de nosotros, Gabriela. Para tí soy el mismo de siempre. Tú y yo ya hemos pasado de la edad formativa.
+                        Me refiero a la juventud de hoy a quien hay que dar una educación fuerte para que sepa depender de sí misma.
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Pero es que hay mucho egoísmo en esa educación que tanto preconizas.</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Y ¿qué más dá? La felicidad es egoísta. Ya sé que usted preguntará en un arranque de generosidad; ¿y los demás? 
+                        Bien, los demás que se procuren su propia felicidad y sean egoístas. De ese modo, día llegará en que todos, sin excepción, 
+                        serán felices y entonces, ¿qué importará ser egoístas? En realidad del egoísmo sólo habrá quedado el nombre, porque siendo común 
+                        la felicidad, tendrá cada cual lo mismo que su vecino, y....
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <stage type="action">interrumpiendo a Andrés</stage>
+                    <p>Y ¿mientras no llegan los demás? No es justo que lo que ya han llegado den, aunque en calidad de préstamo, ¿algo de lo suyo?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Entonces no tendría eficacia el sistema, o no se aplica; o hay que aplicarlo en todo su rigor. 
+                        Si usted comienza por hacer empréstitos o donativos de felicidad, como hay siempre mucha mala fe y pocas ganas de trabajar,
+                        resultará que pocos se comparan de la propia. Habrá en esto muchos sablistas, como en todo, o pordioseros, no le quepa duda. 
+                        En cambio, cierre la puerta a los pedigüeños, y no tendrán más remedio que bregar. Muchos caerán en la lucha, ¡quién lo ignora!... 
+                        Ya ocuparán otros su puesto; y siempre se llegará al ideal; todos y cada uno con su lote de felicidad... Basta de llamar a este mundo “valle de lágrimas.” 
+                        Es un campo de batalla y pertenece a los fuertes, como César y Alejandro, no a los que lloran, como Job y Jeremías, o como Boabdil, que, 
+                        porque sólo supo llorar, perdió su Granada.
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Digas lo que quieras, el mundo para mí es y será siempre la patria de los oprimidos. Siempre habrá mayor número de vencidos que de vencedores...
+                        Yo prefiero mi ideal cristiano: dar a los demás parte de lo mío.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>En el fondo, esa generosidad tuya es egoísmo. Querrías ser la depositaria de la felicidad, para administrarla y distribuirla a tu antojo, 
+                        quedándose naturalmente con la parte del león... Bueno, nos hemos alejado de nuestro tema... Ah, sí, hablábamos de la educación práctica. 
+                        Esas niñas fantaseosas que se están embobadas viendo volar las libélulas de sus sueños, corren el peligro constante de dar de narices contra ese 
+                        gran poste de la vida: la realidad.
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Jesús, Andrés! No digas eso, que las que se dan más testarazos y se llevan cada chichón son esas niñas marimachos...</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>O mamarrachos. Es igual...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Esa lengua. Luisa, esa lengua...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Marimachos o mamarrachos, qué más da. Lo cierto es que las virtudes de antaño andan hoy por los suelos.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>O por las nubes. De todos modos no están donde deben estar: en las personas.</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Cuidado que sois terribles.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Bueno, ya hemos charlado por los codos, y ... 
+                        <stage type="action">Dirigiéndose a Luisa</stage>. 
+                        Por lo pronto, ¿qué sabes de Charito?
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Me han dicho que está bastante grave.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>De allá vengo. Los médicos la han desahuciado.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Pobrecilla! Allá voy ahora mismo. ¿Me acompañas, Andrés?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Cuánto quisiera, Gabriela. Pero tengo que terminar esta misma noche el estudio de un caso clínico. Tenemos junta de médicos mañana.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Comprendo. Y perdona, Luisa.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Sí, mujer, déjate de cumplidos.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Hasta pronto.</p>
+                    <stage type="exit">Gabriela se despide y vase por el foro portando el ramillete de rosas; Luisa se queda en la escena.</stage>
+                    </sp>
+                </div>
+
+                <div type="scene" n="5">
+                    <head>ESCENA QUINTA</head>
+                    <stage type="entrance">Dichos, menos GABRIELA</stage>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Esta Gabriela siempre la misma. Parece vivir en un mundo aparte, su mundo de bondad y de ilusiones. 
+                        <stage type="action">A Marina</stage> Tú, en cambio, cada día te vemos más reconcentrada, menos comunicativa; 
+                        y razón tenemos tus amigas en preocuparnos...
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Eso va de temperamentos. Si yo quisiera aparecer dicharachera, lo haría con esfuerzo y resultaría extravagante.</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p><stage type="action">A Luisa</stage> 
+                        Pero lo que usted hace no tiene perdón de Dios.
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <stage type="action">con extrañeza</stage>
+                    <p>¿Cúal?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No venir con frecuencia sabiendo que tiene aquí amigos que la aprecian...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Asintiendo</stage>
+                    <p>Así es.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Muchas gracias. Pero sois los que dan mal ejemplo. Mire usted que casarse hoy mi hermano y brillar ustedes por su ausencia...</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Ya nos habrá perdonado... Conocerán el motivo... Una mala coincidencia...</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Lo habíamos supuesto. Anoche mismo ya estaba enterado todo el mundo. Esas noticias se transmiten con la rapidez del sonido.</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Mire usted que esta sociedad nuestra es para desesperar a cualquiera. 
+                        La tranquilidad de los hogares está pendiente del humor con que amanece un día cualquier irresponsable. 
+                        La más pequeña chispa, causada al azar por un charlatán:, prende inmediatamente, y al punto se encuentra uno en medio de una conflagración. 
+                        Esto de vivir uno tan vigilado no ocurre más que aquí. Alguna vez será preciso estarse asomado a la ventana desde muy de mañanita 
+                        para ir diciendo a todo el que pase: oiga usted, buen hombre, ¿se puede vivir? ¿Da usted su permiso?... Esto es desconsolador, Luisa... 
+                        Bien, usted permitirá que la deje un momento con Marina. Con su licencia...
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Eres muy dueño, Andrés. <stage type="exit">Andrés vase por la izquierda</stage></p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="6">
+                    <head>ESCENA SEXTA</head>
+                    <stage type="setting">MARINA y LUISA</stage>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Ya estamos solas. Tú, ¿qué cuentas?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Qué te he de decir! Ya sabes que si dos mujeres se encuentran, es para no dejar títere con cabeza.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Dejémosle por ahora al pobre títere con su cabeza... Hablemos de nosotras. ¿Qué, tienes novio?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Chica, no sabes lo que supone tener uno, uno sólo, en estos tiempos de carestía general. Cuesta Dios y ayuda, como dicen. Es una desesperación.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¿Si? Francamente, no estoy en el ajo. Ya sabes que el asunto no tiene interés para mí. ¿Por qué, qué ocurre en el encantado reino de los románticos?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Pues, ocurre que es difícil dar con muchachos que valgan la pena... Algunos deslumbran por su garbo exterior, pero si tiras de unas cuantas plumas, verás qué pollos más anémicos. Anemia espiritual, quiero decir.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Genialidades, aparte, Luisa.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Bueno, pues, te digo que hay mucho oro falso. Lo que es legítimo está fuera de la circulación, quiero decir que 
+                        no lo verás en círculos y reuniones, en esa feria a donde van los gitanos de nuestra sociedad a vocear las excelencias de su dañada mercancía....
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>En broma o en serio, cuando hablas no solo peroras como Andrés y tío Narciso, sino que levantas ampollas... De modo que sigues a caza de...</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p><stage type="action">Interrumpiendo</stage> Ya no, verás. 
+                        Tengo novio... Es oro de ley, de esos que no están en circulación, como las monedas antiguas, y encontrarlos es rara fortuna....</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Y ¿se puede conocer al interfecto?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>No hay inconveniente. Bien, sabes que no tengo secretos para tí, y tampoco hay razón para ocultarlo... Es Arturo, el poeta...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¿Estás de guasa?... Porque un poeta; al paso a que van las cosas, me parece...</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Son otras mis ideas, Marina.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Veo que estás enamorada y no digo más.... En las cosas del amor, no se puede discutir. Los enamorados siempre tienen razón. Enhorabuena, entonces... ¿y qué os quereis?</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <stage type="action">ensimismándose</stage>
+                    <p>Mucho, un querer dulcísimo, ese querer de las almas que se comprenden, que gustan del mismo manjar espiritual, y vuelan abrazadas hacia lo alto sin que las 
+                        embarace ninguna ligadura terraza.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>No has podido evitar el contagio. Hablas como un poeta.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Soy muy feliz con este cariño. Hasta he llegado a convencerme de que ya no soy la misma, sino otra... La propia alma de Arturo.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Nada, nada, por las nubes. Que tardes en aterrizar, es mi deseo.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <stage type="action">aterrizando</stage>
+                    <p>Descuido... ¿Y qué es de tí? Eres la misma de siempre: hermética en todo lo tuyo. Nada sabemos de tí las amigas.... Es decir, saber... Sabemos algo.... 
+                        eso que dicen de tí y de Andrés, que no creemos... Pero, ya ves; la gente murmura y dice que eres muy libre, y que tu educación moderna no te resguarda de esas violencias de la pasión.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Deja que murmuren. Esas murmuraciones pierden pronto su actualidad.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>Bueno, pero, de verdad, ¿qué es de tu vida?</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¿Mi vida? Ya la ves: Indiferente, como la vida misma He aprendido a vivirla a mi manera, sin grandes ilusiones, para ahorrarme los grandes desengaños que 
+                        acechan a la vuelta de cada esquina... Una vida que vosotras llamareis prosaica, pero que no cambiaría por ninguna otra.
+                    </p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <stage type="action">otra vez por las nubes</stage>
+                    <p>Pues, yo quiero la vida con sus grandes alegrías y sus grandes dolores, que tanto en la tribulación como en la dicha halla el espíritu consuelo...
+                        La vida con su miel y también su almendra amarga, con sus crueldades, y también sus halagos... Esa es la vida que quiero vivir... 
+                        Mi alma es para el arrebato, la exaltación... jamás para la indiferencia.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Que esa vida te haga muy feliz, Luisa!</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>¡Gracias, querida amiga! Y ahora, me voy. Despídeme de Andrés, y de Gabriela cuando vuelva, y vé por casa.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Cuando menos lo esperes. Muchas cosas a tu mamá.</p>
+                    </sp>
+                    <sp who="#luisa">
+                    <speaker>LUISA</speaker>
+                    <p>De tu parte serán dadas, gracias. ¡Adios, Marina!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Adios, Luisa! 
+                        <stage type="exit">Luisa vase por el foro, acompañándola Marina hasta la puerta.</stage>
+                    </p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="7">
+                    <head>ESCENA SÉPTIMA</head>
+                    <stage type="setting">MARINA y ANDRÉS</stage>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <stage type="entrance">Por la izquierda, al tiempo que Marina vuelve del foro de despedir a Luisa.</stage>
+                    <p>¡Ah, estabas sola!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Sí, ahora mismo se ha marchado Luisa. <stage type="action">En ademán de irse</stage></p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <stage type="action">Con ansiedad</stage>
+                    <p>¡Marina!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¿Qué quieres, Andrés? ... Habla, por Dios, que me pones nerviosa. ¿Ocurre algo?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Sí. ¿Sabes?</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Con sobresalto</stage>
+                    <p>¿Qué?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>La fatalidad que ha comenzado a perseguirnos. Hoy más que nunca debemos estar unidos para defender contra todos nuestro cariño.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Por Dios! ¿Qué dices? ¿Gabriela sabe?....</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Gabriela... no.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Pero, ¿sospecha?</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Tampoco. Pero los perros de la maledicencia, cansados de vagar por calles y clubs, han terminado por ladrar a nuestra puerta. 
+                        Gabriela acabará por alarmarse, y vendrá la sospecha y la sospecha es aún peor que la convicción. El que posee la verdad, dulce o amarga, está anclado en puerto. 
+                        El que sospecha navega por un mar sin orillas, en la peor de las tempestades: la que ruge bajo el cráneo... Estoy tranquilo, pero temo por tí; 
+                        no vaya a velar amedrentado tu cariño a la hora en que más lo necesito.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>No sabes como estoy. Desde que llegué no vivo. Cuando voy por la calle o subo a esas casas donde reclaman mis servicios, 
+                        son los mismos ojos que se me clavan escrutadores, o maliciosos, o las mismas alusiones mal reprimidas... 
+                        Y todo este asedio me tiene agobiada, y en vano me hago la despreocupada, y quisiera huir de los hombres para buscar 
+                        un rincón entre los brutos que tienen más piedad, o sepultarme a veinte leguas bajo tierra...
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Te han educado para ser fuerte, para vencer escrúpulos monjiles...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>De nada me sirve esa educación. Tiene razón Gabriela. Yo le llevaba la contraria hace poco, porque quería infundirme valor a mí misma, pero es inútil. 
+                        La he conjurado tantas veces para que me diga: has hecho bien en inmolar a los demás por un ideal de tu vida; pues, entonces. 
+                        sólo he conseguido engañarme, como el niño que, al pasar de noche frente a un cementerio, se pone a canturrear para entretener el miedo. 
+                        No, Andrés, la educación de un par de años no hace el alma, y la nuestra se ha forjado por tres siglos al calor de los antiguos principios. 
+                        Esta educación moderna es un traje que nos viene ancho o pequeño, y al menor descuido, o se nos rompe por las costuras, 
+                        o se lo levanta el viento, mostrándonos al natural. Nos lo aplauden los necios y los miopes, pero nos ponemos en ridículo ante los discretos.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No es eso Marina. Lo que pasa es que este ambiente de prejuicios está pesando ahora sobre tí, y te parece más cómodo volver la espalda al enemigo. 
+                        Es triste consentir que el pensamiento de los demás se sobreponga a la voz de nuestra conciencia...
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>La mía ha hablado, Andrés, y me ha juzgado ya, y me condena...</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No es la tuya, Marina... Es la conciencia de los otros que han dado guerra a tu conciencia, y la obliga a decir cosas extravagantes. 
+                        Lucha, Marina, lucha.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>No, Andrés, es locura. Están en su fortaleza. Somos los intrusos, Los impostores. No podemos arrojarlos de ella, porque son más fuertes y,
+                        sobre todo, porque tienen razón. Es locura luchar, es locura.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No son fuertes, Marina. Son espectros, fantasmas, nada más. Somos la luz, porque somos la realidad, lo único que es verdad en la vida. 
+                        Esa vieja educación es una antigualla, sombra de un pasado, alma de la noche; se disipará en cuanto se haga otra vez la aurora en tu conciencia... 
+                        No puede dar miedo sino a los niños.
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Dí lo que quieras. Eres hombre y eres sabio y discurres mejor que yo. Pero ahora no debe hablar la razón, porque es sutil y es falaz, y hace paradojas, 
+                        y mezcla la verdad con la mentira, sino la conciencia que sólo sabe decir la verdad.. .. Ha hablado mi conciencia, Andrés, y me ha dicho que soy una intrusa en las afecciones ajenas.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Por Dios; Marina, ¡no escuches esa voz de sirena!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Hemos estrangulado sin piedad la dicha ajena, la de Gabriela, la tuya misma, porque la que te he dado es apócrifa, 
+                        porque la verdad es el amor de Gabriela, el verdadero cariño de tu vida...
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¡Desvarías! La única verdad en mi vida es tu cariño, Gabriela es buena, pero nunca me ha comprendido, jamás hubo entre ella y yo 
+                        esa fusión de ideas y sentimientos que es el secreto de la dicha. Hasta ahora he vivido en su corazón como un forastero. 
+                        En cambio, llamé al tuyo y en él hallé mi nido, y desde entonces comprendí que mi vida ya no podría subsistir si no viviese en la tuya... 
+                        La naturaleza se ha negado a reconocer mi unión con Gabriela, pero bendijo nuestro amor, tu amor y el mío, dándonos un hijo, nuestro hijo...
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Por Dios, Andrés, ¡no hagas violencia a mi corazón que ha sido la causa de muchos infortunios! El corazón es egoísta, y no quiero serlo más... 
+                        Ha llegado la hora de restituir... Expiaré por tí, por los dos, pero vuelve a Gabriela mientras es tiempo. No agravemos nuestra culpa con nuestra obstinación... 
+                        ¡Ah, mi hijo! viviré para él, ¡para él sólo!
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¡Viviremos los dos!... Expiaré, si a Dios place, pero a tu lado, a vuestro lado, contigo y con el hijo de nuestras entrañas, de nuestras almas fundidas por el fuego del amor... 
+                        ¿Qué nos importan los demás?
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡No seas cruel, Andrés! Bastante ya lo hemos sido.</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Es mayor crueldad separarnos, porque nuestra unión es la felicidad de nuestro hijo. Y antes de que sean crueles con él, lo hemos de ser con ellos. 
+                        Sí, Marina la vida es cruel, no lo podemos remediar. En la hora del naufragio es lícito matar para salvarse o para salvar lo que más se ama. 
+                        Es nuestro hijo.... Mira... En este momento pasa la caravana de los felices... Unámonos a ella, llevando en trofeo a nuestro hijo, y olvidemos a los demás... 
+                        ¡Que nos lo perdonen! ¡Huyamos de aquí!
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡No, Andrés, no! ¡Es crimen! ¡Teme a la justicia divina!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Aparta los ojos de ese fantasma, y mira allá.... lejos, la vida que triunfe... el porvenir... nuestro hijo...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>Sí, nuestro hijo, mi Andresito... También se llama como tú... Mi hijo... sí, salvémosle, primero él. Seremos criminales por nuestro hijo... ¿Dónde estás, Andrés, que no veo?... Estoy turbadísima. Tengo miedo...</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Aquí estoy, nada temas, que nada es más fuerte que el amor. Cuando la adversidad hiera tu alma y el alma de mi hijo, antes habrá destrozado la mía... ¡Marina, ven a mis brazos! 
+                        <stage type="action">Abrazándola</stage> ¡Así, siempre unidos!
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Andrés mío, mío sólo!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Sí, tuyo, tuyo sólo, y ¡de nuestro hijo! <stage type="action">Quedan abrazados</stage></p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="8">
+                    <head>ESCENA OCTAVA</head>
+                    <stage type="setting">GABRIELA, MARINA y ANDRÉS</stage>
+                    <stage type="business">
+                        Escena muda que sólo debe durar el espacio de unos segundos. 
+                        En el momento que Marina y Andrés quedan abrazados y el segundo pronuncia las últimas palabras de la escena anterior, 
+                        <persName ref="#gabriela">Gabriela</persName> aparece por el foro y se detiene únicamente ante el cuadro que ofrecen 
+                        <persName ref="#marina">Marina</persName> y <persName ref="#andres">Andrés</persName>.
+                    </stage>
+                    <stage type="action">
+                    Gabriela no parece sentir un desmayo, se lleva la mano el pecho como queriendo comprimirse el corazón y se retira silenciosa, 
+                    sin ser vista por <persName ref="#andres">Andrés</persName> y <persName ref="#marina">Marina</persName> que continúan abrazados.
+                    </stage>
+                </div>
+
+                <div type="scene" n="9">
+                    <head>ESCENA NOVENA</head>
+                    <stage type="setting">MARINA y ANDRÉS</stage>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Deshaciéndose bruscamente de Andrés</stage>
+                    <p>¡No!, Andrés; ¡basta! ¡Dios nos castigará!......</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Dios lo ha permitido. Si es justo no debe castigarnos.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Andrés, por Dios! No desafíes a la Providencia, no nos castigue en nuestro hijo. Aceptemos el sacrificio; pero que viva él, que sea feliz...</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>No puedo sin tí... Ya no tengo vida propia desde que vivo la tuya.... ¡No me has querido nunca, Marina!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Comprenderás la grandeza de mi amor cuando comprendas la grandeza de mi sacrificio, Andrés! Ha pasado la hora de gozar. No pensemos en nosotros, pensemos en nuestro hijo, llevándolo de todo mal por el arrepentimiento y el sacrificio. 
+                        Si no lo tuviera, quién sabe! Pero soy madre de mi hijo antes que amante de Andrés...
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Los fantasmas han vuelto a hacer presa en tí.</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Fantasmas! ¡Ojalá tuvieses razón! Pero así lo fueran, sé que para que mi hijo viva dichoso, debo inmolarme, en holocausto de expiación. 
+                        Sí tú me amas, como dices, compartirás conmigo el sacrificio.
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Inmolemos otra víctima, que Dios la aceptará....</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Basta ya! Habla en tí el egoísmo. Ahora es cuando importa ser fuertes, porque es la hora del sacrificio... Si te espanta, Andrés, ¡déjame sola!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¡Marina!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Déjame!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¡Marina!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡No, Andrés! ¡vete!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>Esperaré . . .</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="delivery">Con determinación</stage>
+                    <p>¡No, Andrés, jamás! <stage type="exit">Andrés vase por la izquierda, y Marina queda sola en la escena</stage></p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="10">
+                    <head>ESCENA DÉCIMA</head>
+                    <stage type="setting">MARINA, después GABRIELA; al final, D. NARCISO</stage>
+                    <stage type="business">Marina ha quedado sola en la escena. Se sienta y apoya la frente en ambas manos, llorando. Después se levanta y se dirige hacia la primera derecha. En este momento entra Gabriela por la segunda derecha, 
+                        mostrando gran fatiga
+                    </stage>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Alarmadísima</stage>
+                    <p>¡Dios mío! ¿Qué tienes, Gabriela? ¿Qué te ha pasado?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Nada... la emoción.... Charito ha muerto... La ví expirar. Aquella escena del hospital ... No, nada.... ¿Quieres traerme un vaso de agua? ¿Está Andrés? No le digas nada.</p>
+                        <stage type="action">Sale Marina y vuelve al punto con un vaso de agua</stage>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Ofreciendo a Gabriela el agua</stage>
+                    <p>Aquí está. Le he puesto unas gotas de azahar.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Gracias! 
+                        <stage type="action">Marina se sienta junto a Gabriela, y se hace entre las dos un silencio embarazoso que dura varios segundos, en que solo se oye la respiración fatigosa de Gabriela.</stage> 
+                            Me siento mejor. Levántate, Marina... <stage type="action">Marina obedece</stage>. 
+                            Aléjate un poco más... Así..... <stage type="action">Mirándola admirativamente de pies a cabeza</stage>. 
+                            Tienes muy buena figura. Ese garbo... <stage type="action">Con cierto dejo de envidia admirativa</stage>. 
+                            Y ese uniforme acentúa la esbeltez de tus líneas... y esa cofia te sienta tan bien... te da apariencia de ángel.... 
+                            Cómo se sentirán los hombres mirándote... En cambio, yo, mira cómo estoy de fachosa... 
+                            <stage type="action">se mira con lástima de sí misma</stage>. Parezco un saco de patatas... Cuando me casé no parecía tan mal. Pero ahora.....
+                        </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Interrumpiéndola</stage>
+                    <p>Eras muy guapa, y sigues siéndolo...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <stage type="action">Sigue hablando sin hacer caso de la observación galante de Marina</stage>
+                    <p>He dejado el cuidado de mi persona, para dedicarme a mi casa y a hacer la felicidad de Andrés.... a mi manera... para mantener viva la brasa del cariño… Siéntate, ¡acércate más, Marina! ¿Sabes? 
+                        <stage type="action">Marina la mira con ansiedad y espanto</stage>. 
+                        Son hoy cuatro años desde que murió mamá, y ya apenas nos acordamos de ella... ¡Qué ingratitud la nuestra! Este día, que debiera consagrar a su memoria, había querido pasarlo alegremente. Dios me castiga enviándome esta tristeza... 
+                        Bien dicen que las hijas no llegan a pagar a sus madres su deuda de cariño sino cuando llegan a serlo también.. ¡Y no soy madre! Dios no ha querido que yo pague al mismo precio el cariño que debo a la mía... Marina, ¿te acuerdas de mamá?... 
+                        <stage type="action">Llora</stage>
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¿Cómo no? Pero no es para que te pongas así... Te haces daño con esos pensamientos. Rezaremos por ella el rosario y estará contenta. Y sentirás un gran alivio. No te atormentes más.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <stage type="action">Sin hacer caso de las palabras de Marina</stage>
+                    <p>La pobre, ¡cómo nos quería! A tí, sobre todo. Me acuerdo como si fuera ayer. Papá nos compraba juguetes; tenías los tuyos y yo los míos, 
+                        para que no riñésemos. Pero me quitabas los míos; y si los defendía, llorabas, y mamá me reñía y me los quitaba para dártelos, diciéndome que eras la pequeña y debía dejártelos. Entonces me iba a un rincón, con mi pequeño corazón destrozado, y en mi soledad lloraba... 
+                        Una vez, ¿recuerdas? los Magos me regalaron un muñeco grande que, cuando le daban cuerda, movía los ojos y los brazos y decía "papá", "mamá"... pero lo tuve un instante sólo, porque también me lo quitaste, y lloré como nunca... Quería morir. No acertaba a explicarme tanta injusticia.... 
+                        Pero llegué a olvidarlo... Los niños no guardan rencor.... Pasaron muchos años... Y ahora comprendo... No era mamá.... Es la vida misma la que es injusta... Te destroza las ilusiones, aún la única que te queda como humilde lamparilla para poner un poco de luz en tus tristezas...
+                    </p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <stage type="action">Tratando en vano de disimular</stage>
+                    <p>Son cosas de la niñez. ¿Por qué haces caso? Los niños son todos egoístas. 
+                        <stage type="direction">aside</stage> ¿Sabe o sospecha? <stage type="action">A Gabriela</stage> 
+                        Además, tus juguetes te los devolvía después...
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Sí, después de destrozarlos, como el muñeco aquel...</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>No, Gabriela, no, te los devolvía intactos. <stage type="exit">Vase por la primera derecha al ver llegar a Don Narciso</stage></p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <stage type="entrance">Por el foro</stage>
+                    <p>Ya estoy de vuelta.</p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="11" xml:id="sc11">
+                    <head>ESCENA UNDÉCIMA</head>
+                    <stage type="setting">GABRIELA y D. NARCISO</stage>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¿Por qué tan tarde? Le esperaba con ansiedad...</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¿Por qué, hija mía? ¿qué quiere de su viejo mi sobrina querida? 
+                        <stage type="delivery">Fijándose en ella</stage> 
+                        Pero, ¿que tienes? Has llorado.... Si, díme qué ha pasado.
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Nada... Hablábamos de mamá que hoy, hace cuatro años, nos dejó huérfanas de su cariño. 
+                        <stage type="action">Llora</stage>
+                    </p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <stage type="action">Sentándose</stage>
+                    <p>¿A qué vienen esos recuerdos? ¡Ganas de hacerte sufrir! Mira que te voy a reñir, como se riñe a las pequeñuelas.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Si, tráteme usted como si yo fuera niña. Quiero volver a serlo, retroceder a mi cuna, tener la ilusión de que me compran muchos juguetes.... 
+                        pero sin quitármelos nadie... 
+                        <stage type="action">Sigue llorando</stage>
+                    </p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Pero, ¿qué es esto, Gabriela? Hija mía, tú no estás bien. Mira, que llamaré a Andrés....</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>No le llame usted, se lo pido... Ya no lloro, míreme... <stage type="action">Hace un esfuerzo por sonreírse</stage></p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>No, Gabriela, no engañes a este pobre viejo... Una tempestad te está batiendo el alma... Cuéntame tus penas, hija; 
+                        que este viejo irá al confín del mundo para traerte el remedio. Si te empeñas en disfrazarlas, pensaré que tú no me quieres.
+                    </p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Sólo tengo a usted en el mundo!.... ¡Quiérame mucho, pero mucho, tío Narciso! Necesito, para ir viviendo, cariño...</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Gabriela, por Dios, ¡que también me haces llorar! <stage type="action">Se enjuga algunas lágrimas</stage></p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>¡Llore usted, llore conmigo! Así no estoy sola en mi dolor... ¡Qué bueno es usted! ¡Cuánto me quiere! ¡Los demás no tienen corazón!...</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¡Abreme el tuyo, Gabriela! Sí no, me darás una inmensa pena. El dolor, compartido, se hace leve.</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Sí, sí, hablaré, pero no me deje, que necesito apoyar en su cariño santo la pesada carga de esta existencia.</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¿Qué ha sido, hija mía?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Usted sabía muchas cosas y nada me ha dicho.... Me han robado el cariño y usted lo sabía, y se ha callado...</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Ya sé a qué aludes. Pero no hay pruebas. Una pequeñez... No vale la pena...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Es toda mi vida, tío Narciso.. .</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Bueno, pero no es cosa de estarte así, alarmando a los que te quieren. Comprendo que tú, con esa ilusión, te atormentes por una simple sospecha....</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>No, tío Narciso, no es sospecha.</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>A lo mejor es calumnia, envidia de vuestra felicidad. Nadie tiene pruebas...</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>Yo sí las tengo...</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¡No es posible! ¡Sí no hace media hora que estaba aquí! ¿Con quién hablaste desde entonces?</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <stage type="delivery">(Llorosa)</stage>
+                    <p>Con nadie... Es que han sido tan audaces, y yo los he visto, sí, los he sorprendido abrazados... Marina y Andrés... y tan embriagados de su dicha que no advirtieron mí presencia. ¡Ay!... y hablaban de su amor, y...
+                        lo recuerdo, sí, de un hijo también... de un hijo... del suyo...
+                        <stage type="action">Rompe a llorar</stage>
+                    </p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¡Dios mío! ¿qué dices? Gabriela, ¡tú deliras!.....</p>
+                    </sp>
+                    <sp who="#gabriela">
+                    <speaker>GABRIELA</speaker>
+                    <p>No es delirio, no. Es la realidad brutal que tiró de la venda... Andrés no tuvo piedad... Asaltó esta débil fortaleza 
+                        <stage type="action">señalando el corazón</stage>
+                        y la destrozó.... ¡Ay! me falta el aire... el cariño... es igual... ¡Aire! ¡aire, tío Narciso! ¡Me ahogo! Los perdono... Madre, Madre mía... 
+                        ¡Perdóname por hacerte injusta! ¡No, no lo fuiste! Es la vida misma la que es cruel. 
+                        <stage type="action">Se desploma sobre el hombro de Don Narciso</stage>
+                    </p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>¡Gabriela! ¡Gabriela,Dios mío! 
+                        <stage type="action">Gabriela no contesta y su respiración fatigosa ha cesado por completo</stage>. 
+                        Ha muerto... 
+                        <stage type="action">En voz alta</stage> 
+                        ¡Marina! ¡Andrés! 
+                        <stage type="action">Tocando el corazón de Gabriela. Posicionándola cuidadosamente en el sofá</stage> 
+                        ¡Criminales!
+                    </p>
+                    </sp>
+                    <stage type="entrance">Andrés y Marina entran precipitadamente, el primero por la izquierda, y la segunda por la primera derecha.</stage>
+                </div>
+
+                <div type="scene" n="12">
+                    <head>ESCENA DUODÉCIMA</head>
+                    <stage type="setting">Dichos, MARINA y ANDRÉS</stage>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <stage type="action">Con gran agitación</stage>
+                    <p>¿Qué ocurre? ¡Ha vuelto el ataque! ¡Gabriela!</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Gabriela! ¡Hermana mía!</p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <stage type="action">Apartándolos con ambas manos</stage>
+                    <p>vosotros, no. ¡Es tarde!</p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <p>¡Muerta! <stage type="action">se arroja sobre Gabriela</stage></p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Oh! <stage type="action">Se arrodilla ante el cadáver</stage></p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Y es inútil tu ciencia, Andrés, y tu piedad, Marina ¡que saben dar la muerte, pero no la vida! vuestra infamia ha sido tan audaz!....</p>
+                    </sp>
+                    <sp who="#marina">
+                    <speaker>MARINA</speaker>
+                    <p>¡Dios mío, perdón! ¡Perdón, Gabriela! <stage type="action">Andrés, aprisionando entre sus manos una de Gabriela, solloza</stage></p>
+                    </sp>
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <p>Pero Gabriela murió como había vivido, amando, sin una palabra de odio para sus asesinos, perdonándolos... Marina, vámonos de aquí... Y Dios tenga piedad de tí: Andrés, y que no sea el peor de tus castigos el ir errante por 
+                        el mundo sintiendo que llevas sobre tus hombros, hora tras hora, el cadáver insepulto de Gabriela. 
+                        <stage type="action">Marina se levanta con trabajo y llorando desconsoladamente se dirige con Don Narciso hacia el foro.</stage>
+                    </p>
+                    </sp>
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <stage type="action">Levantándose y yendo en pos de D. Narciso y Marina en actitud suplicante</stage>
+                    <p>Tío Narciso, Marina, no me dejen solo, tengo miedo...</p>
+                    </sp>
+
+                    <stage type="setting">Se esparcen sobre la escena las últimas claridades muertas del crepúsculo.</stage>
+
+                    <sp who="#narciso">
+                    <speaker>D. NARCISO</speaker>
+                    <stage type="action">Desde el fondo, con sarcasmo</stage>
+                    <p>¡Son fantasmas y antiguallas, Andrés! ¡Jamás te dieron miedo! Marina no debe estar ni un minuto más en esta casa que un día fué albergue de afectos puros, después, 
+                        escena de imposturas, y ahora capilla funeral. Un abismo existe entre vosotros... Ya no es el corazón de Gabriela, débil fortaleza, fácil conquista de traiciones y asaltos despiadados. 
+                        ¡Es la muerte, señora del mundo! ¡Marina, vámonos! 
+                        <stage type="exit">D. Narciso y Marina desaparecen por el foro</stage>
+                    </p>
+                    </sp>
+                </div>
+
+                <div type="scene" n="13">
+                    <head>ESCENA ÚLTIMA</head>
+                    <stage type="setting">ANDRÉS, junto al cadáver de GABRIELA</stage>
+
+                    <stage type="setting">Las sombras de la noche han comenzado a caer y la escena ha quedado sumergida en una penumbre funeral. Dan las seis en un reloj lejano. Las campanadas caen graves, isócronas</stage>
+
+                    <sp who="#andres">
+                    <speaker>ANDRES</speaker>
+                    <stage type="action">Dirigiendo una mirada contrita al cadáver de Gabriela</stage>
+                    <p>¡Gabriela, perdóname! 
+                        <stage type="action">Cayendo de rodillas y levantando los ojos y las manos en alto en la actitud del que ora</stage> 
+                        ¡Señor, tú venciste!... No son fantasmas ni antiguallas; son tus fueros y tus leyes por toda la eternidad
+                        <stage type="action">Mirando aterrorizado a su alrededor</stage> 
+                        ¡Qué solo, Dios mío, entre estas sombras! 
+                        <stage type="action">Vuelve a hundir el rostro entre las manos</stage>
+                    </p>
+                    </sp>
+                    <stage type="action">Cae lentamente el Telón.</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
