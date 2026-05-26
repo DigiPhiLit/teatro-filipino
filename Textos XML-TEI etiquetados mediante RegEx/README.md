@@ -1,3 +1,4 @@
 En este apartado se encuentran las obras de teatro filipino procesadas automáticamente mediante expresiones regulares (RegEx) y posteriormente convertidas a formato XML-TEI. El sistema de etiquetado basado en patrones permitió identificar y anotar automáticamente determinadas estructuras textuales y lingüísticas previamente definidas, como intervenciones, nombres de personajes o elementos escénicos. Aunque este método ofrece rapidez y consistencia en patrones recurrentes, su precisión depende directamente de la complejidad y variabilidad de las estructuras presentes en el corpus.
+
 También se incluye el código desarrollado para el proceso de etiquetado automático mediante RegEx, junto con un archivo README que documenta detalladamente el funcionamiento del sistema, las dependencias necesarias, la estructura de entrada y salida, y las instrucciones para reproducir el proceso completo de anotación.
 
