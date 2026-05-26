@@ -1,0 +1,3 @@
+Este apartado incluye la metodología de evaluación utilizada para comparar los distintos sistemas de etiquetado automático aplicados al corpus de obras de teatro filipino con el gold standard revisado manualmente. Se detallan los criterios empleados para medir el rendimiento de cada método, así como las métricas de evaluación aplicadas, como precisión, exhaustividad y F1-score.
+
+Además, se presentan los resultados obtenidos en las distintas pruebas realizadas, acompañados de tablas, estadísticas y observaciones comparativas que permiten analizar el comportamiento y la eficacia de cada sistema de anotación implementado en el proyecto.
