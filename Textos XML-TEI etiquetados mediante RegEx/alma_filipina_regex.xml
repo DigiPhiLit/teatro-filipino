@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es" xml:id="CORPUS-reyes-almafilipina">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Alma Filipina</title>
+        <author>
+          <persName>
+            <forename>Severino</forename>
+            <surname>Reyes</surname>
+          </persName>
+        </author>
+
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Severino Reyes</author>
+          <title>Alma Filipina</title>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date when="1911">1911</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+        <person xml:id="nina" sex="FEMALE">
+          <persName>Nina</persName>
+        </person>
+        <person xml:id="belen" sex="MALE">
+          <persName>Belén</persName>
+        </person>
+        <person xml:id="carmen" sex="MALE">
+          <persName>Carmen</persName>
+        </person>
+        <person xml:id="belen" sex="MALE">
+          <persName>Bélén</persName>
+        </person>
+        <person xml:id="sanchez" sex="MALE">
+          <persName>Sanchez</persName>
+        </person>
+        <person xml:id="eduardo" sex="MALE">
+          <persName>Eduardo</persName>
+        </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+    <castList>
+      <castItem>
+        <role xml:id="nina">NINA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="belen">BELÉN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="carmen">CARMEN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="belen">BÉLÉN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="sanchez">SANCHEZ</role>
+      </castItem>
+      <castItem>
+        <role xml:id="eduardo">EDUARDO</role>
+      </castItem>
+    </castList>
+    </front>
+    <body>
+    <div type="act" n="1">
+      <head>ACTO UNICO.</head>
+      <stage type="action">Sála de una casa rica; á la izquierda del expec¬ tador, un sofá con dos sillas en cada lado; á la derecha, un velador con varias sillas al rededor; sobre mesa dos albums de postales Al levantarse el telon, Don Rafael sentado en una las sillas al lado del velador, leyendo un periódico. Nina y Belén, al momento aparecen por la de¬ recha, segundo término.</stage>
+      <div type="scene" n="1">
+        <head>ESCENA PRIMERA.</head>
+        <stage type="action">Don Rafael, Nina y Belén.</stage>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Papá: ¡no creíamos que te habias ca¬ sado con Carmen, para que nos haga sus criadas!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Para que la sirvamos como á una gran señora!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D.RAFAEL</speaker>
+        <p>¿Porque me decís esas cosas? Carmen es buena, Carmen es para vosotras una madre cariñosa.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Carmen no podrá ser nuestra madre. ¡Nunca! ¡Jamás!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Ni la llamamos tía.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>No nos hace falta su cariño: gracias. ¿Cariño de una tía? iYa! ¡ya! ¡Sí, que es una verdadera tía!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Nina!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Siempre vas en su favor, siempre la defiendes.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¿Como no he de ir en su favor, si veo que es buena?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Buena? <stage type="action">Dirigiéndose à Belén</stage> Como se conoce que papá ya tiene la vista cansada.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Vaya una bondad que ha visto papá! Lo que debemos hacer, ya que papá no nos quiere....</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Casarnos pronto, pero lo más pronto posible, con cualquiera.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Y así, papá podrá querer más à su doña Carmen. <stage type="action">Con sorna las últimas palabras</stage>. D. RAFAEL. ¡Que tontas!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Si, tontas; la unica lista es esa tu gran señora, que ya son las ocho y aún está roncando.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Duerme aún como un lirón.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Mientras nosotras, sus criadas, ya he¬ mos terminado con la limpieza de toda la casa.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡De toda! ¡De toda!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Para que lo encuentre todo limpio cuando se levante ¡la gran Princesa!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Qué manera de hablar, Santo Dios!</p>
+        <p>Tan temprano y ya me dan dolor de cabeza. (Pausa)</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Sabes papá que ayer esa doña Car¬ men........?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¿Qué? ¿qué ha hecho doña Carmen?</p>
+        <stage type="action">Con tono ya cansado.</stage>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Nada! No ha hecho nada... (Resentida)</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¿Qué ha hecho? ¡dí! <stage type="action">Cambiando de tono</stage></p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Pues, ayer ha comprado seis camisas de las muy caras y ocho sayas de las más modernistas.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡De las que no hemos comprado nunca!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Y ella que es una mujer casada ¿por qué ha de comprarse tanta ropa?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Por Dios! ¿Creis acaso, que porque una está casada debe ir ya desnuda?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>No decimos que vaya desnuda; pero, lo que hace es demasiado. ¿Porque tanta ropa?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>No debeis censurar que una casada se haya comprado mucha ropa; cuanta más ropa tenga, mejor, para que se vista bien.</p>
+        <p>Siempre he criticado la costumbre de muchas mujeres de abandonarse terriblemente en cuanto están casadas y tienen hijos, presentándose de cualquiera manera delante de todo el mundo y, para acallar al nene, sacan á la vista de cualquiera los preciosos depósitos del nectar de la vida que tanto tiempo los guardáran como una reliquía, ¡Horror! Pero, niñas, ¿porventura, no os compraís también ropa?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Nosotras?, una vez al año y gracias.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>En cambio, esa señora, todos los días.</p>
+        <stage type="action">(Pausa).</stage>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Otra cosa, papá: D. RAFAEL. ¿Qué?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Porque permites que tu mujer vaya á jugar al panguingue? ¡eso es muy malo!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Y tan malo!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Sabiendo tu, que es malo, ¿como consientes que ella juegue á eso?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¿Que le voy á hacer? seria peor que jugára con fuego.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Y que es eso de jugar con fuego? ¿es un juego nuevo?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>Como nuevo, no: ya es muy antiguo, es tan antiguo como el comer, pero es el peor de los juegos, y fatal, fatalísimo, para las mujeres.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Papá, ¿es más malo que el hueteng?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>Tóma, el funésto hueteng, que es la pesadilla del Juez Municipal, resultaría un inocente juego de angelitos comparado con el &quot;jugar con fuego.&quot;</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Y has dicho que es muy malo para las mujeres ese juego: ¿y para los hombres, no es malo?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Que curiosas! Para los hombres, no tanto, pero no deja de ser malo......</p>
+        <p>¡mecachis! He dicho que para los hombres no resulta tan malo ese juego, porque los hombres tienen más fuerza de voluntad y pueden perder poco.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Pues, no debes permitir que Carmen vaya á jugar ni al panguingue.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>No es posible prohibírselo, no.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Que no es posible? ¿se moriría acaso?</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>Tanto como morirse, no: pero, si ya es como una ley, aunque no de las dictadas por nuestras Camaras, &quot;que todas las mujeres casadas tienen que jugar al panguingue&quot;. Vosotras también jugareis cuando seais casadas, ¡ya lo creo!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Qué sabemos de eso? D. RAFAEL: Es muy fácil; ¡ya lo sabreís, ya! <stage type="action">Vase D. Rafael á la derecha</stage>.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Belén: ¿No has notado que papá quiere mucho á Carmen?</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¿Qué duda cabe? Papá quiere á Carmen, más que á nosotras.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Tanto cómo quererla más que á nosotras, no: ¡estoy convencidísima de que no!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¿Sabes, Nina, que ayer la chillé á esa doña Carmen Bibingca?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Tu, ayer sólo? Pues yo, chica, todos los días y todas las veces que tengo ocasión, la chillo y la armo bronca y no páro hasta hacerla llorar. ¡Vaya! esa tía no puede conmigo.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Ni conmigo tampoco. Hace dos días que la estaba retando para un boxing.</p>
+      </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA SEGUNDA.</head>
+        <stage type="action">La mismas Nina y Belén. Desde dentro, Carmen,</stage>
+        <stage type="action">D. Rafael, y luego este.</stage>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p><stage type="action">Desde dentro, izquierda</stage> ¡Rafael! iRa¬ fael! Un momento.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p><stage type="action">Desde dentro, derecha</stage>. ¡Voy!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Ya se despertó la gran señora!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BÉLÉN</speaker>
+        <p>¡A buena hora!</p>
+        <stage type="action">Sale D. Rafael atravesando la escena de derecha á izquierda, con sombrero puesto y paraguas á modo de bastón.</stage>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Saliendo al encuentro de D. Rafael</stage>. ¿Ves qué hora de levantarse gasta tu buena señora? <stage type="action">Recriminándole</stage>.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Dejadla, por Dios! La pobre no se mete con nadie. <stage type="action">Diciendo, váse á la izquierda. Le sigue Nina haciendo visajes.</stage></p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¿Has oido lo que dijo papa?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Sí: que Carmen no se mete con na¬ die; tiene razón, pero, no sabe él que nosotras somos las que nos metemos con su mujer.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Y no la dejamos en paz.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Dirigiéndose en alta voz á Carmen que sigue dentro izquierda</stage> iVaya una hora de levantarse de la cama!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p><stage type="action">Lo mismo que la anterior</stage> iYa puede tener un poco más de vergüenza! Vánse corriendo hacia la derecha.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Sale con Belén</stage> ¿Donde está la carta de papá?</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¿Donde está?</p>
+        <stage type="action">Sin volver la cara) Ahí está sobre la mesa. (Vase</stage>
+      </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA CUARTA.</head>
+        <stage type="action">Nina, Belén, Sanchez y Carmen.</stage>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Después de leer la cartita</stage> Llegó Eduardo.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Entonces, más orgullosa se pondrá doña Boba.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Boba eh? fiate de las bobas: perro callado muerde mucho. Esa es más la¬ garta que cualquiera de nosotras. Es una hipócrita.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>(Sale). Hola, simpáticas niñas <stage type="action">Dando la mano á Nina.</stage> ¿qué tál?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Bien, Sanchez, bien, ¿y tu?</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Regular, chica, regular <stage type="action">Dando la mano á Belén</stage> ¿que tál Belén?</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Regular de bibingka! igualmente.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Siempre guasona! ¿Conque tu eres regular de bibingka, eh? <stage type="action">Dando palma¬ ditas à Belén en la barbilla</stage>.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Salvaje!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¿Dicen que llegó Eduardo?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Eso dicen.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Dicen eso.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Caramba! ¿que es ésto? Entiendo que si vuelve un hermano desde tierras muy lejanas, como de América, por ejemplo, las hermanas del recien llegado deben</p>
+        <p>ponerse contentisimas. Me extraña que esteís indiferentes. No me explico.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Pshe!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Que llega! ¿y que?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Su madre que se ponga contenta y que de contenta se vuelva loca.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Mejor!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Con llevarla otra véz al Hospicio, punto concluido. Ella sabe ya el camino. ¡Que bien poco trabajo nos dará la projima!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Cada véz me explico menos. ¿Tan mal quieren ustedes á la madrastra?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Nosotras? ¡ni bien ni mal! <stage type="action">Con indi¬ ferencia fingida</stage>.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>No se mete con nadie, como dice papá.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>No está bien eso. Es necesaria la armonía.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Gracias por la armonía!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Bueno, quisiera saludar á doña Carmen para felicitarla por la llegada de Eduardo.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Está allí, salúdala si quieres.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <stage type="action">Acercandose hacia el cuarto de Carmen</stage>
+        <p>Buenos días, doña Carmen.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p><stage type="action">Desde adentro</stage> Voy, Sanchez, voy en¬ seguida.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Tunante! si no saludas á Carmen, te mueres. Me la ves á pagar.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>(Sale) Buenos dias, Sanchez <stage type="action">Se dan las manos</stage>.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Le doy la más cumplida enhorabuena por la llegada de Eduardo y por la terminacion de su carrera.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Gracias, Sanchez, muchas gracias.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>(A Belén) ¡Mira qué cara pone la gran Señora!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Conque, ¿tenemos un Abogado más?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Desde la silla al lado del velador donde se había sentado</stage> Un Abogado más sin pleitos, como hay muchos.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Qué tonto!</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>(Aparte) Más tonta eres tu, pécora.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Se hizo Abogado sabiendo que ahora hay exceso de Abogados, y muchos de ellos no digo que se mueren de hambre, porque en este hospitalario país nadie se muere de hambre, sino de inanicion ó de inércia, porque hay más Abogados que basagulos. Hoy se cumple al pie de la letra lo del Evangelio: &quot;Paz en la tierra entre los hombres de buena vo¬ luntad&quot;. Te equivocas, Nina, cuantos más Abo¬ gados haya, mejor que mejor; así pro¬ bamos ante la faz del mundo que la capacidad filipina no es un mito. Eduardo ya vivirá, siempre habrá pan para todos; pleito no faltará : mientras haya dos hombres en la tierra habrá pleito; ¿no mató Cain á Abel? ¿Qué más ejemplo quiere el mundo?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Quería decir, que hubiera sido mejor haberse hecho Galeno, que es más lucrativo.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¿Médico? ¡Nunca! Esa es la profesión más ingrata.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Como ingrata?</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Ya lo creo que es ingrata, mientras</p>
+        <p>un médico pene suertb y cura enfermos, ¡muy bien! aquel médie es la bendicion de aquella familia, eOel milagroso San Antonio; pero, en cuanto cambia la suerte y en vez de sanar enfermos, empieza á matar uno 16 dos, aquel médico es la maldición de la familia, y aunque sepa más que Hipócrates, sería un ignoran¬ tón. No resulta, puede ser médico.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Parece que tienes razón. Y además he notado que los médicos son como las formas de duestras fi das.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¿Como es eso?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Que caen en desuso</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Pero también hay abogados que caen en desuso.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Toma! y ¿quien no decae en desuso en esta vida?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Pues, á mi hijo, qno dije qué car¬ rera debía seguir, escues un asunto que lo he dejaron á su colipleta y libre dis¬ crecion; solti le advele antes de embar¬ carse para América: las escoge la carrera que quierasé la que nacs te agrade; pero la que preseras, la iIs á terminar bien y con notseilidad; de no ser así más vale que 11 quedes deara ayudar á tu padre en li adminis acion de nuestros bienes.&quot; <stage type="action">Levantándose</stage></p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>(Aparte) No ¡Qué tor, Señor! ¡Qué hin¬ chada se la puesto!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>(Aparte) a ¡Jesus! (Vase).</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Con perteiso de usezd, Sanchez. (San¬</p>
+        <p>chez se levanta y dá la mano à Car¬ men).</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Es usted dueña. <stage type="action">Carmen vase.</stage></p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>«¿Dueña de qué? <stage type="action">Metiendo el abanico en la cara de Sancher</stage></p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p><stage type="action">Se aleja un poco</stage>. De ésto, del mio cord. <stage type="action">Poniendo ambas manos en el pecho, frente al corazon</stage>.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p><stage type="action">Muy ofendida</stage>, Sí, pásalo por broma. Ya sé yo que allí dentro hay algo de verdad.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Nina!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Carambi con la suma galantería de este caballero! (A Sanchez) Solo te pidió permiso para dejarte un rato, y ya la diste la mano, y la apretaste así... <stage type="action">Accionando</stage> con pasión vehemente. ¡Caracoles con el Sefior de Sanchez! ¿Soy tonta acaso?</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Ya lo creo que no tienes nada de tonta, pero, me parece que te pasas de lista. (Aparte), Si me caso con ésta, me luzco. Esta sobrina me vá pareciendo una tía</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Para decirte mas claro: hace tiempo que os vigilo.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¿Vigilarnos? ¡qué barbaridad! ¿qué te has creido?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Sí, cómo lo oyes. Y he notado que siempre que te encuentras delante de esa tía, te pones... <stage type="action">Accionando</stage> osí... y muy posturioso. A mí no me engañas. <stage type="action">Y le pega con el abunico</stage>.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Aray! (Aparte) ¡Señor! que venga otro más guapo y le regalo estas caricias.</p>
+      </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA QUINTA.</head>
+        <stage type="action">Nina, Sanchez, Belén, Eduardo y Carmen; y luego D. Rafael.</stage>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p><stage type="action">Desde dentro</stage> ¡Mamá! <stage type="action">Todos corren, hacía el foro</stage>. <stage type="action">Eduardo sale</stage>.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>¡Eduardo!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Mamá! <stage type="action">Se abrazan y lloran ambos</stage>. <stage type="action">A sus hermanas</stage> ¡Hermanas mías! <stage type="action">Besa á cada una en la frente</stage>. (A Sanchez). ¡Amigo Sanchez!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¡Muy bien venido!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡¡Muy bien hallados!</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>¿Y como ha sido el viaje?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Delicioso. Dá gusto viajar cuando el mar está tranquilo. A bordo tuvimos también un gran baile de máscaras, es decir un petít Carnival. ¿Y ustedes, qué tal? ¿os habeis diver¬ tido mucho durante el Carnaval?</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>En grado superlativo, chico: si no, que lo digan tus hermanas, que no perdona¬ ron ni una sola noche de acudir á la Gran Ciudad de los locos cuerdos</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Natural: eran sólo nueve días de vida y había que gozarla apurando hasta las heces. En el noveno día salimos de aquella Ciudad el décimo.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¿Como es eso?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Quería decir que salimos de la Ciudad del Carnaval á las seis « eme del décimo día.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Caramba, me alegro! (A Carmen) ¿Y tú, mamá, no te has divertido en el Carnaval?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>No he visto siquiera el cerco de esa Ciudad.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>(Aparte) Tenía poco que ver: es de sawal de Tarlac</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¿Tienes cara de enferma mamá? ¿Qué tienes?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Nada. Tal vez por el calor que no me deja dormir por las noches.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>(Aparte) Qué importa, si lo hace de día. &lt;stage type=&quot;action&quot;&gt;Con sonrisa burlona.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>(Aparte) Hay que preguntarla á qué hora se levanta.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>(Sale) Vamos á tomar algo, para hacer tiempo.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Tú, Eduardo, debes tener apetito; véte á tomar alguna cosa.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Yo, no; antes de dejar el vapor, el Capitán, que es bellísima persona, se em¬ peñó en que tomase algo y me tomé un bistek así... <stage type="action">Mostrando con la mano el ta¬ maño.</stage> Sanchez, acompaña á mis hermanas. ¿Y tú, mamá, no tómas nada?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>No, no tengo ganas. (Aparte) ¡Si su¬ piera mi hijo que uo me he desayunado aún!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Me quedaré un rato con mamá. <stage type="action">Di¬ rijiéndose á los demás.</stage> (Todos vánse menos Eduardo y Carmen que se quedarán sentados en el sofá.</p>
+      </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA SEXTA.</head>
+        <stage type="action">Carmen y Eduardo.</stage>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>(Llorando) ¡Gracias, hijo mío, que has vuelto á tiempo! ¡Sálvame!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p><stage type="action">Levantándose asustado</stage> ¿Cómo? ¿qué te pasa, mamá? ¿Quien te hace daño?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>¡Aquí me estan matando!; tus herma¬ nas son mis verdugos. ¡Me maltratan inhumanamente!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Pero, ¿qué me dices? ¿Y mi padre qué hace?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Habla despacio, Eduardo.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Pero, ¿se ha vuelto loco?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>¿Tu padre, ó es debíl que se deja do¬ minar de sus hijas, que son unas arpías, ó quiere más á ellas que á mí. No sé en que estará pensando; lo cierto es que su actitud pasiva me aniquila, me mata...... Cansada ya de quejarme á él, opté por callarme; tal vez por eso dices que tengo cara de enferma: porque me estoy consumiendo poco á poco. (Llora).</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Póbre madre mía! ¡Debes sufrir mu¬ cho! Lo conozco.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Todos mis actos son censurados por ellas: que porque me compro ropa; que porque adquiero joyas; que porque juego al panguingue. Todo lo ven y todo lo comentan.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Pero ¿tan malas són? ¿qué tienen que</p>
+        <p>ver con lo que tu haces? Pero, mamá, lo del panguingue, no está bien. <stage type="action">Cambiando de tono</stage></p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>¡Si juego lo mío!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Sin embargo; yo te aconsejaría que no juegues más al panguingue. Procura evi¬ tarlo; siempre es juego y todo juego es malo y de muy malas consecuencias.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>Si solo juego por estar fuera de casa, por no ver las caras de esas panteras.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Si es sólo por eso, puedes salir à paseo por las tardes á la Luneta, y si quieres más jejos, pasa alguna temporada en Marilaw ó en Sibul que resultaría mejor para tu sa¬ lud. No juegues más. <stage type="action">Muy cariñosamente</stage>.</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <p>¿También quieres privarme de mi única diversión?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Hoy, mamá, ya no es diversion el pau¬ guingue. Antes sí; pero, desde que se in¬ ventaron el fantoche, calidad, favorita y saltos, de que tengo noticia, ya no es di¬ versión, es ya cuestión de despellejarse unas á otras, y, como resultado final, la ruina. Además, eso del juego es un punto de censura en el que no podré defenderte. <stage type="action">Carmen váse</stage>.</p>
+      </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>ESCENA SÉPTIMA.</head>
+        <stage type="action">Eduardo, Sanchez, Nina, Belén, D. Rafael y Carmen.</stage>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>(Sale) Eduardo, reitero mi felicitación: bien venido y enhorabuena. ¿Qué, ocu¬ parás algún cargo en el Gobierno?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Creo que no: probaré ejercer la pro¬ fesion.</p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Así me gusta, poner en práctica lo que uno ha aprendido. Te deseo innu¬ merable clientela.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Gracias, chico. <stage type="action">Se dan las manos.</stage></p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Adios, Nina</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Adios. <stage type="action">Se dan los manos.</stage></p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Adios, Belén; me marcho, por molestar en Belén.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>No podrás estar en Belén, porque estás en Bahía, Sancho Panza. <stage type="action">Le con el abanico.</stage></p>
+      </sp>
+      <sp who="#sanchez">
+        <speaker>SANCHEZ</speaker>
+        <p>Adios. <stage type="action">Váse riéndone.</stage></p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>(Muy grave) Mis queridas hermanas: quisiera aprovechar ésta oportunidad de ha¬ llarme á solas con vosotras. Hace ya tiempo que deseaba hablaros de un asunto &lt;stage type=&quot;action&quot;&gt;Dá una vuelta y coje una silla.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>(Aparte) No me gusta la actitud de éste.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>(Aparte) A mí tampoco: está sério.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Como tu quieras, Eduardo.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Siéntate, Nina; (A Belén) y tú también. &lt;stage type=&quot;action&quot;&gt;Eduardo también se sienta delante de las dos.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Pero, ¿nos vas á someter á un juicio?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>No enjuicio á nadie, ni tengo derecho de hacerlo. El sagrado deber de un hijo me obliga á molestaros: mejor dicho, ocupar un rato vuestra atención. No deseo más que una aclaración. Como buenas hermanas mías que sois, ¿no soy, por ventura, de vuestro aprecio?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¿Qué duda cabe? ¡No sé á qué viene esa pregunta!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Eduardo, ¿por qué hablas de esa manera ?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Es que tenía entendido, que si me apre¬ ciábais á mi, apreciariais también todo lo mío, ¿no es así? Lo mismo que yo: porque os quiero sinceramente, cómo á buenas hermanas, quiero también lo vues¬ tro; ¿porque no haceís conmigo lo que hago con vosotras, queriendo también lo mío, á mi pobre madre, que es un angel, á quien más aprecio en esta vida?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Pero, ¿qué motivos tienes para decir¬ nos que nosotras no queremos á tu mamá?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¿Motivos? ¡Ah! ¡sobradísimos, hermanas mías! ¡A mi pobre madre la maltratais; continuamente la estais ofendiendo, y, muchas veces, la infelíz es objeto de vuestras sangrientas burlas! ¡Soís muy crueles para con ella!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Te equivocas, Eduardo</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Eso no es cierto.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Pero ¿que ha hecho mi madre para que la trateis así? (Pausa). ¡Ah!, si, mi madre ha cometido una falta, un delito grave, el de haber hecho feliz á vuestro padre! <stage type="action">Recalcando las últimas palabras.</stage></p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Eduardo, no digas eso; nuestro padre es también tu papá.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Francamente: había creido que sabreís apreciar mejor el cariño que os tenía mi mamá: también creí que papá lo agre¬</p>
+        <p>decería........ pero, me he desengañado. &lt;stage type=&quot;action&quot;&gt;Pausa.&lt;/stage&gt; ¿Podreis negar que mi madre os que¬ ría? No, no podreis negarlo, porque no es posible olvidar los tiernos recuer¬ dos. ¿No os acordais ya, que cuando era¬ mos pequefios y yo os hacia llorar por mis travesuras, mi mamá me castigaba duramente y os daba siempre la razón? ¿No os acordais ya que ella os abrazaba y os cubría de besos hasta que cesabais de llorar? ¿No recordais que mi mamá para mortificarme os llevaba á paseo y vol¬ víais á casa muy orgullosas, cargadas de infinidad de juguetes, todos para vosotras y nada para mſ? ¡Muy mala memoria te- neis! Sí: mi madre os quería, porque ella sabía que en vuestras venas corre una misma sangre que en las de su hijo, por eso soís para ella tiernas hijas del corazón: pero, vosotras, lejos de cultivar aquel sincero cariño que la pobre os brindára, ¡lo habeís despreciado!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Eduardo, tus palabras nos hacen daño! &lt;stage type=&quot;action&quot;&gt;Lloran.&lt;/stage&gt; <stage type="action">Eduardo al decir las últimas palabras, se había levantado y lleva la silla lejos de él; el ruido ha llamado la atención de D. Rafael y este sale asustado.</stage></p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¿Qué altercado es ese? ¿qué pasa?</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Nada, papá: que Eduardo, como se ha educado en América, y se ha hecho Abo¬</p>
+        <p>gado, se cree ya, un honorable Juez y nos está enjuiciando.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Nina, no soy Juez, ni enjuicio á nadie.</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>Se ha hecho un nuevo Lincoln y está defendiendo á su mamá quien, dice es¬ tamos esclavizando.</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>Nos acusa de que martirizamos á su madre.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>Eduardo: nunca había creido que pu¬ diera ocurrir en tí lo que dicen nuestros de¬ tractores, esos enemigos constantes de nues¬ tro progreso y civilización: que los jóve¬ nes filipinos que se educan en América llegan á perder ese sagrado sentimiento que se llama amor fraternal: porque la sajonizacion produce grandes trastornos en el organismo y en lus funciones del cora¬ zón. ¿Se ha despojado, por ventura, tu alma, que era sensible, de las bellas prerrogativas que la adornaban? ¿dejó de ser filipina?</p>
+        <p><stage type="action">Eduardo cabizbajo y pensativo</stage>. ¡Esa acusacion es falsa! ¡Tu madre está bien tratada aquí!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Falsa acusación! ¡Bien tratada aqui! ¡Ojala fuera verdad todo eso! ¡Hermosísima frase: ¡bien tratada! ¿Que más quisiera?</p>
+      </sp>
+      <sp who="#carmen">
+        <speaker>CARMEN</speaker>
+        <stage type="action">De repente sale) ¿Bien tratada? ¡Men¬ tira! Esas son unas infames; son mis verdugos. (Señalando a Nina y Belén.</stage>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p><stage type="action">Acción de atacar</stage> Carmen, ¿te atraves á repetir lo que....... <stage type="action">muy nervioso.</stage></p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p><stage type="action">Colocándose en medlio</stage> Retírate mamá; haz el favor.</p>
+        <p><stage type="action">Conduce á Carmen, hacia su alcoba: al volver se encuentra frente a frente con D. Ra¬ fael que se esforzaba por entrar en el cuarto de Carmen; Eduardo le coje en el hombro</stage>. Papá: ha llegado el momento de que hablemos claro. Obran en mí poder cartas de buenos amigos, en las que me habían informado de todo lo que aquí en casa sucede: ¡de todo! ¿Me habeis comunicado, acaso, que mamá se había vuelto loca, y la habíais ingresado en el Hospital de locos, donde estaba con¬ fundida con los rematados? ¡No; y, sin embargo, lo sabía! Conservo hasta la carta de un doctor amigo, en la que me aconsejaba que cuanto antes, separase á mi mamá de mis buenas hermanas, porque de lo contrario, la per¬ dería para siempre; y que si otra vez se perturbase el juicio, sólo Dios podría cu¬ rarla.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Ese Doctor es un impostor! ¡Dáme su nombre y verás si no le arranco la lengua!</p>
+      </sp>
+      <sp who="#nina">
+        <speaker>NINA</speaker>
+        <p>¡Cuanta mentira, Dios mío!</p>
+      </sp>
+      <sp who="#belen">
+        <speaker>BELÉN</speaker>
+        <p>¡Cuidado que se inventan cosas!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Sí, papá; y de todo ésto nadie tiene la culpa más que tu, que has consentido que tus hijas maltraten á tu esposa</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Eduardo por Dios! no hables así. Eso no es cierto.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Hablo así, porque debo hablar así, claro y sin rodeos, padre mío. No he aprendido otra manera de hablar: en mi pecho no</p>
+        <p>impera la dobléz; no soy hipócrita; siem¬ pre he sido franco, y lo soy.¡No guardo nada!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>Eduardo haz el favor de dirigir la mi¬ rada hacía donde procedes.</p>
+        <p>Después de innumerables sacrificios para educarte en los Estados Unidos, ¿así me correspondes? ¿Así se agradecen los favores?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Ah, papá!: no quisiera tocar ese punto, porque temo herirte; no es mi ánimo en éste momento, herir al autor de mis años. ¡No! ¡Pero me obligas! Si me he educado en América, no ha sido á costa tuya, no; es necesario que todo esto la oigan bien estas tus hijas; ha sido á costa de mi he¬ rencia, mejor dicho del caudal de mamá.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡No seas así, Eduardo!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Tú lo has querido, papá. Y ya que aquí se trata de echar en cara los fa¬ vores que se hayan hecho los unos á los otros, diría más claro, aunque duela más también: <stage type="action">acercandose hacia Nina y Belén</stage> estas señoritas que hoy maltratan á mamá, se educaron en los mejores Colegios, ¿á costa de quién? ¡A costa <stage type="action">señalando el cuarto de Carmen</stage> de esa pobre loca que hoy llora su infortunio! Todo ésto lo sabíais demasiado. Y vosotras que pareceis muy buenas cristianas, que os confesais con frecuencia, para limpiar vuestras conciencias, que comulgais amenudo por estar en gracia de Dios y rezais día y noche para me¬</p>
+        <p>recer la gloria eterna, ¿no os han dicho, alguna vez, vuestros sabios confesores, que los desagradecidos no entran en el cielo? &lt;stage type=&quot;action&quot;&gt;Nina y Belén lloran.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Esa lengua, ten, Eduardo!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Papá si mamá te hubiera resultado una mujer vulgar y esposa infiel, y tú, en defensa de tu honor mancillado, la hubieras matado, éste mismo hijo, quizás, sancionaría el acto de justicia ejecutado por tus propias manos; pero, yo estoy convencidísimo de que ella es una santa, como muy bien lo sabes, ¿y tienes co¬ razon para consentir que tus hijas la mal¬ traten? ¡No tienes perdon de Dios, papá!</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Eduardo!</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Debes comprender que éste estado de cosas no puede, ni debe prolongarse por más tiempo: mamá y tus hijas no caben ya en una misma casa. Solo deseo obtener de tí una categórica contestacion á una sencillísima pregunta que hoy te haré:</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D.RAFAEL</speaker>
+        <p>¿Y qué pretendes?</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¿Quieres separarte de tus hijas, pasando á vivir con mamá y conmigo? A tus hijas, que son ya mayores, podrás dejarlas al cuidado de tu hermana Joaquina. &lt;stage type=&quot;action&quot;&gt;Pausa.&lt;/stage&gt; Recapacita, papá, que es la mejor y la única solución para éste arduo pro¬ blema de familia; yo te prometo bajo</p>
+        <p>mi palabra de honor, que te querré mu¬ cho y no amargaré jamás los años que te restan de vida. A tus hijas las pa¬ sarémos una pensión decente para que gozen vida holgada. Nadie, mejor que tu, conocerá la cuantía de nuestra renta. &lt;stage type=&quot;action&quot;&gt;Pausa.&lt;/stage&gt; Contesta, papá, que la decisión urge. &lt;stage type=&quot;action&quot;&gt;Pausa.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡No! ¡no es posible! Mis hijas son solteras y mi responsabilidad sería enorme si las abandonára.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>¡Basta!, es lo único que deseaba saber. Ahora, padre mío, haré lo que debo hacer ¡Mamá!, ¡mamá! vén; vámonos de aquí. <stage type="action">Carmen sale y Eduardo la coje del brazo formaran un grupo en frente del que formasen D. Rafael Nina y Belén</stage>. Mamá y yo, desde éste momento, aban¬ donarémos ésta mansión que me sirvió de cuna; pasarémos á vivir á nuestra casa en la Ermita, y así terminamos de una vez, con éste enojoso asunto.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D.RAFAEL</speaker>
+        <p>(Trata de cojer á Carmen, pero la impide</p>
+        <p>Eduardo). Eso no puede sér. Yo me opongo. Tu madre es mi esposa y vivirá conmigo, mientras yo exista.</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Tienes razón; ella es tu esposa y esposa fiel, virtuosa, cariñosa y solícita: pero, á mí, como hijo suyo, la ley no solo me autoriza, si no que me obliga á que yo la ampare.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D.RAFAEL</speaker>
+        <p>Ella no necesita de tu amparo. (Pausa.)</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p><stage type="action">Cambiande de tono</stage> ¡Permitirás, por ventura, que lleguemos ante los Tribuna¬ les y que allí, delante de miles de per¬ sonas, probára yo hasta la saciedad que mi padre es un hombre débil y esposo indigno?</p>
+        <p>¿No crees, papá, que es muchísimo mejor y más prudente que lavemos en casa éstos trapos? D. RAFAEL. &lt;stage type=&quot;action&quot;&gt;Muy abatido) ¡Eduardo, basta ya! (Lo dirá con vóz ahogada.&lt;/stage&gt;</p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Papá: gracias que, al fin, me has com¬ prendido; ahora me queda un ruego: pro¬ cura arreglar los intereses de mamá; ¡hay que dar al Cesar lo que es del Cesar, y á Dios lo que es de Dios! Todo para tu mayor tranquilidad.</p>
+      </sp>
+      <sp who="#drafael">
+        <speaker>D. RAFAEL</speaker>
+        <p>¡Todo se hará, todo! ¡No hables más!</p>
+        <p><stage type="action">Después de una pequeña pausa, derepente Eduardo corre hacia D. Rafael, coje con ambas manos la derecha de este y la besa con efusión.</stage></p>
+      </sp>
+      <sp who="#eduardo">
+        <speaker>EDUARDO</speaker>
+        <p>Papá: perdona á tu hijo; si ha estado bastante duro para contigo esta vez, culpa á las circunstancias, y no á él. <stage type="action">Deja á su padre y corre hacia Nina y Belén, y las besa en la frente, una por una.</stage> Hermanas mías: ¡perdon! Siempre sereis mis hermanas queridas. No me hé oividado, ni en un solo momento, de que soís mis hermanas. ¡Pero mi madre es mi madre! &lt;stage type=&quot;action&quot;&gt;Se coloca en medio del cuadro.&lt;/stage&gt;</p>
+        <p>Si mi decisión os ha parecido violenta, no la achaqueis á la supuesta America¬ nización de mi alma, nó: el alma de un filipino no se sajoniza jamás; las que se sajonizan son las costumbres. Mi alma, á pesar de mis años en América, no ha cambiado, es la misma, sigue siendo filipina, y, como tal, es muy noble y generosa. ¡Os perdono! &lt;stage type=&quot;action&quot;&gt;Telón&lt;/stage&gt;</p>
+        <stage type="action">Fin de &quot;Alma Filipina&quot;.</stage>
+      </sp>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>

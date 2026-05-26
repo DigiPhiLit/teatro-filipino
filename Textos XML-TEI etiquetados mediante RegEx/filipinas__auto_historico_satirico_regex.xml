@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es" xml:id="CORPUS-adelina-filipinasautohistoricosatirico">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Filipinas  Auto Historico Satirico</title>
+        <author>
+          <persName>
+            <forename>Gurrea,</forename>
+            <surname>Adelina</surname>
+          </persName>
+        </author>
+
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Gurrea, Adelina</author>
+          <title>Filipinas  Auto Historico Satirico</title>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date when="1954">1954</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+        <stage type="action">Personales alegóricos Actores</stage>
+        <stage type="action">Filipinas. KATY TAPIA</stage>
+        <stage type="action">España. OFELIA GOSALVEZ</stage>
+        <stage type="action">Tio Sam. JOAQUÍN DICENTA</stage>
+        <stage type="action">Voz de la Historia. ADELINA GURREA</stage>
+        <stage type="action">Al levantarse el telón está el Tío Sam paseándose impacientemente por el escenario. Al cabo de un rato, consalta el reloj de su mano derecha, luego se saca el que tiene colgado por una cadena del bolsillo del chaleco, se mira otro reloj en la muñeca izquierda y, finalmente, saca otro relojito que lleva escondido en el bolsillo izquierdo del chaleco.</stage>
+        <stage type="action">Tio Sam No cabe duda esta es la hora, los cuatro relojes la marcan exactamente. Yo sé que los latinos y los orientales no son puntuales, pero es mucho el retra¬ so. Caramba, sino fuera por no desairar a la Historia, me largaba. Aunque también la Historia se las trae, la he llamado ya dos veces y no contesta. A ver</stage>
+        <stage type="action">llamando) Dña. Historia, Dña. Historia. (Silencio</stage>
+        <stage type="action">Lo dicho, aun no ha venido. (Vuelve a pasearse) En fin... no sé qué hacer, estoy perdiendo el tiempo, mi precioso tiempo yankee. Bueno, leeré la prensa.</stage>
+        <stage type="action">Se sienta en un banco al fondo y saca de sus bolsi¬ llos unos periódicos). Veamos qué dicen mis predi¬ lectos hijos, los periodistas. A fuerza de mentiras me tienen a mi también hundido en un mar de con¬ fusiones. (Va hojeando) “América posee la cantidad suficiente de bombas atómicas para hacer frente a los rusos en un conflicto bélico, (Vuelve a otra hoja</stage>
+        <p>«En caso de conflicto América no podrá defenderse porque no posee las sulicientes bombas atómicas».</p>
+        <stage type="action">Lo veis, los muy... (tira el periódico al suelo y coje otro) «Rusia tiene tantas bombos atómicas como los</stage>
+        <stage type="action">Estados Unidos&quot;. (A la vuelta) El Senador X declara en una convención que Rusia no se atreve a provo¬ car una guerra porque no tiene bombas atómicas.</stage>
+        <stage type="action">(furioso tira el periódico y lo patea) Los muy, los muy... burrr. (vuelve a mirar sus relojes) Y nada,</stage>
+        <stage type="action">España y Filipinas sin aparecer. Yo me voy (llaman¬ do) Dña. Historia...</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Hola, hombre.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Ya era hora. Has llegado tarde.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">La historia tiene que llegar tarde. Es su obligación.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Su obligación? No bromee, Dña. Historia, que estoy de mal humor.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Mi obligación, Tío Sam. Yo tengo que llegar cuando todo ha pasado, cuando todo se ha hablado, cuando las aguas se han serenado y los hechos están sedi¬ mentados en el fondo del agua clarificada, para que yo los pueda ver y registrarlos.</stage>
+        <stage type="action">Tío Sam Pues yo creo que las cosas deben de hacerse sobre la marcha.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Entonces estaría yo como tus periódicos.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Qué pasa con mis periódicos?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">¿No los ves ahí, tirados por el suelo?</stage>
+        <stage type="action">Tio Sam¬</stage>
+        <stage type="action">Ah, (los recoje y se los vuelve a meter en los bolsi¬ llos) ¿Puedes decirme Dña. Historia cuándo piensan venir tu gran España y tu joven Filipinas?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Pues... ten paciencia.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Ya la he tenido y no pienso seguir teniéndola.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">No pierdas los modales.</stage>
+        <stage type="action">Tio Sam Los modales... ¿y eso qué es?</stage>
+        <stage type="action">Historia Es verdad, me olvidaba de que... ejem...</stage>
+        <stage type="action">Tio Sam (interrumpiendo) La historia no debe olvidar nunca.</stage>
+        <stage type="action">(Se oye cantar desde dentro un aire español. Aparecen en escena Espa¬ ña y la joven Filipinas).</stage>
+        <stage type="action">Historia Razón tienes, pero a veces... olvida, olvida.</stage>
+        <stage type="action">Las dos a la vez Buenos días, buenos días.</stage>
+        <stage type="action">Tio Sam (el Tio Sam saca su reloj) Venís con una hora y cuarto de retraso.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">¿Solo una hora y cuarto? ¡Que lástima, Dña. España!</stage>
+        <stage type="action">con lo bonita que estaba aquella pelea de gallos,</stage>
+        <stage type="action">&quot;Nacú&quot; si hubiera llevado reloj.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Perdona, Tío Sam, nos hemos entretenido, el campo está hermoso en primavera, el aire perfumado em¬ briaga los sentidos, el color de las flores invita a contemplarlas, los insectos y las mariposas...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Y la cita a una hora en punto ¿qué? Y tenerme aquí esperando con todo lo que tengo que hacer de im¬ portancia ¿qué? No veis que tengo que arreglar el mundo? (dirigiéndose a Filipinas) Y tú, mocosa,</stage>
+        <stage type="action">¿Qué dices?</stage>
+        <stage type="action">Filipinas.</stage>
+        <stage type="action">(tragando saliva) Yo... yo... pues... yo... Dña. España me venía contando lo valiente que hn sido siempre</stage>
+        <stage type="action">¿Usted sabe Tío Sam, cómo se batió en la batalla de</stage>
+        <stage type="action">Lepanto? ¿Y antes en Sagunto? ¿Y luego en Zarago¬ za y Arapiles?.. Y...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Lo sabía pero se me había olvidado, procuraré re¬ cordarlo a ver si es verdad tal bravura y nos aliamos ahora. Pero en fin, sólo por los cuentos de tu mamá no te habrás retrasado tanto.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues es que...sabes Tío, pasamos por un gallinero y...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Y te gustan las gallinas?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">No, me gustan los gallos. Y había uno blanco y otro rojo, ¿sabes? que se peleaban... ¡más valientes!</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">La valiente... fresca eres tú. ¿Con que gallos, eh? Los gallos asaditos... y nada más. O para exportarlos...</stage>
+        <stage type="action">Bueno, me sacáis de quicio. A ver, Dña. Historia, a a ver si empezamos y acabamos. ¿Para qué nos has citado?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">¿Para qué? Ya es hora de que empiece a recoger da¬ tos sobre vosotros. Decidme qué he de registrar en mis páginas.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Ah, pues yo acabo pronto. Escribe que cuando llegué...</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">(interrumpiendo) No, no, vayamos por partes. Tú¬ eres el último...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Yo el último? ¡Que soy el Tio Sam! ¿Te das cuenta de lo que has dicho?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Me doy perfecta cuenta. Eres el último en hablar.</stage>
+        <stage type="action">porque fuiste el último en llegar a Filipinas.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Y todavía tengo que esperar más?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Pues sí. A ver tú Filipinas, tú hablas primero.</stage>
+        <stage type="action">Antes de llegar los españoles ¿qué hacías?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues yo... pero ¿desde cuándo tengo que contar?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Desde lo que te acuerdes.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Uy... pues me contaron que nosotros vinimos de muy lejos, de la península transgangética.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¡Dónde estará eso!</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Y andábamos de lugar en lugar peregrinando, por¬ que siempre venía luego alguien que nos echaba... y...</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Bueno, bueno... lo que tienes que contarme es lo que sucedió desde que estuviste en el territorio que ocupas ahora.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Ah, bueno. Pues en el territorio que ocupo ahora, me contaron que al principio no había más que negritos. Pero luego esos negritos se tuvieron que ir a los montes porque vinieron los indonesios, que eran unos tíos fuertes y musculosos. Lo malo es que a estos los echaron los malayos. Los indonesios entonces se tuvieren que largar al monte también.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">¿A vivir con los negritos?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">No, no, los negritos, —ipobres negritos!— tuvieron que subirse más arriba aún, porque no querían con¬ vivir con otras gentes. Siempre, los últimos que llegaban se quedaban en las playas y en las llanuras fértiles, para vivir más cómodamente, y...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Bueno, y ¿qué más? Anda, date prisa.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues estuvieron los malayos muchos siglos allí.</stage>
+        <stage type="action">el imperio Sri-vishaya duró hasta el siglo XIV y ocuparon todas las islas y subieron hasta Formosa y se preparaban para cruzar el mar y conquistar también el continente chino.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¡Cuánta historia!</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Este imperio era budista. A mitad del siglo XIV, fué derrotado el Sri-vishaya por el imperio Madha¬ pahit que sobernó las islas Filipinas dos siglos, hasta que fué abatido tal imperio por los musul¬ manes de Malaca, que a su vez fueron derrotados por las fuerzas occidentales de Portugal. En estos momentos con mahometanos ya en Joló y en las costas del suroeste de Mindanao y también en Ma¬ nila, llegó Magallanes.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Quién?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">D. Hernando de Magallanes.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">(sacando un libretito y un lápiz) ¡Lo que sabe esta chica! Voy a apuntarlo, voy a apuntarlo.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Bueno, continúa, continúa.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues D. Hernando era muy buen hombre, pero muy</stage>
+        <stage type="action">&quot;hambuguero&quot;. Nos aseguró que eran invencibles y nosotros nos lo creimos; todos menos Lapu-lapu el régulo de la isla de Mactan. Total que Magallanes quiso demostrarnos que él solo, con 48 hombres po¬ día con los mil quinientos de Lapu-lapu, y... se lo cargaron.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Lo mataron?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Lo matamos y luego matamos veinticuatro más mientras se celebraba un banquete.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Hicisteis mal. Si no hubiérais matado a Magallanes, los mahometanos no se hubieran internado en Min¬ danao, echando raices allí durante los cincuenta y tantos años que tardó en llegar Legazpi, y Filipinas tendría ahora una unidad religiosa, y hubiérais evi¬ tado toda la piratería mora, que os restó fuerzas para otras empresas.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Es que él era un buen hombre, como ya he dicho, pero no todos eran como él; se hicieron cosas, vamos, bastante feas.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Cuéntalas.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">No, sería &quot;shocking&quot;, y... está el Tío Sam delante.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¡Mira qué rica!...</stage>
+        <stage type="action">España</stage>
+        <stage type="action">De todas formes, no fué nada noble, matar a trai¬ ción a sus compañeros en un banquete.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Teníamos que vengar agravios.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Fué una ingratitud: Magallanes os llevó la primera misa, la primera cruz, los primeros bautismos, el primer milagro y las primeras imágenes de Jesús y de la Virgen.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Eso es verdad, pero ¿qué quieres, mamá España?.</stage>
+        <stage type="action">entonces no entendíamos de esas cosas y no supimos agradecerlo. Ahora sí.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">¿Y que hicisteis con el malherido y maniatado Serra¬ no y con el capellán de la flota, a quien condujo a su casa el enfermo curado milagrosamente días antes?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Ambut. ¡Ewan ko!</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Qué quiere decir eso?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">(Al Tio Sam) Quiere decir &quot;No sé&quot;. Pero ¿cómo no lo sabes si fué en vuestra tierra donde se quedaron?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Ambut ¡Ewan ko!</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Y ¿cómo terminó Enrique, vuestro compatriota?</stage>
+        <stage type="action">¿Qué hicísteis de él?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Ambut. ¡Ewan ko!</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Te ordeno que hables y digas la verdad.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">No te canses Dña. Historia. Cuando el filipino dice</stage>
+        <p>«ambut» es punto final.</p>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Queréis seguir adelante? Se está pasando el tiempo.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues por mi parte, poco. Los moros envalentonados se fueron metiendo en Filipinas, dominaron Minda¬ nao y Manila y se hicieron muy fuertes en Joló e islas adyacentes. Nos cazaban y nos hacían esclavos.</stage>
+        <stage type="action">Se llevaban, además, nuestro oro, y nosotros luchá¬ bamos contra ellos cuando llegó Legazpi. Le recibi¬ mos bien, porque nos prometió liberarnos de ellos y, con raras excepciones, le prestamos ayuda. Así asen¬ tó España su dominio sobre mí. Alguna vez, a lo largo de la historia, nos arrepentimos de haberla re¬ cibido bien, pero ahora nos alegramos, porque, gra¬ cias a ello somos un pueblo católico y de cultura occidental.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Y tú, España ¿qué dices que pueda quedar en la historia y añadir laureles a tu gloria?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Digo lo que todo el mundo sabe: Yo no fuí por el oro ni por las riquezas a descubrir mundos. Fuí para llevar la gracia de Dios a aquellos seres que vivían sumidos en la ignorancia del verdadero Dios. Mandé primero descubridores, navegantes y sabios; después envié misioneros, pero, para proteger a los misione¬ ros, envié soldados, —héroes— y cada página que escribieron con su espada vale por toda la historia entera de los demás países del mundo.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Más que nuestra guerra contra el Sur?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Calla, Tío Sam, que en esto pierdes.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">La epopeya más grande de la historia es la coloni¬ zación de América y Filipinas por España. Coloni¬ zación, no; formación de veinte naciones con una misma religión y una mismo habla, sin destruir las razas, ni el carácter típico de los habitantes; sin arrancar las raíces autóctonas ni borrar las huellas de su pasado, Un dar sin tomar nada, un perder sin ganar, más que la gloria de crear y de formar, y la gloria de llevar almas al cielo.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Yo creo que exagera.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Tst... que en esto pierdes.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Y desde la gestación del gran milagro, hasta el mar¬ charme vencida por razones de la vida, yo no puse más que corazón en la empresa. Corazón de la reina</stage>
+        <stage type="action">Isabel, que delirante de fe vendió sus joyas para que Colón pudiese armar carabelas con que descu¬ brir las tierras paganas. Corazón en esa sublime</stage>
+        <stage type="action">legislación de las &quot;Leyes de Indias&quot;, donde hay mandatos como este &quot;Que en las capitulaciones se excuse la palabra &quot;conquista&quot; y usen las de &quot;paci¬ ficación y población&quot;, pues, habiéndose de hacer con toda paz y caridad, es nuestra voluntad, que aún este nombre, interpretado contra nuestra inten¬ ción, no ocasione ni dé color a lo capitulado, para que no se pueda hacer fuerza ni agravio a los indios».</stage>
+        <stage type="action">Corazón, en fin, al enviar nuestros mejores sacer¬ dotes a misionar, nuestros mejores gobernantes para regir los destinos de ultramar y nuestros mejores soldados a proteger la obra de la cruz.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Pero ¿cómo explicas entonces que Bartolomé de las</stage>
+        <stage type="action">Casas y Antonio Morga tuviesen que informar al</stage>
+        <stage type="action">Rey, de los abusos contra los indios que hacian gobernantes, encomenderos y algumas veces hasta los propios religiosos?</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Eso... eso...</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Calla, tío...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Que no me dá la gana callar. Proclamo la libertad de expresión.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Las Casas y Morga eran españoles también, y de los buenos españoles. Si no les hubiese apoyado la fuerza de las leyes justas que quebrantaban los malos hijos de España, no hubieran tenido base sus denuncias. Traidores y ambiciosos, los tiene cual¬ quiera nación. Lo que no ha tenido ninguna es esa generosa caridad de amparar al débil contra el fuerte, de acunar sus derechos y defenderlos contra su propia sangre y a costa de desangrarse ella, por a mamantar con lo mejor o sus cachorros.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Pero tengo noticias de que tus carabelas y tus ga¬ leones volvían a España cargados de plata, cargados de oro; luego no todo fué dar sin recibir.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Eso, eso, ahí te duele... (¡Qué suerte! oro, plata, millones..!)</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Sí. Dña. Historia, pero apunta también y recálcalo bien, que el oro y la plata de América no los acu¬ mulé en mis arcas avariciosamente, sino que los usé para defender al mundo contra el Islam, contra el protestantismo; oro y plata, que mezclados con la sangre de mis mejores hijos, regaron el Medite¬ rráneo hundiendo armadas de Mahoma, cuyos hijos querían abatir al Cristianismo; regaron también los campos de Flandes y de Francia poniendo barrera a las herejías de los protestantes.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Creo que se debe evitar herir susceptibilidades, dejando a un lado la cuestión religiosa.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Libertad de expresión, Tio Sam.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Te daba así, descarada.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">De Filipinas además no saqué nada, ni oro, ni plata, ni productos. No supe o no quise. Los hijos que mandé para allí, se enriquecieron algunos y otros murieron pobres. Mis misioneros scababan unas veces en el martirio (en la China o el Japón) y otras veces de enfermedades tropicales. Hubo ma¬ los encomenderos, malos gobernantes y hasta malos sacerdotes, pero mis hijos buenos fueron también muchos, y su obra, tan grandiosa, que suscitó la envidia de otros países creando, contra mi, la leyenda negra. Esa leyenda que no menciona mis</stage>
+        <p>«Leyes de Indias», mis magníficos instrumentos de justicia como el «Consejo de Indias» y el «Juicio de</p>
+        <stage type="action">Residencia»; ni la obra de mis intelectuales y filósofos,</stage>
+        <stage type="action">Vitoria, Suárez, Soto, protectores desde aquí de los indígenas frente a los desmanes de los colonizadores sin conciencia.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Has terminado ya?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Me falta poco. Quiero recalcar que la cristianiza¬ ción de Filipinas fué la más costosa en esfuerzo y en moneda por estar su territorio tan alejado de</stage>
+        <stage type="action">España, teniendo que atravesar dos océanos y un continente para llegar a ella, y que, debido a esto, más de una vez se aconsejó a los reyes españoles que la abandonasen; pero como para ellos una sola alma de Filipinas valía más que todo el oro del mundo, allí quedó España para esta obra de redención.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Y, además de la Religión, ¿que más dejaste en ello?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Dejé mis apellidos y mis nombres preclaros para que los usasen los filipinos, dejé mi cultura que es un compendio de las culturas griega, romana y árabe fundidas en la mía propia.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Cuántas escuelas abriste en Filipinas?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Abrí una escuela en cada parroquia y algunos cole¬ gios en Manila. Además la muy antigua Universidad de Santo Tomás...</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Números, números... ¿cuántas escuelas y cuántos maestros?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">No he medido nunca el saber y la virtud con cifras.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Muy bonita respuesta, pero muy poco práctica, Y</stage>
+        <stage type="action">¿qué enseñaste en esas escuelas de parroquia?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Enseñé al hombre a conocer a Dios, le enseñé a con¬ siderar al individuo como obra especial del cielo y no como un instrumento de vida o de poder. Le en¬ señé lo que era la dignidad, el honor y el sentido de la libertad en el ser humano.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Bueno, no nos entendemos... Dime si les enseñaste</stage>
+        <stage type="action">Geografía, Aritmética, Cálculo mercantil, Física,</stage>
+        <stage type="action">Química, modos de hacer dinero, forma de conquis¬ tar amigos y manera de ser felices en el matrimonio.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">No, esas últimas asignaturas no las he enseñado nunca.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Y ¿cómo han podido hacer dinero, tener amigos y ser felices los filipinos? (Dirigiéndose a Filipinas)</stage>
+        <stage type="action">Tú, contesta cómo lo hacíais en tiempo de España?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Cambiando lo peor por lo mejor, comprando barato y vendiendo caro; los amigos los hacíamos convidán¬ doles y haciéndoles favores, y eramos felices dándole al dinero un valor relativo, tan relativo que no quisimos encarecer las cosas para que estuviesen al alcance de todos. En cuanto al matrimonio nos du¬ raba más que a vosotros.</stage>
+        <stage type="action">Tío Sam</stage>
+        <stage type="action">¿Y los pobres?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Los pobres tenían conformidad absoluta con la voluntad de Dios, que es la mayor felicidad. Y como todo estaba barato, era muy fácil regalar y socorrer sin dar importancia ninguna al dar y al tomar.</stage>
+        <stage type="action">Tío Sam</stage>
+        <stage type="action">Pero ¿nunca os matásteis los unos a los otros para adueñaros de minas de oro, de yacimientos de petró¬ leo, de las cosas que enriquecen rápidamente?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">No, en un país donde no hace frío, donde los cam¬ pos, los ríos y las playas eran de todos, no había pobres. Y como tanto nuestro orientalismo como el occidentalismo de España nos decía que lo importan¬ te era el espítitu y no lo material, esta filosofía nos hacía felices.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¡No os comprendo, no os comprendo! Pero a fin de cuentas. España no puso casi escuelas, no os dejó carreteras, puentes, tábricas; no combatió las epide¬ mias, no os enseñó higiene, y por no enseñaros ni¬ siquiera os enseñó su lengua.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Estaba mandado en la ley 18, título 1, libro 6º de las «Leyes de Indias» que se abriesen escuelas para enseñar castellano a los naturales, pero efectivamen¬ te, esta ley no se cumplió en Filipinas y sólo unos pocos aprendieron el castellano.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">(a Filipinas) ¿Porqué no aprendisteis el castellano?</stage>
+        <stage type="action">Filipinas</stage>
+        <p>«Talagá», «Talagá», era más fácil hablar en nues¬ tros dialectos, y... ya lo aprendieron los filipinos estudiosos para entenderse con España, en nuestro nombre. Y ya lo aprendieron los frailes para ense¬ ñarnos el catecismo.</p>
+        <stage type="action">España</stage>
+        <stage type="action">Yo dí lo que tenía e hice lo que pude. Llevé la vacu¬ na contra la viruela, vivificándola de brazo en brazo, para que llegase a través de un viaje tan largo.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Y para el cólera, la disentería, el paludismo, ¿qué hicistes?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Le faltaron brazos, Tío Sam...</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Y me sobraron microbios. Además yo no tenía tan¬ to petróleo como tú para llenar las charcas donde se multiplicaban los mosquitos.</stage>
+        <stage type="action">Tío Sam</stage>
+        <stage type="action">Son cosas demasiado serias paro tomarlas a risa.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">España me enseñó a tomar a risa todo lo irreme¬ diable.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Es que haceis cosas irremediables de lo que se puede remediar.</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Con dinero sí, pero yo era una pobretona en ese sentido. No hice carreteras en Filipinas porque tam¬ poco las hice en España, ni puentes, ni ferrocarriles.</stage>
+        <stage type="action">Ah, pero en Manila dejé un tranvía con mulas, un tren que tú no has mejorado ni extendido, una traida de aguas a la capital, dos puentes sopre el</stage>
+        <stage type="action">Pasig, y una hermosa carretera para subir a Baguio.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Y eso ¿qué es comparado con los miles y miles que hice yo? Tú atravesabas los ríos en balsas de bambú¬ y yo he hecho puentes. Acabé con el cólera y casi con el paludismo y a medias con la disentería.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">¿Habéis acabedo de discutir ¿Puede darme América un conjunto de su labor?</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Al grano. (Sacando un escrito y recitando de carre¬ rilla). Primero: Llevé 2.000 maestros inmediata¬ mente detrás de mis soldados para poner una es¬ cuela en donde se pudiesen reunir diez chicos,</stage>
+        <stage type="action">Segundo: Enseñé mi lengua a todos los filipinos en 50 años, y esto les servirá para comerciar mejor con el mundo.</stage>
+        <stage type="action">Tercero: Les hice hacer gimnasia todos los días para que fuesen más fuertes, más altos, más for¬ nidos y se les abriera el apetito.</stage>
+        <stage type="action">Cuarto: Les enseñé el baloncesto, la pelota base, el tenis y el boxeo para que ganasen campeonatos.</stage>
+        <stage type="action">Quinto: Lo mismo digo de la natación, los saltos, las carreras y demás ramos del atletismo.</stage>
+        <stage type="action">Sexto: Les dí, no una universidad, sino muchas y en todas y para todas hay profesores filipinos, lo cual demuestra un estado floreciente de cultura.</stage>
+        <stage type="action">Séptimo: Les traté siempre bien y apenas tiene</stage>
+        <stage type="action">Morgas la historia de mis cincuenta años con ellos.</stage>
+        <stage type="action">Octavo: Les dí leyes humanitarias y les preparé para el gobierno en una escuela práctica y escalo¬ nada, haciéndoles intervenir paulatinamente en el gobierno del país.</stage>
+        <stage type="action">Noveno: Les enseñé las excelencias de la democracia y el modo de hacer unas elecciones.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">(Interrumpiendo). Eso de las elecciones es lo que mejor nos hemos aprendido.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¡No me interrumpas! Unas elecciones para el go¬ bierno del pueblo, para el pueblo y por el pueblo¬</stage>
+        <stage type="action">¿En qué número estaba?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Décimo, Tio Sam.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Décimo: Les defendí contra el Japón y el comu¬ nismo.</stage>
+        <stage type="action">Undécimo: Les dí la independencia en cuanto acabó la guerra, y dólares para su reconstrucción.</stage>
+        <stage type="action">Duodécimo: Hoy Filipinas es un pueblo libre, bajo mi tutela y amparo y ¡ay de quien lo toque! He ter¬ minado, ¿me puedo ir?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Te olvidaste de enseñarme a mí la taquigrafía, para que hubiese podido tomar nota de todo eso tan rápidamente.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">No te preocupes: te dejaré una nota y levantas acta.</stage>
+        <stage type="action">(Vuelve a mirar sus cuatro relojes). Es casi la hora:</stage>
+        <stage type="action">¿me puedo ir?</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Espera un momento. A ver. Filipinas: Has oído a</stage>
+        <stage type="action">España y has oído a América. ¿Estás conforme con todo lo que har dicho?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Conforme, excepto que el Tío Sam no ha dicho nada respecto a las relaciones comerciales que me ha impuesto con la independencia.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">En el artículo tercero aclaré que te enseñé a hacer gimnasia paro abrirte el apetito. Pues no tengo más remedio que obligarte a comprar todos mis artículos alimenticios que te gustan tanto.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">¿Y de lo demás?</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Pues de lo demás, lo mismo, sobrina predilecta.</stage>
+        <stage type="action">Artículos de sport para los deportes, libros, lapi¬ ceros para las escuelas y universidades y así sucesi¬ vamente.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pero ¿por qué no dices, tío, que en lo de la indepen¬ dencia jugó bastante papel el azúcar y la margarina, sus fabricantes y sus importadores en América?</stage>
+        <stage type="action">¿Y que vas a ir poniéndome impuestos en mis im¬ portaciones a tus territorios&quot;</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">¿Qué quieres decir, ingrata? ¿Es posible que te duela ese poquito de ventaja que saco de tí y no te acuerdes de todo lo que te he dado? Nunca creí que me pagaras así. Me hace mucho daño oirte y...</stage>
+        <stage type="action">(sacando un pañuelo para enjugarse las lágrimas) y me da mucha pena este comportamiento.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Bueno tío, no es para tanto... Es que la historia,</stage>
+        <stage type="action">¿sabes? necesita conocer toda la verdad.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">No, ¡si siempre he pensado que tú querías más a tu¬ madre España que a mí! Es natural, te tuvo a su la¬ do tres siglos y medio y te malcrió bastante. Pero hasta ese punto, no creí que llegáramos.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Bueno tío, no lo tomes así. Si yo te quiero también mucho. Si todo lo que nos has dado me encanta.</stage>
+        <stage type="action">Me pirrio por la coca-cola, me embelesan tus pelícu¬ las, me enloquece el chiclet, me chiflan los aparatos de radio, me rechiflan tus automóviles y la televisión y esas camisas rameadas para mis hombres y esas corbatas con amapolas gigantes o desnudos al relieve.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">(que se ha ido contentando, la sonríe) ¿Verdad que sí, sobrina, que todo eso es estupendo? ¡Mejor que todo lo de tu madre! Las radiogramolas automáticas, los aviones, los trenes aerodinámicos...</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Sí, pero estos no nos los has llevado a Filipinas.</stage>
+        <stage type="action">Tio Sam Pero te he hecho muchas, muchas, carreteras.</stage>
+        <stage type="action">Filipinas Sí, tío, para que te compre muchos, muchos, auto¬ móviles.</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Qué bien me comprendes, sobrinita. Lo que siento es que no he encontrado medios de aumentar el calor de tu clima para que me compres también mu¬ chas más refrigeradoras.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pero qué tío... más... refrigerado.</stage>
+        <stage type="action">Tío Sam</stage>
+        <stage type="action">(mirándola desconfiado) No será alusión...</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Soy toda candores, Tío Sam.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Creo que debemos terminar ¿Tienes algo más que decir, Filipinas?</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues para final —y esto va muy en serio— debo decir noblemente que no tengo más que motivos de agradecimiento hacia mi madre España y mi Tío</stage>
+        <stage type="action">Sam. Yo perdono y olvido todas las debilidades, todos los defectos de su comportamiento conmigo. En el otro platillo de la balanza ¡es tanto y tan bueno lo que he recibido de los dos! Sobre los cimientos cris¬ tianos y de nobleza humana que me legó España</stage>
+        <stage type="action">—su cultura, sus costumbres, su sangre, sus nom¬ bres, amalgamados con todo lo mio que quedó intacto en su valor bueno, borrando lo vicioso— sobre esa formación completa que es también armazón, además de base; colocó, América, su dinamismo y su músculo y me dotó de lo material para hacerme fuerte y mo¬ derna y me hizo libre después de enseñarme normas de democracia que garantizasen mi libertad. Y a ambas les estoy inmensamente agradecida y a ambas las quiero. (España y América la rodean con sus brazos).</stage>
+        <stage type="action">España</stage>
+        <stage type="action">¡Gracias! ¡Gracias!</stage>
+        <stage type="action">Tío Sam Gracias, Filipinas noble y agradecida.</stage>
+        <stage type="action">Historia</stage>
+        <stage type="action">Pues tomo nota conmovida y me retiro porque ya nada tengo que hacer aquí. (Pausa, en la cual Espa¬ ña y América acaban con sus gestos enternecidos).</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">(de repente) ¡Espera, Dña. Historia, Dña. Historia!</stage>
+        <stage type="action">(no responde) ¡Vaya! ya se ha ido.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Pues ahora que se ha ido ¿qué hacemos? Me llevas, tío, al cine a ver una de miedo y me convidas a na¬ ranjada?</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">No, mejor es que te quedes con tu madre, no le va¬ ya a doler que la dejes sola. Anda, quédate, que ahora me conviene mucho estar a bien con ella.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">(a España) ¿Y qué hacemos, madre?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">Pues, si quieres, me ayudas a terminar de bordar un repostero con mi escudo glorioso, y luego rezaremos el rosario en familia.</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">¿Para que se conviertan al catolicismo todos los protestantes del mundo?</stage>
+        <stage type="action">Tio Sam</stage>
+        <stage type="action">Eso... eso... Adiós. (se va)</stage>
+        <stage type="action">Filipinas</stage>
+        <stage type="action">Mira, madre, busquemos un término medio. ¿Por qué no me llevas al foot-ball a ver si Molowny juega realmente tan bien como Di Stefano?</stage>
+        <stage type="action">España</stage>
+        <stage type="action">(dudando) Pues mira... sí... ivamos! Si en realidad, hija, yo ya me he vuelto muy modernista.</stage>
+        <stage type="action">FIN.</stage>
+    </body>
+  </text>
+</TEI>
