@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es"
+xml:id="CORPUS-zuluetadelosangeles-joselcarpintero">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">José, el carpintero</title>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <surname>Zulueta de los Ángeles</surname>
+          </persName>
+        </author>
+        <respStmt>
+          <resp>Revisión manual (gold standard)</resp>
+          <persName>Cristina Jiménez González</persName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="acts" quantity="1">1 acto</measure>
+        <measure unit="scenes" quantity="15">15 escenas</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Juan Zulueta de los Ángeles</author>
+          <title>José, el carpintero (Comedia en un acto y en verso de costumbres filipinas)</title>
+          <pubPlace>Manila, Filipinas</pubPlace>
+          <publisher>Imp. de la Oceanía Española</publisher>
+          <date when="1880"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="subgenre">comedia</term>
+          <term type="form">verse</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="jose" sex="MALE">
+            <persName>JOSE</persName>
+          </person>
+          <person xml:id="loleng" sex="FEMALE">
+            <persName>LOLENG</persName>
+          </person>
+          <person xml:id="eduardo" sex="MALE">
+            <persName>D. EDUARDO</persName>
+          </person>
+          <person xml:id="quico" sex="MALE">
+            <persName>QUICO</persName>
+          </person>
+          <person xml:id="titay" sex="FEMALE">
+            <persName>TITAY</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change status="approved" when="2026-05-05" who="Cristina Jiménez González">
+        Revisión manual completada. Gold standard aprobado.
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <castItem>
+          <role corresp="#jose">JOSE</role>
+          <roleDesc>Carpintero</roleDesc>
+        </castItem>
+        <castItem>
+          <role corresp="#loleng">LOLENG</role>
+          <roleDesc>su sobrina</roleDesc>
+        </castItem>
+        <castItem>
+          <role corresp="#eduardo">D. EDUARDO</role>
+          <roleDesc>cesante</roleDesc>
+        </castItem>
+        <castItem>
+          <role corresp="#quico">QUICO</role>
+          <roleDesc>chino comerciante</roleDesc>
+        </castItem>
+        <castItem>
+          <role corresp="#titay">TITAY</role>
+          <roleDesc>criada</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTO ÚNICO</head>
+        <stage type="setting">La acción en Binondo, arrabal de la ciudad de Manila. -Época contemporánea- El teatro representa una sala pobre con los muebles necesarios al uso del pais, colocados convenientemente; una puerta al foro; a la izquierda del espectador, dos laterales, segundo y tercer bastidor, que se supone, la primera conduce al cuarto y la segunda a la cocina, con comunicación a la caida; una ventana al lado opuesto, frente, frente de la primera puerta; una mesita con dos sillas al lado izquierdo, segundo término, debiendo colocarse en la sala algunos cuadros con láminas de buques y varios enseres, propios de la profesión de un Carpintero.</stage>
+ 
+        <div type="scene" n="1">
+          <head>ESCENA PRIMERA</head>
+          <stage type="entrance">Titay y don Eduardo. Al levantarse el telón, Titay se halla en escena ocupada en la limpieza de la casa y don Eduardo, entrando por el fondo.</stage>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¡Hola, Titay! Buenos días.</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg><l><stage type="action">(Dejando su trabajo.)</stage> Abá, buenos días don Dualdo.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Y Loleng?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Ya andá na misa,</l>
+              <l>y hasta ahora no ta llegá.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Y que tenemos de nuevo?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg><l><stage type="action">(Con malicia)</stage> ¿Sabe usté que ta pasá?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D.ED.</speaker>
+            <lg><l>¡Di, Titay! ¿Que es lo que pasa?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Que, a Loleng, ta enamorá</l>
+              <l>un chino, que con Ñol Ché</l>
+              <l>su mano tá pidí yá.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Pero ¿estás segura de ello?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>¿Segura? ¡ba-ba-ba-ba...!</l>
+              <l>si ñol, estoy tan segura,</l>
+              <l>que ñora Marta ta hablá.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Quien es esa ñora Marta?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Nuestra vecina de allá. <stage type="action">(Enseñando la casa de enfrente por la ventana.)</stage></l>
+              <l>que, como buena chirivís</l>
+              <l>con Loleng ta conversá.</l>
+              <l>y dice, que el chino quiere</l>
+              <l>con ella nga regalá</l>
+              <l>saya, tapis y camisa,</l>
+              <l>y paño boldado pá,</l>
+              <l>para nga ella vistí</l>
+              <l>el día que ha de casá.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Y tu conoces al chino?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Yo, ñol... ta conocé yá</l>
+              <l>que es pues aquel ínchic Quico</l>
+              <l>comerciante en tinapá</l>
+              <l>de balate y otras cosas</l>
+              <l>y dice de azucar pá.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Pues, lucida estará Loleng</l>
+              <l>con el chino tinapá.</l>
+              <l>No entiendo como una polla</l>
+              <l>tan guapa que no la hay mas,</l>
+              <l>tenga un gusto tan estraño,</l>
+              <l>tan raro ya particular.</l>
+              <l>Bien está, me voy a casa.</l>
+            </lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg><l>Ñol, luego usté volvé yá.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Adios. <stage type="action">(Váse en el fondo.)</stage></l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Adios, don Dualdo.</l>
+              <l>Yo también de andá almorzá. <stage type="action">(Váse por la izquierda, segunda puerta.)</stage></l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage type="entrance">Loleng viniendo del fondo.</stage>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Pues, Señor, estoy lucida,</l>
+              <l>con extraña pretension,</l>
+              <l>un chino dice 'me quiere'</l>
+              <l>y yo le diré 'ayao po'.</l>
+              <l>Bien es verdad que es muy rico</l>
+              <l>y de buena posición;</l>
+              <l>comerciante de balate</l>
+              <l>Pero yo ¿quererle?... ¡no!</l>
+              <l>Tanto mas que D. Eduardo,</l>
+              <l>aunque hoy está cesante</l>
+              <l>me mira con buenos ojos</l>
+              <l>y como los de el son grandes,</l>
+              <l>siento un no se qué en mi pecho...</l>
+              <l>palidece mi semblante...</l>
+              <l>Si le amase... ¡Dios me libre!</l>
+              <l>Pero ¿por que no he de amarle?</l>
+              <l>siendo, como el es tan fino,</l>
+              <l>tan bello, tan elegante.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage type="entrance">Loleng y Don Eduardo, viniendo del fondo.</stage>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Felices, hermosa Loleng! <stage type="action">(Deteniéndose a una distancia respetuosa.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡Muy felices, D. Eduardo!</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Parece que esta usted sola.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡Sí!</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Pues... entonces... me marcho.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l><stage type="action">(Con coquetería)</stage> ¿Y eso?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Por que los vecinos</l>
+              <l>pueden esto criticarlo,</l>
+              <l>y no quiero disgustarla.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Ciertamente, que sería</l>
+              <l>eso ponerme sobre áscuas,</l>
+              <l>Pero tengo las conciencia,</l>
+              <l>tan tranquila, como el agua.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Quien lo duda, si es usted</l>
+              <l>tan hermosa, como honrada,</l>
+              <l>y el tipo de la bondad</l>
+              <l>lleva estampado en la cara.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Es usted muy lisonjero.</l>
+              <l>¡Yo!... no señor, no soy nada:</l>
+              <l>Pero... vamos, diga usted</l>
+              <l>que quiere.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Felicitarla;</l>
+              <l>por que he odio decir...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Que?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Que niña Loleng se casa,</l>
+              <l>y que el contrato de boda</l>
+              <l>parece cosa acordada.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Pues, ¡es un gran disparate!</l>
+              <l>Yo, ¿casarme? ¡Dios me valga</l>
+              <l>y la Virgen de Antipolo!</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Dice usted que no se casa?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡Yo, casarme! ¿Mas con quien?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Con su novio.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>¿Yo?, ¡bobada!</l>
+              <l>Pero... ¿como he de casarme</l>
+              <l>si no he mirado su facha?</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¿Que no le conoce usted?</l>
+              <l>si está ya comprando sayas,</l>
+              <l>y es el chino comerciante</l>
+              <l>mas rico de la Pampanga.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l><stage type="action">(Riéndose)</stage> Abá, ¡también con el chino!</l>
+              <l>con su sombrero de paja,</l>
+              <l>con sus cortos pantalones</l>
+              <l>y su coleta de a vara...</l>
+              <l>además, es enemigo</l>
+              <l>mi buen tío de su raza.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¿Y como a decir se atreve</l>
+              <l>que pronto ustedes se casan?</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Yo no sé; pero tal vez,</l>
+              <l>acaricia la esperanza</l>
+              <l>de que, con su salapi</l>
+              <l>es fácil que me pescara,</l>
+              <l>y ha dado ya con la cosa</l>
+              <l>de una manera probada.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Si, el chino cree que todo</l>
+              <l>con el dinero alcanza.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Opinión esa es vulgar,</l>
+              <l>que a mi no me importa nada.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>De modo...</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Que la noticia,</l>
+              <l>es toda una patarada,</l>
+              <l>que la necia vecindad,</l>
+              <l>corrió con bombo y charanga.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Bien de saberlo, me alegro.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Y por qué?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Loleng! por nada.</l>
+              <l>Pues, usted sabe, que hay cosas,</l>
+              <l>que el decir, nuera bobada,</l>
+              <l>y en mi pecho ha de morir,</l>
+              <l>el secreto que me mata.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l><stage type="action">(Con intención.)</stage> ¿Con que usted tiene secretos?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Como todos...</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Los del alma,</l>
+              <l>Pueden descubrirse a uno,</l>
+              <l>si ese uno es de confianza.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Tiene usted mucha razón,</l>
+              <l>pero...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>No hay pero que valga</l>
+              <l>yo creí que mi amistad...</l>
+              <l><stage type="aside">(Ap.)</stage> (El corazón se me salta.)</l>
+              <l><stage type="action">(Alto.)</stage> Para compartir sus penas...</l>
+              <l>algún derecho me daba.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Si, Loleng, usté es quien debe</l>
+              <l>el secreto de mi alma</l>
+              <l>conocer...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l><stage type="action">(Con coquetería.)</stage> No lo merezco...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Si, por ser principio y causa</l>
+              <l>de este arcano de mi pecho,</l>
+              <l>de este secreto de mi alma...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l><stage type="action">(Con malicia.)</stage> No lo entiendo.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l><stage type="action">(Idem.)</stage> Pero, ¡Loleng!</l>
+              <l><stage type="aside">(Ap.)</stage> Ya va entrando la muchacha.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="4">
+          <head>ESCENA IV</head>
+          <stage type="entrance">Dichos, JOSÉ que entra de mal humor.</stage>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Gracias a Dios! si no aguanto,</l>
+              <l>por Jose que yo me llamo,</l>
+              <l>a esos hijos de Confucio</l>
+              <l>he de abrir de un fuerte hachazo.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l><stage type="aside">(Ap.)</stage> A buena hora llegó el tío.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Qué le pasa, tío José?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Que ha de pasarme, muchacha,</l>
+              <l>que esos pícaros de chinos,</l>
+              <l>me han cargado de metralla,</l>
+              <l>y no he visto otro remedio,</l>
+              <l>que retirarme a mi casa...</l>
+              <l>pronto, para no exponerme</l>
+              <l>a que les rompa la cara,</l>
+              <l>y tener luego que ver</l>
+              <l>alla con la veterana.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>No le entiendo a usted, José.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Ni yo tampoco.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Bien, basta.</l>
+              <l>Pues, voy a contar a ustedes,</l>
+              <l>lo que pasó esta mañana,</l>
+              <l>con esta pícara gente,</l>
+              <l>con esa mala canalla</l>
+              <l>de juasos carpinteros,</l>
+              <l>que nos buscan las espaldas,</l>
+              <l>que usurpan nuestro jornal</l>
+              <l>y subsistencia diaria.</l>
+              <l>Fui a encontrar un trabajo,</l>
+              <l>que es reponer unas tablas</l>
+              <l>de un buque surto al río,</l>
+              <l>donde muy bien me ganara</l>
+              <l>cuatro reales de jornal,</l>
+              <l>cuando se asoman las caras</l>
+              <l>de tres perillanes chinos,</l>
+              <l>me rebajan la contrata,</l>
+              <l>a mitad casi del precio,</l>
+              <l>donde, a los sumo ganara</l>
+              <l>dos reales míseros tristes,</l>
+              <l>y con intención ávara</l>
+              <l>el armador cierra el trato,</l>
+              <l>y to perdí la contrata</l>
+              <l>y el jornal de algunos días,</l>
+              <l>con que la vida pasara.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Seguramente los chinos,</l>
+              <l>que le han hecho tal pasada,</l>
+              <l>son la gran calamidad</l>
+              <l>del país.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Cristo me valga!</l>
+              <l>Con tamaña competencia</l>
+              <l>el luchar fuera bobada;</l>
+              <l>para un padre de familia</l>
+              <l>sería cosa pesada.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>No comprendo la razón.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Razones hay muy sobradas,</l>
+              <l>y estas son las atenciones</l>
+              <l>de necesidades creadas.</l>
+              <l>Un buen padre de familia</l>
+              <l>tiene obligación sagrada,</l>
+              <l>de buscar la subsistencia</l>
+              <l>de todos los de su casa,</l>
+              <l>como son, la de sus hijos,</l>
+              <l>esposa, suegra y madrastra,</l>
+              <l>los unos, poque son tiernos,</l>
+              <l>las otras, porque avanzadas</l>
+              <l>en edad, y en las faenas</l>
+              <l>de casa, están ocupadas.</l>
+              <l>Esto, no sucede al chino,</l>
+              <l>que, sin afecciones caras,</l>
+              <l>y avaros con su codicia,</l>
+              <l>viven, cual míseras ratas,</l>
+              <l>treinta o cuarenta en un cuarto,</l>
+              <l>con honores de buharda:</l>
+              <l>visten chaleco mugriento,</l>
+              <l>y pantalon... ¡casi nada!</l>
+              <l>se alimenta con atole</l>
+              <l>y tájuri, por vianda,</l>
+              <l>tiene siempre economía,</l>
+              <l>asi un real no mas ganara,</l>
+              <l>por jornal todos los dias;</l>
+              <l>y, con tan maldita práctica,</l>
+              <l>haciéndonos competencia,</l>
+              <l>su competencia nos mata.</l>
+              <l>Por eso, no hay un oficio,</l>
+              <l>que su codicia no abarca,</l>
+              <l>ni negocio que no atrape,</l>
+              <l>seguro de hallar ganancia,</l>
+              <l>y cuando ya, sus bolsillos,</l>
+              <l>están repletos de plata,</l>
+              <l>con indecible alegría</l>
+              <l>se van ricos a su patria,</l>
+              <l>soberbios, cual un diablillo</l>
+              <l>que lleva al infierno un alma.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Eso es cierto, buen José,</l>
+              <l>aun cuando hallo exagerada</l>
+              <l>su relación.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>D. Eduardo,</l>
+              <l>tengo razones muy claras,</l>
+              <l>y es una cosa que entiende</l>
+              <l>como labrar una tabla.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Ya veo que usted lo entiende.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>De una manera aprobada.</l>
+              <l>Soy carpintero de mar</l>
+              <l>desde Nueva York, a España</l>
+              <l>a Londres, a Liverpool</l>
+              <l>y a las costas de Alemania,</l>
+              <l>he cruzado el gran Océano,</l>
+              <l>con la bella Vascongada,</l>
+              <l>fragata lamas velera,</l>
+              <l>que salio de nuestra playas!</l>
+              <l>¡Ay! al recordar mis viajes,</l>
+              <l>siento alegría en el alma,</l>
+              <l>por las muchas emociones</l>
+              <l>que entonces sentí. A san Blas</l>
+              <l>encendiara dos velones,</l>
+              <l>si aun pudiese recobrar</l>
+              <l>la juventud de otros dias</l>
+              <l>para lanzarme a la mar,</l>
+              <l>y no ver mas señolías</l>
+              <l>nuestro trabajo usurpar.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOLENG.</speaker>
+            <lg>
+              <l>No se aflija usted, por eso,</l>
+              <l>no mendigamos el pan,</l>
+              <l>pues con pura morisqueta,</l>
+              <l>nuestra vida ha de pasar.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Tu no comprendes, muchacha,</l>
+              <l>aun está clase de mal!</l>
+              <l>quiera Dios no lo comprendes,</l>
+              <l>para tu dicha, ¡jamas!</l>
+              <l>Y ahora, si agradarme quieres,</l>
+              <l>Vete un poco a trabajar.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Voy, mas no aflija usted. <stage type="action">(Váse por la izquierda, segunda puerta.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l><stage type="action">(Saludando.)</stage> Eso pronto pasará.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Hasta luego, D. Eduardo.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Vaya usted sin novedad.</l></lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="5">
+          <head>ESCENA V</head>
+          <stage type="entrance">José y Don Eduardo.</stage>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Va usted a seguir el cuento?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="action">(Ofrece a D. Eduardo un asiento, tomando otro para el.)</stage></l>
+              <l>Pues, que hacer no tengo nada,</l>
+              <l>a complacerle gustoso,</l>
+              <l>ahora voy en cuerpo y alma.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l><stage type="action">(Tomando asiento.)</stage></l>
+              <l>Gracias Jose, muchas gracias.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l><stage type="action">(Idem.)</stage> No tiene usted por que darlas.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Esta bien.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Vamos al grano.</l>
+              <l>Los chinos como ya dije,</l>
+              <l>son los vampiros, gusanos,</l>
+              <l>que roen el edificio</l>
+              <l>comercial de nuestra plaza.</l>
+              <l>El comercio aquí en Manila,</l>
+              <l>casi, casi no es de España,</l>
+              <l>por que ellos, muy intrusos,</l>
+              <l>los negocios acaparan.</l>
+              <l>Y el desgraciado español,</l>
+              <l>que a perder llega la paga,</l>
+              <l>con que propicio el Estado</l>
+              <l>sus servicios compensara,</l>
+              <l>si no tiene economias</l>
+              <l>con que regresar a España,</l>
+              <l>se ve, sin tener en donde</l>
+              <l>su subsistencia diaria</l>
+              <l>ganar, aunque honradamente,</l>
+              <l>trabajar bien deseara.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Tiene usted razón, José,</l>
+              <l>algo de eso, a mi me pasa,</l>
+              <l>desde que fiero ministro</l>
+              <l>mi cesantía ordenara.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Pues, si la Escolta y Rosario</l>
+              <l>las tuviesen menos sanxas,</l>
+              <l>es decir, las de españoles,</l>
+              <l>que son los hijos de España,</l>
+              <l>trabajo habrá para todos,</l>
+              <l>vida larga y abundancia,</l>
+              <l>y la industria y el comercio,</l>
+              <l>mayor impulso tomarán,</l>
+              <l>como en la próspera Cuba</l>
+              <l>de Filipinas, hermana,</l>
+              <l>dó lucir no puede el chino,</l>
+              <l>su mala fe, ni su maña,</l>
+              <l>y entonces, no habrá un cesante,</l>
+              <l>que quiera volver a España.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Eso es cierto, y esta tierra,</l>
+              <l>hablando comercialmente,</l>
+              <l>no es de la madre patria,</l>
+              <l>y el progreso aquí es un mito</l>
+              <l>que no anda para nada.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Ha dado usted con la pauta.</l>
+              <l>El vapor y el hilo eléctico</l>
+              <l>con que el siglo se engalana,</l>
+              <l>que vida dan a los pueblos</l>
+              <l>y a las industrias alma,</l>
+              <l>aqui, son solo esqueletos</l>
+              <l>de la actividad humana.</l>
+              <l>Las construcciones navales</l>
+              <l>se hallan aqui muy escasas,</l>
+              <l>desde que barcos de hierro</l>
+              <l>surcaron las grandes aguas,</l>
+              <l>y de Manila el oro,</l>
+              <l>se va atierras estrañas,</l>
+              <l>buscando en sus marcados,</l>
+              <l>sus productos, y sus máquinas,</l>
+              <l>hijos todos del progreso,</l>
+              <l>que nos trae con guirnaldas,</l>
+              <l>mientras tanto en esta perla</l>
+              <l>del Oriente, titulada,</l>
+              <l>se encuentran sus pobres hijos,</l>
+              <l>míseros, llenos de trabas,</l>
+              <l>por hallar algún trabajo,</l>
+              <l>que es un ojo en la cara,</l>
+              <l>con que poder mantener</l>
+              <l>al fruto de sus entrañas.</l>
+              <l>Mire usted, si aquí el progreso</l>
+              <l>en una frase ahuecada,</l>
+              <l>teniendo como tenemos</l>
+              <l>maderas las mas nombradas,</l>
+              <l>y minas de todas clases,</l>
+              <l>Si alguien las esplotara,</l>
+              <l>elementos suficientes,</l>
+              <l>de muchísima importancia,</l>
+              <l>para que aqui el desarrollo,</l>
+              <l>estienda sus olancas alas,</l>
+              <l>y no tengamos que ir,</l>
+              <l>por esas tierras lejanas,</l>
+              <l>buscando al Señor Progreso,</l>
+              <l>para quitarnos la plata,</l>
+              <l>cuando podemos hacer</l>
+              <l>que se venga en cuerpo y alma,</l>
+              <l>para la dicha del país</l>
+              <l>y gloria para la España.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Me parece buena idea</l>
+              <l>si es fácil aqui plantearla.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Ni tampoco creo difícil,</l>
+              <l>si protección hay sobrada,</l>
+              <l>y empresas que la acometan;</l>
+              <l>pero yo, no he dicho nada,</l>
+              <l>siempre que exista un chino</l>
+              <l>que se meta en zaragatas.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Su enemistad con el chino</l>
+              <l>se le sube hasta la cara.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¿Puede haber un filipino</l>
+              <l>que no odie a esos canallas?</l>
+              <l>cuando aun sus propios hijos</l>
+              <l>y mestizos de su raza,</l>
+              <l>les miran asi... con odio,</l>
+              <l>¿que no va al nuestro en zaga?</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="6">
+          <head>ESCENA VI</head>
+          <stage type="entrance">Dichos, TITAY.</stage>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg><l>¡Ñol Che!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Muchacha, ¿qué quieres?</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Allí está la ñora Marta</l>
+              <l>y me dice que hablá quiere,</l>
+              <l>con usted una palabra.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Dila que allá voy, al punto.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l><stage type="aside">(Ap.)</stage> Esa será la embajada del chino.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="aside">(Ap.)</stage> Que me querrá</l>
+              <l>mi vecina doña Marta,</l>
+              <l>esa enredadora vieja,</l>
+              <l>de conducta no muy santa.</l>
+              <l><stage type="action">(Alto, a D. ED.)</stage></l>
+              <l>D. Eduardo, usté se queda.</l>
+              <l>Voy a ver de que me habla,</l>
+              <l>y mientras haré que Loleng</l>
+              <l>para acompañarle, salga.</l>
+              <l><stage type="action">(Váse, saludando a D. Eduardo, por la izquierda, segunda puerta.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l><stage type="action">(Saludando.)</stage> Vaya usted con Dios, ¡José!</l></lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="7">
+          <head>ESCENA VII</head>
+          <stage type="entrance">Don Eduardo.</stage>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Poco cuidad me tiene</l>
+              <l>la visita de esa Marta,</l>
+              <l>por que, Loleng, no es la polla,</l>
+              <l>para un chino destinado;</l>
+              <l>y siendo José un buen hombre,</l>
+              <l>que odio profesa a esa casta,</l>
+              <l>esta embajada de boda,</l>
+              <l>resultará... calabazas.</l>
+              <l>Loleng es la mejor chica,</l>
+              <l>que, en Binondo, viste saya;</l>
+              <l>y su mirar es tan dulce,</l>
+              <l>que hace conmover mi alma;</l>
+              <l>y siento aquí... <stage type="action">(señalando el corazón)</stage>... un no sé qué...</l>
+              <l>Pues me gusta la muchacha.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="8">
+          <head>ESCENA VIII</head>
+          <stage type="entrance">Don Eduardo y Loleng.</stage>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>D. Eduardo...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Loleng... Loleng!</l>
+              <l>en verdad, que es usted guapa.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Jesús, a boca de jarro,</l>
+              <l>me dá usted una pedrada.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Se ofenda usted?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>No señor.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿De veras?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>De veras... nada.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Loleng, no se ofenda usted,</l>
+              <l>con mi esclamación, estraña,</l>
+              <l>por que yo, al ver esos ojos,</l>
+              <l>en que lucen sus miradas,</l>
+              <l>y su encantador semblante,</l>
+              <l>que la dotaron las Hadas,</l>
+              <l>siento dentro de mi pecho,</l>
+              <l>una hoguera que me abrasa</l>
+              <l>y solo usted puede, Loleng,</l>
+              <l>con su bondad, apagarla.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>En verdad, me estrañan mucho</l>
+              <l>sus amorosas palabras.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Le estrañan a usted! no, Loleng,</l>
+              <l>pues, ¿quien del amor se estraña?</l>
+              <l>siendo ase un sentimiento,</l>
+              <l>con que Dios dotó a las almas,</l>
+              <l>para que, con el es estienda</l>
+              <l>la generación humana.</l>
+              <l>Correspóndame usted, Loleng,</l>
+              <l>y deje de ser ingrata,</l>
+              <l>yo confieso que la amo,</l>
+              <l>y que la adora mi alma;</l>
+              <l>pues, ya sabe usted el secreto,</l>
+              <l>que mi vida acibaraba,</l>
+              <l>y que usted, antes de ahora,</l>
+              <l>querría la revelara.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡D. Eduardo...!</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Hable, Loleng!</l>
+              <l>¡Hable, por la virgen Santa!</l>
+              <l>de esos labios solo penden</l>
+              <l>mi dicha y mi gloria tanta.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Que quiere usted que le diga?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Decida usted por piedad,</l>
+              <l>de mi suerte, usted decida,</l>
+              <l>que sin usted, bella Loleng,</l>
+              <l>sin su mirada divina,</l>
+              <l>y sin el perfume grato</l>
+              <l>de sus labios, alma mia,</l>
+              <l>yo solo seré una planta</l>
+              <l>marchita, mustia y sin vida.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l><stage type="action">(Alto.)</stage> Yo le amo a usted, D. Eduardo.</l>
+              <l><stage type="aside">(Ap.)</stage> Ya resistir yo no puedo.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>¡Que oigo! ¿Me ama usted?</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Sí.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Pues a usted mi dicha debo.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Usted no me debe nada.</l>
+              <l>Yo también, me vi atraida,</l>
+              <l>al fuego de sus miradas,</l>
+              <l>por eso, que indiferente,</l>
+              <l>no le escuché sus palabras.</l>
+              <l>Pues, ya presentia, Loleng,</l>
+              <l>que también usted me amaba.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Ciertamente, D. Eduardo.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Pueden subir nuestras almas,</l>
+              <l>al cielo de nuestro amor,</l>
+              <l>donde las estrellas vagan</l>
+              <l>radiantes, como los ángeles,</l>
+              <l>que envidian nuestras miradas.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Sí, henchida estoy de gozo</l>
+              <l>con el fuego de su alma;</l>
+              <l>parece, que al cielo veo,</l>
+              <l>abrirme sus nubes olancas,</l>
+              <l>do posará nuestro amor,</l>
+              <l>protegido por las hadas.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Solo una pena, bien mio,</l>
+              <l>este grato instante amarga.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Qué pena es esa tan cruel?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>El estado en que me veo</l>
+              <l>sin destino, ni recurso...</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>No se acuerde usted de eso.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>¿No me acuerde? Sin destino,</l>
+              <l>ni recurso, yo no puedo</l>
+              <l>pedir a José su mano...</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Mi tío José es muy bueno.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Yo no pretendo negarlo;</l>
+              <l>mas, apesar....</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Ya lo entiendo.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Pero aún tengo esperanza,</l>
+              <l>que, en el último correo</l>
+              <l>una carta he recibido,</l>
+              <l>que me ha causado algun consuelo,</l>
+              <l>do me dice, se trabaja,</l>
+              <l>por El, en el ministerio,</l>
+              <l>para que ostenga destino</l>
+              <l>en hacienda o en Fomento</l>
+              <l>o ya de Administrador,</l>
+              <l>en una, de este Archipiélago,</l>
+              <l>provincia, que no es lejana.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>En Bulacan sería bueno.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Sí, entonces la hare dichosa,</l>
+              <l>y a su tio, el carpintero,</l>
+              <l>porque es usted, Loleng mía,</l>
+              <l>mi amor, mi vida y consuelo.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Y mientras tanto...</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Esperar,</l>
+              <l>que Dios proteje a los buenos.</l>
+              <l>Mas...</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>¿Eh?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Me acuerdo del chino.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Pues hoy quien se acuerda de eso.</l>
+              <l>Ya tio Jose, pasaporte,</l>
+              <l>le dará para su pueblo.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Pues bien, Loleng, yo me marcho,</l>
+              <l>diga a su tio que vuelvo,</l>
+              <l>no me olvide usted jamás.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Ni usted a mi.</l>
+              <l>Sí, lucero. <stage type="action">(Váse por el fondo.)</stage></l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="9">
+          <head>ESCENA IX</head>
+          <stage type="entrance">José.</stage>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>La ocasión está muy buena;</l>
+              <l>pues, Señor, estoy en ascuas,</l>
+              <l>un chinito de los diablos,</l>
+              <l>me pide para las Pascuas</l>
+              <l>la mano de mi sobrina!</l>
+              <l>¡Vaya una gente canalla!</l>
+              <l>No quisiera que este odio,</l>
+              <l>que se me sube a la cara,</l>
+              <l>me haga hacer un desatino...</l>
+              <l>pues, Señor... preciso es calma.</l>
+              <l>Que le quiera por marido,</l>
+              <l>en verdad, no lo comprendo,</l>
+              <l>como Loleng, tan bonita</l>
+              <l>y educada en un Colegio,</l>
+              <l>quiera por marido a un chino</l>
+              <l>y no a un pollo de los buenos.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="10">
+          <head>ESCENA X</head>
+          <stage type="entrance">José y el Chino Quico.</stage>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg><l>¡Mueno lía, seño Joché!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSÉ.</speaker>
+            <lg><l>Muy buenos, ¿que quiere suya?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Mia aquí inchic Quico;</l>
+              <l>mia quiele nga con usuté.</l>
+              <l>Mucha cosa legalalo.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="aside">(Ap.)</stage> Será este el pretendiente.</l>
+              <l><stage type="action">(Alto.)</stage> Mil gracias.</l>
+            </lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>No legañalo.</l>
+              <l>Mia novio ñola Loleng,</l>
+              <l>con ele quiele casalo.</l>
+              <l>Poleso, manda ñola Marta,</l>
+              <l>jablá, pala aquí Pasico,</l>
+              <l>si usuté quiele...</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSÉ.</speaker>
+            <lg><l>¿Y qué?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg><l>¿Suya, no indintí co mía?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Y cosa, pues quiere suya?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Con Loleng, quiele casalo,</l>
+              <l>aquí con monse sobilina,</l>
+              <l>pala aquí... con Pasico.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSÉ.</speaker>
+            <lg><l>¡Ah! con que casalo... ¿eh?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Yan, yan, yan, yan nga po.</l>
+              <l>Con suya puele legalalo</l>
+              <l>muchu; mia tini salapi</l>
+              <l>mia muchu aqui comecio,</l>
+              <l>balate, tinapá, asucad.</l>
+              <l>Mia palino señó Alikaya</l>
+              <l>sobilino señó Oilod.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Y que hay pues con eso?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>¡Señó Joché, Señó Joché!</l>
+              <l>Mia tingu muchu impiñu.</l>
+              <l>Mia palino, Señó Alicaya,</l>
+              <l>puele...</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Que puede?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Puele</l>
+              <l>lale, con monsé, aquí oficio.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="aside">(Ap.)</stage> Me va este hombre a reventar.</l>
+              <l>Pues...</l>
+            </lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Mia quiele casalo</l>
+              <l>aquí con monsé sobilina.</l>
+              <l>Lale la con ele vinti piso</l>
+              <l>pala ele jusi tinda.</l>
+              <l>Mueno tini nigocio.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Mia con suya no quiele</l>
+              <l>dale caselo con Loleng.</l>
+            </lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg><l>¿Baquit po, seño Joché?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Porque ayao co, ayao co.</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>¿Jansina monsé contestaciong?</l>
+              <l>¡Aba! monsé cuilalo mia</l>
+              <l>palino señó Alicaya,</l>
+              <l>sobilino seño Oilod.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Y a mi que me importa?</l></lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l>Puele, con suya, mandalo</l>
+              <l>aquí Bilibid. Aquí mia</l>
+              <l>amigo Equilibano.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Ha visto tal insolencia!</l>
+              <l>Vete con mil de a cabello,</l>
+              <l>no apures la paciencia,</l>
+              <l>pues si no, de un garrotazo</l>
+              <l>te romperé la cabeza.</l>
+            </lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l><stage type="action">(Azorado.)</stage> ¿Y aquí mia manga legalo?</l>
+              <l>pansit, calamay, jampau,</l>
+              <l>asucat y sutanju</l>
+              <l>y aquí bitay tinapá.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Que regalo ni que demonio... <stage type="action">(Buscando un palo para zurrar al chino.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#quico">
+            <speaker>QUICO.</speaker>
+            <lg>
+              <l><stage type="action">(Váse de prisa, deteniéndose en la puerta del fondo.)</stage></l>
+              <l>Mueno, monse cuilalo;</l>
+              <l>mia avisa con palino.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="action">(Persiguiéndole.)</stage></l>
+              <l>Avisa con dos mil diablos.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="11">
+          <head>ESCENA XI</head>
+          <stage type="entrance">José.</stage>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Que mal rato me dio el chino!</l>
+              <l>pero... si yo no me uguanto,</l>
+              <l>el deseo del chinito</l>
+              <l>le hubiese costado caro.</l>
+            </lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="12">
+          <head>ESCENA XII</head>
+          <stage type="entrance">José y Loleng.</stage>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Tio...</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>A buena hora llegas.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Porqué, tío José?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¿Porqué?</l>
+              <l>¡Que bonita estás muchacha!</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Eso mismo dicen muchos,</l>
+              <l>y es frase que no me estraña.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Con que no te estraña, ¿eh?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Déjese usted de rodeos,</l>
+              <l>y explíqueme lo que pasa.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Me esplicaré, si Señora...</l>
+              <l>¿de veras que no te estraña...</l>
+              <l>que un chino tu mano pida</l>
+              <l>para casarse en las Pascuas?</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>¡Brava noticia, por cierto!</l>
+              <l>Por eso, ¿le veo en ascuas?</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Y por eso estás contenta?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>No se enfade... ¡buena ganga!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>De manera...</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Que no quiero,</l>
+              <l>aunque la maldita Marta,</l>
+              <l>me alucina con pinturas,</l>
+              <l>de oro, de comercio y plata.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Cierto! así lo suponía,</l>
+              <l>¿como tu, siendo tan guapa,</l>
+              <l>hija de un bravo marino,</l>
+              <l>hijo de la noble España,</l>
+              <l>aceptaras por marido,</l>
+              <l>a hombre de ese mala casta?</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Es claro, a decir verdad,</l>
+              <l>mi odio con esa raza,</l>
+              <l>es tan grande, como el suyo,</l>
+              <l>que con decirlo no basta.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Ya yo decía, que Loleng,</l>
+              <l>es una buena muchacha,</l>
+              <l>que, virgen aun al amor,</l>
+              <l>al chino no será ganga.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Lo del chino, le concedo;</l>
+              <l>pero... lo del amor...</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¡Caspita!</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>No se ponga usted tan serio.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="aside">(Ap.)</stage> Esto huele...</l>
+              <l><stage type="action">(Alto.)</stage> no, muchacha.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Cierto?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Canario! soy tu tio</l>
+              <l>que te quiere y que te ama.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Pues, yo quisiera contarle...</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¿Algún secreto del alma?</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Una cosa asi secreta.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Pero chiquilla! ¡caramba!</l>
+              <l><stage type="aside">(Ap.)</stage> Parece, que el dios Cupido</l>
+              <l>se coló por la ventana.</l>
+              <l><stage type="action">(Alto.)</stage> Adelante...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Tengo un novio.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Por supuesto lo tenía.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>De manera...</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Sigue.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Que...</l>
+              <l>no soy virgen ya al amor,</l>
+              <l>como ha poco usted decía.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Bien está, vamos al grano.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Tenga calma, a eso voy.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Pues, Señor, yo tengo un novio</l>
+              <l>que me quiere, cual le quiero,</l>
+              <l>y solo espera un destino,</l>
+              <l>por el próximo correo,</l>
+              <l>para pedirle mi mano.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>¡Con que prisa ha ido eso!</l>
+              <l>Me parece que el vapor,</l>
+              <l>con su maquina de hierro</l>
+              <l>te ha de traer matrimonio</l>
+              <l>con un paquete de cuero</l>
+              <l>con tan que no sea un chino;</l>
+              <l>es para mi todo bueno.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Es un hijo de la España.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Muy buena elección, ¡por cierto!</l>
+              <l>que, los buenos Españoles,</l>
+              <l>son nobles y caballeros,</l>
+              <l>y tu padre es español,</l>
+              <l>y marino de los buenos;</l>
+              <l>pero te advierto...</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¿Qué?</l>
+              <l>al novio conocer quiero.</l>
+              <l>La matrimonial coyunda</l>
+              <l>es Paraiso o infierno,</l>
+              <l>y es preciso que yo estudie,</l>
+              <l>al que va a ser mi yerno,</l>
+              <l>pues, no quiero que después,</l>
+              <l>me diga que yo fui un necio.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>A mi novio, ya estudiado,</l>
+              <l>lo tiene usted, tío bueno.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>¡Zambomba!</l></lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="13">
+          <head>ESCENA XIII</head>
+          <stage type="entrance">Dichos, Titay con un pliego en la mano.</stage>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg><l>Ñol ché, ñol ché...</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Oportuna es la muchacha.</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Este papel manda dale</l>
+              <l>con usted un alguacil,</l>
+              <l>y dice que es del Alcalde.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Del Alcalde! ¡pues me estraña!</l>
+              <l><stage type="action">(Abriendo el pliego que es una orden del juzgado y lee. Asombrado.)</stage></l>
+              <l>¡Yo acusado ante el juzgado</l>
+              <l>por el delito de estafa</l>
+              <l>y en aquesta carta-orden</l>
+              <l>me llaman ahora sin falta!</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Y quien se atreve a acusarle?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Tu pretendido de Pascua;</l>
+              <l>pues, hija, surtio su efecto,</l>
+              <l>lo del palino alicaya.</l>
+              <l>Y ahora, vere al escribano,</l>
+              <l>y abogado,... ¡Santa Bárbara...!</l>
+              <l>Este es un tiro completo</l>
+              <l>con bomba, bala y metralla,</l>
+              <l>para luchar en la intriga,</l>
+              <l>no me sirven, para nada,</l>
+              <l>mi azuela, sierra y escoplo.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¿Y que es lo que le hace falta?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Hija, un buen fusil de agua,</l>
+              <l>con sus cápsulas de plata;</l>
+              <l>pero... somos, ¡ay! tan pobres.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Cierto... no tenemos nada.</l>
+              <l>¿Mas por que le acusan, tío,</l>
+              <l>por el delito de estafa,</l>
+              <l>cuando aunque míseros somos</l>
+              <l>no debeis a nadie un cuarta?</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>No lo estrañes; por que el chino,</l>
+              <l>es amigo de demanda;</l>
+              <l>acostumbrado en intrigas,</l>
+              <l>la malafe es su maña,</l>
+              <l>precisamente, si cuenta,</l>
+              <l>con un palino Alicaya.</l>
+            </lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Ñol Che, el alguacil ta esperá</l>
+              <l>allá na puerta de casa.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Allá voy, que espere un poco.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>No es posible tal infamia.</l>
+              <l>Pues, usted es inocente,</l>
+              <l>y su honradez es probada.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>No te aflijas, hija mia,</l>
+              <l>eso; no será al fin nada,</l>
+              <l>porque si quieren juzgarme,</l>
+              <l>es preciso, pruebas claras,</l>
+              <l>más claras, que pura luna,</l>
+              <l>que riela las blancas aguas.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Dicen que así no sucede;</l>
+              <l>pues, de la intriga, en las alas,</l>
+              <l>se ocultan tantas verdades,</l>
+              <l>y verdades muy probadas.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Loleng mía, no te asustes,</l>
+              <l>no te muevas de esta casa,</l>
+              <l>hasta que yo vuelva pronto.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Dios le proteja en la trama.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>El sabe, bien mi inocencia,</l>
+              <l>en El está mi confianza,</l>
+              <l>y la conciencia en mi seno,</l>
+              <l>se halla tranquila y sana,</l>
+              <l>seguro estoy que, al chinito,</l>
+              <l>he de poner la mordaza.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>No se esponga usted, ¡por Dios!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Sí, hija, preciso es calma,</l>
+              <l>y si me falta dinero,</l>
+              <l>me sobra fe y esperanza;</l>
+              <l>saldre del asunto ileso,</l>
+              <l>honrado, puro y sin mancha.</l>
+              <l>Adios, hija. <stage type="action">(Váse por el fondo.)</stage></l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡Que El le guarde!</l></lg>
+          </sp>
+        </div>
+ 
+        <div type="scene" n="14">
+          <head>ESCENA ULTIMA</head>
+          <stage type="entrance">Dichos, Don Eduardo que entra con muestra de alegría, llevando en la mano un periódico y un pliego en el bolsillo sin mirar a José.</stage>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Loleng, muy buena noticia.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l><stage type="action">(a D. Ed.)</stage> Pues yo le doy otra mala.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l><stage type="action">(Sorprendido.)</stage></l>
+              <l>¿Y a donde va usted, José?</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Al Juzgado, por demanda,</l>
+              <l>que me entablado un chino,</l>
+              <l>por el delito de estafa.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l><stage type="action">(Riendo.)</stage></l>
+              <l>Hombre, no vaya usted mas,</l>
+              <l>El asunto fue una pápa,</l>
+              <l>y el Alcalde, que es mi amigo,</l>
+              <l>desatendio la demanda.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l><stage type="action">(Sorprendida.)</stage> ¿Será verdad?</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="action">(Idem.)</stage> ¿Es posible?</l>
+              <l>¡No lo comprendo!</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Pues, ¡vaya!</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>¡Hable usted!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l><stage type="action">(Con interés.)</stage> ¿Y la carta-orden?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Ya no sirve para nada,</l>
+              <l>y al alguacil, al entrar,</l>
+              <l>le despaché de esta casa.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Dígame usted, como pudo</l>
+              <l>salvarme de tal infamia.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>De una manera sencilla;</l>
+              <l>pero es relación muy larga</l>
+              <l>y...</l>
+            </lg>
+          </sp>
+          <sp who="#jose #loleng">
+            <speaker>JOSE Y LOL.</speaker>
+            <lg><l>Prosiga usted, ¡por Dios!</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D.ED.</speaker>
+            <lg>
+              <l>Lo diré en pocas palabras.</l>
+              <l>Yo, al salir de aquí, al Juzgado</l>
+              <l>me puse de prisa en marcha,</l>
+              <l>para saber del Alcalde,</l>
+              <l>que es amigo de confianza,</l>
+              <l>alguna buena noticia</l>
+              <l>de allá, de la madre patria,</l>
+              <l>que anoche llego el correo.</l>
+              <l>Hacia poco que allí estaba,</l>
+              <l>cuando aparece el chinito</l>
+              <l>interponiendo la demanda</l>
+              <l>contra usted, mi buen José,</l>
+              <l>por el delito de estafa;</l>
+              <l>firmada que fue la orden,</l>
+              <l>con ella el alguacil marcha.</l>
+              <l>Yo entonces, al mismo Alcalde,</l>
+              <l>le conté lo que pasaba;</l>
+              <l>y como Juez muy celoso,</l>
+              <l>pronto averiguo la causa,</l>
+              <l>y era que un oficialillo,</l>
+              <l>es el que andaba en la trama;</l>
+              <l>y el Alcalde... ¡le bendigo!</l>
+              <l>dio por nula la demanda.</l>
+              <l>Aquí dirijo mis pasos...</l>
+              <l>y aquí estoy.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Le doy mil gracias.</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Yo mi gratitud profunda...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Pues, no tienen por que darlas;</l>
+              <l>por que, en verdad, otra cosa,</l>
+              <l>me conduce hoy a esta casa.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Si usted quisiera decirnos...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Claro está.. ¡lo digo, vaya!</l>
+              <l>pero el asunto es muy serio.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Hable por la Virgen Santa!</l>
+              <l>aunque el caso es tan serio,</l>
+              <l>cual la cuestión de Bulgaria.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Pues bien, voy a hablar, José,</l>
+              <l>ya que su bondad es tanta.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>¡Prosiga usted sin rodeos!</l>
+              <l>yo que le oiré con calma.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Le confieso que amo a Loleng,</l>
+              <l>y la adoro aquí, en mi alma,</l>
+              <l>a usted, pues, pido su mano,</l>
+              <l>como cumple a un caballero,</l>
+              <l>y es la merced más grande</l>
+              <l>que de su bondad espero.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Serán nuestras las mercedes.</l>
+              <l><stage type="action">(A Loleng.)</stage> Pues, Loleng, di con franqueza,</l>
+              <l>si tu a D. Eduardo quieres.</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOLENG.</speaker>
+            <lg><l>¡Yo!</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Claro está, porque tú...</l></lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg>
+              <l>Sí, yo amo a D. Eduardo,</l>
+              <l>como él también me áma,</l>
+              <l>y es el cuento interrumpido...</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSÉ.</speaker>
+            <lg>
+              <l><stage type="action">(A D. Eduardo.)</stage> Pues sea cosa acordada.</l>
+              <l><stage type="aside">(Ap.)</stage> y soy, por cierto, un bestia</l>
+              <l>que no he presentido nada.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Ya mi dicha esta completa;</l>
+              <l>mil gracias, Jose, mil gracias.</l>
+              <l>Oiga usted, destino tengo,</l>
+              <l>que el Gobierno de la patria,</l>
+              <l>me mandó por correo,</l>
+              <l>y es el de Hacienda Pública</l>
+              <l>Administrador, muy bueno,</l>
+              <l>por que lo es en la Pampanga,</l>
+              <l>tierra que no está muy lejos.</l>
+              <l>¡Aquí está la credencial! <stage type="action">(Enseñando.)</stage></l>
+              <l>recibí del Ministerio,</l>
+              <l>y en el Diario de Manila <stage type="action">(Enseñando el periódico que lleva en la mano.)</stage></l>
+              <l>hoy publican mi empleo;</l>
+              <l>Pues, desde hoy serás dichosa,</l>
+              <l>Loleng mía, mi lucero,</l>
+              <l>y tambien usted, Jose,</l>
+              <l>ya no será carpintero.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Y entonces, ¿qué voy a ser?</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Tercenista o estanquero.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Bien, dejaré la herramienta,</l>
+              <l>y con tabaco, me envuelvo,</l>
+              <l>destino que, ningún chino,</l>
+              <l>no codicia por lo menos...</l>
+            </lg>
+          </sp>
+          <sp who="#loleng">
+            <speaker>LOL.</speaker>
+            <lg><l>Eduardo, te quiero mucho...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg>
+              <l>Y yo a la ti, mi bien, mi cielo.</l>
+              <l>Mañana será la boda.</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Y despues...</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>En marcha.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Bueno.</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>¿Yo? ¿parece que, conmigo</l>
+              <l>ha de dejá na tintero?</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>No, tu, vendrás con nosotros.</l></lg>
+          </sp>
+          <sp who="#titay">
+            <speaker>TITAY.</speaker>
+            <lg>
+              <l>Yo ha de arreglá ya primero</l>
+              <l>entonces, ¿el casangcapan?</l>
+            </lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l>Pero antes que nos marchemos,</l>
+              <l>es preciso despedirnos</l>
+              <l>de nuestro público.</l>
+            </lg>
+          </sp>
+          <sp who="#eduardo #loleng #titay">
+            <speaker>D. ED. LOLENG. TITAY.</speaker>
+            <lg><l>Bueno.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg><l>Yo hare la despedida.</l></lg>
+          </sp>
+          <sp who="#eduardo">
+            <speaker>D. ED.</speaker>
+            <lg><l>Es usted, Jose, muy dueño.</l></lg>
+          </sp>
+          <sp who="#jose">
+            <speaker>JOSE.</speaker>
+            <lg>
+              <l><stage type="action">(Al público.)</stage> La boda se hará mañana;</l>
+              <l>y despedirnos debemos,</l>
+              <l>porque despues, a Pampanga,</l>
+              <l>en un vapor nos iremos,</l>
+              <l>Mas, antes de separarnos,</l>
+              <l>solo un favor os impetro,</l>
+              <l>que, si esta pieza os agrada,</l>
+              <l>aunque su autor es un cero,</l>
+              <l>dispenseis una palmada</l>
+              <l>a JOSÉ, EL CARPINTERO.</l>
+            </lg>
+          </sp>
+          <stage type="action">TELÓN.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
