@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="balmori-flordelcarmelo">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Flor del carmelo</title>
+      <author><persName><forename>Anónimo</forename></persName></author>
+    </titleStmt>
+    <publicationStmt>
+      <publisher xml:id="dracor">DraCor</publisher>
+      <availability><licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence></availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="digitalSource">
+        <title>Biblioteca Virtual Miguel de Cervantes</title>
+        <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+        <date when="2013">2013</date>
+        <pubPlace>Alicante</pubPlace>
+      </bibl>
+      <bibl type="printSource">
+        <author>Anónimo</author>
+        <title>Flor del carmelo</title>
+        <pubPlace>Desconocido</pubPlace>
+        <publisher>Desconocido</publisher>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <langUsage><language ident="es" usage="100">Español</language></langUsage>
+    <textClass>
+      <keywords scheme="https://dracor.org/doc/schema">
+        <term type="genre">drama</term>
+        <term type="subgenre">religioso</term>
+        <term type="form">prose</term>
+      </keywords>
+    </textClass>
+    <particDesc>
+      <listPerson>
+        <person xml:id="sor-teresita-del-nino-jesus" sex="FEMALE">
+          <persName>Sor Teresita del Niño Jesus</persName>
+        </person>
+        <person xml:id="sor-ines-de-jesus" sex="FEMALE">
+          <persName>Sor Ines de Jesus</persName>
+        </person>
+        <person xml:id="sor-maria-de-gonzaga" sex="FEMALE">
+          <persName>Sor Maria de Gonzaga</persName>
+        </person>
+        <person xml:id="sor-maria-del-sagrado-corazon" sex="FEMALE">
+          <persName>Sor Maria del Sagrado Corazón</persName>
+        </person>
+        <person xml:id="sor-isabel-del-espiritu-santo" sex="FEMALE">
+          <persName>Sor Isabel del Espiritu Santo</persName>
+        </person>
+        <person xml:id="sor-angeles-de-las-siete-llagas" sex="FEMALE">
+          <persName>Sor Angeles de las siete Llagas</persName>
+        </person>
+        <person xml:id="sor-imelda-del-divino-amor" sex="FEMALE">
+          <persName>Sor Imelda del Divino Amor</persName>
+        </person>
+        <person xml:id="sor-consuelo-bautista" sex="FEMALE">
+          <persName>Sor Consuelo Bautista</persName>
+        </person>
+        <person xml:id="monjas-varias" sex="FEMALE">
+          <persName>Varias Monjas que no hablan</persName>
+        </person>
+      </listPerson>
+    </particDesc>
+  </profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="act" n="1">
+      <head>PRIMERA JORNADA</head>
+      <div type="scene" n="1">
+        <stage type="action">Claustro abierto, rodeado de jardín, el el convénto de las Madres Carmelitas. Por la tarde, Mientras dura la</stage>
+      </div>
+    </div>
+<div type="act" n="2">
+        <head>ACTO I</head>
+        <div type="scene" n="2">
+          <head>ESCENA I</head>
+          <stage type="action">jornada, de ves en cuando cruzarán algunas monjas orando en silencio, por el foro.</stage>
+          <stage type="action">Sor Angeles, Sor Imelda, Sor Isabel.</stage>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Escuchad, escuchad...</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>"El Dios Todopoderoso, Criador de cielos y tierra, Dueño soberano del universo, y la gloriosísima Virgen María, Reina de la Corte Celestial, se dignan participar a Vdes. el efectuado desposorio espiritual de su augusto hijo Jesús, Rey de reyes y Señor de los señores, con Teresita Martin, hoy ya señora y princesa de los reinos aportados como dote por su Divino Esposo, a saber, la infancia de Jesús y su pasión, de donde le vienen sus títulos de nobleza del niño Jesús y de la Santa Paz......"</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Bendito sea Dios!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Sea por siempre beNdito y alabado!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>"No habiendo sido posible invitar a Vdes. a la fiesta de sus bodas, celebradas en la montaña del Carmelo el 8 de Septiembre de 1890 pues solo la Corte Celestial fue admitida a las ceremonias, quedan, con todo, invitados a la tornaboda que tendrá lugar mañana, día de la eternidad, cuando Jesús, Hijo del Eterno, venga sobre las nubres del cielo, en el esplendor de su Majestad a juzgar a los vivos y a los muertos. No estando todavía señalada la hora, quedan invitados a permanecer dispuestos y a velar</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Bendito sea Dios!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Sea por siempre bendito y alabado!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Y de quien recibió Vuestra Caridad tal esquela?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>De nadie, hermana, Velaba como un suspiro por encima de los copos de la nieve, prendida por una larga espina de uno de los rosales que dan al claustro. El cierzo porfiaba por arrancárselo al rosa y llevárselo a las nubes. Sobre los blancos copos, sobre el blanco papel, una rosa milagro se deshojaba tal que si ella fuera la que acabara de escribir las letras con el oro de sus pétalos.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Y como fué que llegara a vuestras manos?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Porque yo, Dios me perdone, se lo hurté al abrojo, al cierzo y a la rosa.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Demos parte a nuestra Reverenda Madre Superiora.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Para que? Todo el convento debe estar a estas horas lleno de esquelas semejantes. Todas nuestras Reverendas Madres deben haberla leído ya. Cuando ha llegado a las flores y a las nieves</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>La visteis en el día de sus bodas, postrada ante el altar, pálida pálida como un gran lirio tembloroso?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Mas bien parecía una princesa exangue suave que se iba deslizando vestida de plata por los caminos de la luna.....</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>No, no era eso. Era como una imegen hecha de perlas y de gasas, nivea como la espuma, nivea como la nube.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Luz encendida en un fanal.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Olorosa a las siete virtudes.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Llena de divina gracia.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Yo inundé la capilla de flores y de ramas. A pesar del invierno helado y dormido, el jardin florecía como un prodigio de cristal perfumado. Fué un milagro del señor Jesucristo, de la Virgen María, de nuestra Santa Patrona y de las flores y las brisas. Jasmines de invierno! Magnolias de la helada! Nardos de la nieve Milagro, milagro, milagro.......</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>ESCENA II</head>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Se murmura? Gran pecado!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Un tanto así, Reverenda Madre. <stage type="action">(Abrirá en cruz los brazos)</stage></p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Palabras! Palabras!.... Ruido! Ociosidad!....Solamente el silencio es virtud, oración, sabiduría.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Hablábamos de Sor Teresita.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>De la esquela que ha circulado por su boda en el convento.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>La ha leido Vuestra Caridad?</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Sor Teresa tiene un niño en el corazón con los brazos tendidos a la altura. A veces, el niño llora porque quiere jugar con los querubes, y no puede! Pero otras veces, el niño rie, rie bañado del celeste azul y el divino latir de la noche de estrellas, y entonces Sor Teresita escribe esas cosas y escribe versos.... Es como las criaturas que en el mundo de nuestros hermanos se lanzan por los prados a cazar mariposas. Que mariposas son traviesos sueños, y sueños son las traviesas mariposas.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Es muy joven.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Es muy debil.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Es muy dulce.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Sor Teresita tiene un niño en el corazón. <stage type="action">(Pausa. Gran silencio)</stage></p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Ha pasado un angel.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Lo habeis visto?, hermana?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>No, Reverenda madre. Pero cuando todos hablan y todos callan de repente sin saber por que, y se hace se silencio que Vuestra Caridad decía que es oración, señal de que ha pasado un angel.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>A donde irá?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>A jugar con el corazón de Sor Teresita acaso.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Quien sabe! Tanto llama a los angeles que es posible que alguno acuda alguna vez a su ama.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Decid, Reverenda Madre: Sor Isabel y yo porfiabamos no hace mucho sobre si los angeles son hombres o mujeres. Sor Isabel decía que mujeres y yo que no, que hombres! Decid, Reverenda Madre, son hombres? Son mujeres? Son las dos cosas a la vez? O no son ninguna de ambas cosas?</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Hermana, por la Santa Patrona, Hermana, que es lo que estais hablando? O es que tratais de ignorar que los angeles son unos espiritus puros, creados por Dios para guardar a los hombres en la tierra y adorar en los cielos el trono de la Virgen Maria? Y vos tambien, Sor Isabel, discutiendo estas cosas.......</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Pero, Reverenda madre, y el Arcangel Gabriel? El Arcangel Rafael El Arcangel Miguel?......</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Nombres de hombres, pero no hombres: Angeles.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Lo veis, Sor Isabel?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Lo veis, Sor Imelda?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Yo a veces, en la alta noche, oigo desde mi lecho un blando batir de alas. No serán las plumas de un angel, del angel de mi guarda, Reverenda Madre?</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>No, hermana. Yo tambien las oigo donde mi celda. Son las alas de un ruiseñor que en la copa de un tilo canta con un violin a la luna</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Un ruiseñor! Válgame el cielo! Y yo que pensé que por lo menos fuera San Gabriel!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Ilusión! Soberbia! Vanidad! Gran pecado, hermana Angeles!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Mea culpa, Reverenda madre!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Debeis orar! Debeis pedir a la Santa virgen que ilumine con sus luces vuestro entendimiento......</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Mea culpa, mea culpa.........</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Y os torne mas humilde que una ola al morir en la playa.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Mea culpa, mea culpa.................</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>ESCENA III</head>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p><stage type="action">(Desde fuera de la escena)</stage>Entre las nieves perdida Está en la nieve caida Y el cierzo su vida arranca. Ay, pobre paloma herida! Paloma blanca! Ven a mi pecho encendido Y en él tu dolor se abreve; Sea mi seno tu nido, Copo de nieve perdido en la nieve! Te creiste un cielo el suelo que copia su paz divina, y al querer volar al cielo, caiste, herida en el vuelo, palomina!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Que campanilla de oro repica en el crepúsculo?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>La voz de Sor Teresita, Reverenda Madre.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p><stage type="action">(Entrando en escena con una paloma entre las manos)</stage>Si te perdió el desvarío yo en tu pureza me anego. Por que tremulas de frío encima del pecho mío? falta luego? Esponja tu pluma hermosa! Levanta el pico de rosa! Abre tus ojitos leves! Resucite, candorosa Palomita de las nieves!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Resucita, palomita!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Resucita, palomita!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Palomita de las nieves!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Dondo la recogió Vuestra Caridad?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Se moría, se moría entre los hielos del huerto sin un gemido, sin un temblor. Parecía una inmaculada flor de vidrio que fuera cerrando sus hojas poco a poco. Cuando pasó a su lado, en un esfuerzo heroico desplegó una de sus alas tal que si fuera un pañuelito blanco que me dijera dios. La humilde, la pequeña, la inocente criatura del cielo! Que gran pecado cometiera para sufrir castigo tal? Se moría, estaba muerta ya sobre el blanco ataud de los hielos como un blanco corazón. como el otro corazón de un santo!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Ya palpita, madre.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Vuestro corazón le da el calor y vuelve a vivir.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Sus compañeras la dejaron sola y se iba sin un arrullo, sin una oración suave de las plumas. Que gran dolor, mis Reverendas Madres! Morir abandonada, sin gemidos que nos lloren, ni alas blancas que cieren nuestros ojos!...</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Ya quiere volar, Madre Teresita!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Llevaosla, por favor, Sor Isabel! Sus compañeras deben notar un vacío en su alcor. Alguna de ellas, la mas querida puede que la esté llorando... <stage type="action">(Mutis Sor Isabel con la paloma)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>ESCENA IV</head>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Nuestra Reverenda Madre Superiora.....</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES DE JESUS</speaker>
+            <p>Que desolación, madres! Que tristeza de las cosas y la vida! Cae la nieve, ese la nieve, cae sin cesar, y la tierra parece un inmensa patena transparente y el sol, en lo alto, blanco de nieve, blanco de frío, una hostia santa en el blanco altar del cielo.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Que hermosura, Reverenda Madre!</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES DE JESUS</speaker>
+            <p>Decís que hermosura? Bien, sí, todas las cosas creadas por el Altísimo tienen que ser perfectas. Nada existe que haya salido de las manos del Creador que no tenga belleza. Si piedras preciosas fulgen en las plumas de los pavos reales, ópalos y esmeraldas y zafiros esmaltan la escama de los reptiles venenosos. Encanto es el cantar de la alondra y encanto el brino de los leopardos. Dios no ha dejado sin belleza nada, que a la misma noche la corona de estrellas y el mismo dolor, es hermoso porque está salpicado de lágrimas!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Ah, pero las pobres víctimas de tal hermosura como esta belleza de la nevada, tantos seres por los caminos del mundo sin pan y sin abrigo, esta paloma que moría y que acaba de salvar madre Teresita.............</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES DE JESUS</speaker>
+            <p>No hay ninguna hermosura comparable a la hermosura del sufrir.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>El Gólgota! Y en lo mas alto del Gólgota, la cruz! Y en lo mas alto de la cruz, la corona de espinas! Sangre divina de un divino amor que muere martirizado por la causa de su amor! Teneis razón, hermana......Perdon!..... Reverenda Madre! Que encanto de los cielos o las tierras pudiera compararse a tal gloria del dolor?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Siempre pensais en Jesus crucificado.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>El es mi luz, mi guía y mi camino.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Yo os buscaba, Sor Teresita. Quería preguntaron si habíais enformado anoche. Me pareció, estoy cierta, de haberes sido gemir en el silencio.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Posible que yo fuera, Sor Maria.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Os sentiais mal? Sufrisis?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No, Reverenda madre, soñaba!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Y que soñabais que en tal forma os hacía llorar?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Que soñabais?</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA DEL S. C.</speaker>
+            <p>Que soñabais?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Pues el sueño era asi: soñé que oraba, en tanto se abría mi oración, flor de pasion y llanto a los pies del amor! Por el abierto coro penetraba la luz como una lanza de oro y del huerto subían las olorosas ondas que al viento regalaban las flores y las frondas. Abatida la frente, con los brazos en cruz, oraba de rodillas a los pies de Jesus, cuando de pronto se hizo la noche tenebrosa, apagaron las sombras los incendios de rosa, me tronché gritando miedosa, acobardaba, sintiendo que mi cuerpo se perdía en la nada y en la nada mi alma se perdía tambien; Amor, en donde estás? Mis ojos no te ven! Jesus! A donde has ido, que el alma que te nombra en lugar de tus pies solo besa la sombra? Vírgenes del Señor Virgenes del Señor! Necesito la luz para ver a Jesus! Por favor encended las lámparas de amor! Luz! Luz! Dadme la luz! Y a mis gritos, de pronto, ardió en luces el coro. brotaron de los muros llamaradas de oro, y Jesus, desclavándose de su cruz, vino a mi, a mi que le aguardaba con los brazos en cruz, y se inclinó a mi carne para decime asi: Mujer, yo soy la luz!</p>
+          </sp>
+          <stage type="action">(La escena se ha ido quedando en sombras. Suena la campana del convento la oración de la tarde. Las monjas se postrarán a orar)</stage>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>In nomine Patris et filiu et spiritu sancto! Angelus Domini nunctiabit Marie.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Et concepit de Spiritu Sancto.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ave Maria!</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Ave Maria!</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ecce ancilla Domini.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Fiat mihi secundum verbum tuum.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ave Maria.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Ave Maria.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Et verbum caro factum est.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Et habitabit in nobis</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ave Maria.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Ave Maria.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ora pro nobis Sancta Dei Genitrix.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Ut digni efficiamir promissionibus Christi.</p>
+          </sp>
+          <stage type="action">TELON</stage>
+        </div>
+      </div>
+<div type="act" n="3">
+    <head>JORNADA SEGUNDA</head>
+    <div type="scene" n="6">
+      <head>ESCENA I</head>
+      <stage type="action">Celda de Sor Teresita</stage>
+      <stage type="action">Sor Teresita, Sor Imelda, Sor Angeles.</stage>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Ani teneis los versos que me pedís, Sor Imelda.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Mil gracias, Reverenda Madre.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Por nada. Ved si os gustan. Leedlos.</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Por favor, leedlos en voz alta, Sor Imelda.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>En la paz de vuestra celda, lejos de todo rumor, apareceis, Sor Imelda, como una abeja de amor. Y en tal amoroso alcor de ventura sin igual, vuestra oración es la flor y Jesucristo, el panal. Mil gracias, Madre Teresita.</p>
+      </sp>
+      <stage type="action">Se inclina ante ella y le besa la cruz del rosario. Pausa. Las monjas vuelven a leer en silencio los versos mientras Sor Teresita vuelve a escribir</stage>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Ahi van los vuestros, Sor Angeles.</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Dios os bendiga y os lo pague, Reverenda Madre.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>A ver, a ver.........</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>De tu monjil tocado bajo las niveas galas sin mas joya divina sobre tí que la cruz, ya que te llamas Angeles posa tus blancas alas a los pies de Jesus! Gracias, mil gracias. Que la santisima Virgen os lo pague.</p>
+      </sp>
+      <stage type="action">Se inclina y besa la cruz del rosario de Sor Teresita</stage>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Y ahora, habemos un poquito, un poquito nada mas, eh? Que hace Sor Isabel, la buena Sor Isabel en sus jardines?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Y sus huertos?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>En plena primavera, Madre Teresita. Cultiva en el jardin rosas asi de grandes. 
+          <stage type="action">Abre los brazos en cruz</stage> Y cultiva en el huerto lechugas asi de altas. 
+          <stage type="action">Abre los brazos de arriba abajo</stage>
+        </p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Teneis mas fantasía que un poeta.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Ay y como es que no puedo escribir los hermosos madrigales que haceis vos?</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Os gustaría hacer poesía?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Con toda el alma.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Y a vos, Sor Angeles?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Me encantaría, Reverenda Madre.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>No podriais enseñarnos vos que todo lo sabeis y sois tan buena?</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>No! La poesia no se aprende. El poeta no se hace. Se nace asi, poeta, por la divina gracia. Si son buenos, para cantar hermosamente, como las liras, y volar muy alto, como las águilas. Si son malos, para aullar y arrastrarse como los chacales, como los reptiles!</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Yo, cuando andaba por el mundo, asistí una vez al teatro. Hacía una comedia en verso. Y era linda, linda, solo, que.......</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Que?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Le digo, Madre Teresita?</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Es algo que no pueda, que no deba decirse?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>No se, no asi.......</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Dígalo, Sor Imelda.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Era un drama de amor!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>De amor?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>De amor?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>De amor! <stage type="action">Pausa</stage></p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>No es malo se amor! Despues de amar a Dios sobre todas las cosas, no es malo se amor! En él amamos a nuestros semejantes, y como los rosales, si tiene espinas, tambien da rosas, que el amor del mundo llena el mundo de niños, y habeis visto en la vida una cosa mas hermosa que un niño?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Sor Imelda tiene escondida en su cela una muñeca, Reverenda Madre.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>No, Reverenda Madre, es un niño Jesus.</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>No me dijisteis que era una muñeca?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Cuando yo era niña! Ahora que soy monja, es el niño Dios!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Donde lo teneis?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Con vestido rosa, con capota rosa, con zapatos rosa...</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Ya le quité la capota, Madre.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Donde lo teneis?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>En mi cuarto, a los pies del Cristo. Ya me lo ha bendecido nuestro Reverendo Padre Capellan. Os digo que es un niño Jesus!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Grande?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Así. <stage type="action">Abre los brazos de arriba abajo</stage></p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Así. <stage type="action">Reduciendo proporciones</stage></p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Y guapo, guapo!</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Ojos de zafiro!</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Y bucles castaños.</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Y boca colorada! Se le salen los dientecitos de marfil puntiagudos.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Y unas orejitas que parecen de veras, con unos pendientes de abalorio azul.........</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>El niño Jesus?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Y un cordoncito de seda en el costado. Cuando se tira de él, grita "papa" y mama".</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>El niño Jesus?</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Si, Reverenda Madre, pero ya no tiro nunca del cordon.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Está bien, pero, por Dios, quitadle por lo menos los abalorios.</p>
+      </sp>
+      <sp who="#sor-imelda-del-divino-amor">
+        <speaker>SOR IMELDA</speaker>
+        <p>Ahora mismo voy a quitárselos, Reverenda madre. Os quedais, Sor Angeles?</p>
+      </sp>
+      <sp who="#sor-angeles-de-las-siete-llagas">
+        <speaker>SOR ANGELES</speaker>
+        <p>Os sigo.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Id en gracia de Dios.</p>
+      </sp>
+    </div>
+    <div type="scene" n="7">
+      <head>ESCENA II</head>
+      <stage type="action">SOR TERESITA, SOR INES</stage>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Niños! Niños! Muñecos! Dulces cosas pero tan lejos y tan profanas a nosotra! Mas, no! Mi corazón es una muneca, una muñeca de mi amor de niña, como la que esconde Sor Imelda, para tí, para que juegues tú, niño, de mi vida, niño Jesus mío, niño Jesus de mi alma, antes que te hagas hombre y los hombres te apresen, te insulten, te escupan, te golpeen, te coronen de espinas, te claven de pies y manos, te hieran con una lanza y te den a beber miel y vinagre..........</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Ave Maria Purísima!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Sin pecado concebida!</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Teresita!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Reverenda Madre.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Reverenda Madre, no! No es la madre superiora, no es Sor Ines de Jesus la que llega a hablarte. Soy tu hermana mayor, tu hermana Paulina, Teresita!.........</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Te escucho, hermana mía.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Teresita, vengo notando dolorosamente y esto hace tiempo, bastante tiempo ya, que no eres la misma niña, la misma doncella fragante, sana y viva que eras cuando viniste al claustro. Cada día te encuentro por mas herida de tu amor divino, mas derrotada de tu vida. Te humillas y te castigas en el día y velas y ardes en la noche como la lamparita del sagrario. Apenas comes, no reposas, tu intranquilidad es manifiesta. Varias adres murmuran de ti: "Sor Teresita debe estar enferma".... Sor Teresita tiene una dolencia extraña". Donde están las vivas luces de sus ojos y los claveles de sus colores? Donde están su firme caminar y su esbeltez de dardo? Y donde el timbre de cristales y oros de su voz?.... Teresita, Teresita, hermana mía, por el gran cariño que nos une, dime, estás enferma? Que to sucede? Que es lo que tienes tu?</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Hermana mía, te escucho y se me está cayendo de angustia el corazón. Pero ya que insistes en saber la verdad de lo que pasa en mí, y yo te debo el respeto, la obediencia y la verdad como a hermana y como a superiora, sábela de una vez, aunque esta verdad te haga sufrir mas que a mi misma acaso. Estoy enferma. Si, estoy enferma.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Oh!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Ves como sufres? Ves como tiemblas?</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Teresita, florecita! Reinecita mía!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Asi me llamada papá cuando era niña. Y tu tambien, y Celina, muchas veces......Te acuerdas tú de cuando yo era niña, hermana?</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Yo no sé por que has crecido nunca! Ya que en alma eres tan niña como antes y mas angel que antes todavía, debías seguir corporalmente pequeñita, pequeñita, pequeñita!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Eso soy! Eso soy! Si apenas levanto un palmo de la tierra! Muy pequeña, muy pequeña! Una violeta que se lleva el viento! Una hormiguita que se traga el polvo! Una lucesita que se apaga en el sol!</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>No! No! Jamas! Yo te cuidaré, yo te sanaré, yo removeré la tierra, yo imploraré al cielo porque te curen y te pongan buena y vuelvas a tornarte lozana y gentil! Yo puedo arrebatarte a la enfermedad, y luchar, palmo a palmo, con el mal! Yo estoy en pie, soy la mas fuerte y mando aqui! Reinecita, florecita, Teresita de mi alma! No has de caer, no has de sucumbir!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Como sufre! Como tiemblas!</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Por la voluntad de Dios y todas las fuerzas de mi ama y de mi vida, no! No! Yo me atravesaré abierta en cruz en esa puerta para que solo pueda entrar por ella la divina gracia del Señor.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Son por la voluntad de El, todas las cosas. Es por el gusto suyo que yo enferme. Que nos ata a la tierra, hermana, para que asi lucemos por seguir salpicándonos con su barro? Este mundo no es el nuestro, ni es esta nuestra patria querida.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Teresita! Teresita!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Me acuerdo, hermana, de cuando apenas tenía yo dos años y le decía a madre: "Mamá, cuando te mueres? Mamá, por que no te mere enseguida"? Y nuestra pobre madre, espantada por mis palabras, clamaba: "Pero, por que deseas que me muera? Es que no me quieres?" Y yo, colgándome a su cuello, gritaba con toda el alma: "Porque te quiero, porque te quiero mucho, mucho, mucho quiero que te mueras! Asi te vas derecho al cielo, mamá mía!"</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Oh! <stage type="action">Lora escondiendo la cara entre las manos</stage></p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>con que rayos de sol desfilan ante mí los días de la infancia, hermana! Te acuerdas como me adoraba papá, cuanto me cuidada, y lo dura de cabecita que era yo?</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>No querías ponerte si no trajes bonitos!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Con encajes y lazos.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>De gasas y sedas.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Y tisues dorados.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>De colores brillantes.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Pero a medida que fuí creciendo fuí tornándome buena, no es verdad, hermana? Recuerdo que todos mis juegos eran levantar altaritos de piedras y flores en los rincones del jardín, bajo la sombra de los tilos. Los santos eran las estampitas de colores que me procurabais Celina y tu.... El niño Jesus, la Virgen Maria, Sta. Teresa, Sta. Juana de Arco..... Cuantos santos, cuantos y cuantos altares y todo el jardin un templo! Y encima de un gran banco, en medio del jardin, papá, en honor a mis altares y mis santos pronunciando un sermon elocuentissimo...... Mis queridos oyentes, mis amados hermanos en Nuestro Señor Jesucristo.......</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Pobre papá!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Como me acuerdo de su voz que aun retienen mis odos como retiene el caracol el murmullo del mar; Las angustias, las lágrimas que le costaron mi vocation! Yo le ví sollozar como un niño, hermana, cuando de vuelta de Roma, del Vaticano, despues de verme implorar a los pies del Sumo Pontífice mi admision en el Carmelo, se dió cuenta de que me perdía para siempre, para siempre, para siempre! De que yo no era de él, sino de Dios!</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Deja de recordar, florecita! Acaso esas memorias te agobien mas</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>No, no, yo amo el recuerdo del pasado tiempo. Recordar es volver a vivir. Doloroso o venturos, el Ayer fue nuestra vida, y lo único que nos puede consolar del momento presente es el minuto que ya pasó, ya que el futuro está en manos de Dios.</p>
+      </sp>
+    </div>
+    <div type="scene" n="8">
+      <head>ESCENA III</head>
+      <stage type="action">DICHAS, SOR GONZAGA</stage>
+      <sp who="#sor-maria-de-gonzaga">
+        <speaker>SOR GONZAGA</speaker>
+        <p>Está enferma, verdad?</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Está enferma, Sor Maria.</p>
+      </sp>
+      <sp who="#sor-maria-de-gonzaga">
+        <speaker>SOR GONZAGA</speaker>
+        <p>Bendito sea el Señor! Si lo decía yo! Si lo decían todas!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Pero no es nada, nada...... Un levísima angustia, una vaga molestia, un quebranto imperceptible, que solamente me hace sonreir..........</p>
+      </sp>
+      <sp who="#sor-maria-de-gonzaga">
+        <speaker>SOR GONZAGA</speaker>
+        <p>Vuestro color.......</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Siempre fue el mío. Sabes que amo la nieve!</p>
+      </sp>
+      <sp who="#sor-maria-de-gonzaga">
+        <speaker>SOR GONZAGA</speaker>
+        <p>Vuestro decimiento físico.......</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Signo y prueba de mi elevación espiritual!</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Os tiene que visitar el médico.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Siempre está a mi lado. No se aparta de mi ni un solo instante! Vedlo allí 
+          <stage type="action">Mostrando la imagen del Crucificado</stage></p>
+        </sp>
+    </div>
+    <div type="scene" n="9">
+      <head>ESCENA IV</head>
+      <stage type="action">DICHAS SOR ISABEL. (Sor Isabel con un ramo de rosas)</stage>
+      <sp who="#sor-isabel-del-espiritu-santo">
+        <speaker>SOR ISABEL</speaker>
+        <p>Dan su venia las Reverendas Madres?</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Pase, Sor Isabel.</p>
+      </sp>
+      <sp who="#sor-isabel-del-espiritu-santo">
+        <speaker>SOR ISABEL</speaker>
+        <p><stage type="action">Con un ramo de rosas a Sor Teresita</stage> Os traigo la risa de la primavera. Donde la dejo?</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Dadme las rosas; gracias, mil gracias, Sor Isabel.</p>
+      </sp>
+      <sp who="#sor-ines-de-jesus">
+        <speaker>SOR INES</speaker>
+        <p>Sor Teresita, os dejamos. Hemos de avisar al doctor.</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Pero, Reverenda Madre!</p>
+      </sp>
+      <sp who="#sor-maria-de-gonzaga">
+        <speaker>SOR GONZAGA</speaker>
+        <p>Hemos de avisar al doctor. Hasta luego.</p>
+      </sp>
+      <sp who="#sor-isabel-del-espiritu-santo">
+        <speaker>SOR ISABEL</speaker>
+        <p>Os darán cordiales que os harán dormir. Y tabletas que os harán comer. Y tónicos que os volverán el color. Y píldoras que os quitarán la calentura. Y me voy, Sor Teresita, que tengo el jardin hecho una Babel y tengo el huerto convertido en un campo de Agramante. Manguera por aquí, rastrillo por acá, azadón por allí, piqueta por allá, y tierras y flores, flores y frutos, amor de la tierra y bendicion de Dios, por todas partes.</p>
+      </sp>
+    </div>
+    <div type="scene" n="10">
+      <head>ESCENA V</head>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p><stage type="action">Arreglando las rosas, postrada ante los pies del Cristo</stage> Corazón de mi Dios entre llamas divinas! yo te adoro de hinojos! Al igual que la rosa perfuma sus espinas Tu aromas, dulcemente, mi corona de abrojos! De dolor y de amor y de sueño rendida, Te quiero como nadie ha querido jamas! Y mientras mas tu amor penetra en mi alma herida te quiero mucho mas! Te amo, por cuanto fuiste como ninguno amado, ni jamas hubo quien lo fuera, Cuando la Magdalena te envolvió en el dorado velo de su olorosa cabellera. Te amo, porque Longinos te traspasó en la cruz y aun conservas la herida ensangrentada y fuerte como antorcha de fuego y de luz, que guía mi camino por la vida y la muerte. Te amo, porque eres vida! Te amo porque eres senda porque eres caridad, justicia, compasion, y porque no hay ningun corazón que comprenda tu dulce corazón, tu santo corazón, divino corazón!</p>
+      </sp>
+      <stage type="action">La escena gradual y lentamente, ha quedado a oscuras</stage>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Sombras! Sombras! Tinieblas en la luz! Noche en el día! Señor, es esto un sueño, o es esto la muerte? Es el sol el que se apaga o son mis ojos los que pierden la luz? Amor! Jesus! Mis ojos no te ven! En donde estás, Señor? Yo quiero luz! Necesito luz! Necesito luz! Dadme la luz!</p>
+      </sp>
+      <sp who="#sj">
+        <speaker>EL SEÑOR JESUCRISTO</speaker>
+        <p>Yo soy la luz!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Amor mío!</p>
+      </sp>
+      <sp who="#sj">
+        <speaker>EL SEÑOR JESUCRISTO</speaker>
+        <p>Yo soy la verdad!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Amor mío!</p>
+      </sp>
+      <sp who="#sj">
+        <speaker>EL SEÑOR JESUCRISTO</speaker>
+        <p>Yo soy el amor!</p>
+      </sp>
+      <sp who="#sor-consuelo-bautista">
+        <speaker>SOR TERESITA</speaker>
+        <p>Amor mío! Amor de mis amores.</p>
+      </sp>
+    </div>
+  </div>
+<div type="act" n="4">
+        <head>JORNADA TERCERA</head>
+        <div type="scene" n="11">
+          <head>ESCENA I</head>
+          <stage type="action">Decoracion del primer acto, pero esta vez lleno el claustro de plantas y flores.</stage>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Madres, escándalo!</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Que sucede?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Estaba Sor Margarita ayudada por Sor Consuelo arreglando el altar de nuestra Santa Patrona, cuando notó de pronto que del coro descendía una musica mundana.</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Que musica?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Era el órgano! Era un vals!</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Un vals?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Un vals, Reverendas Madres! Espantadas Sor Margarita y Sor Consuelo calladamente se dirigieron al coro para descubrir el misterio de tal música........</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Y que era? que era?.....</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Era Sor Imelda!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Dichosa Sor Imelda!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Siempre recordando cosas del mundo!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Es una niña, un simple niñita todavía! Y tan nocente, tan cándida, que el otro día rompió un huevo que acabada de poner una paloma, para que no se ahogara dentro el pichoncito!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Bendito sea Dios!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Oh, pero lo que es la música. Dice Sor Asuncion que parecía talmente una celeste melodía.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Que penitencia tiene?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Ella misma se la ha impuesto. Cuando la comunidad desfile al salir del coro, se humillaá besando el suelo a su paso, en señal de arrepentimiento y contrición.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Pobre Sor Imelda!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Posa sus pies desnudos sobre el camino de espinas creyendo que pisa flores. Y tiene que marchar herida y dejar sangre en el camino.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Es tan ingenua, tan sin culpa!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Es precisamente en los espiritus ingenuos, en los que el maligno halla terreno propicio y abonado para sus siembras de pecado. Nada de blanduras y ternuras! El alma de toda mujer debe ser dura como el diamante, firme como la roca, serena como la inmensidad! Mujer debil es mujer perdida! Y si no, asomos por un instante al balcon del mundo y contemplad, avergonzadas, lo que pasa en esa vida.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Cosas muy feas! Cosas de infama y perdicion!</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Mujeres que si dejan de bailar como mamarrachos se enferman. Que si no se pinta hasta el alma, no se creen felices. Que en su modo de vestir y en su modo de ser provocan. Que no piensan ni existen sino para el espectáculo inmoral, o para el comadreo injurioso, o para la ociosidad, madre de todas las culpas. Seres que se aman a si mismos, por sobre todas las cosas y mas que al mismo Dios. Hiedras de perversion y escándalo. Y luego de todo esto, de sus días vacíos y sus noches locas, caen tronchadas como flores de trapo, a los pies de un sacerdote para que nuestro Divino Redentor los perdone por un minuto los pecados que al minuto de haber abandonado el templo, vuelven a cometer.........</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Ta perversas son, Madre Maria?</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Perversas y necias. Desdichadas mujeres!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Unos cuantos serán los elegidos, dijo nuestro Señor.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Divinas palabras si seguimos mirando a la desquicada humanidad Cuanta verguenza, cuanta culpa, cuanto dolor!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Y no se apiada el cielo de esos corazones?....</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>ESCENA II</head>
+          <stage type="action">DICHAS, SOR TERESITA</stage>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>De los corazones pecadores?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Son tan desgraciados, Reverenda Madro......</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Por su culpa.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Por su grandisima culpa.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Sí, el cielo nos cobija a todos y de todo se apiada. Jesus llama a las puertas del corazón del pecador, pero está tan lleno ese corazón de vanidad y vicio, que no le oye, no le oye. Y Jesus asoma por las puertas de la mansion del pecador y el pecador hace que sus siervos lo arrojen a la calle.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Como puede ser así?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Porque en vez de ir envuelto en sol y estrellas, va vestido de harapos. Descalzo y llagado, flaco, enclenque, apoyado en su cruz como en un báculo. No es el Señor del Sinai quien los buse Es el Martir del Gólgota. Y cuando le ven temblando de hambre y sed, sangrante, derrotado, implorar la caridad, no le conocen, no puedo conocerle. Ellos solo saben de dioses envueltos en purpura y diamante. De cosas hermosas. De visiones delumbradoras. Lejos el mísero, el pordiosero, el necesitado con su fango y su heridas a disputer su escudilla a los perros si tiene hambre, a beber en las charcas del arroyo, si tiene sed.</p>
+          </sp>
+          <sp who="#sor-maria-del-sagrado-corazon">
+            <speaker>SOR MARIA</speaker>
+            <p>Verdad horrible!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Humanidad abyecta!</p>
+          </sp>
+        </div>
+      </div>
+<div type="act" n="5">
+        <head>ACTO I</head>
+        <div type="scene" n="13">
+          <head>ESCENA I</head>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No es verdad, madres, que a todas horas llame Jesus a nuestro corazón?</p>
+          </sp>
+          <sp who="#todas">
+            <speaker>TODAS</speaker>
+            <p>Verdad.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Yo sigo la voz de mi señor, de mi amor, de mi dueño, a cada instante, cuando voy a tronchar una ramita; cuando voy a pisar una hormiga; cuando quiero lamentarme de un dolor..... Mujer, que mal te hizo la rama para que la ropas? Que daño te causé la hormiga para que la aplastes? Por que te quejas de sufrir tan poco cuando yo sufrí por tí todos los dolores?</p>
+          </sp>
+          <sp who="#sor-maria">
+            <speaker>SOR MARIA</speaker>
+            <p>Y entonces, orais, Sor Teresita?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No es nuestra mision orar y toda nuestra vida una oración? No orais vosotras a cada paso? Yo oro por todos, por el altar y el mundo; por el sacerdote quo santifica el ara y por la mujer perdida en el camino. Oro por el niño que duerme en la cuna y por el anciano que se inclina a la muerte. Por el dolor y la alegría, por el bien y el mal, por la felicidad y el infortunio.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Caminos de santidad.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Caminos del deber. La campana que en lo alto nos anuncia las cosas de la vida, con el mismo bronce que repica a gloria, dobla con la muerte, canta por la vida, plañe dolorosa por las desgracias de los hombres. Es una sola campana! Es un solo metal! Bronce de campanas debe ser el alma henchida de plegarias para sonar por todos, que no hay ser ni cosa alguna sobre la tierra que no esté necesitado de oracion.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Y todo reza en el mundo, menos el hombre.</p>
+          </sp>
+          <sp who="#sor-maria">
+            <speaker>SOR MARIA</speaker>
+            <p>El hombre ingrato a Dios.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>La creacion entera es un salto divino. Incensario de Dios es el crater del volcan; encajes para su altar, las espumas de los mares; llamas para sus lámparas, sagradas, el fuego de los astros alfombra de sus pies, las perfumadas hierbas y las flores. Oracion es el gorjeo de los pájaros y el silbido de las serpientes, el aullido de las fieras y la risa de las fontanas, el fulgor del relámpago y el rugido del trueno, el suspiro del cefiro y la voz del huracan. Oracion es la tela de araña y el agua que murmura. En el mar, en la tierra y en el viento, todo canta y alaba agradecido la vida que dobe a su Creador.</p>
+          </sp>
+          <sp who="#sor-maria">
+            <speaker>SOR MARIA</speaker>
+            <p>Hablais lo mismo que si fuerais un Evangelio santo.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Llenais de paz y gracia el alma.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Pobre de mí, Reverendas Madres! Corpúsculo de polvo, apenas perdido en el espacio!</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>ESCENA III: DICHAS, SOR CONSUELO</head>
+          <stage type="action">(Se van las monjas menos Sor Teresita y Sor Isabel)</stage>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Sor Isabel, quereis hacerme un gran favor?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Que felicidad poderos servir en algo, Madre!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Dadme una rosa para mi Cristo.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Tomad. <stage type="action">(Le entrega un ramo. Sor Teresita se hiere en los dedos)</stage></p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Ay!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Os heristeis? Os punzasteis?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No! No! <stage type="action">(Aparte)</stage> Gracias, Dios mío!</p>
+          </sp>
+          <stage type="action">(Antes de abandonar la escena tropieza y cae)</stage>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Divino Jesus! Reverende Madre! Os habeis lastimado?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No! No!.... Fue un mal paso! Tranquilizaos! <stage type="action">(Aparte)</stage> Gracias</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Allá va, tan feliz, con su rosa y su mal. Es la única a quien tiene que recetar el médico. Teresita Martin! Teresita Martin! Mas angel que mujor y mas que monja, santa!</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>ESCENA IV: SOR ISABEL, SOR IMELDA</head>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Ya empiezan a caer las hojas, acaso no, Sor Isabel?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Las hojas y las flores. La pompa verde se va dorando; la fragancia se apaga y mueren los colores.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Pero aun quedan miles de capullos!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Los últimos quizás.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Y se os han multiplicado las palomas.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Como en cada primavera.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Y so os dolan las ramas al peso de los frutos.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Los que nos dejan sanos y salvos los gorriones.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Teneis lechugas, escarolas y colifores a montones. Pero, es que no os dabais cuenta</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Perdonad, Sor Imelda! es verdad que os sorprendieron tocando un vals en el órgano?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Verdad, Sor Isabel.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Que vals?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>El Conde de Luxemburgo.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Santo Dios! Santo fuerte! Santo inmortal!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Que gran locura, que gran dolor, Madre Isabel!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Pero, es que no os dabais cuenta?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>De nada me daba cuenta. Y es que a veces, muchas veces suele sucederme esto de pensarme en el mundo, de sentire en mi casa todavía y sin querer, --Dios bendito sabe bien que sin querer!-- cometo acciones por mas que tengo que llorar despues amargamente</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>El Conde de Luxemburgo!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>A veces me entra un afan inmenso de cantar, de reir, de alborotar! Y tengo que contenere enormemente! Refrenarme a mi misma con mis propios nervios desatados!</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>El Conde de Luxemburgo!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Que mas a esa música que otra cualquiera, Madre? He tocado un vals! He profanado la santidad del coro! Mea culpa!</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>ESCENA V: DICHAS, SOR ANGELES</head>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Madres! El doctor ha prohibido a Sor Teresita que rece en el coro que ayune, que haga penitencia, que vele.....</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Le gustan los lirio, las blancas rosas, la blanca nieve, las blancas telas, todo lo blanco, y está in sangre y sin color, blanca, como la nube, blanca como la espuma.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Y tan debil que se cae a pedazos.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Con un cuerpecito que se le ven los huesos.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Fina como un junco, fin como una lanza.</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>En su casa, era como una princesa. Su padre la adoraba; sus hermanas mayores la servían; los criados adivinaban su mas leve capricho. Todo lo tenía, juventud, bondad virtud, belleza. De nada carecía; los bienes terrenales le fueron concedidos por Dios prodigamente. Y a todo renunció, a todo, por ser esposa del Señor y es tal su amor a Dios y tal su vida de doncella enamorada, que la enferma el amor y de amor sueña morir y acaso muera.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Como los mártires?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Como los santos.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>La pondrán en los altares?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Y todas tendremos que postrarnos a sus pies.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Santa Teresita?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Santa Teresita del niño Jesus! Y os dejo; La tarde se va y mi pobres palomas no han comido! Sor Angeles, recordad!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Que quereirs que recuerde?</p>
+          </sp>
+          <sp who="#sor-isabel-del-espiritu-santo">
+            <speaker>SOR ISABEL</speaker>
+            <p>Las palabras de Sor Maria del Sagrado Corazon: Solamente el silencio es virtud, oracion, sabiduría.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>ESCENA VI: SOR IMELDA, SOR ANGELES</head>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Cuantos años teneis?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Veintiuno.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Pues parece que acabais de cumplir siete.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Sor Angeles!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Las madres lo dicen, yo os lo repito. Jugais hasta con las cuentas del rosario.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Sor Angeles!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>No os turbeis, querida madre, ya que os pase lo que os pase y que digan lo que digan, es tan hermoso ser niña siempre, ser como un angel pequeñito, coronado de rosas, con altas azules!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Poder jugar con el Niño Jesus! Tocar el órgano! saltar por el jardin!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Y...........</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Que?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Os habeis olvidad de una cosa.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Los bombones y los caramelos?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>No! Los villancicos en el coro.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Nunca os habeis sentido triste, Sor Angeles?</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Triste? Por que? Nunca.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Yo, sí, yo me siento triste a veces y ahora mas, ahora mas.....</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Pero, por que? Por que?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Por lo del coro. Nuestra Reverenda Madre Superiora se puso seria, seria, seiria. Fulguraban sus ojos con extrañas luces. Tenía lívidos los labios. Su cuerpo parecía tremular.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Os dijo cosas graves?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>No. Yo me postré ante ella confesando mi culpa. Ahora me humillaré ante todo el claustro. Y lloraré arrepentida. Y besaré el polvo que piseis........</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Yo iré por la orilla, caminando en puntillas para no ensuciar el polvo que toquen vuestros labios.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Gracias, pero no debeis hacerlo.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Por que?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Porque entonces no sería penitencia.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Pobre Sor Imelda!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Escuchad, Sor Angeles: Yo tambien era en el mundo una princesa. Mis padres todo lo veian por mis ojos, mis hermanos me mimaban, nuestros vasallos se doblaban reverentes al menor de mis gestos. Mi padre es un gran señor; vive en un palacio, tiene tierras y castillos, es poderoso y fuerte. Yo los quería todos, a todos porque todos me amaban y regalaban, pero, desde muy niña, desde que hace mi primera comunion, pensé en Jesus, pensé en Jesus de noche y día, a todos horas, en todos los momentos, y sin quererlo, sin sentirlo casi, me fuí apartando de todo el mundo, huyendo de todo el mundo para cuidarme solamente de Aquel que desde que entró en mi pecho se apoderó de mí, me hizo su amor, me hizo su esclava, me hizo su prisonera</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Igual que a mi.</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Mis padres tenían acordado desposarme con un gentil hombre de la corte. Eran muchos los que me pretendían. Yo no quería conocer a nadie. Hasta que un día, un día me habló mi padre de eso, de casarme con un hombre, y entonces yo, que estaba mas que nunca enamorada de Dios, eché por tierra todos sus proyectos.</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Os rebelasteis?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Sí, me abracé a su pecho y le dije llorando eso, que yo no podía unirme a ningun hombre porque ya estaba comprometida, porque ya había dispuesto de mi vida, de mi corazón, de mi libertad, porque ya tenía un amor, un solo amor, un gran amor!</p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>Y vuestro padre se enojó?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>No podía enojarse. Me quería demasiado. Procuró disuadirme únicamente de mi vehemente anhelo de ingresar en esta santa casa. Luego, despues de mil luchas y mal lágrimas, venció Dios, vencí yo! Mis padres se rindieron! Soy Carmelita! <stage type="action">(Suena la campana del coro)</stage></p>
+          </sp>
+          <sp who="#sor-angeles-de-las-siete-llagas">
+            <speaker>SOR ANGELES</speaker>
+            <p>La hora del coro. No venís?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>No puedo. Oraré desde aqui. He de cumplir mi penitencia. <stage type="action">(Pausa. Se oirá la voz del órgano lejano y una voz que canta. Durante este tiempo, Sor Imelda se postrará orando. Cuando acabe el canto, las monjas desfilarán por la escena y Sor Imelda se abatirá besando el suelo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>ESCENA VIII: SOR TERESITA, SOR IMELDA</head>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p><stage type="action">(Que llegará la última)</stage> Cuanto tiempo pensais estar asi?</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>Una hora, dos horas, quien sabe!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Levantaos en el nombre de Dios!</p>
+          </sp>
+          <sp who="#sor-imelda-del-divino-amor">
+            <speaker>SOR IMELDA</speaker>
+            <p>No puedo, Reverenda Madre.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>En el nombre de Dios os digo y os ordeno que os alceis <stage type="action">(Sor Imelda se levanta)</stage></p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Id tras las madres, ocupad vuestro puesto. Yo haré por vos vuestra santa penitencia. <stage type="action">(Sor Imelda se va tras las monjas que desfilan. Sor Teresita ocupa su puesto, besando el suelo)</stage></p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Si es sufrimiento el amor en el dolor de la vida yo te suplico, señor, que se aumente mi dolor hasta romper la medida!</p>
+          </sp>
+          <stage type="action">TELON</stage>
+        </div>
+      </div>
+<div type="act" n="6">
+        <head>ACTO I</head>
+        <div type="scene" n="19">
+          <head>ESCENA I</head>
+          <stage type="action">Celda de Sor Tereita</stage>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>Sor Teresita</speaker>
+            <stage type="action">Grande postrada a los pies de un crucifijo</stage>
+            <p>Señor, mi carne está en ruinas! Aumenta el dolor ardiente De mi nada! Por la corona de espinas Que pusieron en tu frente Venerada! Dobleme en todos instantes Bajo quebrantos humanos Cual bajo el viento, la mies, Por los clavos lacerantes Que traspasaron tus manos Y tus pies! Caigan tus dardos divinos A mi corazón llagado De esperanza, Por la herida que Longinos Abrió en tu santo costado Con su lanza! Sea mi angustia tu gloria tu gozo las aflicciones Que mi alma vida sintieron, por la púrpura irrisoria Que soldados y sayones Te vistieron. No deje el dolor resabio En la carne atormentada Sin ventura! Por la esponja que a tus labios Acercaron, empapada, En vinagre y amargura! Sea mi senda de espinas Hasta llegar a la luz De tu seno redentor, Por las palabras divinas Que suspiraste en la cruz Al expirar por mi amor.....</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>ESCENA II</head>
+          <stage type="action">SOR TERESITA, SOR GONZAGA</stage>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Reverenda madre?.....</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Pasad, Madre Maria.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>No debiais ora asi. Vuestra salud no os lo permite; el médico os los ha prohibido.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Ha sido un solo instante, y ademas, no sé orar de otro modo ni como atreverse a hablar en otra forma a nuestro Dios, sino postrada de hinojos a sus santos pies.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>O sobra la razón, pero es que en vuestro estado.......</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Tendría que estar muriéndome y aun asi moriría orando en postración. Toda mi vida ha sido so, or Maria; un peregrinar arrodillada por las sendas que conducen al inmortal Seguro: y podeis creerme si os digo que mis pobres rodillas solo se han herido en flores y han resbalado sobre luces, que todo eso del dolor y la espinas del camino se ha inventado para la carne pusilánimo y para los espiritus sin alas.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Os sobra la razón, pero no en vuestro estado.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Si supierais que con todo, lo enferma que suponeis que estoy, me siento mas feliz y mucho mejor de rodillas, que asi, reclinada en esto lecho, sobre tanta blandura!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>No os placerá, os molestará, pero asi estais mejor y asi debeis estar por ahora al menos.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SR TERESITA</speaker>
+            <p>Ya veis como obedezco.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Siempre fuistis humilde y razonable. Ved lo que os traigo y alegraos..........</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Vidas de santos?</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Vidas de santos.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Y me las vais a leer vos, Sor Maria?</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Todas las que querais en tanto reposais.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Como poder pagaros tanta bondad? Cuan buena sois! Dios os bendiga</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Por tan pequeña cosa? Escuchad....... Primera vida: Vida de Santa Ines. Apenas contaba doce años de edad esta purissima doncella, cuando fue conducida a Roma en tiempos del Emperador Docleciano, perseguidor del cristianismo, entregándola un incesario para que rindiera adoración al ara de Minerva. En medio de los ritos de tal idolatría, Sta. Ines alzó los brazos a Nuestro Señor Jesucristo, su Divino Esposo, haciendo la señal de la cruz. Fue entonces sometida a la mayor tortura, pero viendo sus jueces que los físicos sufrimientos solo arrancadan sonrisas y plegarias a sus labios, quisieron infligirla un tormento mayor. Y asi la despojaron de sus ropas haciéndola desfilar desnuda por las calles de la ciudad ante las turbas do los paganos. Pero la santa oraba, oraba, oraba, y Cristo velaba por su inocencia y por su honor. Un mozalbete que se atrevió a mirarla con ojos de impudicia quedó ciego al instante. Ofertas de fastuoso matrimonio y salvacion se la hicieron por gentiles hombres prendados de su virtud y su hermosura. Pero la virgen todo los rechazó por el amor a su Dios, y al fin fué decapitada y transportada su alma pura entre las alas de los angeles, al paraiso.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Valeroso ejemplo!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Segunda vida: Vida de Sta. Juana de Valois... De sangre real, hija de Luis XI, y ella misma reina de Francia, a la edad de cinco años, consagró su corazón al Señor y a su Madre Santisima. Casó, por voluntad de su padre, con Luis XII, que la repudió al ascender al trono, luego de 22 años, de haberla hecho sufrir las mas grandes crueldades y humillaciones, repudio que alegró el corazón de la santa, pues pudo dedicarse por entero a su vida de amor a Dios. Retirada a Bourges, fundó la orden de la Anunciación y levantó el primer convento de la orden en 1502. Murió en olor de heroica santidad y fué enterrada con la púrpura y la corona reales bajo el humilde sayal de religiosa.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Santo ejemplo de humildad!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Tercera vida: vida de Santa Escolastica...... Santa Escolastica, hermana de San Benedicto y bajo cuya dirección fundó y gobernó una numerosa comunidad cerca a Montecasino. San Gregorio resume su santa vida diciendo de ella que...... <stage type="action">Observando a Sor Teresita que ha cerrado los ojos</stage> Quereis descansar? Descansais, Sor Teresita?.... Se ha dormido como un niño, como un angel.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>ESCENA III</head>
+          <stage type="action">DICHAS SOR INES</stage>
+          <stage type="action">Hablarán en voz baja</stage>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Dormida o desmayada?</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Dormida, Reverenda Madre.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Bondito sea Dios! Leiais?</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Vidas de santas, el libro de oro.......</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Algun día acaso........</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Decidlo! Yo no lo ignoro! Nadie puede ignorarlo ya! En un cercano día, entre los bienaventurados y las santas de este divino libro, figurará un nombre gloriosamente..........</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Callad, por Dios.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Santa Teresita del niño Jesus</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Por Dios!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Ante ella se postrarán los hombres y los pueblo. Y la cantarán las arpas de los angeles y las liras de los poetas.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Es buena con una santa, y a sufrido mucho, mucho, en tanto tiempo de enfermedad. Del altar de la vida fue a coger el caliz de la amargura para apurarlo gota a gota por su amor divino. Pudiendo ser dichosa, despreció los goces terrenales. Ni un solo instante ha tenido inclinada la frente a la tierra. Siempre se la sorprendió mirando al cielo. Ella, tan fina, tan suave, tan dosil, se impuso tormentos, penitencias, ayunos, desveles y mortificaciones que no hubieran podido soportar las mas fuertes naturalezas. Y he aqui el resultado. Ya vamos tocando el desenlace tan venturoso para ella, tan triste para nosotras. Porque habeis de saber, Sor Maria Gonzaga, que está muy enferma, muy enferma. Por si no me lo dijera a cada instante mi propio corazón, el médico me lo ha venido repitiendo. Yo he luchado con todas mis fuerzas por salvalla. Pero el Señor la llama a su gloria, lo quiere asi. Hagase su santisima voluntad!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Acaso se espera?...... Acaso temeis vos, Reverenda madre?......</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Perfume tenue que se va extinguiendo, velita blanca que se está apagando, florecita celeste deshojada y caida sobre el tallo, con el viento en espera, de su último pétalo.......</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <stage type="action">Despertando</stage>
+            <p>Quien me nombra? Quien me llama?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Nadie. Domiais. Quizas soñabais.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Y os velábamos nosotras.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Me han llamado. Me han despertado. Pero no vuestras caridades, ya lo sé. Era una voz dulce y grave. No era una mana ni era la vos de un angel. Era una vos dulce y grave......... Oh!...... <stage type="action">Llevándose las manos al pecho dolorido</stage></p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Sufrís?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Quereis la medicina? Quereis el calmante?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No, gracias. <stage type="action">Volverá a caer en postracion</stage></p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Lo veis? Se está apagando! La carne va muriendo y el alma abre sus alas.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>No es el dolor el que os abruma de pesimismo, Reverenda Madre?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Ciega tendría yo que estar para no advertirlo: mas os vuelvo a decir que está escrito allá arriba, y lo que allá se escribe son las leyes de Dios. Inutil es cuanto tratemos de oponer. Todos los cuidados, todas las precauciones, toda la ciencia, vanas! El mismo clamor de mis plegarias no han llegado al cielo y si ha llegado, no lo ha escuchado Dios! El lo manda! El Señor lo quiera! Dobleros la frente para acatar su divina voluntad.</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Vida triste! Carne fragil como un cristal! Basta un solo microbio, una onda de viento, para destruir una vida! Lo mismo una flor que una mujer. Lo mismo una rosa que una santa. Basta un microbio! Basta una onda de viento!.....</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <stage type="action">Volviendo a llevarse las manos al pecho</stage>
+            <p>Oh!</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Os ahogais! Sufrís!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No. Orabais?</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Todas las madres están orando por vos en la capilla.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Quereis que nosotras tambien oremos?</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Gracias, Reverenda Madre. <stage type="action">Vuelve a oprimirse el pecho con las manos</stage></p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Sufrís....... Sufrís.........</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Puedo llamarse dolor esta duzura jamas sentida que se va enroscando por todas sus venas y me está invadiendo sangre y alma como un bálsamo y como una caricia de los cielos? Si esto es dolor y esto es sufrir, a que llaman placer, Reverendas Madres?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Pero,sufrís, no negueis que sufrís. Yo os veo, yo os siento sufrir.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Recordad el camino del calvario. Y el camino que siguieron despues tantos miles de mártires y virgenes que sucumbieron a las torturas mas horrendas. Recordadlo y decidme: os atreveis a llamar sufrimiento este enorme gozo que me anega?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Teneis razon; y al propio tiempo que me duelo de vos, os envio con toda el alma. Poseeis el dolor que es la llave del paraiso. Cuando llegueis a los cielos, no necesitareis llamar. Vos misma os abrireis las puertas.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Caigan tus dardos divinos A mi corazón llagado de esperanza. Por la herida que Longinas Abrió en tu santo costado Con su lanza!</p>
+          </sp>
+          <sp who="#voz_alto">
+            <speaker>UNA VOZ EN LO ALTO</speaker>
+            <p>Teresita Martin!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Señor........ Escuchasteis?</p>
+          </sp>
+          <sp who="#sor_ines_gonzaga">
+            <speaker>SOR INES Y SOR GONZAGA</speaker>
+            <stage type="action">A un tiempo</stage>
+            <p>No.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Me han llamado. Y es la misma voz. La voz de antes. La voz de Dios.</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Calmaos: seguid orando.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>No deje el dolor resabios En la carne atormentada Sin ventura! Por la esponja que a tus labios Acercaron empapada En vinagre y amargura........</p>
+          </sp>
+          <sp who="#voz_alto">
+            <speaker>UNA VOZ EN LO ALTO</speaker>
+            <p>Teresita Martin!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Señor! Pero, no escuchais? No ois?</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>Calmaos, por Dios, calmaos.</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <p>Sea mi senda de espinas Hasta llegar a la luz De tu seno redentor.......</p>
+          </sp>
+          <sp who="#voz_alto">
+            <speaker>UNA VOZ EN LO ALTO</speaker>
+            <p>Teresita Martin!</p>
+          </sp>
+          <sp who="#sor-teresita-del-nino-jesus">
+            <speaker>SOR TERESITA</speaker>
+            <stage type="action">Abatirá la frente y resbalará a lo largo del lecho, desplomada</stage>
+            <p>Señor!</p>
+          </sp>
+          <sp who="#sor-maria-de-gonzaga">
+            <speaker>SOR GONZAGA</speaker>
+            <p>Muerta!...... Muerta!.....</p>
+          </sp>
+          <sp who="#sor-ines-de-jesus">
+            <speaker>SOR INES</speaker>
+            <p>No! No!.... Avisad a las madres! Corred! Avisad a las madres!.... <stage type="action">Sor Ines se postrará abrazada al cadaver de la santa mientras gemirá fuertemente.</stage> Teresita..... Teresita mía! Oyeme! Abre los ojos!..... Oh! Muerta! Muerta, Señor! Al fin te la has llevado! Hágase Tu divina voluntad!</p>
+          </sp>
+          <stage type="action">Quedará de hinojos, sollozando, en tanto de lo alto vaya cayendo despacio y gradualmente una lluvia de rosas. Las campanas del convento plañiran a muerte. Y lentamente irá cayendo el</stage>
+          <stage type="action">TELON</stage>
+        </div>
+      </div>
+</body>
+</text>
+</TEI>
