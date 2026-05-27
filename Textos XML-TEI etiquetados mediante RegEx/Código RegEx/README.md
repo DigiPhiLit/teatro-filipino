@@ -1,4 +1,5 @@
 Esta herramienta convierte obras de teatro en formato de texto plano (.txt) a XML-TEI compatible con el esquema DraCor. Funciona íntegramente en local: no requiere conexión a internet, cuenta en ningún servicio externo ni clave de API.
+
 PASO 1- Requisitos
 1. Python 3.10 o superior instalado en el ordenador
 2. Descargar el archivo tei_generator.py desde el repositorio y guardarlo en una carpeta de trabajo, por ejemplo "RegEx" en el escritorio
