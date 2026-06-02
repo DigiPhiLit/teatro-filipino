@@ -68,7 +68,7 @@ A continuación se consigna una tabla con los autores de los textos
 
 Si utiliza este repositorio, cite el proyecto de la siguiente forma:
 
-Álvarez, Alejandra, Cristina Jiménez y Rocío Ortuño Casanova. Teatro filipino en español: corpus, marcado TEI-DraCor y evaluación de métodos automáticos. 
+Álvarez, Andrea, Cristina Jiménez y Rocío Ortuño Casanova. Teatro filipino en español: corpus, marcado TEI-DraCor y evaluación de métodos automáticos. 
 Repositorio GitHub, 2026. [https://github.com/DigiPhiLit/teatro-filipino]
 
 ## Licencia
@@ -79,7 +79,7 @@ Este repositorio se distribuye bajo la licencia CC BY-NC (Reconocimiento - NoCom
 
 **Investigadora principal:** Rocío Ortuño Casanova
 **Institución:** Laboratorio de Innovación en Humanidades Digitales (LINHD) de la UNED
-**Equipo de investigación:** Alejandra Álvarez y Cristina Jiménez
+**Equipo de investigación:** Andrea Álvarez y Cristina Jiménez
 **Contacto:** info@linhd.uned.es
 
 ## Agradecimientos
