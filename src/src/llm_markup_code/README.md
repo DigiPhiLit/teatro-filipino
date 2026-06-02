@@ -1,11 +1,16 @@
-Este proyecto automatiza la conversión de obras de teatro filipino en formato de texto plano (.txt) a XML-TEI compatible con el esquema DraCor mediante el modelo de lenguaje de Gemma 4 26B (Google DeepMind).
+## Descripción
+
+Aquí se consigna el código utilizado para automatizar la conversión de obras de teatro filipino en formato de texto plano (.txt) a XML-TEI compatible con el esquema DraCor mediante el modelo de lenguaje de Gemma 4 26B (Google DeepMind).
 
 El sistema está diseñado para el procesamiento de textos dramáticos y genera automáticamente una estructura TEI completa que incluye actos, escenas, parlamentos, personajes y acotaciones. 
 
- Los requisitos son los siguientes: 
+## Requisitos
+
  - Pyhton 3.10 o superior
  - Descargar el código main.py y tei_generator.py, guardarlos en una carpeta titulada "app_tei_gemma" o similiar en tu ordenador
  - Biblioteca google-genai: Abrir una terminal dentro de la carpeta creada y luego instalar la biblioteca -->"pip install google genai".
+
+## Instrucciones
 
 Para obtener la API Key de Google debes:
  - Acceder a: https://aistudio.google.com/.
