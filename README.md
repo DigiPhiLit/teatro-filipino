@@ -69,6 +69,6 @@ Este repositorio se distribuye bajo la licencia CC BY-NC (Reconocimiento - NoCom
 ## Agradecimientos
 
 Este repositorio forma parte del proyecto DigiPhiLit, desarrollado en el ámbito de las Humanidades Digitales y la literatura hispanofilipina.
-Agradecemos a la Biblioteca Virtual Miguel de Cervantes, la Hemeroteca Digital de la Biblioteca Nacional de España, la National Library of the Philippines y la Digital Library de la Universidad de Santo Tomas de Manila por su apoyo en la digitalización y publicación online de las obras incluidas en este corpus.
+Agradecemos a la Biblioteca Virtual Miguel de Cervantes, la Hemeroteca Digital de la Biblioteca Nacional de España, la National Library of the Philippines, la National Library of Australia, la Digital Library de la Universidad de Santo Tomas de Manila y la biblioteca del Instituto Cervantes de Manila por su apoyo en la digitalización y publicación online de las obras incluidas en este corpus.
 
 
