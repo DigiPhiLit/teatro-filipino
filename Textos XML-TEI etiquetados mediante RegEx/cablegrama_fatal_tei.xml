@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es" xml:id="CORPUS-reyes-elcablegramafatal">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El cablegrama fatal</title>
+        <author>
+          <persName>
+            <forename>Severino</forename>
+            <surname>Reyes</surname>
+          </persName>
+        </author>
+
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Severino Reyes</author>
+          <title>El cablegrama fatal</title>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date when="1916">1916</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+        <person xml:id="srtorrijos" sex="MALE">
+          <persName>Sr. Torrijos</persName>
+        </person>
+        <person xml:id="alcala" sex="FEMALE">
+          <persName>Alcalá</persName>
+        </person>
+        <person xml:id="sanjuan" sex="MALE">
+          <persName>Sanjuán</persName>
+        </person>
+        <person xml:id="cornado" sex="MALE">
+          <persName>Cornado</persName>
+        </person>
+        <person xml:id="serra" sex="FEMALE">
+          <persName>Serra</persName>
+        </person>
+        <person xml:id="martinez" sex="MALE">
+          <persName>Martinez</persName>
+        </person>
+        <person xml:id="farras" sex="MALE">
+          <persName>Farrás</persName>
+        </person>
+        <person xml:id="gallari" sex="MALE">
+          <persName>Gallari</persName>
+        </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+    <castList>
+      <castItem>
+        <role xml:id="srtorrijos">SR. TORRIJOS</role>
+      </castItem>
+      <castItem>
+        <role xml:id="alcala">ALCALÁ</role>
+      </castItem>
+      <castItem>
+        <role xml:id="sanjuan">SANJUÁN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="cornado">CORNADO</role>
+      </castItem>
+      <castItem>
+        <role xml:id="serra">SERRA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="martinez">MARTINEZ</role>
+      </castItem>
+      <castItem>
+        <role xml:id="farras">FARRÁS</role>
+      </castItem>
+      <castItem>
+        <role xml:id="gallari">GALLARI</role>
+      </castItem>
+    </castList>
+    </front>
+    <body>
+        <p>(2) —Padre Labarriga, sacerdote, vestido de paisano.</p>
+        <stage type="action">Dr. José Rizal y Mercado.</stage>
+        <stage type="action">¿Y..., a usted, quién le presenta?...</stage>
+        <stage type="action">Es la primera vez en mi vida de escritor,—si así se puede llamar a un hombre que para el público escribe,— que un amigo me pide un prólogo para una obra suya.</stage>
+        <stage type="action">Tratándose de quien es el amigo y del gusto con que hacemos todo cuanto y nos demanda, nos parece de perlas el escribir para presentarle; y mucho más cuando él no necesita de presentaciones y quizá el que presenta debía ser el presentado; pero en la obra que hemos de precederle es para nosotros asunto tan espinoso como delicado, el revolver cosas que necesariamente tienen que sacarse a colación por haber causado alguna polvareda el manuscrito de este INTERMEDIO HISTÓRICO, como su autor lo titula, aún antes de su representación.</stage>
+        <stage type="action">Pero todos estos prejuicios y elucubraciones, de los espíritus esaltados se petrificaron para resolverse después en un momento de entusiasmo, en una prolongada, salva de aplausos que culminó gallardamente en apoteosis luminosa como premió a las gallardías y altiveces del talento preclaro y diamantino del autor de EL CABLEGRAMA</stage>
+        <stage type="action">FATAL, tan traído y llevado por unos y otros.</stage>
+        <stage type="action">Todos los que lean este libro conocerán á don Severino</stage>
+        <stage type="action">Reyes, pues su labor y talento le han hecho acreedor meritísimo a su popularidad en Filipinas como autor de obras teatrales.</stage>
+        <stage type="action">EL CABLEGRAMA FATAL es un apropósito de palpitante actualidad y que ha sido hecho por su autor en pocas horas, apremiado por el deseo de dar algo altamente patriótico al público filipino en la noche de</stage>
+        <stage type="action">décimonono aniversario del más ilustre de los patricios</stage>
+        <stage type="action">Dr. Jose Rizal y Mercado.</stage>
+        <stage type="action">No necesita el autor de WALANG SUGAR de galeatos ni de críticas para triunfar a decaer en el espíritu público. Don Severino Reyes posée el alto sentido de la adaptación, movimiento y mecanismo teatrales; y más que nada arraiga en él el secreto de los gustos, aficiones y resortes mágicos que enloquecen y hacen conmover esas ocultas fibras pasionales de sus espectadores. Vino a la escena con una constancia y un brío desconocidos hasta hoy en Filipinas, creando casi se puede decir, él solo, una escuela teatral por la cual senda han desfilado unos cuantos autores con más o menos fortuna.</stage>
+        <stage type="action">Cuando se llevó a la escena rápida y apremiantemente el manuscrito de la obra que nos ocupa, corrieron de boca en boca frases poco halagüeñas que hubieran desconcertado a otro autor que no fuera del temple y capacidad de nuestro querido don Severino; pero él, recibió con fría parsimonia todos los CUCHICHEOS que a su alrededor se alzaban y con uno inconmovible calma en su habitual temperamento, continuó imperturbable, paseando lentamente por el escenario del Teatro Zorrilla mientras tras los actores ensayaban su INTERMEDIO HISTÓRICO</stage>
+        <stage type="action">EL CABLEGRAMA FATAL.</stage>
+        <stage type="action">Llegó el encono de los impresionables a mandar a los intérpretes de la obra anónimos deprimentes que causaron en algunos de ellos hondos temores de conflicto con el público; pero ante la calma y la sangre fría del padre del libreto, todos se sentían animados de valor; y la obra llegado el día y la hora señalados en el programa, se representó.</stage>
+        <stage type="action">Los que ocupaban butacas y palcos, iban predispuestos y prontos a protestar de las atrocidades y del libelo que allí se iba a perpetuar en aquella noche memorable; y es claro, la zozobra, el mal estar y los murmullos hervían en los entreactos, comentando el</stage>
+        <stage type="action">atropello. Llegó el momento supremo, se alzó la cortina y todas tus caras estaban hoscas y presentado perfiles violáceos de indignación; pero a medida que los actores avanzaban en el diálogo y los personajes que integraban la trama se iban despojando de aquella expresión de ferocidad con que le vulgaridad les había sambenitado, los perfiles se fueron ablandando, los cuerpos fueron tomando otras posturas menos trágicas y las comisuras labiales se desplegaron sabiamente para dar paso a una placidez respasana.</stage>
+        <stage type="action">. Y a este paso, a la primera escena, ya se había metido en el bolsillo, como vulgarmente se dice, el actor, a la fiera, que llegó de uñas para condenarle enérgicamente; y surgió el primer plano y después de este atrevido, toda la sala unánime prorrumpió en un estampido de aprobación. El autor de EL CABLEGRAMA</stage>
+        <stage type="action">FATAL no se inmutó; esperaba este desenlace; y a poco en uno de los diálogos, ya al final, resonaron varias voces, gritando: ¡El autor! ¡el autor! y en un trivajo de palmas y vitores fué sacado a escena el veterano, el esforzado soldado del arte teatral en</stage>
+        <stage type="action">Filipinas. A don Severino le debemos mucho todos los filipinos; ha extirpado la perniciosa comedia de</stage>
+        <stage type="action">MORO-MORO que tan mal decía de los gustos de nuestras  masas y tan deprimente efecto causaba en la apreciación del extranjero que nos visitaba y nos juzgaba con rápida y displicente sonrisa.</stage>
+        <stage type="action">Don Severino ha formado en Filipinas un teatro tagalo y ha inducido a muchos, con su ejemplo y desinterés de abnegado a que escriben y fomenten el drama, la tragedia, la zarzuela, en idioma vernacular.</stage>
+        <stage type="action">El romance castellano también D. Severino ha producido bastantes obras, todas ellas con buena y brillante, aceptación.</stage>
+        <stage type="action">Se necesita tener no lo han constante y bien templada como la suya para el trabajo y el sacrificio para continuar hasta hoy aferrado a su idea y</stage>
+        <stage type="action">.</stage>
+        <stage type="action">luchando constantemente con la idiosincrasia del populacho y con la escasez de ambiente y de orientación; y más que nada con la extremada aflicción en que está hasta hoy el arte teatral; pues no contamos ni con un teatro que reuna condiciones idóneas para albergar cinco o seis mil almas y poder abaratar el precio de la entrada para que se ilustre nuestro público y se lucre el autor.</stage>
+        <stage type="action">Pero dejemos aparte estas consideraciones, para fijarnos en el asunto y trama de la obra, que la podemos juzgar con cuatro palabras se le pidió al autor de EL CABLEGRAMA FATAL un libreto ligero, de actualidad palpitante, de momento, en un asunto tan trascendental como el fusilamiento de Risul, para ser representado una sola noche, sin miras de lucro, y para una velada, a la que sabía positivamente habían de asistir españoles peninsulares, hijos de estos, y otras entidades, además del público filipino, simpatizadores todos más o menos de España y su obra en Filipinas; y tuvo el raro talento don Severino de tocar este tema candentísimo y expuesto a toda clase de criticas, sin herir las susceptibilidades ni de los unos ni de los otros. Esto, señores, digase lo que se quiera, es audacia, decisión, talento, tacto y habilidad escénicas.</stage>
+        <stage type="action">Cualquiera que juzgue la obra de don Severino Reyes, tiene que reconocer en él un civismo muy por encima de todos los que hoy alardean de hombres intachables y condescendientes en asuntos de esta índole. Así lo reconocieron todos los elementos disidentes que momentos antes de levantarse el telón atacaban ferozmente su atrevimiento. Así también lo oímos de los españoles que asistieron, atraídos por los eternos chismógrafos del Manila maldiciente.</stage>
+        <stage type="action">Y... ¿para que más, lector?</stage>
+        <stage type="action">Ahí tienes la obra, léela entera, desmenúzala párrafo por párrafo y me darás la razón.</stage>
+        <stage type="action">José Sedano.</stage>
+        <stage type="action">Manila, 12 de Abril, de 1916.</stage>
+    <div type="act" n="1">
+      <head>ACTO UNICO</head>
+      <div type="scene" n="1">
+        <head>ESCENA I.</head>
+      <stage type="action">En el despacho del Ministro de la Guerra. EL MINISTRO DE LA GUERRA,—CABALLERO 1º — CABALLERO 2º—EL VIEJO GENERAL Y EL ORDENANZA. EL M. DE LA GUERRA. Señores, yo no sé, cada vez me resulta esto más nebuloso. (Acaba de leer unos papeles.) Los partes que recibo se contradicen entre sí; mientras que esas benditos curitas...... EL VIEJO GENERAL ¡Benditos curitas! ¡recontra! EL M. DE LA GUERRA Me envían notas oficiosas muy tranquilizadoras, en las que me dicen que aquello va bien; que las aprehensiones indicadas por ellos, están dando el resultado apetecido, y que la rebelión será sofocada en breve tiempo; en cambio los partes oficiales son muy lamentables y dicen todo lo contrario: que aquello está peor, que arde la tea revolucionaria en todas partes. ¡Crean ustedes que hay para volverse loco! CABALLERO 1º Me parece, mi General, que allá se están enredando las cosas de manera tal, que todo se vuelve enigmático.</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">Estamos completamente desorientados.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¡Y locos! ¡recontra! ¡Se ha hecho un lío de cinco mil demonios! ¡recontra! ¡Me dan ganas de ponerme delante de los mios y gritar...</stage>
+        <stage type="action">¡recontra!</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">Pero, ¿qué gritaría usted, mi General? (En tono de broma, pero sin ofender.)</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¡Recontra! ¡gritaría! ¡Abajo los culpables!</stage>
+        <stage type="action">¡anularlos y castigarlos...! ¡recontra!</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">¡Uf!</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">¡Eso es muy comprometido, mi General!</stage>
+        <stage type="action">EL VIEJO GRAL.</stage>
+        <stage type="action">¡¡Re...!!</stage>
+        <stage type="action">EL ORDENANZA</stage>
+        <stage type="action">Su Excelencia el señor Marqués de Peña</stage>
+        <stage type="action">Plata.</stage>
+        <stage type="action">CABALLEROS 1º y 2º</stage>
+        <stage type="action">¡El General Blanco!</stage>
+        <stage type="action">EL MINISTRO DE LA GUERRA</stage>
+        <stage type="action">Caracterizado por el Sr. Cornado</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA II.</head>
+        <stage type="action">DICHOS Y EL MARQUÉS DE PEÑA PLATA.</stage>
+        <stage type="action">Saludos, etc., etc.</stage>
+        <stage type="action">.</stage>
+        <stage type="action">E</stage>
+        <stage type="action">-</stage>
+        <stage type="action">LA V. I. F. ELR AA.</stage>
+        <stage type="action">¿Qué hay? ¿Se ha recibido alguna nueva</stage>
+        <stage type="action">EL M. DE LA GUERRA.</stage>
+        <stage type="action">Compañero, seguimos con las contradicciones y más contradicciones. ¡Estamos peor!</stage>
+        <stage type="action">EL M. DE P. PLATA.</stage>
+        <stage type="action">Quiere decir, que el caos continúa....</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">Ramón. Ramón, ¿qué bien lo han hecho, eh?</stage>
+        <stage type="action">¡recontra! Relevarte para embrollarlo todo. ¡Ahora, que baje Manuel y que lo desenrede! ¡Recontra!</stage>
+        <stage type="action">¡Si me autorizara el Rey, lo arreglaría todo en un periquete, en menos tiempo que se fuma un cigarro: ya lo creo que lo arreglaría. Pero caerán cabezas, millares de cabezas, ¡recontra!</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">Entonces si que no quisiera ser filipino y encontrarme en Filipinas.</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">Ni yo tampoco.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¿Cómo? ¿qué se han creído? ¿qué he de continuar con esa política del terror? ¿con esas prácticas inquisitoriales? ¡Tonto fuera! ¡La revolución no se sofoca así.</stage>
+        <stage type="action">GABALLERO 2º</stage>
+        <stage type="action">Como dijo usted, que caerán cabezas... creí que...</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">Si señor; caerán cabezas, pero serán cabezas de esos bergantes que tanto daño están  haciendo a España, ¡recontra! ¡Si me autorizara el Rey! ¡Si pudiera volver a Filipinas con  amplios poderes, ¡recontra! ¡sería otra cosa!</stage>
+        <stage type="action">¡recontra!</stage>
+        <stage type="action">EL M. DE P. PLATA.</stage>
+        <stage type="action">No es posible, compañero, no es posible.</stage>
+        <stage type="action">Todo nuestro buen deseo tiene que estrellarse.</stage>
+        <stage type="action">contra ese bloque. Hoy en el estado en que se halla aquello, el que ha de desempeñar el cargo de Gobernador General de Filipinas, para que  saliera airoso y resulten un éxito sus gestiones tendrá que gobernar a lo Don Pedro el Cruel; en eso tiene razón mi compañero, (Al viejo General.) pues, no siendo así nequa-quam; forzosamente irá al fracaso.</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">Mi General, no sólo en las actuales circunstancias, aún en tiempo de paz, meterse a gobernar Filipinas, es meterse en laberintos; no en vano dicen los del bloque, que un lego, de un convento vale mil veces más que un</stage>
+        <stage type="action">Gobernador en Filipinas. En Filipinas los que gobiernan son ellos, y los responsables somos nosotros: ¡que bonito!</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">¡Qué cómodo!</stage>
+        <stage type="action">EL MARQUÉS DE PEÑA PLATA</stage>
+        <stage type="action">Caracterizado por el Sr. Enrique Torrijos</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">Esa es una verdad como un templo; léase la</stage>
+        <stage type="action">Historia. No hablemos más de los Bustamantes y de los Ronquillos, que siendo Gobernadores</stage>
+        <stage type="action">Generales de Filipinas murieron cargados de  cadenas en un tétrico calabozo, y todo por obra y gracia de ese funesto bloque: hablemos sólo de nuestros contemporáneos. Todo el mundo sabe lo que le pasó al pobre Jovellar, que en paz descanse; cuando quiso sentar la mano y dar fin a los excesos, demasías y crímenes que allá se cometían por ciertos elementos del bloque; visitó personalmente el sitio denunciado por el pueblo indignado, y efectivamente</stage>
+        <stage type="action">Jovellar pudo comprobar con sus propios ojos la existencia de los hechos que motivaban la denuncia; hechos que horrorizarían al más empedernido mortal: pero, precisamente, cuando mi compañero Jovellar empezaba a tomar cartas en el asunto... ¡pum! un lacónico cablegrama del Ministro de Ultramar, que dice: “Jovellar, no se meta en esas cosas.&quot; El pobre Jovellar: como ustedes comprenderán se quedó... en el término medio; disgustadísimo y desengañado, dejó en manos de su segundo Cabo, el Gobierno, y tranquilamente se refugió como un anacoreta en el edificio de la traida de aguas de Carriedo en San Juan del Monte, y allí esperó el día de la terminación de su mando, para volver a España.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¡Recontra! si me sucediera un caso parecido; maldito el caso que haría yo del cablegrama del Ministro; primero haría yo lo que a mi me saliera de la real gana, y después, que arda Troya, ¡recontra!</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">(Pensativo.) Recuerdo aún de qué enfermedad fingió aquejarse el pobre Jovellar...</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">Creo que de una disentería aguda...</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">No; de una indigestión de aliguí.</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">¿Y qué es eso de aliguí?</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">Nosotros, los que hemos estado en Filipinas, lo conocemos: es la gordura encarnada de los mariscos, los cangrejos son los que la dan más.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">Lo conozco; los chinos dicen que el aliguí es muy sustancioso y tiene virtudes medicinales.</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">¡Caramba! ¡muy buenas virtudes!</stage>
+        <stage type="action">EL ORDENANZA</stage>
+        <stage type="action">El Padre Labarriga.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">Este si que es un mal aliguí.</stage>
+      <sp who="#padrelabarriga">
+        <speaker>PADRE LABARRIGA</speaker>
+        <p>Caracterizado por el Sr. Sanjuán</p>
+      </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA III</head>
+        <stage type="action">DICHOS Y EL PADRE LABARRIGA</stage>
+        <stage type="action">Saludos, etc., etc.</stage>
+        <stage type="action">EL M. DE LA GUERRA</stage>
+        <stage type="action">¿Qué hay, Pater? ¿hay alguna novedad?</stage>
+        <stage type="action">¡Tiene S. R. la faz demudada! ¿sucede algo grave?</stage>
+        <stage type="action">EL P. LABARRIGA.</stage>
+        <stage type="action">¿Qué si hay novedad? ¡Mucha; tremenda, tremebunda, horripilante, señores, horripilante!...</stage>
+        <stage type="action">TODOS.</stage>
+        <stage type="action">¿Eh?... (Con ansiedad.)</stage>
+        <stage type="action">EL P. LABARRIGA.</stage>
+        <stage type="action">Señores, un hermano mío, quizá el más sagaz de todos nosotros...</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">Y sin quizás, ¡recontra! ¡Si sois todos sagaces! ¡recontra!</stage>
+        <stage type="action">EL M. DE LA GUERRA</stage>
+        <stage type="action">Siga usted, Pater, siga usted.</stage>
+        <stage type="action">EL P. LABARRIGA</stage>
+        <stage type="action">Mi buen hermano, por su habilidad, y medios muy ladinos, consiguió que una ahijada suya le revelase el secreto de su esposo; un secreto, señores, ¡que eriza los cabellos! ¡El cuerpo del delito, lo tengo yo, señores! (Crece la ansiedad.)</stage>
+        <stage type="action">¡Los indios se han conjurado para cortar el coco a todos los españoles allí residentes! ¡Pásmense!</stage>
+        <stage type="action">Todos, asustadísimos.</stage>
+        <stage type="action">CABALLEROS 1º y 2º</stage>
+        <stage type="action">¡Pobres hermanos nuestros!</stage>
+        <stage type="action">EL P. LABARRIGA</stage>
+        <stage type="action">La buena mujer, por la salvación de su robo a su esposo criminal el testimonio, seña maldita, ante la cual los indios  presjuramento de cumplir con lo acordado.</stage>
+        <stage type="action">Labarriga saca de la bolsa un mandil ma del grado noveno, y con voz grave, dice:) emeceos! ¡He aquí la enseña horrenda; la la del castila cercenada y el fatídico pu-</stage>
+        <stage type="action">¡el indio! (El Pater observa si ha hecho efecto dramático, y ve que resultó lo contrario, pues todo el mundo se echa a reir a manera batiente.)</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">Reverendo Pater. Estais tocando el violón la orquesta. (Risas.)</stage>
+        <stage type="action">CABALLERO 1º</stage>
+        <stage type="action">¡Metió la pata!</stage>
+        <stage type="action">CABALLERO 2º</stage>
+        <stage type="action">¡Hasta el corvejón!</stage>
+        <stage type="action">El P. Labarriga queda corrido.</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¡Recontra! con descubrimientos como el que de llevar a cabo su sagaz hermano, muy quedaría arreglado el Archipiélago. ¡Recontra!</stage>
+        <stage type="action">¡Vuestro miedo cerval, os hace ver y veis enemigos de España hasta en cido. ¡Recontra!</stage>
+        <stage type="action">MANDIL MASÓNICO DEL GRADO 9º</stage>
+        <stage type="action">Presentado por el Padre Labarriga como prueba.</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA 3ª- PÁGINA 18</head>
+        <stage type="action">.</stage>
+        <stage type="action">EL M. DE F. FLATA</stage>
+        <stage type="action">Ese es un mandil masónico que usan los del grado noveno, y por tanto, esa tela no tiene nada que ver con la revolución. Lo que S. R.</stage>
+        <stage type="action">teme, no sucederá, le aseguro, porque los filipinos no odian a los españoles; me consta.</stage>
+        <stage type="action">EL P. LABARRIGA.</stage>
+        <stage type="action">(Con risa satánica.) ¿Si no odian los indios a los españoles, por qué se levantan en armas?</stage>
+        <stage type="action">EL M. DE P. PLATA</stage>
+        <stage type="action">(Con marcada intención.) Reverendo Pater, eso no debéis de preguntarlo siquiera; harto sabéis porqué motivo ¡vaya!</stage>
+        <stage type="action">EL VIEJO GRAL</stage>
+        <stage type="action">¡Recontra! ¿Y por que ese empeño que tenéis en llamar indio al nativo del Archipiélago eso es pernicioso, muy pernicioso; sabéis que para un nativo es un insulto el llamarle indio, ¿por qué lo hacéis adrede, para mortificarles? ¿cuesta algo llamarles por su verdadero nombre: filipinos?</stage>
+        <stage type="action">¡Recontra! No quisiera llamaros ingratos, pero vuestra conducta os hace acreedores a tal calificativo. ¿Por qué desprecias a ese pueblo que os ha colmado de bienestar, prosperidad e inmensas haciendas? ¿Puede haber en el orbe entero mejor vida que la regalada que gozais en Filipinas? ¡Recontra!</stage>
+        <stage type="action">EL P. LABARRIGA.</stage>
+        <stage type="action">Pero, mi Gene...</stage>
+        <stage type="action">EL ORDENANZA</stage>
+        <stage type="action">El Excelentísimo señor Ministro de Ultramar.</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA IV.</head>
+        <stage type="action">DICHOS Y EL MINISTRO DE ULTRAMAR.</stage>
+        <stage type="action">Saludos, etc., etc.</stage>
+      <sp who="#eem">
+        <speaker>EE M</speaker>
+        <p>DE ULTRAMAR</p>
+        <stage type="action">Entregando al de la Guerra un cablegrama.</stage>
+        <p>Leed ese cablegrama. <stage type="action">Todos pendientes de la lectura.</stage> EL M. DE LA GUERRA (Lée.) &quot;Rizal fusilado.—Polavieja.&quot; TODOS. ¡Rizal fusilado! <stage type="action">Consternación.</stage> EL M. DE P. PLATA &lt;stage type=&quot;action&quot;&gt;Coge el cablegrama y lo le para si.&lt;/stage&gt; EL P. LABARRIGA (Poniendo los ojos en alto. ¡Por fin! ¡Gracias! agere Domine! EL VIEJO GRAL ¡Gratias agere domine per pecatum vuestram! ¡Recontra! EL M. DE P. PLATA. Se salieron con la suya. ¡Rizal fusilado! EL M. DE ULTRAMAR. Quiere decir, que lo que no quiso hacer don Ramón lo hizo un don Camilo. EL M. DE P. PLATA Ya me pedían que yo fusilara a diestro y siniestro, a lo que siempre les contestaba que</p>
+        <p>EL VIEJO GENERAL</p>
+        <p>Caracterizado por el Sr. Alcalá</p>
+        <p>para fusilar hay tiempo; que fusilar es fácil; lo que es dificil, es, no fusilar. EL M. DE ULTRAMAR Nos ha dado una sorpresa don Camilo. EL M. DE P. PLATA ¿Pero, qué crimen la cometido Rizal para que mereciera esa horrible pena? ¿Se ha podido evidenciar por ventura, que Rizal tuviese que ver con la revolución? EL M. DE ULTRAMAR. Rizal no ha tenido arte ni parte en esa rebelión. Rizal no era partidario del  levantamiento. EL M. DE P. PLATA. Entonces, ¿por qué le han fusilado? EL P. LABARRIGA ¡Caramba con don Ramón! ¿quiere su  excelencia más motivo todavía? ¿Rizal, no es el autor del &quot;Noli me tangere&quot;? Pues basta y sobra. El Noli es un libro asqueroso, anti-español y abiertamente separatista. CABALLERO1º Señores, yo he leído el &quot;Noli me tangere,&quot; y dispense el Pater que yo declare que no he visto en el libro nada de lo que su Reverencia dice. EL P. LABARRIGA ¿Que no, eh? EL M. DE P. PLATA Su autor me regaló un ejemplar y yo lo</p>
+        <p>he leido de cabo a rabo. ¿Lo ha leído su reverencia? EL P. LABARRIGA No; porque no leo libros condenados. EL M. DE P. PLATA Dispense. Pater, que le diga, que entonces su reverencia está hablando de memoria. CABALLERO 1º &lt;stage type=&quot;action&quot;&gt;Otra metidura.&lt;/stage&gt; CABALLERO 2º &lt;stage type=&quot;action&quot;&gt;También hasta el corvejón.&lt;/stage&gt; EL VIEJO GRAL ¿Y quién lo ha condenado? EL P. LABARRIGA El Prelado Metropolitano de Manila. EL VIEJO GRAL ¡Ah! EL M. DE P. PLATA. Señores: un detalle y verán lo que son las cosas; ese Prelado que según el Pater ha  condenado la obra de Rizal, fué el mismo que cuando no era más que un simple sacerdote, catedrático de una Universidad y fué consultado por el Arzobispo Payo, que era entonces el prelado de Manila, cuando apareció en Filipinas el &quot;Noli me tangere&quot;, después de leer el libro, expuso su imparcial parecer, diciendo: “Desgraciadamente no encuentro motivo para condenar el libro y excomulgar a su autor, pues no</p>
+        <p>-</p>
+        <p>EL MINISTRO DE ULTRAMAR Caracterizado por el Sr. Sebastián Serra</p>
+        <p>contiene nada contra el dogma católico&quot;. Pero hoy ese mismo señor, cambiando de opinión, lo condena. ¡Nada, son cosas de la vida! EL P. LABARRIGA ¡Lo ignoro! ¡no estoy enterado de ese talle, mi General! EL VIEJO GRAL ¡Recontra! ¡qué falsarios! irecontra! EL M. DE P. PLATA Señores, para mi el &quot;Noli me tangere&quot;, no es más que un toque de atención, una advertencia del médico leal, del amigo sincero, que dijo:—“Madre España, tu hija Filipinas está enferma y bastante grave; pero puede aún salvarse si acudes a tiempo&quot;. Pero la madre, en vez de dar crédito al sincero Doctor, lo  desprecio y ratificó su confianza a la pérfida nodriza que cuidaba de la niña. Y ya veis; hoy ya es tarde; demasiado tarde; la crisis se ha presentado; el desenlace fatal esta encima. ¡La hija se muere! TODOS. ¡Si, demasiado tarde! EL P. LABARRIGA &lt;stage type=&quot;action&quot;&gt;¡Qué mal me están poniendo aquí!) <stage type="action">Se escurre y vase.&amp;lt;/stage&amp;gt; EL M. DE P. PLATA. (Coge el cablegrama y lo tritura entre los  dedos.</stage> Este cablegrama fatal, nos anuncia, señores, un desastre, una sensible, desgracia</p>
+        <p>nacional. ¡Qué hemos perdido a Filipinas para siem- pre! (Pausa.) En este solemne instante, ese pueblo a quién hemos dado nuestro corazón, nuestra alma, nuestra lengua y modelado por más de tres siglos sus costumores a las nuestras, ese pueblo, que es hoy la codicia de los extraños y llamado por nuestros egregios poetas, la rica Perla del Oriente, la joya de más preciado valor que adorna la Corona de España, hoy, señores, en este momento, esa joya se desprende del sitio donde está engarzada. An!... Nuestro imperdonable error, ha matado al unico hombre que podría servirnos de valioso puente para que España, nuestra sana España, pueda llegar al corazón de ese digno pueblo, que solo nos pide un poco de justicia.</p>
+      </sp>
+      <sp who="#dirigiendosealpublico">
+        <speaker>DIRIGIÉNDOSE AL PÚBLICO</speaker>
+        <p>Público muy respetado; el libreto ha concluido, y lo que en él ha ocurrido por la historia está probado. Es un hecho consumado que Filipinas no es parte de España; ya su estandarte aquí arriado ya está; pero España vivirá en las almas por su Arte.</p>
+      </sp>
+        <stage type="action">TELÓN.</stage>
+        <stage type="action">D. Severino Reyes</stage>
+      <sp who="#autorde">
+        <speaker>AUTOR DE</speaker>
+        <p>&quot;EL CABLEGRAMA FATAL&quot;</p>
+        <p>de a y E IV A A LA AL L L A y S S E .</p>
+      </sp>
+      <sp who="#sobrealmas">
+        <speaker>SOBRE ALMAS</speaker>
+        <p>E e en E E . e . E E E E LAS a era I LIBLE HAY EN LA GEL RIO</p>
+        <stage type="action">FIN SU</stage>
+        <p>E S EE y S y LULI de E . S E . S S E E EE. S la E</p>
+      </sp>
+      <sp who="#filuieracurlerciviv">
+        <speaker>FILUIERA CURLERCIVIV</speaker>
+        <p>MUSIGU un HHIINE</p>
+      </sp>
+      <sp who="#betanbuiiini">
+        <speaker>BETAN BUIIINI</speaker>
+        <p>- raza Sta. Cruel. Azcárraga uno, Tondo—tel, nos . y la atado, semparecer suya. terersay yo. 17 terrar 19341930, toto . manta, I. F. MANILA, I. F. A E</p>
+      </sp>
+      <sp who="#ofalinas">
+        <speaker>OFALINAS</speaker>
+      </sp>
+      <sp who="#postales">
+        <speaker>POSTALES</speaker>
+      </sp>
+      <sp who="#ampliaciones">
+        <speaker>AMPLIACIONES</speaker>
+      </sp>
+      <sp who="#foiuuillos">
+        <speaker>FOIUUILLOS</speaker>
+      </sp>
+      <sp who="#aoueaaaaaalliam">
+        <speaker>A OUE AAAAA ALLIAM</speaker>
+      </sp>
+      <sp who="#alfastel">
+        <speaker>AL FASTEL</speaker>
+      </sp>
+      <sp who="#acharelas">
+        <speaker>ACHARELAS</speaker>
+      </sp>
+      <sp who="#galeriaartistamuerta">
+        <speaker>GALERIA ARTISTA MUERTA</speaker>
+      </sp>
+      <sp who="#revelaciones">
+        <speaker>REVELACIONES</speaker>
+        <p>E Y</p>
+      </sp>
+      <sp who="#copias">
+        <speaker>COPIAS</speaker>
+        <p>- y E</p>
+      </sp>
+      <sp who="#retes">
+        <speaker>RETES</speaker>
+      </sp>
+      <sp who="#marcosartiticos">
+        <speaker>MARCOS ARTITICOS</speaker>
+      </sp>
+      <sp who="#hlihhilaguilludyfiguu">
+        <speaker>HLIHHILA GUILLUD Y FIGUU</speaker>
+      </sp>
+      <sp who="#seretrata">
+        <speaker>SE RETRATA</speaker>
+        <p>EL HU. GEON A BULAVILIO nia, mitar, mu, él y . en E ve VENU LA UNA rall fabrica de Javor JUIERO, RELUJER FIRIERO Calle Fulgueras, No. 125, Tondo. raprica de Botonaduras de ijo.</p>
+      </sp>
+      <sp who="#juset">
+        <speaker>JUSE T</speaker>
+        <p>DE JESUS Propietario.</p>
+        <p>Echaque sio, quiapo, Manila. E . A dacon para lavar. se regimen toda clase de E Japón de chino. trabajos concernientes al varon para el servicio de ramo y venta del toda buques. S le amaras con Bi- Un perfumado. Interias y piedras E . Para tocador. tuya. Su . a S E a E 2 e A E - - Capital, netamente rupo. Telefoneos. E ESPESA ma</p>
+        <p>de E S . E de E E E y * * . y y en lo es tan moreno, arria. a .</p>
+      </sp>
+      <sp who="#itillocasaue">
+        <speaker>ITILLO CASAU E</speaker>
+        <p>UU.</p>
+        <p>A</p>
+      </sp>
+      <sp who="#propietarios">
+        <speaker>PROPIETARIOS</speaker>
+        <p>. . - - e - E e E A é E AILEILIA UNO LA LEE tierro para teenar y sus adherentes, los para construcciones, en pianenuetas, barras y capitas. Muelles y ejes para coches y carretones. Co- cinas económicas. Utensilios de cocina, ar- tiquios para alumorado, vajillas. Cristalerias. Cupiertos y toda clase de objetos de metal. Muentes de Viena y del País. Oramentos de igiesta. Material para coches, Artículos de metal, manco, objetos de escritorio, Ferru- meria de Y EN SU DEFARTAMENTO DE TEJIDOS Y NO-</p>
+      </sp>
+      <sp who="#vedadesdeeuropa">
+        <speaker>VEDADES DE EUROPA</speaker>
+        <p>CELINA AMERICA ri-</p>
+        <p>SATUA SI VULERA EL UEVA ASTIIIIA TNE ello a la ILA, MUSICA SUIN tejidos de Lana, seda, nito, seda artificial, y sigodón, para trajes de Sras. Caballeros y Ni- nos, tejidos santasia para faldas y soprefaldas de Señoras, tejidos de punto. Camisetas, de¬ días, calcetines. Cintas de todas clases. Tiras, pordadas. Entredoses, encajes. Velos para No¬ vias. Juegos, guirnaldas, ramos y Bouquets de nores de azanar, rito y seda en carretes y madejas.., sombrias y parasoles de seda, retuenes de seda, pasamanerías, aplicaciones, poritas y otros adornos. Cortinas para puertas? y ventanas. Y una manidad de artículos, que por su muena extención se nace unen de detanas, siendo todos enos de las ultimas novedades. a</p>
+      </sp>
+      <sp who="#iuisa">
+        <speaker>IUISA</speaker>
+        <p>E e . no Culipina a Silantes visitar el de LA</p>
+      </sp>
+      <sp who="#vesaun">
+        <speaker>V ES A UN</speaker>
+        <p>U GRAU A UNA ALULU AMILIA A y a en a .</p>
+      </sp>
+      <sp who="#liililine">
+        <speaker>LIILILINE</speaker>
+        <p>ENES y las las de . A pesar de los pesares será siempre la pre- ferida. E del público E .</p>
+      </sp>
+      <sp who="#sulu">
+        <speaker>SULU</speaker>
+      </sp>
+      <sp who="#funsusprufiosmerios">
+        <speaker>FUN SUS PRUFIOS MERIOS</speaker>
+        <p>a todo LA EL AFERA A LA A LA e un acto;</p>
+      </sp>
+      <sp who="#ri">
+        <speaker>R. I</speaker>
+        <p>F.</p>
+        <p>sainete cómico, satírico en tagalog contra el Moromero. Ang manta y caraucias en tagalog, música del maestro fulgencio pentino. A San Lazaro, zarzuela en tagalog, música del maestro Cri- pino Reyes. Al pagong rausto zarzuela en tagalog, música del maesti- Crispino Reyes. Linar ng rilian, zarzuela en tagalog, música del maestro tamon L. Corpus El Margaritang siananan zarzuela en tagalog, música del maestro Francisco Santiago. Ang tipera itamana zarzuela en tagalog, música del maes¬ tra dose estera. Doctor Merengue. Dentista sin dolor&quot;, juguete cómico en tagalog Hadas nupinas, ante la ampa de Rizar, aproposito en tagalog o de Diciembre de 1916. Filipinas una e indivisible apropósito en castellano, escrito tra el Carnaval de 1910. Ala nipina comedia en castellano, teditada... De dos actos; Filipinas para los mipinos zarzuela en tagalog, música del maestro Estela. La Venta de Filipinas al Japon, zarzucia en tagalos, música del maestro Estela. Era tres actos; tiene Sua zarzuela herida en tagalo, musita nuestro intestino. tita, zarzuela en tagalos, música del maestro, Juan Se ternandez. “La ne Bugos, zarzuela en tagalos, musica del maestro- Juan se ternandez. “Puso no tan nume¬ verales en tagalos, música del maestro dual se tiername, por estrenar. en Tallone tame, zarzuela en tagar, musica del maestro Ramón de Corpus Ang Lugang asaya zarzuela en tagalos, musica del maestro ramon L. Corpus, por estrenar. rielaria o Haveas Corpus zarzuela en tagalog, música maestro comoro Araulio. La moda de San Pedro zarzuela en tagalog, música del maestro G. Cartuen. talina Patio Luna n Pugo, zarzuela en tagalos, música del maestro y. Carien¬ May suya; y zarzuela en tagalo, música del maestro Carlen. “Los carnes de la patria drama lírico en a actos, muslo del maestro orentino. Ana punay na fulcan¬ melodrama en tagalog en actos. Lagrimas del corazón drama en castellano en actos, por editar. “Restitución zarzuela en castellano en s actos, musica de un joven Pibiesta, por estrenarla. Novelas: Valang nuno al valang dulo, tesitada “Parosa no mios, tentada). . tan na navay por estar E de L</p>
+        <p>sunción en el Gusto Calidad Con el objeto de dar oportunidad a todos los que quisieran saborear el riquísimo LA VALAV IX jamón el más popular. 12 - que lleva la garantía El de todas las cualidades . - ENE exigibles para una opi- y y para comida, participo. E en E al público que se ven- E de de: a IY Fue, por pedazos, el kilo y 250 Unico punto de venta, con garantía</p>
+      </sp>
+      <sp who="#eini">
+        <speaker>EINI</speaker>
+        <p>Ve Ee</p>
+      </sp>
+      <sp who="#escolta">
+        <speaker>ESCOLTA</speaker>
+      </sp>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng"
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xml:lang="es" xml:id="CORPUS-alvero-prisioneradeamor">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Prisionera de amor</title>
+        <author>
+          <persName>
+            <forename>Rosa L. Sevilla De</forename>
+            <surname>Alvero</surname>
+          </persName>
+        </author>
+
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>Biblioteca Virtual Miguel de Cervantes</title>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcqr552</idno>
+          <date when="2013">2013</date>
+          <pubPlace>Alicante</pubPlace>
+        </bibl>
+        <bibl type="printSource">
+          <author>Rosa L. Sevilla De Alvero</author>
+          <title>Prisionera de amor</title>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date when="1922">1922</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es" usage="100">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://dracor.org/doc/schema">
+          <term type="genre">drama</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+        <person xml:id="alberting" sex="MALE">
+          <persName>Alberting</persName>
+        </person>
+        <person xml:id="rosita" sex="FEMALE">
+          <persName>Rosita</persName>
+        </person>
+        <person xml:id="mario" sex="MALE">
+          <persName>Mario</persName>
+        </person>
+        <person xml:id="juana" sex="FEMALE">
+          <persName>Juana</persName>
+        </person>
+        <person xml:id="adela" sex="FEMALE">
+          <persName>Adela</persName>
+        </person>
+        <person xml:id="marasigan" sex="MALE">
+          <persName>Marasigan</persName>
+        </person>
+        <person xml:id="ledesma" sex="FEMALE">
+          <persName>Ledesma</persName>
+        </person>
+        <person xml:id="pedro" sex="MALE">
+          <persName>Pedro</persName>
+        </person>
+        <person xml:id="juan" sex="MALE">
+          <persName>Juan</persName>
+        </person>
+        <person xml:id="pepay" sex="MALE">
+          <persName>Pepay</persName>
+        </person>
+        <person xml:id="iersegador" sex="MALE">
+          <persName>I. Er Segador</persName>
+        </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+    <castList>
+      <castItem>
+        <role xml:id="alberting">ALBERTING</role>
+      </castItem>
+      <castItem>
+        <role xml:id="rosita">ROSITA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="mario">MARIO</role>
+      </castItem>
+      <castItem>
+        <role xml:id="juana">JUANA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="adela">ADELA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="marasigan">MARASIGAN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="ledesma">LEDESMA</role>
+      </castItem>
+      <castItem>
+        <role xml:id="pedro">PEDRO</role>
+      </castItem>
+      <castItem>
+        <role xml:id="juan">JUAN</role>
+      </castItem>
+      <castItem>
+        <role xml:id="pepay">PEPAY</role>
+      </castItem>
+      <castItem>
+        <role xml:id="iersegador">I. ER SEGADOR</role>
+      </castItem>
+    </castList>
+    </front>
+    <body>
+        <stage type="action">&quot;PRISIONERA DE AMOR&quot;</stage>
+    <div type="act" n="1">
+      <head>ACTO PRIMERO</head>
+      <stage type="action">UNA SEMENTERA DE PROVINCIA ILUMINADA POR UN SOL DE TARDE TROPICAL.</stage>
+      <div type="scene" n="1">
+        <head>ESCENA I.A</head>
+        <stage type="action">Salen los segadores llevando haces de palay y las segadoras aparecen pilando, aventando y trillando el grano. Todos cantando un himno a la naturaleza, mientras los hombres colocan los haces a un lado de la escena.</stage>
+        <stage type="action">MUSICA</stage>
+        <stage type="action">Cantemos un himno a la bella natura</stage>
+        <stage type="action">Al cielo, á las flores y al Dios Creador,</stage>
+        <stage type="action">Que trueca en dicha, en fruto y ventural</stage>
+        <stage type="action">Los rudos afanes del buen labrador.</stage>
+        <stage type="action">I.er Segador</stage>
+        <stage type="action">Pongamos el grano</stage>
+        <stage type="action">En ricos graneros.</stage>
+        <stage type="action">2.o Segador</stage>
+        <stage type="action">Venid, aparceros</stage>
+        <stage type="action">Venid y cantad.</stage>
+        <stage type="action">I.er Segador</stage>
+        <stage type="action">Cantad el Kundiman.</stage>
+        <stage type="action">del solar nativo.</stage>
+        <stage type="action">2.o Segador</stage>
+        <stage type="action">Que vibre altivo.</stage>
+        <stage type="action">Nuestro Kumintang.</stage>
+        <stage type="action">Trabajan todos al son de la música mientras dos más remolones se ponen á bailar hasta que todos toman parte en la jarana.</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA 2.A</head>
+        <stage type="action">Salen D.a Teodora, María Luisa y las sirvientas llevando cestos de comida.</stage>
+        <stage type="action">Doña Teodora. Venid amigos, dejad á un lado el grano que á merendar tocan.</stage>
+        <stage type="action">Todos. (Echando los sombreros al aire) Á merendar</stage>
+        <stage type="action">A merendar.</stage>
+        <stage type="action">Doña Teodora. María Luisa, ordena que traigan los panes y los fiambres y no se olviden de traer el dulce basí.</stage>
+        <stage type="action">1.er Segador. ¡Viva nuestra amal</stage>
+        <stage type="action">Todos. ¡Viva!</stage>
+        <stage type="action">María Luisa. Nanay, es que preparamos poto, dinuguan, pansit, lumpia y otras golosinas en vez de fiambres. Como se trataba de una merienda de campo.....</stage>
+        <stage type="action">Doña Teodora. Bien, hija, traed lo que haya, que estos, con que haya un buen basi, ya están contentos. ¿Verdad vosotros? (dirigiéndose á los segadores.)</stage>
+        <stage type="action">1.er Segador. Viva D.a Teodora y la Srta. María Luisa.</stage>
+        <stage type="action">Todos. ¡Vivaaaa!</stage>
+        <stage type="action">Doña Teodora. (A María Luisa que está ocupada con las sirvientas en preparar la merienda sobre grandes hojas de plátano) Habéis asado maíz en la hoguera y preparado kalamay de pinipig?</stage>
+        <stage type="action">María Luisa. Sí, mama (sigue en sus preparativos).</stage>
+        <stage type="action">Doña Teodora. Mientras tanto, Anong que tiene buena voz podría cantarnos un Kundiman y después podréis danzar un poco en tanto que se prepara la merienda.</stage>
+        <stage type="action">Todos. Si, si, que cante Anong.</stage>
+        <stage type="action">Anong. (Se aproxima al proscenio con una guitarra para acompañarse y canta un antiguo y popular Kundiman.)</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Anhin mang tipdin ko sa dibdib ang nasa</stage>
+        <stage type="action">Al agawing huag may makahalata</stage>
+        <stage type="action">Sukat ang magmalas ay mauusisà</stage>
+        <stage type="action">Ang tunay na aking pagkamaralità</stage>
+        <stage type="action">Ang taon, at buan, lingo, araw, oras</stage>
+        <stage type="action">Panahon at saka sumandaling kisap</stage>
+        <stage type="action">Tao, hayop, kahoy, ang tuntuning landas</stage>
+        <stage type="action">Inip na sa aking buhay na naghirap</stage>
+        <stage type="action">Nguni't bago sundin ang ano mang hatol</stage>
+        <stage type="action">Magliwaliw muna't likuran mo'y lingon</stage>
+        <stage type="action">At makaitlo ng hintong magkabuhol.</stage>
+        <stage type="action">Yaring hininga ko'y di rin lumulungoy</stage>
+        <stage type="action">Sa iyo naroon ang salang malaki</stage>
+        <stage type="action">Sakali't ikaw ma'y ibig ang sumisi</stage>
+        <stage type="action">Ganda mo'y ang siyang lilong magsasabi</stage>
+        <stage type="action">Na siyang umakay sa aking pagkasi.</stage>
+        <stage type="action">Todos. Bien, muy bien.</stage>
+        <stage type="action">Doña Teodora. Ahora á bailar algo.</stage>
+        <stage type="action">(Bailan una danza tipica dos parejas y todos toman parte dando palmoteos mientras</stage>
+        <stage type="action">Anong les acompaña con la guitarra.)</stage>
+        <stage type="action">María Luisa. A merendar, vengan a merendar</stage>
+        <stage type="action">Todos. Sí, sí, merendemos.</stage>
+        <stage type="action">Doña Teodora y María Luisa agasajan á los segadores repartiendo las golosinas mientras estos meriendan con apetito.</stage>
+        <stage type="action">Doña Teodora. Tomad hijos, no tengas verguenza.</stage>
+        <stage type="action">María Luisa. Aquí está el poto, mirad que calentito está.</stage>
+        <stage type="action">1.er Segador. ¡Pobre de mi que nadie me atiende!</stage>
+        <stage type="action">1.a Segadora. ¿Para qué, si ya estás comiendo por cuatro?</stage>
+        <stage type="action">1. er Segador. ¿Quieres callarte mujer?</stage>
+        <stage type="action">2.o Segador. Yo sí que no me callo como no me deis poto y dinuguan.</stage>
+        <stage type="action">María Luisa. Toma hombre que para eso esta.</stage>
+        <stage type="action">2.o  Segador. (Avergonzado) Gracias, Señorita. Si fue una broma solamente.</stage>
+        <stage type="action">Doña Teodora. Vamos hombre no dije que no tengas verguenza.</stage>
+        <stage type="action">1.a Segadora. (Bromeando) Que dice la Señora; que no tengas verguenza. ¿Lo tuviste acaso alguna vez?</stage>
+        <stage type="action">2.o Segador. Mira, no seas bárbaro. ¡Porque si no!.......</stage>
+        <stage type="action">2.a Segadora. Vamos no armeis camorra.</stage>
+        <stage type="action">1.a Segadora. (Con la boca llena) Que rico está el pansit.</stage>
+        <stage type="action">2.a Segadora Y más el lumpia, pruébalo, toma.</stage>
+        <stage type="action">1.er Segador. Que vengan el basi.</stage>
+        <stage type="action">Todos. Sí, sí, que, venga.</stage>
+        <stage type="action">1. a Segadora. No, que luego os emborracháis y ya no servis para nada.</stage>
+        <stage type="action">2.o Segador. No lo creas. Que vemos y trabajamos mejor cuando estamos iluminados.</stage>
+        <stage type="action">2.a Segadora. Sí, lo creo. Por las palizas que me arrimas cuando estás con el espíritu.</stage>
+        <stage type="action">2.o Segador. Calla mujer, no seas indiscreta,</stage>
+        <stage type="action">1.er Segador. Razón tenía aquel refrán....</stage>
+        <stage type="action">2.er Segador. ¿Qué? ¿que dice?</stage>
+        <stage type="action">1.er Segador. Que la mujer muda es la mujer perfecta.</stage>
+        <stage type="action">1.a Segadora. Cuenta eso á tu abuela.</stage>
+        <stage type="action">2.a Segadora. Es que eso siempre anda en contra nuestra.</stage>
+        <stage type="action">1.a Segadora. No lo creas tú. Ese, con palabras; que lo que es con obras..... Si siempre está metido con mujeres..... Y si no, prueba vestir un palo con traje de mujer, ya verás como ese sería capaz de enamorarse.</stage>
+        <stage type="action">1.er Segador. Si eso es precisamente por encontrarme si es posible con la mujer perfecta.</stage>
+        <stage type="action">Todos. ¡Ja, ja, ja!</stage>
+        <stage type="action">(Las mujeres le zarandean tirándole de las orejas y pellizcándole!</stage>
+        <stage type="action">1.er Segador ¡Aray! Estas mujeres son como los gatos acarician arañando.</stage>
+        <stage type="action">2.a Segadora. ¡Oy! ¡Salvage! Eso quisieras tú.</stage>
+        <stage type="action">1.er Segador. ¡Oh! Como yo fuera algún día</stage>
+        <stage type="action">Representante......</stage>
+        <stage type="action">2.a Segadora. ¿Que harías vamos á ver?</stage>
+        <stage type="action">1.er Segador. Pues, mi primer proyecto de ley será.....</stage>
+        <stage type="action">¿A que no adivinan VV?</stage>
+        <stage type="action">1.a Segadora. Alguna barrabasada como tuya.</stage>
+        <stage type="action">2.o Segador. Vamos dinos. ¿Cual es tu proyecto?</stage>
+        <stage type="action">1.er Segador. Pues, cortar la lengua á todas las mujeres y servirlas en picadillo en un banquete popular.</stage>
+        <stage type="action">Todos. Ja, ja, ja,</stage>
+        <stage type="action">1.a Segadora. Al menos para eso serviría, que lo que es vuestras lenguas y sobre todo la del algunos politiquillos no servirían ni para eso. Si acaso será para envenenar á los ratones, porque están emponzoñadas como la de algunas serpientes.</stage>
+        <stage type="action">2.o Segador. ¡Eh, eh! No seais cotorras.</stage>
+        <stage type="action">1.a Segadora. Mirad a Anong. Ese si que calla como un muerto, y se bebe los vientos, ¿qué le pasará?</stage>
+        <stage type="action">1.er Segador. Es que ese..... está enfermo.</stage>
+        <stage type="action">Varias voces. ¿De qué, de qué?</stage>
+        <stage type="action">1.er Segador. De amoritis,</stage>
+        <stage type="action">2.o Segador. ¡Ajá! ¿Dí por quién?</stage>
+        <stage type="action">1.a Segadora. Y luego van á decir que las mujeres somos las charlatanas....</stage>
+        <stage type="action">1.er Segador. ¿Qué quieres? Es la mala compañía, como estamos siempre con vosotras, se nos pega, no hay remedio.</stage>
+        <stage type="action">2.o Segador. Dí ya porquién, hombre despacha de una vez.</stage>
+        <stage type="action">1.er Segador. Pues, mirad. La que se ponga, encarnada como una gumamela, aquella es (Guiña el ojo señalando a una de las jóvenes que está cerca de él).</stage>
+        <stage type="action">Todos. ¡Ah!</stage>
+        <stage type="action">Anong. (Enojado). Vamos, ya estáis achispados.</stage>
+        <stage type="action">1.er Segador. No te sulfures hombre.</stage>
+        <stage type="action">Doña Teodora. Bueno, Dejad en paz á Anong. Si habeis terminado de merendar, poned los granos en el granero, y al pueblo, que se nos viene la noche.</stage>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA 3ª</head>
+        <stage type="action">Se van los segadores con sus haces, las segadoras con sus bilaos y María Luisa queda con las muchachas que recogen los restos de la merienda. Salen todas y queda María Luisa contemplando la naturaleza sentada sobre un tronco.—Entra</stage>
+        <stage type="action">Enrique.</stage>
+        <stage type="action">María Luisa. Cuán bella es la creación. Como hablan al alma su elocuencia sin voz, sus estrofas sin palabras y sus sinfonías sin sonidos.</stage>
+        <stage type="action">Como me parece el cielo un inmenso  pentagrama en donde se hallan escritas con notas indelebles y eternas las glorias del</stage>
+        <stage type="action">Hacedor. Soledad de la naturaleza soledad de los campos, cuanto te amo yo.</stage>
+        <stage type="action">Y no obstante, cuando admiro tus grandezas siéntome como abrumada por mi pequeñez, y entonces..... siento..... como si me faltara alguién que me ayude á descifrar, á comprender los misterios, las delicias que á todos sabes brindar.</stage>
+        <stage type="action">Enrique. (Se acerca lentamente y la contempla arrobado). María Luisa, cuán hermosa eres, yo te saludo.</stage>
+        <stage type="action">María Luisa. (Sorprendida). Enrique. ¿Estabas tu? ¿Me oiste hablar?</stage>
+        <stage type="action">Enrique. No María, pero cuanto daría por oir siempre tu voz.</stage>
+        <stage type="action">María Luisa. ¡Adulador!</stage>
+        <stage type="action">Enrique. No es adulación María, Tu voz es para mi como el murmullo de la fuente. Y tus palabras destilan dulce y sabrosa miel.</stage>
+        <stage type="action">María Luisa. (Le contempla sonriente) ¡Enrique!</stage>
+        <stage type="action">Enrique. (Se aproxima y toma las manos de María</stage>
+        <stage type="action">Luisa con ambas manos). Así María, mirame...., llámame así.., y aún cuando estuviera en los confines de la eternidad, volaría á tu lado al conjuro de tu voz.</stage>
+        <stage type="action">María Luisa. Mi poeta, mi amor. ¡Cuán grato es para mí, oirte siempre hablar! Y sin embargo...</stage>
+        <stage type="action">(se pone triste).</stage>
+        <stage type="action">Enrique. Sin embargo que?</stage>
+        <stage type="action">María Luisa. Algún día nos tendremos que separar.</stage>
+        <stage type="action">Nanay me manda alejarme de tí. Y tu debes comprender.....</stage>
+        <stage type="action">Enrique. Si comprendo que entonces desaparecería el universo para mi. Comprendo María que si me dejas, no sé...... no sé que decir...</stage>
+        <stage type="action">que yo te amo como jamás en la vida se puede amar.</stage>
+        <stage type="action">María Luisa. Enrique, mi pobre poeta. Escucha lo que</stage>
+        <stage type="action">Nanay me dijo á cerca de ti. ¡Ojalá estuviera en un error!</stage>
+        <stage type="action">Enrique. Qué dijo tu madre, dí.</stage>
+        <stage type="action">María Luisa. Que tu amor y tus palabras son solo vana ilusión, sueño y nada más. Que la vida es una dura realidad.</stage>
+        <stage type="action">Enrique. Mi vida, esa si que será lo que quieras tu,</stage>
+        <stage type="action">María. Quieres hoy mismo trocarme en reprobo. Habla. Y mi espíritu sumiso a tu mandato irá á la infernal mansión.</stage>
+        <stage type="action">Quieres hacer de mi un angel de luz con la frente nimbada por halos de gloria.</stage>
+        <stage type="action">y felicidad? Amame. Y verás como sabré vencer todo obstáculo. Y aún la muerte misma someteré á mis pies.</stage>
+        <stage type="action">Verás como sabré remontarme al templo de la gloria y allí te erigire en reyna y soberana de mi corazón.</stage>
+        <stage type="action">María Luisa. Enrique mío. Tú sabes que te amo, que por ti arrastraría todo, todo. Pero es mi madre..... A ella debo la vida y todo lo que soy.</stage>
+        <stage type="action">Enrique. Si yo no protesto María, si mi vida es tuya, si puedes disponer de ella lo que mejor se te antoje.</stage>
+        <stage type="action">María Luisa. Es que no es antojo, no. He pensado mucho, he llorado mucho..... Es que te amo más que tú á mi.</stage>
+        <stage type="action">Enrique. Paradoja indescifrable es tu corazón. Como es que amándome como tú dices, ¿me arrojas lejos de ti?</stage>
+        <stage type="action">María Luisa. Es que...., podrías ser víctima de una ilusión.</stage>
+        <stage type="action">Enrique, es que después de tan hermoso sueño debe ser horrible el despertar.</stage>
+        <stage type="action">Enrique. ¿Y que quieres con eso decir?</stage>
+        <stage type="action">María Luisa. Que amandote como te amo yo, pondría en tus manos todo lo que soy, que dejaría todo por ti, hasta mi pobre madre (que</stage>
+        <stage type="action">Dios me perdone) que entonces ya no vivire más que en tí y no tendría ya más vida que tu amor.</stage>
+        <stage type="action">Enrique. Y crees María que, sería indigno de ese inmenso cariño?</stage>
+        <stage type="action">María Luisa. Quién sabe Enrique.</stage>
+        <stage type="action">Enrique. Luego ¿dudas?...., y dices que es grande tu amor!</stage>
+        <stage type="action">María Luisa. Es que el oro no se prueba sino en el crisol,</stage>
+        <stage type="action">Enrique, y tu amor no ha pasado aún por ninguna prueba.</stage>
+        <stage type="action">Enrique. Pruébame si quieres María.</stage>
+        <stage type="action">María Luisa. Es preciso, Enrique. Es preciso obedecer á mi madre, deja de verme te ruego y olvida... si puedes olvidar.</stage>
+        <stage type="action">Enrique. Si puedo olvidar. No te dije ya mil veces lo inmenso de mi cariño hacia ti? ¿Necesitas pruebas aún? Veo que no me amas,</stage>
+        <stage type="action">María, que lo que sientes por mi es pura compasión. Porque no serías capaz de martirizarme de ese modo si me amaras como te amo yo.</stage>
+        <stage type="action">Di ¿quieres que me vaya? ¿Quieres que desaparezca de tu presencia para siempre?</stage>
+        <stage type="action">María, dulce mía...... ¡Adiós! Quiero, que seas feliz, no quiero que sufras nada por mi. ¡Me voy! Si te estorba mi existencia moriré sin quejarme, sin protestar....</stage>
+        <stage type="action">Se aleja apesadumbrado.</stage>
+        <stage type="action">María Luisa. (Implorando con las manos extendidas)</stage>
+        <stage type="action">Enrique, ven.</stage>
+        <stage type="action">Enrique. Di, ordena. ¿Qué quieres María?</stage>
+        <stage type="action">María Luisa. (Con transporte) ¡Quiero que vivas! ¡Quiero tu amor!</stage>
+        <stage type="action">Enrique. ¡Oh que buena eres y que santa, mi dulce</stage>
+        <stage type="action">María! (Exaltado besa la mano de María en transportes de gratitud.</stage>
+        <stage type="action">MUSICA</stage>
+        <stage type="action">Duo de Amor</stage>
+        <stage type="action">Yo te amaba vida mía</stage>
+        <stage type="action">Cual nunca jamás amé</stage>
+        <stage type="action">Mi dicha, mi alegría</stage>
+        <stage type="action">Mi gloria te consagre</stage>
+        <stage type="action">No me niegues tu ternura</stage>
+        <stage type="action">Déjame en ti vivir,</stage>
+        <stage type="action">Que es toda mi ventura</stage>
+        <stage type="action">En tu regazo morir,</stage>
+        <stage type="action">Yo te amo con delirio</stage>
+        <stage type="action">Y con ciego frenesí</stage>
+        <stage type="action">Felicidad ó martirio</stage>
+        <stage type="action">Yo acepto solo por tí</stage>
+        <stage type="action">No digas que no te anhelo</stage>
+        <stage type="action">Que yo tu ruego desoí</stage>
+        <stage type="action">Pues dejara el mismo cielo</stage>
+        <stage type="action">Por hallarme junto á tí.</stage>
+        <stage type="action">ESCENA 4a</stage>
+        <stage type="action">Sale la madre de María Luisa toda indignada.</stage>
+        <stage type="action">Doña Teodora. Muy bien, muy bien. ¿Así obedeces mis consejos? Yo que te creía más juiciosa.</stage>
+        <stage type="action">María Luisa. (Humillada ante su madre) Madre, perdona.</stage>
+        <stage type="action">Doña Teodora. ¿No te había prohibido todo trato con ese hombre? Tu que has sido siempre tan dócil a mis mandatos. ¿Cómo es que así te resistes ahora?</stage>
+        <stage type="action">María Luisa. Madre, es que.....</stage>
+        <stage type="action">Doña Teodora. ¿Que? habla.</stage>
+        <stage type="action">María Luisa. Mandar quise al corazón, más el corazón se niega.</stage>
+        <stage type="action">Doña Teodora. El corazón, el corazón, llusión, Poesía.</stage>
+        <stage type="action">Vamos, vamos (muy nerviosa). Tú estas chiflada. Ya veremos como te espabilo.</stage>
+        <stage type="action">Ahora mismo ¡á casa!</stage>
+        <stage type="action">Enrique. (Se acerca decidido) Señora.</stage>
+        <stage type="action">Doña Teodora. ¿Que quería V. caballero?</stage>
+        <stage type="action">Enrique. Rogaros, Señora, que no castigueis á María.</stage>
+        <stage type="action">Y que...... (vacila).</stage>
+        <stage type="action">Doña Teodora. Vamos, continuad.</stage>
+        <stage type="action">Enrique. Que mi intención es honrada. Que yo la amo con todo mi corazón que me casaré con ella.</stage>
+        <stage type="action">Doña Teodora. (Con estupor) Casarse......... Y con qué medios cuenta V. caballero.</stage>
+        <stage type="action">Enrique. Con mi buena voluntad, Señora.</stage>
+        <stage type="action">Doña Teodora. No basta. La vida, Señor Poeta, es algo más real y más tangible que sus poesías y sus versos. En fin, V. me comprende.</stage>
+        <stage type="action">No quisiera molestarle. (Enrique se queda consternado).</stage>
+        <stage type="action">Doña Teodora. (Se retiran madre é hija mientras D.a Teodora murmura) Yo no sé qué capricho de esta niña. Amar a ese pobre poeta, cuando tiene á su primo Katigbak,  cumplido caballero, hermosa figura, y brillante porvenir, que se muere por ella.</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA 5.A</head>
+        <stage type="action">Sale por el lado izquierdo Leonor, amiga de María Luisa y prima de Enrique.</stage>
+        <stage type="action">Leonor. Enrique, tu aquí.</stage>
+        <stage type="action">Enrique. Ya ves.</stage>
+        <stage type="action">Leonor. Como tienes esa cara: ¿Qué mal bicho te ha picado, se puede saber? ¿Vendrás en busca de María Luisa verdad?</stage>
+        <stage type="action">Enrique. Si, Leonor. Acababa de hablar con ella.</stage>
+        <stage type="action">Leonor. Como se explica entonces.....</stage>
+        <stage type="action">Enrique. Acabarás de explicártelo cuando te diga que</stage>
+        <stage type="action">María acaba hoy de revelarme ahora toda la grandeza de su corazón.</stage>
+        <stage type="action">Leonor. Pues ahora es cuando menos me explico.</stage>
+        <stage type="action">Enrique. Es que entonces llegó su madre...... y.....</stage>
+        <stage type="action">Leonor. ¡Ah! Ya, y te ha despachado con cajas destempladas ¿no es así?</stage>
+        <stage type="action">Enrique. Así es. ¡Si por mi solo fuera!</stage>
+        <stage type="action">Leonor. Justo. Temes ahora que castigue a María.</stage>
+        <stage type="action">¿Verdad?</stage>
+        <stage type="action">Enrique. Cierto. Y es por allí donde me duele más.</stage>
+        <stage type="action">Que no pudiera yo ofrecerla toda la dicha de la tierra, que siempre hubiera de ocasionarla sinsabores y amarguras.</stage>
+        <stage type="action">Leonor. Es que sois unos soñadores sempiternos.</stage>
+        <stage type="action">Enrique. ¿Qué quieres que yo haga?</stage>
+        <stage type="action">Leonor. Que quieres que yo haga, que quieres que yo haga. Y me la preguntas tu a mi.</stage>
+        <stage type="action">¿Y dices que amas? ¡Bah!</stage>
+        <stage type="action">Enrique. Si, la amo, Leonor. Tu no sabrías imaginarte nunca la inmensidad de este cariño, de este amor que me aniquila, que paraliza todo en mí, que me  consume con su llama devastadora que destruye para siempre la paz de mi alma, y suspende hasta los latidos de mi corazón,</stage>
+        <stage type="action">Leonor. (Aparte) ¡Oh que hermoso! Si yo pudiera ser amada de ese modo..... (A Enrique)</stage>
+        <stage type="action">Dices que amas. ¿Y sufres? Como es eso? ¿No es amor sinónimo de felicidad?</stage>
+        <stage type="action">Enrique. Es cierto; pero.....</stage>
+        <stage type="action">Leonor. No hay pero que valga. Lo que hay, es que sois unos cobardes, unos visionarios.</stage>
+        <stage type="action">Enrique. No digas eso. Yo sería capaz de arrastrarlo todo. Pero María.....</stage>
+        <stage type="action">Leonor. María hará lo mismo que tú si es que te ama.</stage>
+        <stage type="action">Enrique. Tienes razón. Pero su madre. Es otro amor que se interpone entre los dos. Y es tan legítimo como el mio ese amor.....</stage>
+        <stage type="action">Comprendo que María sufra con el choque inevitable de estos dos sentimientos.</stage>
+        <stage type="action">Y yo no quiero que ella sufra. Yo quiero, que sea feliz.</stage>
+        <stage type="action">Leonor. (Con intención) Pues, dejala entonces, que otros amores tendrás.</stage>
+        <stage type="action">Enrique. (Con dolor) Dejarla ¿Que has dicho.</stage>
+        <stage type="action">¿Pudiste suponer que eso fuera posible en mi?</stage>
+        <stage type="action">Es que no sabes, que mi ser se funde en su ser; que no podría dejarla jamas? ¿Que sin ella no habría, dicha posible para mi, que el infierno mismo me sería grato aceptar por tenerla un momento junto á mi corazón?</stage>
+        <stage type="action">Leonor. (Aparte) ¡Que lástima de amor! ¡Cuanto diera por inspirar un amor así! (A</stage>
+        <stage type="action">Enrique) En fin el diablo os comprenda a los poetas que lo que soy yo?..... (se acerca cariñosa) Si tienes el cielo junto a ti y no lo sabes asir..... Si te hundes en el infierno de la duda con fútiles razonamientos, que tú solo sabrás explicar.</stage>
+        <stage type="action">Enrique. Es verdad, es, verdad. ¿Cómo me comprenderás tu a mi si yo mismo no me sé comprender? (movimiento de desagrado en Leonor)</stage>
+        <stage type="action">Leonor. (Disimulando) Si es que amas de verdad, decídete. Sé feliz. Obra con decisión.</stage>
+        <stage type="action">Huella cuanto se oponga entre los dos.</stage>
+        <stage type="action">Yo, no vacilaría en vuestro lugar. ¿Qué importa, que sufra otro corazón? Mi dicha, mi felicidad, pondría por encima de la conveniencia de los demás.</stage>
+        <stage type="action">No, no llegaría jamás á la victoria el soldado que, no se atreva á matar, á destruir. La vida es una lucha, no lo olvides, Enrique</stage>
+        <stage type="action">Enrique. Matar, destruir, si lo que quiero es amar, ser feliz,</stage>
+        <stage type="action">Leonor. En fin, allá tú con tu indecisión. En tus manos está el vencer y el triunfar. Es que los poetas sois unos niños grandes de verdad. Sabeis soñar, nada más.</stage>
+        <stage type="action">Enrique. No, Leonor, seguiré tus consejos, venceré.</stage>
+        <stage type="action">(Vase á la izquierda con decisión).</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA 6.A</head>
+        <stage type="action">Leonor. Oh quien pudiera ser amada con ese amor tan lleno de delicadeza como el de</stage>
+        <stage type="action">Enrique. Esa María Luisa ¿como pudo inspirar tan pura y acendrada pasión?</stage>
+        <stage type="action">Tan parada como es, tan mogigata y tan..... Vamos que estos hombres son una calamidad, incomprensibles de por si. María Luisa, esa niña tan fría y tan impasible al parecer, sin ese chic que dá la moderna educación, una mujer vulgar, más para vestir imágenes que para inspirar un volcánico amor, que ni siquiera se viste con elegancia, ni siquiera sabe bailar, mística como el que más que creería pecar por dar un beso de amor...... En fin que no atino como supo inspirar tan hondo y loco frenesí, que digo? tan estúpida ceguedad rayana á la idiotez..... Enrique, parece mentira que no sepa ver más que a su</stage>
+        <stage type="action">María, que no eche de ver que hay otras que pueden ser mejor, que acaso le sepan apreciar y comprender. ¡Pshe! Si llegó hasta la grosería de decirme en mis propias barbas que yo no lo sabría  comprender. Dejemos a ese chiflado de poeta, que después de todo, no será más que un vano soñador. Yo ambiciono más, mucho más. Mi corazón y mi vanidad de mujer envidia ese amor tan puro, tan</stage>
+        <stage type="action">ideal.... pero... la vida es algo más que vana ilusión, es algo más tangible, algo más real. Sí. Yo triunfaré. Lo positivo, el dinero es el rey del mundo. Ese si que dá la felicidad y cuanto uno pueda desear. (Mirando al lado derecho de donde viene un forastero). ¡Ah! Un forastero. Que distinguido. Viene hacia mi ¿qué querra?</stage>
+      </div>
+      <div type="scene" n="6">
+        <head>ESCENA 7.A</head>
+        <stage type="action">Leonor y el Forastero.</stage>
+        <stage type="action">Forastero. (Saluda respetuosamente) Señorita, V.  perdonará. Soy forastero, vengo por la primera vez en la provincia, me he extraviado.... Tendrá V. la amabilidad.</stage>
+        <stage type="action">de indicarme donde vive D.a Teodora de Monreal?</stage>
+        <stage type="action">Leonor. ¡Ah! la madre de María Luisa.....</stage>
+        <stage type="action">Forastero. La misma es, Señorita.</stage>
+        <stage type="action">Leonor. (Le dirige una mirada sugestiva) Allí es caballero, (señalando hacia la derecha)</stage>
+        <stage type="action">Siga V. esa vereda, tuerza V. a la derecha hacia el camino vecinal. Siga V.  después a la carretera y al final verá una gran casona blanca con un frondoso jardin. Esa es.</stage>
+        <stage type="action">Forastero. (Saluda cortesmente) Señorita......... Mil gracias por su amabilidad. Beso á V.</stage>
+        <stage type="action">los piés. Cesar Montojo, de la Central</stage>
+        <stage type="action">Azucarera de Negros, servidor de V. En la cabecera por algún tiempo y en</stage>
+        <stage type="action">Manila cuando guste, me tendrá V. siempre a sus órdenes. ¡Adiós! (Se va)</stage>
+      </div>
+      <div type="scene" n="7">
+        <head>ESCENA 8.A</head>
+        <stage type="action">Leonor.</stage>
+        <stage type="action">Leonor. (Queda hablando consigo misma) ¡Que distinguido y que culto es! ¿Si será ese mi príncipe azul? (Medita) Y otra vez</stage>
+        <stage type="action">María entre los dos. (Cavila y sonríe) El también se hallaba interesado, conmovido lo eché de ver. Me miraba de un modo tan expresivo, tan....... Ojalá permita el destino que nos encontremos otra vez y entonces......, ya veremos. Haré el primer debut de lo que aprendí en las lecciones de esta nueva generación.</stage>
+      </div>
+      <div type="scene" n="8">
+        <head>ESCENA 9.A</head>
+        <stage type="action">Leonor y María Luisa.</stage>
+        <stage type="action">María Luisa. (Llorando avanza hacia su amiga) Leonor, amiga mía, estoy desesperada. ¡Ay! no puedo más. Venía a ver..... si estaba todavía Enrique.... le vi conversando contigo y no me atreví á acercarme.......</stage>
+        <stage type="action">sentía vergüenza, temor..... que sé yo...</stage>
+        <stage type="action">Me escondí tras de aquel árbol. Quería hablarte, pedirte consejo.... pero vino aquel caballero y me escondí otra vez.</stage>
+        <stage type="action">Oye, Nanay esta enojadísima, dice que me va á desterrar de aquí. Quiere que yo olvide á Enrique, que rompa para siempre con él...., y tu sabes que eso no es posible, que sería mi muerte...... Yo estoy perpleja. Yo no sé que hacer.</stage>
+        <stage type="action">Leonor. No sé que hacer, no decía Enrique, y eso que está loco perdido por ti. Lo mismo. Que no sabe que hacer. Para mí, que sois un par de bobos como no se puede pedir más.</stage>
+        <stage type="action">María Luisa. Es que......</stage>
+        <stage type="action">Leonor. Lo mismo que él, vendrás con la misma canción. Que tu madre se interpone. ¿No?</stage>
+        <stage type="action">Atiende. Que hizo Alemania con</stage>
+        <stage type="action">Bélgica cuando esta no la quería dejar pasar. Bombardear el obstáculo y pasar por encima de todo, derecho siempre á su objeto, á su finalidad.</stage>
+        <stage type="action">María Luisa. Eso sería inaudito, sería cruel... Mi madre...</stage>
+        <stage type="action">¡Pobre madre mía! (Llora amargamente),</stage>
+        <stage type="action">Leonor. No sois más que dos niños. Lo digo yo.</stage>
+        <stage type="action">No sabeis más que llorar. (Aparte con desdén) Fruto de esa tonta y romántica educación en que os formasteis los dos.</stage>
+        <stage type="action">María Luisa. (Con ansiedad) ¿Qué te dijo Enrique?</stage>
+        <stage type="action">Leonor. Que te ama con frenesí, con locura. Que patatin que patatan y llora como un niño.</stage>
+        <stage type="action">lgual que tú.</stage>
+        <stage type="action">María Luisa. ¡Pobre Enrique! Por él.... por verle dichoso, daría mi vida..... mi eternidad.</stage>
+        <stage type="action">Leonor. Eso digo yo. Resolveos a obrar. Que si fuera yo..... Sin ir más lejos....</stage>
+        <stage type="action">(Señala con el dedo el camino hacia el lado derecho) Mira. ¿Ves aquel caballero tan distinguido, tan Señor? Pues te digo que voy á conquistarle, que será mío, y como tú lo oyes, será.</stage>
+        <stage type="action">María Luisa. Pero ¡qué loquilla eres, Leonor!</stage>
+        <stage type="action">Pues ya verás, ya verás. Me he decidido salir de este limpo y te digo que</stage>
+        <stage type="action">Aunque sin un amor tan ideal y romántico como el tuyo, tendré al menos un brillante porvenir.</stage>
+      </div>
+      <div type="scene" n="9">
+        <head>ESCENA 10.A</head>
+        <stage type="action">Las mismas y los segadores en el fondo. Cogidas de la mano cantarán el duo al que harán coro los segadores.</stage>
+        <stage type="action">Leonor</stage>
+        <stage type="action">Ya verás, ya verás</stage>
+        <stage type="action">Como salgo con la mía</stage>
+        <stage type="action">Y con brillante porvenir</stage>
+        <stage type="action">María Luisa</stage>
+        <stage type="action">Ya veré, ya veré</stage>
+        <stage type="action">Si dándole el alma mía</stage>
+        <stage type="action">Consigo hacerle feliz.</stage>
+        <stage type="action">&quot;PRISIONERA DE AMOR&quot;</stage>
+      </div>
+    </div>
+    <div type="act" n="2">
+      <head>ACTO SEGUNDO</head>
+      <stage type="action">Las tres de la tarde. Salita modesta de una Casa Filipina, sencilla y artísticamente decorada. Hacia el fondo, al lado izquierdo una cuna, al lado derecho un piano y en el centro un maniquí y una máquina de coser.</stage>
+      <div type="scene" n="1">
+        <head>ESCENA 1.A</head>
+        <stage type="action">María Luisa mece suavemente con el pié la cuna de su niño y canturrea con flébil voz un canto de cuna mientras cose afanoso una prenda.</stage>
+        <stage type="action">Duerme Nene en tu cuna de armiño</stage>
+        <stage type="action">Cual un ángel dichoso y feliz</stage>
+        <stage type="action">Nada temas que el dulce cariño</stage>
+        <stage type="action">De tu madre hoy vela por tí.</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA 2.A</head>
+        <stage type="action">Enrique entra de puntillas, se acerca con cautela y la cubre los ojos con ambas manos. Ella forcejea algún rato sonriente, hasta confundirse los dos en ferviente abrazo.</stage>
+        <stage type="action">María Luisa. Sí, ya te conozco. Si eres tú. Enrique, mi</stage>
+        <stage type="action">Enrique.</stage>
+        <stage type="action">Enrique. (Pausa, se sienta al lado de su esposa y la quita la costura de entre las manos)</stage>
+        <stage type="action">¡Pobre mía! Hasta cuando habré de verte siempre afanosas, siempre trabajando?</stage>
+        <stage type="action">María Luisa. Pero si me divierto con esto durante tu ausencia. (Bromeande se acerca más a su esposo) Dí ¿no sería esto mejor que jugar al panguingue?</stage>
+        <stage type="action">Enrique. (Poniéndose algo serio) Que cosas tienes,</stage>
+        <stage type="action">María. El panguingue. Jamás se me hubiera ocurrido creerte capaz de perder tu tiempo en semejante diversión.</stage>
+        <stage type="action">María Luisa. (Más sonriente) Vamos no te pongas así.</stage>
+        <stage type="action">(Le coge la barba) No te quiero tan seriote. Así sonriente, como cuando eramos novios. ¿Te acuerdas? ¡Ay! cuantas dulces amarguras y cuantos temores por perderter. Pero ahora ya no, no temo ya nada. Señor mío, que aquí están estos nenes para atraerte y llevarte siempre aquí si alguna vez te descarrías.</stage>
+        <stage type="action">Enrique. (Muy solícito) María mi buena María, que dices de perderme? si eres tú todo en el mundo para mí. Y por eso, porque te quiero mucho, me pesa no ser...... más que lo que soy (se queda preocupado)</stage>
+        <stage type="action">María Luisa. (Se levanta coge la mano de su marido y le conduce hacia la cuna) Ven. Mira como sonríe entre sueños (contemplando al niño) ¿Y te atreves á no sentirte feliz?</stage>
+        <stage type="action">En tus gloriosos, sueños de poeta, has visto algo que fuera más bello que esa</stage>
+        <stage type="action">Esa carita hermosa</stage>
+        <stage type="action">Esa frente de marfil</stage>
+        <stage type="action">Esa boquita de rosa.</stage>
+        <stage type="action">Y sonrisa tan gentil.</stage>
+        <stage type="action">¡Ay que gracia! ¿ves como hago verse sin pensarlo? Acabaré por ser tan poeta como tu Enrique, me siento contigo tan feliz que la vida junto á tí es para mí el más bello poema, tu más perfecta creación.</stage>
+        <stage type="action">Enrique. (Sonriendo agradecido besa la frente de su esposa) Es que eres mi ángel mi dulce</stage>
+        <stage type="action">María.</stage>
+        <stage type="action">María Luisa. No. Soy tan solo una pobre mujer que te ama muchísimo. Eso sí.</stage>
+        <stage type="action">Enrique. (Se sienta complacido muy junto a su esposa)</stage>
+        <stage type="action">Mi buena, mi santa mujer. Aquí más cerca de mí. Ven (la acaricia las mejillas)</stage>
+        <stage type="action">Si hasta ahora me parece un sueño, sueño de poeta como dices tú.</stage>
+        <stage type="action">María Luisa. Que será, si lo quieres, un eterno poema de amor.</stage>
+        <stage type="action">Enrique. Y tú, vida mía, te sientes feliz.</stage>
+        <stage type="action">María Luisa. Y me lo preguntas ¿tú? Como no serlo estando junto á tí, envuelta en el halo de la gloria de ser tu esposa, de vivir tu vida, de gozar de tu amor, de ser tu compañera hasta la eternidad?</stage>
+        <stage type="action">Enrique. Es que de puro buena no te acuerdas..... Te olvidas que fuiste dichosa en la abundancia de tu hogar de donde te arrancó mi ciega é insensata pasión. (Se levantan y avanzan hablando)</stage>
+        <stage type="action">María Luisa. ¿A qué recordar cosas que traen tristeza y torturan el alma sin traer ningún bien?</stage>
+        <stage type="action">Después de todo, si soy feliz á tu lado de cualquier modo que esté. Ya vez, dices, que me sacrifico; pues bien, esos sacrificios son para mi la felicidad: que es grato el sacrificio si sabemos que con ello testificamos á los seres amados la grandeza de nuestro amor.</stage>
+        <stage type="action">Enrique. Es que, me dá pena verte trabajar........</stage>
+        <stage type="action">Anoche, ya muy tarde estabas bordando aún, podrías enfermarte, y......</stage>
+        <stage type="action">María Luisa. Ya vez, es un trabajo que habría que terminar. La boda de las Velez se celebra dentro de esta semana, y la bordadora que está enferma no viene, y no hay más remedio que terminar.</stage>
+        <stage type="action">Enrique. Cuando veo tus sacrificios reconozco,  aunque tarde, mi locura, mi insensatez.</stage>
+        <stage type="action">María Luisa. (Cubre la boca de su esposo) Calla, ¿Insensatez y locura es acaso el amarme, Señor mío?</stage>
+        <stage type="action">Enrique. Es que por mí te indispusiste con tu madre, perdiste tus comodidades y tu bienestar, renunciaste a más brillante porvenir........</stage>
+        <stage type="action">¿Crees que ignoro que el Dr. Katigbal, te amaba, y que al verte casada conmigo, huyó despechado al extranjero?</stage>
+        <stage type="action">Y todo por mí, acaso hasta la herencia pudieras perder por mi causa. Y yo en cambio....</stage>
+        <stage type="action">María Luisa. ¿Celosillo? ¿Eh? tú en cambio me diste el tesoro inagotable de tu cariño, me colmas de la dicha inconmensurable de poder llamarme madre de tus amados hijos.....</stage>
+        <stage type="action">Todo eso que satura mi alma de felicidad, todo esto me diste tú.</stage>
+        <stage type="action">Enrique. Ah, si no fuera por ellos, no toleraría jamás que trabajes lo que trabajas tú María.</stage>
+        <stage type="action">María Luisa. Y por tí también y ¿porqué no? Ya ves.</stage>
+        <stage type="action">Tus honorarios no bastan por más que economicemos, y yo no quiero pedir nada á mama, ya sé que eso te</stage>
+        <stage type="action">molestaría á tí. Figúrate: la casa, los alimentos, los vestidos, las medicinas, el</stage>
+        <stage type="action">Doctor, tus compromisos con la sociedad...</stage>
+        <stage type="action">Ah y si vieras como rompe los zapatos nuestro Berting. Rosing es algo juiciosa más Maring es una máquina para romper calzones..... Pero son tan ricos, que con un solo beso me resarcen de todo y me hacen feliz. (Se sientan cerca del proscenio).</stage>
+        <stage type="action">Enrique.El Marzo próximo me graduaré de abogado.</stage>
+        <stage type="action">Yo espero que para entonces ya podrás descansar. ¡Pobre María!</stage>
+        <stage type="action">María Luisa. ¿Qué he de ser yo pobre, alma de Dios? Un sacrificio hecho por vosotros es mi mayor placer. Las mujeres somos así, nos sacrificamos por gusto, por necesidad.</stage>
+        <stage type="action">Queremos probaros á los hombres que también somos fuertes, y nuestra fortaleza está en el amor. Vosotros le dais nombres distintos, y le llamais, compasión, simpatía, condescendencia, tolerancia, bondad, caridad, abnegación, sacrificio; y todo eso; es para nosotros una sola cosa. Amor, nada más que amor.</stage>
+        <stage type="action">Enrique. Rica mía, ¿que podría yo hacer para corresponderte? Y dime, ¿sigues dando esas lecciones de piano en la casa de los</stage>
+        <stage type="action">Roldán?</stage>
+        <stage type="action">María Luisa. Si. No ves que eso nos ayudará más. Ya tengo seis lecciones fuera, ¿sabes? y con las doce que vienen a dar las lecciones en casa, espero no verme apurada el día de tu investidura.</stage>
+        <stage type="action">Enrique. Es que no hay necesidad de hacer gastos,</stage>
+        <stage type="action">María. No hace falta hacer ninguna fiesta.</stage>
+        <stage type="action">María Luisa. ¿Vosotros los hombres qué sabéis de eso?</stage>
+        <stage type="action">Mira, un profesional necesita representación para que tengan confianza en él.</stage>
+        <stage type="action">Muchos de nuestros paisanos no juzgan más que la apariencia exterior. Si pudieras ir algún tiempo á perfeccionarte en el extranjero sería mejor, adquirirías más celebridad. Ya ves allí tantos que valen menos y porque han venido de</stage>
+        <stage type="action">América o de Europa se quedan con los mejores puestos. ¡Cosas de nuestros paisanos! Además, habrá que montar tu oficina, nesesitamos libros, mobiliario, algún capital de que puedas disponer para los primeros asuntos, gastos de escritorio, servidumbre, la mar..... pero todo eso se arreglará, déjame á mi obrar, y ya verás como nada te faltará.</stage>
+        <stage type="action">Enrique. María Luisa, á tí te debo todo, todo lo que soy.</stage>
+        <stage type="action">María Luisa. Pues, mira, ese es mi mayor orgullo, mi más legítima ambición,—que también tengo muy grandes ambiciones, no te creas tú.—El mayor orgullo de mi vida será el poder pensar cuando te vea honrado de todos: Esa cumbre del foro filipino, ese vate de gloria mundial, ese ídolo por quien quemáis el incienso de vuestra admiración, es mío, muy mío, solo mío, la mejor obra de mi vida y de mi alma.</stage>
+        <stage type="action">Ese sería mi más grande triunfo de Mujer.</stage>
+        <stage type="action">Enrique. Dulce mía ¡cuan feliz soy al oirte hablar así!</stage>
+        <stage type="action">María Luisa. Y crees que soy yo menos feliz que tú. Te engañas. Enrique. ¿Sabes? Las mujeres somos así como una especie de acumulador de amor, de caricias, de felicidad. Es para nosotras innato el irra en torno nuestro raudales de amor.</stage>
+        <stage type="action">Amamos por sed, por necesidad de amar. Si no empleamos el corazón en un puro y legítimo amor, lo derrochamos en amar un ser verdadero ó ficticio, real ó imaginario que endiosamos y á falta de más legitimo objetivo seríamos capaces de amar hasta el pecado y la abominación. Esta fuerza expansiva del amor de la mujer ha creado esos bellos tipos que sorprendieron al mundo por su belleza y por su idealidad, que se llaman á veces Teresa de Jesús y á veces</stage>
+        <stage type="action">Margarita Gantier. ¿Que sería yo sin ti?</stage>
+        <stage type="action">Un vólido perdido en el vacío, en la inmensidad de la inacción y de la nada.</stage>
+        <stage type="action">Eso, nada más.</stage>
+        <stage type="action">Enrique. Yo ya sabía que tienes un alma de poeta, pero no te creía una filófosa de tan altos vuelos, María.</stage>
+        <stage type="action">María Luisa. Es que te veo triste, temo que no te sientas feliz. Y ¿qué no haría yo, tu pobre</stage>
+        <stage type="action">María, por verte sonreir y gozar?</stage>
+        <stage type="action">Enrique. (Con decisión ferviente) María, mi dulce bien, tú me impulsas á triunfar y triunfaré.</stage>
+        <stage type="action">Por tí, por nuestros hijos. Si, estoy seguro que venceré.</stage>
+        <stage type="action">María Luisa. Entonces si que seré plenamente feliz. Tú procederás á nuestros hijos en esa senda de la gloria y del bien, y entonces yo, tu</stage>
+        <stage type="action">pobre María, sería la más fervorosa creyente que deshojara al pié de sus idolos las rosas de su amor. ¡Como me anonadaría gustosa entonces por serviros de sólido pedestal!</stage>
+        <stage type="action">Enrique. ¿Sabes que pienso? Que eres mil veces más poeta que yo. Yo creo mis versos con palabras y tú con almas y con corazones entretejes las estrofas de tu poema inmortal.</stage>
+        <stage type="action">María Luisa. Si. Tus hijos y tú sois el poema supremo de mi vida; los únicos en que cifro mi gloria, mi inmortalidad.</stage>
+        <stage type="action">Enrique. Mi buena María, mi dulce María, Santa mía</stage>
+        <stage type="action">(la atrae hacia si con amor) (después mira el reloj. ¿Ves picarona? Ya me hiciste olvidar la hora de mi clase.</stage>
+        <stage type="action">Adiós. Rica adiós. (Se besan)</stage>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA 3.A</head>
+        <stage type="action">Se asoma Leonor lujosísimamente vestida á tiempo de ver las demostraciones de afectos de los esposos.</stage>
+        <stage type="action">Leonor. Se puede (llama á puerta con el nudillo y la cabeza) ¡Ah! (reponiéndose) Buenas tardes María. Buenas Enrique. ¿Cómo estáis? ¡ya veo! Siempre enamorados, siempre novios. Hay para morirse de envidia el veros á los dos.</stage>
+        <stage type="action">Enrique. Tú siempre con tus bromas, siempre con tu buen humor, y ¿cómo están por casa?</stage>
+        <stage type="action">Leonor. Todos bien.</stage>
+        <stage type="action">María Luisa. ¿Y tu esposo?</stage>
+        <stage type="action">Leonor. Inalterable, chica; inalterable. Un verdadero gentleman inglés.</stage>
+        <stage type="action">María Luisa. ¿Y tus niños?</stage>
+        <stage type="action">Leonor. ¡Ah! los niños. Están en el Colegio, ¿sabes?</stage>
+        <stage type="action">como aquí en Filipinas no es fácil hallar buenas institutrices..... Al niño le puse de interno en «La Salle» y a las niñas en</stage>
+        <p>«Santa Escolástica». Por eso es que ya no me preocupan.</p>
+        <stage type="action">María Luisa. Pero siendo tan pequeños..... Estarían allí los pobres muy tristes sin tus caricias.....</stage>
+        <stage type="action">si al menos fueran profesoras filipinas, como nosotras; con los mismos modos de sentir; de simpatizar, no se sentirían tan huérfanas de amor, pero así......... entre personas totalmente extrañas..........</stage>
+        <stage type="action">Leonor. Antiguallas tuyas, María. Educar á nuestros hijos entre nuestros paisanos. ¿Estás loca?</stage>
+        <stage type="action">Eso lo hace solo el vulgo. Como se vé que estas fuera de la sociedad, hija, y no sabes que son esos los colegios más aristócratas...</stage>
+        <stage type="action">María Luisa. En fin, será vulgaridad, como tú dices. No discuto la bondad de esos colegios, pero en una atmósfera tan extraña serán nuestros hijos como flores exóticas en el ambiente de su propio país; acostumbrados á pensamientos y sentires extraños, serán extranjeros en su propia tierra; no sabrán, no podrán sentir aprecio á lo que desde pequeños no se les ha enseñado a amar y a respetar cuales son, la lengua, las costumbres, las tradiciones y los intereses de su propia Patria, si es que no aprendieron ya, sin darse cuenta de ello, á desamarla y despreciarla.</stage>
+        <stage type="action">Leonor. Que idealista eres, mujer. Es que tu te apuras por nada.</stage>
+        <stage type="action">María Luisa. Es nada acaso el corazón y el alma de nuestros hijos, que son los que harán la Patria del porvenir?</stage>
+        <stage type="action">Leonor. En fin, no espero poder convencerte. Pero no tengo más remedio que llevarles a un colegio que corresponde á nuestro rango. Además ¿cómo he de tenerlos en casa? como me arreglaré entonces con mis compromisos sociales, no sabes que serían un gran estorbo para mí?</stage>
+        <stage type="action">María Luisa. Perdona, Leonor. No era mi ánimo discutir,</stage>
+        <stage type="action">Fué una cosa que de pronto se me ocurrió y que se me pudo escapar sin perderlo contener.</stage>
+        <stage type="action">Leonor. Descuida María. Pero Enrique, no ibas a salir? ya se vé que estas ardiendo por irte. No, no te detengas por mi hombre.</stage>
+        <stage type="action">Enrique. (Que estaba violento) Es que iba a clase.</stage>
+        <stage type="action">Adiós, Leonor.</stage>
+        <stage type="action">Leonor. Enrique sí que parece que se propone huir siempre de mi.</stage>
+        <stage type="action">María Luisa. ¿Huirte? ¿Porque te habría de huir? ¡Qué cosas tienes, Leonor! ¿Verdad que no</stage>
+        <stage type="action">Enrique?</stage>
+        <stage type="action">Enrique. Esta Leonor es tan loca. Cualquier cosa se la puede ocurrir. Buenas tardes Leonor</stage>
+        <stage type="action">(Estrecha la mano de Leonor) Adiós, tú Nenita (Hace una caricia á la mejilla de su esposa).</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA 4.A</head>
+        <stage type="action">Leonor. (Se deja caer desalentada en una silla) ¡Feliz, tú, María!</stage>
+        <stage type="action">María Luisa. Cualquiera diría que no lo eres tu Leonor.</stage>
+        <stage type="action">Leonor. Es que yo te envidio.</stage>
+        <stage type="action">María Luisa. ¿Por qué?</stage>
+        <stage type="action">Leonor. Pocas esposas como tú. Si pareceis recién casados.</stage>
+        <stage type="action">María Luisa. ¿Y que hay de particular? para mi es lo más lógico Leonor. Yo amo ahora a Enrique más que ayer y mañana acaso más que hoy. Yo supongo que á el le pasará lo mismo que á mi. Eh ahí la clave de nuestra felicidad.</stage>
+        <stage type="action">Leonor. Razón de más para admiraros, mujer.</stage>
+        <stage type="action">María Luisa. Pues no veo el porque. El amarse cada vez más los esposos es la cosa más natural.</stage>
+        <stage type="action">En el novio amamos la ilusión del amor, en el esposo su realización.</stage>
+        <stage type="action">Leonor. Ya vés si es grande la diferencia entre la ilusión y la realidad.</stage>
+        <stage type="action">María Luisa. Es que no comprendo porque no ha de ser lo mismo, siempre que no haya habido de por medio un engaño. No sé porque se ha de amar menos al esposo que al novio cuando debía ser al revez.</stage>
+        <stage type="action">Mira, cuando novios; nos amábamos con locura, eso que eramos entonces, el uno extraño al otro; cuanto más no nos debíamos amar ahora; en que es todo común entre los dos, tanto las penas como las alegrías no solo del presente sino hasta del porvenir; y si todavía fuéramos tan insensatos y no fuera suficiente todo eso para amarnos mucho, allí están estos hijos nuestros que nos</stage>
+        <stage type="action">enlazarán con fuerza tal que nadie, ni aún la muerte nos podría separar.</stage>
+        <stage type="action">Leonor. Envidió vuestra dicha. (Con volubilidad) otra cosa ¿te has visto yo con tu madre,</stage>
+        <stage type="action">María?</stage>
+        <stage type="action">María Luisa. Algunas veces estuvimos á visitarla, tú comprenderás...... la delicadeza de</stage>
+        <stage type="action">Enrique nos impide verla con más frecuencia....... esa es la única pena de mi vida. Ella está hoy menos disgustada,</stage>
+        <stage type="action">¿sabes? mas, cuando sus nietos la acarician, queda completamente desarmada.</stage>
+        <stage type="action">Rosita sobre todo ¡oh! Rosita la vuelve loca, como que es su propia imágen, hasta en lo juiciosa y medosita ¡ay! si la vieras. En cambio Alberting es su padre en todo; no así Mario que todos dicen que se me parece por lo cariñoso y tierno.</stage>
+        <stage type="action">Leonor. Es que vosotros habeis conseguido descubrir la piedra filosofal, lo imposible, la perpetuidad del amor en el matrimonio.</stage>
+        <stage type="action">María Luisa. ¡Ay! que loca es esta Leonor, cualquiera diría que tú no eres feliz.</stage>
+        <stage type="action">Leonor. ¡Pshe! ¿Filiz? Según. Si por felicidad se entiende satisfacer todos los caprichos, brillar en los más distinguidos salones, ser la reyna de todas las fiestas..... de creer lo que dicen los hombres y repiten los reporteres de los periódicos, creo que lo soy. Pero si por felicidad se entiende ser amada con idolatria como lo eres tú por tu esposo, no.</stage>
+        <stage type="action">María Luisa. (Bajando la vez) Pues que, ¿tienes quejas de tu esposo, Leonor?</stage>
+        <stage type="action">Leonor. Quejas no. Ya vés. El es un cumplido caballero, me satisface todos los gustos....</stage>
+        <stage type="action">pero, absorvido por sus negocios no tiene tiempo, ¿sabes? además, la política, los amigos, las fiestas, los clubs..... las cacerías........ (suspira) Aunque á mí me pasa otro tanto. ¿Podrás creer que que á veces pasan semanas sin que no veamos ni siquiera en la hora de comer?</stage>
+        <stage type="action">María Luisa. Por Dios Leonor yo no acertaría á vivir de esa manera, no acabaría nunca de acostumbrarme.</stage>
+        <stage type="action">Leonor. Pues, ya vés, á todo se acostumbra uno. A decirte con franqueza me sería difícil vivir de otro modo. Yo vivo feliz á mi manera, mi esposo, lo mismo. Vivimos completamente independientes el uno del otro; ni él creo que me echa de menos á mí, ni yo á él.</stage>
+        <stage type="action">María Luisa. ¿Y para que os habeis casado entonces?</stage>
+        <stage type="action">Leonor. Pues, para eso. Para brillar, para vivir....</stage>
+        <stage type="action">que yo tampoco comprendo como se puede vivir la vida que llevas, tan arrinconada, tan sola, tan........ esclavizada.</stage>
+        <stage type="action">No se te vé en la sociedad, siempre escondida y trabajando en este ignorado rincón, pareces una «PRISIONERA DE</stage>
+        <stage type="action">AMOR.»</stage>
+        <stage type="action">María Luisa. ¡Que Leonor esta, tan ocurrente siempre, tan graciosa?</stage>
+        <stage type="action">Leonor. (Con transición) Oye, chica, ¿sabes la gran noticia?</stage>
+        <stage type="action">María Luisa. ¿Qué?</stage>
+        <stage type="action">Leonor. Katigbak ha llegado de América hace hoy justamente una semana. Han celebrado su llegada con una gran fiesta los del</stage>
+        <stage type="action">Bachelors Club. Pero que atrasada estas de noticias, mujer.</stage>
+        <stage type="action">María Luisa. Ya ves, como no salgo, y apenas tengo tiempo ni de leer los periódicos, y cuando los leo, me limito á las cosas del hogar á la Vida Manileña de &quot;La</stage>
+        <stage type="action">Vanguardia&quot;, algún que otro artículo de fondo. Las Noticias Breves y las de</stage>
+        <stage type="action">Sociedad, las dejo, no me interesan.</stage>
+        <stage type="action">Leonor. Menos cuando publican las poesías y declamaciones de su esposo eh? Vamos no mientas.</stage>
+        <stage type="action">María Luisa. (Sonrienda) Bueno. Sí.</stage>
+        <stage type="action">Leonor. Pues, si. Ha llegado Katigbak. ¡Ah! si tu la vieras, que arrogante figura, que distinción, que modales y sobre todo que guapo. Cambiadísimo, chica. Y no te digo de la gran fama que le precede como es tan estudioso y tan for- mal. Es el Dr. de todas las damas de moda, se lo quieren comer vivo, pero él, tan tristón y reservado como siempre.</stage>
+        <stage type="action">Se diría que lleva algún luto en el cora- zón. Pero ¿qué te pasa que tan encarnada.</stage>
+        <stage type="action">de pones? Ah.... Ya recuerdo. Fué unos de tus más fervidos admiradores. Nada.</stage>
+        <stage type="action">Ahora caigo en la cuenta al verle tan serio siempre. Es que seguirá estando enamorado de ti? Te envidio, tienes un poder de fascinación que tú misma lo ig- noras. Justo... El otro día me he mareado preguntando mucho por tí y por Enrique.</stage>
+        <stage type="action">María Luisa. Calla Leonor, no digas tonterías. Si te oyeran.</stage>
+        <stage type="action">Leonor. (Con volubilidad) ¡Ah! Pues ya se me olvidaba que había venido para ensayar.</stage>
+        <stage type="action">Pero estos compañeros ¡cuanto tardan!</stage>
+        <stage type="action">(mira fuera) Ya, ya vienen.</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA 4.A</head>
+        <stage type="action">Entra Juana, Adela, Marasigan y Ledesma.</stage>
+        <stage type="action">Todos. Buenas tardes tengan VV.</stage>
+        <stage type="action">María Luisa. Buenas tardes. Pasen, tomen asiento, (los ofrecen sillas colocadas en la delantera de la sala).</stage>
+        <stage type="action">Leonor. Pero ¡cuanto habeis tardado!</stage>
+        <stage type="action">Juana. Este Marasigan tiene la culpa.</stage>
+        <stage type="action">Marasigan. Gracias. Después de habernos hecho esperar tanto.</stage>
+        <stage type="action">Adela. No sé porque estais siempre de punta.</stage>
+        <stage type="action">Pareceis los dos partidos que se partieron por el eje; los nacionalistas y los colectivistas.</stage>
+        <stage type="action">Ledesma. Eso es para despistarnos. Y gozar más al hacerse las pases.</stage>
+        <stage type="action">Leonor. Bueno, basta de charla. ¿Ensayemos?</stage>
+        <stage type="action">Acompañanos tú María.</stage>
+        <stage type="action">María Luisa. Con mucho gusto, pero es que no me será posible ir.</stage>
+        <stage type="action">Leonor. ¿Y porque?</stage>
+        <stage type="action">María Luisa. Sencillamente. Porque mi Nene es muy tierno aún, y sería una crueldad dejarle en manos extrañas.</stage>
+        <stage type="action">Juana. ¡A ver María purísima! Pues si así razonaramos, todas las mujeres á ¿donde nos iríamos a parar?</stage>
+        <stage type="action">Adela. (Con sorna) Pues á casa, hija, á meternos do mamay ó de niñera.</stage>
+        <stage type="action">Marasigan. Después de todo, para mí que María tiene razón. La mujer debe ser madre antes que nada.</stage>
+        <stage type="action">Juana. Ya, ya. Aquí teneis a Marasigan convertido en capuchino, por si necesitan un predicador de moralidad.</stage>
+        <stage type="action">Ledesma. Será algo así como aquel diablo que se metió á fraile ¿eh?</stage>
+        <stage type="action">Adela. Es que Marasigan desde que es pensionado para America, ya echando la muela de juicio.</stage>
+        <stage type="action">Juana. Si para morder alguna americana y traérnosla.</stage>
+        <stage type="action">Leonor. No, que correría el riesgo de que le dejen en mangas de camisa.</stage>
+        <stage type="action">Ledesma. Entonces sí, que estaría up-to-date.</stage>
+        <stage type="action">Marasigan. No, que todavía no nos ha llegado á los hombros la moda de ir desnudos, como las mujeres. (Con inteción).</stage>
+        <stage type="action">Juana. ¡Pshe! Oye. Cállate. No sé desde cuando te has convertido en misionero. Mira que si te empeñas corres el riesgo de sufrir un linchamiento.</stage>
+        <stage type="action">Marasigan. Ja, ja, ni que tuviera la desgracia de vivir entre americanos.</stage>
+        <stage type="action">María Luisa. Que ¿Ensayais?</stage>
+        <stage type="action">Marasigan. ¿Pero para que función se ha de estrenar ese canto?</stage>
+        <stage type="action">Leonor. Para los hambrientos de Rusia.</stage>
+        <stage type="action">Marasigan. Y porqué irnos á Rusia estando hambriento todo el pueblo filipino?</stage>
+        <stage type="action">Juana. Vaya porque no sería chic.</stage>
+        <stage type="action">Todos. ¡Ah! (Leonor y Adela cantan el duo. María les acompaña).</stage>
+        <stage type="action">María Luisa. ¿Empiezo el preludio?</stage>
+        <stage type="action">Leonor. ¡Sí!</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Lejos muy lejos de nuestra tierra amada</stage>
+        <stage type="action">Hay niños que mueren de hambre y de sed</stage>
+        <stage type="action">Son flores que caen en la alborada</stage>
+        <stage type="action">Tras la noche negra de reñida lid!</stage>
+        <stage type="action">Venid caballeros y piadosas damas,</stage>
+        <stage type="action">De Rusia los niños oid el llorar</stage>
+        <stage type="action">Flores que marchitas caen de las ramas.</stage>
+        <stage type="action">Hoy vuestro socorro vienen á implorar.</stage>
+        <stage type="action">Todos. Bien, muy bien.</stage>
+        <stage type="action">Juana. Vais á conmover y hasta hacer llorar.</stage>
+        <stage type="action">Marasigan. Llanto de cocodrilo será. Porque lo que es ahora nuestros hombres y nuestras mujeres no saben ya llorar, lo que saben si acaso es reir ó hacer rabiar.</stage>
+        <stage type="action">Juana. Ya se vé por tí, para muestra basta un botón.</stage>
+        <stage type="action">Todo la tarde no hiciste más que hacernos rabiar.</stage>
+        <stage type="action">Marasigan. Lo siento, pero no puedo llorar.</stage>
+        <stage type="action">Adela. ¿Y creeis que podríamos recoger mucho dinero? Porque sería una verguenza que fracasáramos. Lo de menos son los hambrientos.......</stage>
+        <stage type="action">Ledesma. Con esta crisis yo dudo del éxito.</stage>
+        <stage type="action">Marasigan. Siempre la crisis, hombre. Si no gastarán tanto las señoras en trajes y perifollos para estas funciones, podrían los maridos dar más un favor de los desafortunados.</stage>
+        <stage type="action">Créeme.</stage>
+        <stage type="action">Juana. Y si no tiraran tanto los hombres en cabarets, vinos, juegos y mujeres, no habría crisis.</stage>
+        <stage type="action">Marasigan. Eso, las mujeres, tú lo has dicho. Sois el origen de todas las calamidades que sufrimos los hombres.</stage>
+        <stage type="action">Juana. (Indignada) No lo dirás por mí.</stage>
+        <stage type="action">Marasigan. Lo digo por quien se lo merezca. (Con intención).</stage>
+        <stage type="action">Juana. Bárbaro.</stage>
+        <stage type="action">Marasigan. Gracias.</stage>
+        <stage type="action">Leonor. Bueno, ¿nos vamos ó no nos vamos?</stage>
+        <stage type="action">Adiós María. Recuerdos á su esposo y mis felicidades por su reciente triunfo en el pasado concurso.</stage>
+        <stage type="action">María Luisa. Gracias.</stage>
+        <stage type="action">Adela. Como que hoy en el niño de moda.</stage>
+        <stage type="action">Juana. Como que se lo arrebatan todas las del Club.</stage>
+        <stage type="action">Ledesma. Vamos, no seas murmuradoras. Vais á preocupar á María.</stage>
+        <stage type="action">María Luisa. Oh no. ¡Que tonterías!</stage>
+        <stage type="action">Leonor. Adiós María. Y ahora que recuerdo. ¿Has terminado mi traje de baile?</stage>
+        <stage type="action">María Luisa. Si te lo envie esta mañana por la costurera.</stage>
+        <stage type="action">Leonor. ¡Ah! no te extrañes que no lo sepa. Como estuve toda la mañana de compras.</stage>
+        <stage type="action">Figúrate ¡uf! que fatiga. Iba en busca de lazos, abanico, medias y zapatos que combinen con el color del terno, ya sabes naranja, subido y...., nada. Imposible hablar. No sé como me habrá de arreglar ahora, habrá que teñir, que pintar, no sabes el mal humor que esto me produce.</stage>
+        <stage type="action">Como no es un color vulgar, hace resaltar más la blancura y es muy llamativo. Ah estos comerciantes de Manila no tienen gusto. No se puede hacer nada con ellos. En América, en París, allí si.</stage>
+        <stage type="action">Juana á Adela. (Aparte) Ya salió lo de América y de París.</stage>
+        <stage type="action">Más presumida de mujer.</stage>
+        <stage type="action">Adela á Juana. Lo dice para darse tono, como nunca hemos salido de aquí.</stage>
+        <stage type="action">Juana. Por eso yo le dije á mi marido que me suicido hija, que me suicido, como no me lleve aunque sea solo á Tongking.</stage>
+        <stage type="action">Marasigan á Ledesma. Ya están murmurando aquellas dos, fíjate.</stage>
+        <stage type="action">Ledesma. Déjales, hombre, déjales que se diviertan.</stage>
+        <stage type="action">Pues yo creo que te gustará el terno, los dibujos de plata hacen muy buen efecto en el fondo oscuro del traje.</stage>
+        <stage type="action">Leonor. ¿Y has puesto aquellas cascadas de perlas que te indiqué y aquellos golpes de abalorio según el último figurín?</stage>
+        <stage type="action">María Luisa. Sí, Leonor.</stage>
+        <stage type="action">Juana á Adela. Nos aplasta, nos aplasta con tanta cascada y con tanto golpes.</stage>
+        <stage type="action">Adela. Ardo por ver ese traje. Me haría otro igual si tuviera tiempo.</stage>
+        <stage type="action">Marasigan á Ledesma. Otra vez las dos mira.</stage>
+        <stage type="action">Ledesma. Déjales que se diviertan, hombre.</stage>
+        <stage type="action">Leonor. Prepárame algo nuevo para el próximo baile de Malacañang ¿oyes? Algo que llame la atención por su novedad, estoy cansada de ver vulgaridades. Es que estas nuestras paisanas no tienen estética, se visten sin gusto. Figúrate, algunas hasta se atreven á vestirse de baratillo y tienen después de la despachatez de codearse con nosotras las de High Life. ¡Uf!</stage>
+        <stage type="action">Bueno, adiós, María, recuerdos.</stage>
+        <stage type="action">Todos. Muy buenas tardes María. (Se van)</stage>
+      </div>
+      <div type="scene" n="6">
+        <head>ESCENA 5.A</head>
+        <stage type="action">María se sienta triste y pensativa recordando las noticias de los visitantes acerca de su esposo, entran los niños que vienen de la escuela y corren en los brazos de su madre.</stage>
+        <stage type="action">Maring. (Abrazando á su madre) ¡Mama querida!</stage>
+        <stage type="action">Berting. ¡Buenas tardes Mamita!</stage>
+        <stage type="action">Rosita. ¿Cómo estás mama?</stage>
+        <stage type="action">María Luisa. ¡Hijos míos! (Les abraza).</stage>
+        <stage type="action">Maring. Mama. Yo ya sé cuantos son two plus two.</stage>
+        <stage type="action">María Luisa. ¿Si? ¿Cuántos son pues?</stage>
+        <stage type="action">Maring. Two plus two equals seven.</stage>
+        <stage type="action">Todos. Ja, ja, ja. Ay que gracia.</stage>
+        <stage type="action">Maring. Y ya me sé muchas letras y muchas cantos también.</stage>
+        <stage type="action">María Luisa.</stage>
+        <stage type="action">A ver á ver canta.</stage>
+        <stage type="action">Maring á Berting y Rorita Cantad vosotros también eh?</stage>
+        <stage type="action">María Lu sa</stage>
+        <stage type="action">Sí cantad para que esté contenta mama.</stage>
+        <stage type="action">MUSICA</stage>
+        <stage type="action">Madre, madrecita amada.</stage>
+        <stage type="action">Toma, toma mi corazón.</stage>
+        <stage type="action">No me dejes que no hay nada.</stage>
+        <stage type="action">Más hermoso que tu amor.</stage>
+        <stage type="action">María Luisa.</stage>
+        <stage type="action">Bien, hijitos mios, bien. Ahora un beso de mama á cada uno. ¡Ay que ricos! (Les besa) Y tú Rosita que me dices?</stage>
+        <stage type="action">Rosita.</stage>
+        <stage type="action">Yo ya se coser un poco, mama; y cuando lo sepa hacer muy bien, ya no tendrás que desvelarte tanto, yo te ayudaré en todo.</stage>
+        <stage type="action">María Luisa.</stage>
+        <stage type="action">Y tú Berting.</stage>
+        <stage type="action">Berting. (Con arrogante formalidad) Yo, estudio mucho sabes? Seré abogado y poeta como papa y después seré Speaker ó</stage>
+        <stage type="action">Presidente.</stage>
+        <stage type="action">Rosita. ¡Presumido!</stage>
+        <stage type="action">Berting. ¿Y porque no? Si me dijo mi maestra que querer en poder. Lo seré porque lo quiero.</stage>
+        <stage type="action">María Luisa. Y después cuando seas todo eso que harás.</stage>
+        <stage type="action">Berting. Pues. (Pensando) yo premiaré á todas las buenas mamas que quieren mucho á sus hijos como tú.</stage>
+        <stage type="action">María Luisa. ¿Pues qué? ¿Hay acaso mamas que no quieren á sus hijos?</stage>
+        <stage type="action">Berting. Si mama, la vecina de enfrente que no quiere que la bese su hijo porque dice que le va á arrugar el traje y le deja siempre para ir á los bailes. Ay si vieras, mama, él se queda llorando, y la criada le pega después mucho, mucho ¡pobrecito!</stage>
+        <stage type="action">María Luisa. Berting. No murmures de nadie que no esta bien.</stage>
+        <stage type="action">Berting. Pero si es la verdad, mama. Pues si. Habrá que castigar también á esas mamas malas, ¿verdad? Ya verás, ya verás. Pero sobre todo premiaré mucho, mucho, á todas las mamas buenas del mundo, á las que trabajan mucho, á las que aman mucho, á las que sufren mucho, á las que lloran mucho y á las que atienden mucho á sus nenes como tú.</stage>
+        <stage type="action">María Luisa. Bueno hijos míos, para hacer todas esas cosas buenas habrá necesidad de que os hagas mayores y seais fuertes. A  merendar, pues, y luego jugaremos á la pelota en el jardín. Tomad (saca la merienda y lo reparte entre los niños).</stage>
+        <stage type="action">Todos. Gracias, mamita, gracias.</stage>
+        <stage type="action">Maring. Pues yo, mira te voy á dar el premio ahora mismo, antes que Berting.</stage>
+        <stage type="action">María Luisa. ¿Y que premio me vas á dar nene?</stage>
+        <stage type="action">Maring. Yo, acércate (la abraza y la dá un beso) Eso, un beso muy rico, muy rico.</stage>
+        <stage type="action">María Luisa. Ah, Pilling. (La acaricia con trasporte),</stage>
+        <stage type="action">Ahora al jardín hasta que llegue papa y mientras duerme vuestro hermanito.</stage>
+        <stage type="action">Todos. (Palmoleando y saltando) Sí, si vamos.</stage>
+        <stage type="action">María Luisa. (Impone silencio para no despertar al pequeño)</stage>
+        <stage type="action">¡Chist! Callad. Salid despacio. Berting, dá la mano á tu hermanita y tú</stage>
+        <stage type="action">Maring, dame la mano á mi. ¡Los niños presentan el brazo con cómica formalidad y se dirigen á la puerta).</stage>
+      </div>
+      <div type="scene" n="7">
+        <head>ESCENA 6.A</head>
+        <stage type="action">D. Cesar. (Desde la puerta) ¿Se puede?</stage>
+        <stage type="action">María Luisa. Adelante.</stage>
+        <stage type="action">D. Cesar. Buenas tardes María.</stage>
+        <stage type="action">María Luisa. Buenas tardes, amigo mío. Qué milagro le atrae? Está V. tan desaparecido.</stage>
+        <stage type="action">D. Cesar. Los malditos negocios, María y la mil veces maldita política que le torean á uno y ya no hay medio de retroceder.</stage>
+        <stage type="action">María Luisa á sus hijos. ld al jardín, hijos míos, que ya irá mama.</stage>
+        <stage type="action">María Luisa á D. Cesar. ¿Se puede saber que buenos vientos le traen?</stage>
+        <stage type="action">D. Cesar. (Aparte, rascándose la oreja izquierda) ¿Como decirla? Pues ya vé V., cosas de mi cargo........</stage>
+        <stage type="action">María Luisa. ¿Puede servirle en algo mi marido? Diga.</stage>
+        <stage type="action">D. Cesar. No, son asuntos concernientes á la administración de los bienes de su mama, como hace algunos días...... como V. sabe.......</stage>
+        <stage type="action">andaba muy malita........</stage>
+        <stage type="action">María Luisa. Sí, sí, ¿y qué?</stage>
+        <stage type="action">D. Cesar. Pues me ha dicho que la dejaba sus bienes como á su heredera universal, porque la pobre señora.....</stage>
+        <stage type="action">María Luisa. ¿Qué? diga ¿Esta muy mala mi madre?</stage>
+        <stage type="action">D. Cesar. Lo estuvo..... Hace algunos días la pobre....</stage>
+        <stage type="action">María Luisa. ¿Qué? D. Cesar ¿qué ha sido de mi madre?</stage>
+        <stage type="action">D. Cesar. (Dudando) Pues murió como un pajarillo, sin agonía, después de cumplir como buena cristiana........</stage>
+        <stage type="action">María Luisa. ¡Madre! ¡pobre madre mía! (Llora amargamente)</stage>
+        <stage type="action">Y porque no me avisaron su enfermedad.</stage>
+        <stage type="action">D. Cesar. No quiso que le avisaran, como estaba tan malo el tiempo y no quería que viajara</stage>
+        <stage type="action">V. con ese mar tan revuelto y con un nene tan pequeño.........</stage>
+        <stage type="action">María Luisa. ¡Madre mía, siempre tan buena! Y murió tan sola, sin nuestros besos, sin nuestro amor. ¡Dios mío!</stage>
+        <stage type="action">D. Cesar. Sí, murió bendiciéndola, María y bendiciendo á sus nietecitos por quienes deliraba.</stage>
+        <stage type="action">María Luisa. ¡Pobre madre!</stage>
+        <stage type="action">D. Cesar. Y me rogó que...... la perdone V. y por sus rigores.</stage>
+        <stage type="action">María Luisa. ¿Yo perdonar? ¿Que habría yo de perdonar á mi madre tan buena, tan santa? ¡Tan sola en vida y tan sola en muerte! Si he sido yo la necesitada de perdón. Yo que la tuve tan lejos, tan separada de mis amores.</stage>
+        <stage type="action">D. Cesar. Cálmese por Dios.</stage>
+        <stage type="action">María Luisa. Madre, ¡perdón! ¡Madre! ¡madre mía! ¡No quieras castigar mi ingratitud! ¡Si retuerce las manos desolada medio echada en el respaldo de la silla).</stage>
+      </div>
+      <div type="scene" n="8">
+        <head>ESCENA 7.A</head>
+        <stage type="action">Entra Enrique quitándose el sombrero y dirigiéndose á</stage>
+        <stage type="action">María con los brazos abiertos sin reparar en D. Cesar.</stage>
+        <stage type="action">Enrique. María, querida, María ¿qué tienes? Di.</stage>
+        <stage type="action">María Luisa. ¡Ay Enrique, Enrique mío! Mi madre, mi pobre madre...... á quien abandone por tí...... ha muerto sin mí. Sola, muy sola..... (Solloza) Dios mío...... Y yo....</stage>
+        <stage type="action">tan lejos....... para cuidarla...... ¡para pedirla perdón!......</stage>
+        <stage type="action">Enrique. (Se sienta y la sostiene) ¡Pobre María!</stage>
+        <stage type="action">Llora...., llora, amada mía..... aquí.....</stage>
+        <stage type="action">sobre el corazón de tu Enrique.... sobre esta corazón que llora con el tuyo tan triste orfandad.....</stage>
+        <stage type="action">Cae lentamente el telón; mientras se oye desde lejos cantar al coro infantil.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Madre, Madrecita amada</stage>
+        <stage type="action">Toma, toma mi corazón</stage>
+        <stage type="action">No me dejes que no hay nada</stage>
+        <stage type="action">Más hermoso que tu amor.</stage>
+        <stage type="action">&quot;PRISIONERA DE AMOR&quot;</stage>
+      </div>
+    </div>
+    <div type="act" n="3">
+      <head>ACTO TERCERO</head>
+      <stage type="action">Un jardín profusamente adornado para un baile de caridad.</stage>
+      <div type="scene" n="1">
+        <head>ESCENA 1.A</head>
+        <stage type="action">De lejos mucha algazara de música jazz que se deja oir aún antes de que se abra el telón.</stage>
+        <stage type="action">Sale Juan llevando algunos faroles, los suelta y se pone á cantar bailando jazz y Pedro se pone á arreglar el jardín poniendo faroles.</stage>
+        <stage type="action">Rayo no se el mana angel</stage>
+        <stage type="action">Que ta mira yo esta talde</stage>
+        <stage type="action">Por de fuera un alcangel</stage>
+        <stage type="action">Por dentro un diablo que alde</stage>
+        <stage type="action">Mana mujel el demonio</stage>
+        <stage type="action">El mana hombre el centellao</stage>
+        <stage type="action">El amol y el matrimonio</stage>
+        <stage type="action">El inpielno del condenao</stage>
+        <stage type="action">Y después se pone á escuchar hacia dentro de la Escena</stage>
+        <stage type="action">Pedro. Joy, Anda vos pronto, engancha ya vos ese mana farol allí. De empesa ya el punsion.</stage>
+        <stage type="action">Juan. (Escuchando hacia dentro) ¡Ah! Deja nga vos conmigo ta mira yo no más este mana mujel eh.</stage>
+        <stage type="action">Pedro. ¡Joy! ¡Nakú! Rayo no se. De mira paraw este con el mana mujel ah. De queda no más mapanis ese saliva de vos.</stage>
+        <stage type="action">Juan. ¡Naku! ¡Mira vos el mujel de Nol Montojo! Guapang guapa! Ansina ya no más aquel reina del</stage>
+        <stage type="action">Carnaval. ¡Joy! ¡Pedro! Agora el mundo esta guillao; mira vos aquel mana casadas más pusturang pustura pa que el mana solteras.</stage>
+        <stage type="action">Pedro. ¡Jay! ¿no sabe ba vos? Este el mana fruto del</stage>
+        <stage type="action">Santibulcio.</stage>
+        <stage type="action">Juan. ¡Joy! ¿cosa ba yo ta jabla? Debolsio hombre debolsio.</stage>
+        <stage type="action">Pedro. Oy sabihondo, pa este, no mas nga vos, miti conmigo.</stage>
+        <stage type="action">Juan. Mira vos. Talli Ñol Melendres. Naku tasi pustura pa con el mana solteras....., y el mana pispita, mira vos, ta chispea tambien con ele.</stage>
+        <stage type="action">Pedro. Por el santibulcio ese, por el santibulcio. Ta pinsa ilos, quita y pone na mas el maridable, ¿sabe ba yo? por eso.</stage>
+        <stage type="action">Juan. ¡Ah! Seguro por eso ta pinsa ilos que aquel que tiene mas....... (Hace señal de salirle cuernos) es el demasiao categoría.</stage>
+        <stage type="action">Pedro. ¿Cosa ba bos ta jabla?</stage>
+        <stage type="action">Juan. Si mira bo, Ñol Chengoy tan impiñao para admiti con ele na sociedad del gran carabaw y Ñol</stage>
+        <stage type="action">Popiong na sociedad del gran venado.</stage>
+        <stage type="action">Pedro. Ja, ja, joy que loco ete cho. Puru katakata el que ta jabla.</stage>
+        <stage type="action">Juan. ¡Aba! No quiere vos cree. Mira vos. Agora el mana marido el que ta empeña de sel colnudo.</stage>
+        <stage type="action">Mira bo Ño! Melendres él mismo el que ta jabla que aquel Nora María Luisa ta poni cuelnos con ele.</stage>
+        <stage type="action">Pedro. ¡Joy salvage! Calla yo la boca, baca de samga yo con yo. No hay quien de pode echapana cara de Ñora María Luisa ese mana cosa cosa. Ese mujel el beldadeng beldade honrada.</stage>
+        <stage type="action">¿Sabe ba vo?</stage>
+        <stage type="action">Juan. ¿Sabe pa ba bo que el marido?</stage>
+        <stage type="action">Pedro. Sabe ya yo el que ta pretendí ese arrastrao. Ta mamoriscao con Ñora Leonol sabe ba vo? Ta pinsa ilos que si de pode pidi el Santibulcio de podí casa con ilos.</stage>
+        <stage type="action">Juan. ¡Naku centellao! Pobre también el Ñol Montojo.</stage>
+        <stage type="action">¡Aba! talli ele; mira yo, ta mira yo ba con ele, cara de pollo mojao el pacha.</stage>
+        <stage type="action">Pedro. ¡Naku! justo ya nga ese bos katakata, aber si de oí pa ilos con nisos. Anda ya bo. ¡Oh!</stage>
+        <stage type="action">talli ya Pepay, de grita ya también ese rabanos.</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>ESCENA 2.A</head>
+        <stage type="action">Sale Pepay con un plumero y algunas cortinas en los brazos. Al verlos se pone en jarras y les grita.</stage>
+        <stage type="action">Pepay. ¡Naku! Mira nga bo con ete mana condenao.</stage>
+        <stage type="action">Ta jabla ya yo que de queda último ese mana adolno, talla ya el mana visita. ¡Susmariosep!</stage>
+        <stage type="action">(Se santigua).</stage>
+        <stage type="action">Juan. (Se acerca zunbon) ¡Joy Pepay! Porque ba bo ta santigua, ta pinsa ba bo demonio nisos.</stage>
+        <stage type="action">Pedro. Manong basta ya bo de jablada.</stage>
+        <stage type="action">Juan. ¡Joy Pepay! De empesa también el punsion á las ocho eh. Tiene pa nisos tiempo de  debelti. El mayor palte de ilos de llega patalde.</stage>
+        <stage type="action">Pepay. Ansina nga, los ba na mas el que de debelti, nisos también.</stage>
+        <stage type="action">Pedro. Dale de impisa ya también el jarana.</stage>
+        <stage type="action">Juan. Ah dija nga bo con nisos.</stage>
+        <stage type="action">MÚSICA</stage>
+        <stage type="action">Papay. (Se contonea al son de jazz)</stage>
+        <stage type="action">Este Juancho es un travilla</stage>
+        <stage type="action">Peol pa nga que un alcalde</stage>
+        <stage type="action">Tajabla que el mi mejilla</stage>
+        <stage type="action">Ta embadulnao de Albayalde</stage>
+        <stage type="action">Juan. Ta jabla yo que vos cara</stage>
+        <stage type="action">Ta embaldulnao de albayalde</stage>
+        <stage type="action">Polque el Señol Don Guevara</stage>
+        <stage type="action">Ya regala con vo un balde</stage>
+        <stage type="action">Pedro. Calla ya nga vo Juanito,</stage>
+        <stage type="action">No ma busca consolcio</stage>
+        <stage type="action">Ta sila pa ete maldito</stage>
+        <stage type="action">Di vini ya el santibuisio</stage>
+        <stage type="action">Sigue bailando jazz</stage>
+      </div>
+      <div type="scene" n="3">
+        <head>ESCENA 3.A</head>
+        <stage type="action">Sale María Luisa que ayuda en la decoración, como intima amiga de Leonor, que es la dueña de la casa.</stage>
+        <stage type="action">María Luisa. ¿Que haceis allí benditos de Dios dando vueltas como unos trompos? ¿No veis que ya vienen las visitas?</stage>
+        <stage type="action">Pedro. Naku ya chiri. Ya así rupilon con nisos.</stage>
+        <stage type="action">Juan. Si, ñora, de acaba ya nisos pronto.</stage>
+        <stage type="action">Pepay. Ese Juancho ñora el capural eh!</stage>
+        <stage type="action">María Luisa. Bueno, bueno despachas pronto que van llegando las visitas. (Da los últimos toques).</stage>
+        <stage type="action">Juan. (A sus compañeros) Ta mira ba vosos con el cara de Ñora María Luisa, ni más ni menos que aquel Vilgen de la Soledad allá na San Roque.</stage>
+        <stage type="action">Pedro. Natural. Con aquel Judas de su marido cosa de jase el pobre.</stage>
+        <stage type="action">Pepay. Por eso nga, ¡naku! no mas yo de casa nunca de mi vida. VV, mana hombres más malo pa que el «lipang kalabaw.»</stage>
+        <stage type="action">María Luisa. ¡Hala! ¡pronto! pongan esos faroles. Iros después dentro para poner las flores en el comedor.</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>ESCENA 4.A</head>
+        <stage type="action">Van los muchachos cada uno por su lado y María Luisa se deja caer desalentada en uno de los bancos del jardín que está al lado del proscenio. Recoge antes unas flores marchitas que yacían en el suelo y las contempla tristemente.</stage>
+        <stage type="action">Así. Así como estan las flores, así esta mi corazón. ¡Pobres flores! Hace poco tan fragantes, tan galanas y ahora tan sin aroma y sin color. Como os pisotearon sin piedad aquellos mismos que aspiraron vuestro perfume y admiraron vuestra belleza. Quién dijera que á mi y á vosotras, mis queridas hermanas,  reserva el destino suerte tan cruel.</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>ESCENA 5.A</head>
+        <stage type="action">Sale D. Cesar.</stage>
+        <stage type="action">D. Cesar. María Luisa, ¿hasta ahora sin vestirse? pero está V. palida, trémula. ¿Qué le pasa?</stage>
+        <stage type="action">¿Se siente mal?</stage>
+        <stage type="action">María Luisa. (Disimulando) ¡Oh nada! el cansancio. Yo creo que sería mejor que me retire, no me siente bien: Además si me vine no fué para la fiesta. Leonor me pidió que dirigiera la decoración. Si vengo con mis niños. Están arriba. Voy por ellos, para retirarnos. Ya está todo arreglado.</stage>
+        <stage type="action">Con su permiso D. Cesar.</stage>
+        <stage type="action">D. Cesar. (Coge la mano de María Luisa para detenerla) No María Luisa deje V., Mandaré.</stage>
+        <stage type="action">por ellos, pero está V. fría como el hielo, voy á llamar ¡Pepay!</stage>
+        <stage type="action">María Luisa. No, no llame V. No es más que fatiga, el ajetreo de todo el día, es que no estoy muy bien.</stage>
+        <stage type="action">D. Cesar. (Se sienta con María Luisa) Ya se vé. Lo que yo la decía a Leonor V. está mal amiga mía. Va V. desmejorando de algún tiempo á esta parte. Desde hace dos años en que murió su santa madre que en gloria esté no se la ha visto sonreir. No parece sino que la riqueza lo ha hecho á V. mal, como á aquel pescador del cuento a quien ya no se le oyó cantar desde que encontró un tesoro.</stage>
+        <stage type="action">María Luisa. (Lleva la mano a la frente y se la ve vacilar) ¡Ay!</stage>
+        <stage type="action">D. Cesar. (Sostiene a María Luisa) María Luisa Dios mío. (La abanica) ¡María! Pero ¿que tendrá esta criatura? Voy á llamar á</stage>
+        <stage type="action">Katigbak. ¡Doctor! (Todo azorado).</stage>
+        <stage type="action">María Luisa. (Reponiéndose) No, no es nada, un marco, muchas veces me pasa esto, pero luego se me vá.</stage>
+        <stage type="action">D. Cesar. Es preciso que V. se cure, María, es preciso vivir para esos niños. ¿Qué será de ellos cuando V. llegue á faltar?</stage>
+        <stage type="action">María Luisa. Si no fuera por ellos. (Contiene difícilmente el llanto).</stage>
+        <stage type="action">D. Cesar. María V. sufre. Séame franca. No confía</stage>
+        <stage type="action">V. en mí? Su madre me rogó que velará por V. Fué su última palabra antes de morir.</stage>
+        <stage type="action">María Luisa. ¡Ay madre! (Solloza convulsivamente).</stage>
+        <stage type="action">D. Cesar. María. Escuche, no se deje abatir así. ¿Es por su esposo? A la verdad que dicen cosas de él, pero yo no las creo. Es algo distraido. ¿Es verdad que no se retira á su casa hace ya muchos meses?</stage>
+        <stage type="action">Son cosas de los hombres no hay que darle tanta importancia. La culpa se la tiene esta maldita sociedad de hoy, tan disipada y tan loca. Mire V. que si pensará en eso tendría que reñir la mar de de veces á Leonor...... Pero ¡Pshe! Así es la vida. Hay que tomarla como es, no como nosotros la queremos.</stage>
+        <stage type="action">María Luisa. Si no recrimino á nadie. Si yo no culpo á mi esposo. Si él es así, no se fija en lo que hace, que si supiera el daño que me infiere con su conducta no lo haría. Son cosas de artistas que son niños grandes como decía mamá. Si soy yo la tonta, que no puedo, que no consigo olvidar. Que sueño todavía ¡loca de mi! en aquellos días de venturanza que se han ido para volver. Si yo soy quien al choque rudo de tan cruel despertar, me resisto á creer</stage>
+        <stage type="action">que lo que me rodea fuese realidad y con los ojos abiertos muy abiertos escruto el porvenir...., y espero aún ¡infeliz, de mi!</stage>
+        <stage type="action">(Solloza nerviosamente).</stage>
+        <stage type="action">D. Cesar. (La coge ambas manos confortándola)</stage>
+        <stage type="action">Pobre niña, si su madre viviera. En fin, ha hecho muy bien en morirse, la buena señora. Así no verá tanta calamidad.</stage>
+        <stage type="action">María Luisa. ¡Madre mía! Si ella me viera ahora. Ahora si que me perdonaría con todo su corazón.</stage>
+        <stage type="action">D. Cesar. Vamos María, cálmese.</stage>
+        <stage type="action">María Luisa. Mi madre, ¡pobre madre! La deje por ese amor..... y hoy..... viene el castigo.....</stage>
+        <stage type="action">la maldición sobre mi.</stage>
+        <stage type="action">D. Cesar. No, María, no se torture de ese modo.</stage>
+        <stage type="action">El volverá. Los hombres son así, niños grandes que juegan a la pelota con los corazones en la vida.</stage>
+        <stage type="action">María Luisa. Volverá....... cuando mi corazón ó el suyo se hayan roto de tanto sufrir. Volverá, cuando el amor torturado por tantos desdenes haya volado para no tornar....</stage>
+        <stage type="action">D. Cesar. No sea V. pesimista, mujer. Acuérdese V.</stage>
+        <stage type="action">de aquello de «que amor no ha vuelto?»</stage>
+        <stage type="action">María Luisa. Sí, eso dijo el poeta, y poeta había de ser.</stage>
+        <stage type="action">D. Cesar. Pues que ¿no cree V, ya en la vuelta del amor?</stage>
+        <stage type="action">María Luisa. No amigo mío. El amor se vá para no volver quedará si acaso algo, más ese algo, ya no es el amor, es tan solo el deber. (Transición) pero donde estarán mis hijos? Voy por ellos con su permiso.</stage>
+        <stage type="action">Despídame de Leonor.</stage>
+        <stage type="action">D. Cesar. Es que decididamente no se quiere V.</stage>
+        <stage type="action">quedar?</stage>
+        <stage type="action">María Luisa. No, probablemente vendrá él y no quisiera verme violenta. V. comprende...........</stage>
+        <stage type="action">Adiós.</stage>
+        <stage type="action">D. Cesar. No, yo voy á acompañarla y de paso avisaré al Dr. Katigbal para que la vea á V.</stage>
+      </div>
+      <div type="scene" n="6">
+        <head>ESCENA 6.A</head>
+        <stage type="action">Se asoman cabezas curiosas de mujer, que reprimen una risa maliciosa. Salen Adela y Juana.</stage>
+        <stage type="action">Adela. ¿Pero tú has visto? quién había de decir que</stage>
+        <stage type="action">María el modelo de la mujer virtuosa, y</stage>
+        <stage type="action">D. Cesar el prototipo de la formalidad y de la honradez. Si parece que estoy soñando...... Luego tenía razón el cuento que se propala..... Parece mentira.</stage>
+        <stage type="action">Juana. Ya vés, el ídolo de los martirios caído del pedestal.</stage>
+        <stage type="action">Adela. Yo que la compadecía creyendo que era buena de verdad.</stage>
+        <stage type="action">Juana. Ya vés lo que valen esas hipócritas mogigatas.</stage>
+        <stage type="action">Se creen ser mejores que nosotras, y con- sus caritas de santas de retablo y su conducta al parecer intachable afean constantemente nuestras pequeñas debilidades......</stage>
+        <stage type="action">Ya vés, ya vés. Lo que es esa..... Cuando era compañera mía en el «Instituto de Mujeres», esa siempre se ganaba el premio de virtud por sus arrumacos é hipocrecías.</stage>
+        <stage type="action">Por eso salí muy pronto de allí. ¿Que había yo de adelantar en un Colegio en donde se premia la virtud?.</stage>
+        <stage type="action">Adela. Que cosas tienes mujer.</stage>
+        <stage type="action">Juana. Te digo yo que á mi nadie me angaña. A tí, sí, porque eres muy crédula pero á mí.......</stage>
+        <stage type="action">Para ser up-to-date hay que dudar de todo.</stage>
+        <stage type="action">Piensa mal y acertarás. Por eso siempre pienso mal. Ya vés, ya vés.</stage>
+      </div>
+      <div type="scene" n="7">
+        <head>ESCENA 7.A</head>
+        <stage type="action">Marasigan y Ledesma salen de entre los arbustos para sorprender á las dos charlatanas.</stage>
+        <stage type="action">Marasigan. Que habíamos de ver sino dos lindas cotorritas que se complacen en picotear á una pobre paloma que no se puede defender?</stage>
+        <stage type="action">Juana. (Indignada) Mira Marasigan. Ya pasó de moda eso de la andante caballería. No vengas, pues, en defensa de damiselas más ó menos averiadas; que no haces buena figura de Quijote.</stage>
+        <stage type="action">Ledesma. No te sulfures que son humoradas de este.</stage>
+        <stage type="action">Adela. Es que nosotras hemos visto.</stage>
+        <stage type="action">Marasigan. ¿Que habeis visto? Que hablaban María Luisa y D. Cesar. Pues es la cosa más natural del mundo. Desde cuando es de escandalizar el ver hablar á un hombre y una mujer máxime si son íntimos amigos.</stage>
+        <stage type="action">Juana. Y tan íntimos...... Como que él la tenía cogida de las manos mientras la hablaba.</stage>
+        <stage type="action">Marasigan. Pero si nosotros oímos la conversación. Intrigados como vosotras, nos escondimos en ese rosal y escuchamos.</stage>
+        <stage type="action">Adela. Y luego, vais á decir que las curiosas somos las mujeres.</stage>
+        <stage type="action">Marasigan. Pues, si, señoras, que para mí, más que objeto de crítica lo es de admiración esa mujer; que sufre su martirio sin quejarse y tiene el valor de vivir á pesar de la infamia con que han intentado y continúan intentando afrentarla.</stage>
+        <stage type="action">Juana. Nada, decididamente has tomado sobre tí el papel de caballero defensor de esa señora.</stage>
+        <stage type="action">No te arriendo la ganancia.</stage>
+        <stage type="action">Marasigan. Es tan solo por poner las cosas en su lugar.</stage>
+        <stage type="action">Es que sé tantas cosas más....... Se por ejemplo que su esposo acaba de enagenar una gran parte de su hacienda de Naujan gastando el dinero con bailarinas y cocottas......</stage>
+        <stage type="action">que pierde mucho dinero en el uego...., que bebe; que es un perdido.....</stage>
+        <stage type="action">que algún día dara con sus huesos en la cárcel que por cierto bien merecido lo tendrá....., que vamos...... más vale callar.</stage>
+        <stage type="action">Dejemos á un lado, la vida de los otros.</stage>
+        <stage type="action">Hemos venido para divertirnos y no para criticar.</stage>
+        <stage type="action">Juana. Pero eso no justifica su actitud.</stage>
+        <stage type="action">Marasigan. Pero que actitud, mujer de Dios. ¿No te hemos dicho que oimos la conversación? Ella estaba triste. D. Cesar la consolaba.....</stage>
+        <stage type="action">nada más.</stage>
+        <stage type="action">Juana. Nada más.</stage>
+        <stage type="action">Marasigan. Bueno si no quieres creerme aquí vienen ellos.</stage>
+        <stage type="action">preguntáselo.</stage>
+      </div>
+      <div type="scene" n="8">
+        <head>ESCENA 8.A</head>
+        <stage type="action">D. Cesar, María Luisa y los niños aparecen por el lado derecho y los otros salen disimulando por el izquierdo.</stage>
+        <stage type="action">D. Cesar. Allí pueden jugar los niños en tanto que esperan la llegada del coche. Adiós,</stage>
+        <stage type="action">María, que se alivie. Voy á atender á las visitas.</stage>
+        <stage type="action">Salen D. Cesar, los niños corretean con la pelota hasta perderse por el lado izquierdo. María Luisa se queda sola y con tristeza se pone á cantar.</stage>
+        <stage type="action">Huyeron del alma mis dulces amores</stage>
+        <stage type="action">Cual blancas palomas de vuelo fugaz</stage>
+        <stage type="action">Que hienden el aire dejando temblores</stage>
+        <stage type="action">De dulces arrullos de amor y ansiedad</stage>
+        <stage type="action">El alma solloza con honda amargura</stage>
+        <stage type="action">Al ver para siempre su dichar expirar,</stage>
+        <stage type="action">Cual ave que llora entre la espesura</stage>
+        <stage type="action">Su nidada rota por cruel gavilán</stage>
+        <stage type="action">Hoy llenan mi vida sombras de pavura</stage>
+        <stage type="action">Horrores de muerte desdichas sin fin</stage>
+        <stage type="action">Solo mis hijitos me dan su ternura</stage>
+        <stage type="action">Por ellos tan solo quisiera, vivir.</stage>
+        <stage type="action">Se queda ensimismada sin darse cuenta de la llega del Dr.</stage>
+        <stage type="action">Katigbak que sale por el lado por donde salió D. Cesar.</stage>
+        <stage type="action">Victor. ¿Qué tienes María? Acaba de avisarme Don</stage>
+        <stage type="action">Cesar que te sentías mal.</stage>
+        <stage type="action">María Luisa. (Sorprendida se lleva la mano en el corazón)</stage>
+        <stage type="action">Nada Victor, si no padezco de nada, sino que ese D. Cesar es tan bueno.......</stage>
+        <stage type="action">Victor. Se sienta al lado de María en el banco y la coge el pulso) María, tú no estás bien.</stage>
+        <stage type="action">Este pulso irregular y acelerado, esos fallos.</stage>
+        <stage type="action">¿Qué has tenido estos días? ¿Porqué no me has mandado llamar si estabas enferma? Me dijeron que te ibas á retirar hoy.</stage>
+        <stage type="action">María Luisa. Sí, esperábamos el coche que nos iba à conducir.</stage>
+        <stage type="action">Victor. Es que tú no puedes ir sola así. María, te voy acompañar. Mira, estás temblorosa,  agitada.</stage>
+        <stage type="action">María Luisa. No Victor, no, déjame ir. Fué un marco que ya pasó. Me suele suceder con fuecuencia, pero después, como si no hubiera pasado nada. Voy........</stage>
+        <stage type="action">Víctor. No, tú no estás bien. Tu salud requiere cuidados. Pero dí ¿qué te ha hecho yo?</stage>
+        <stage type="action">¿Porque huyes de mi? Comprendo...... Tú sabes que te amaba con delirio, y que si salí de Filipinas, fué para no verte casada con otro que no fuera yo. Y por eso..... Temes por ventura, que yo te pudiera ofender, que fuera capaz de abusar de tu situación, que sea en fin tan perverso que al ver tu abandono y tu desgracia quiera provecharme de tu debilidad?</stage>
+        <stage type="action">Cuan poco me conoces, María, y cuan poco supiste apreciar la delicadeza y la magnitud de mi amor. ¡Ah! si supieras lo que no sabes y que es preciso que lo sepas de una vez. Si supieras el indecible sufrimiento que me produce tu desvío y tu poca confianza en mí. Si supieras que hoy más que nunca te amo con desesperado amor que se agiganta en mí á medida que voy conociendo y admirando más de cerca tu hermoso y abnegado corazón de mujer digna por todos conceptos de ser dichosa y feliz. Si supieras que como á una</stage>
+        <stage type="action">Virgencita adorada te hice un altar en mi corazón, y que al verte tan mártir y tan buena sentí mil veces deseos de morir ó de matar..... Oh és que no sabes María, tu no sabes que yo habría callado hasta morir; que habrías ignorado para siempre</stage>
+        <stage type="action">este sentimiento que hubiera muerto en muda inmolación si no te hubiera visto to así tan desdichada, tan vilipendiada, tan infeliz. Olvida el pasado María, pide el divorcio....., y cuando quieras, casémonos los dos. Mi brazo te sostendrá á tus hijos y a ti. Salgamos si quieres de aquí, vayamos á otros mundos donde nos sea posible vivir vida dichosa y feliz.</stage>
+        <stage type="action">María Luisa. (Llorosa) Gracias, Victor. Cuan bueno eres y cuanto tendré que agradecerte la nobleza de tu corazón, y por eso me atrevo á rogarte, si es que me amas, como dices, que no pienses ya en mi. Abrete otro camino más florido, sé feliz. Olvídame (Se propone á salir).</stage>
+        <stage type="action">Victor. Un momento María Luisa, escúchame. Deja que te diga lo que me grita el corazón y después...... después, dispon como quieras de mí.</stage>
+        <stage type="action">María Luisa. ¡Oh! Calla por Dios.</stage>
+        <stage type="action">Victor. Es preciso, escucha: El corazón me dice: Que ya que conoces la magnitud de mi amor, no pronuncies aún mi sentencia final. Que tu corazón hoy marchito se puede aún reverdecer, que puede aún sonreirnos días de felicidad..... que... perdona mi franqueza.</stage>
+        <stage type="action">Que no te es indiferente mi duelo y mi aflicción, que algún día me pondrás amar....</stage>
+        <stage type="action">que acaso me ames ya.</stage>
+        <stage type="action">María Luisa. (Vacilando desvía de Victor la mirada, se incorpora para salir y Victor la coge la mano en actitud suplicante) (Aparte) Qué dice,</stage>
+        <stage type="action">¡Dios mío! que puedo amarle, que le amo ya. Un corazón, corazón ¡calla! Hoy si</stage>
+        <stage type="action">que ya no me perderás. (Se levanta decidida) No, Victor, no. Vivamos de la realidad que los sueños, sueños son. Vete.</stage>
+        <stage type="action">lu alma grande te trazara la ruta de tu deber ó de tu felicidad. Y si alguna vez piensas en mí, ruega porque jamás me olvide. «Que cuando el amor nos abandona aún nos queda el Deber.» Adiós.</stage>
+        <stage type="action">(Se aleja en busca de sus hijos. Victor se quedó como anodado. De pronto se arma gran algazara al otro lado.</stage>
+        <stage type="action">Dentro, sin ser visto en la escena.)</stage>
+        <stage type="action">D. Cesar. ¡Miserables! ¡Infame! ¡Toma! (Se oye un rudo golpe.)</stage>
+        <stage type="action">Leonor. ¡Perdón! ¡Socorro!</stage>
+        <stage type="action">Voces de mujeres. Separarles que se matan.</stage>
+        <stage type="action">Voces de mujeres.</stage>
+        <stage type="action">Marasigan ¡Durol bien merecido lo ficene.</stage>
+        <stage type="action">Ledesma. Así ¡que no haya piedad!</stage>
+        <stage type="action">D. Cesar. ¡Malvado! ahora los pagas todos juntos.</stage>
+        <stage type="action">Salen á la escena grupos alborotados de invitados comentando en voz baja algunos, y en voz alta otros. Otro grupo trae á Enrique con una herida en la cabeza y le colocan en el banco de donde se levantó María Luisa. Esta sale azorada con sus niños en la mano y al ver a Enrique vacila primero y después se precipita llorosa a su socorro.</stage>
+        <stage type="action">Los niños quedan á un lado amedrentados.</stage>
+        <stage type="action">María Luisa. (De lejos) ¡Enrique! ¡Pobre Enrique! ¡Dios mio! Tu justicia. (Se acerca) ¡Vive aún!</stage>
+        <stage type="action">Socorro, Doctor. ¡Oh! Victor, ven.</stage>
+        <stage type="action">Victor. (Se acerca con repulsión) ¿Qué deseas María?</stage>
+        <stage type="action">María Luisa. (Suplicante) Victor...... cúrale....... sálvale.</stage>
+        <stage type="action">Es mi esposo. Es el padre de mis hijos.</stage>
+        <stage type="action">Por Dios, por lo que más ames en la vida.</stage>
+        <stage type="action">Victor. (Aparte á María) Por tí, María, por tí. Solo por tí. Que no hiciera yo por verte feliz.</stage>
+        <stage type="action">Victor. (Ordenando) Agua, hielo, pronto. Traiga mi maletín. Está en mi auto. Aprisa (Se remanga los brazos y se inclina á observar al herido) María coje en sus brazos la cabeza ensangrentada de su esposo.</stage>
+        <stage type="action">Los otros comentan el hecho</stage>
+        <stage type="action">Marasigan. ¡Ese sí que fué un garrotazo muy bien dado!</stage>
+        <stage type="action">Ledesma. Pobre Enrique. Si no hubiera sido tan majadero.</stage>
+        <stage type="action">Juana. Tras de cornudo apaleado. Ya vez lo tunantes tes que son los hombres. Lo que él dirá, cuestión de adelantarse. Fiate de esos hombres de bien. Si te digo piensa mal y acertarás.</stage>
+        <stage type="action">Marasigan. Pero que andas diciendo por allí mujer. Sí fué Leonor quien ha sido sorprendida con Enrique, infraganti por el pobre marido, por el bueno de D. Cesar.</stage>
+        <stage type="action">Adela. ¡Que escándalo! Ser sorprendida en plena fiesta.</stage>
+        <stage type="action">Ledesma. Y con el esposo de su mejor amiga.</stage>
+        <stage type="action">Juana. Si te digo que no se puede pensar nada bueno de nadie.</stage>
+        <stage type="action">Marasigan. Ya decía yo que esa lagarta de Leonor no tiene ni pizca de verguenza. Lo que son estas mujeres de nuevo cuño.</stage>
+        <stage type="action">Juana. Lo que te digo: no se puede fiar de nadie.</stage>
+        <stage type="action">Enrique. ¿En donde estoy? ¡Leonor! (Abre los brazos en ademán de abrazar.)</stage>
+        <stage type="action">María Luisa. (Indignada se aleja) ¡Dios mío dadme valor!</stage>
+        <stage type="action">(Vuelve) No, Enrique. Soy yo.....</stage>
+        <stage type="action">Enrique. (Volviendo en sí y abriendo desmesuradamente los ojos se incorpora) ¿De quién es esa voz? (Se restrega los ojos! Ah,</stage>
+        <stage type="action">¡María! Como ha sido que estás aquí.</stage>
+        <stage type="action">(Abatido) ¡Pobre María! ¿A qué vienes?</stage>
+        <stage type="action">¿A juzgarme? ¿á condenarme tal vez? No.</stage>
+        <stage type="action">Mira, ya estás vengada.</stage>
+        <stage type="action">María Luisa. (Acercándose poco á poco) Cálmate Enrique.</stage>
+        <stage type="action">No, no vengo a gozarme en tu dolor.</stage>
+        <stage type="action">Te compadezco.</stage>
+        <stage type="action">Enrique. (Animándose) Compasión eso, eso es lo único que merezco de tu corazón de ángel, que yo sin piedad destrocé?</stage>
+        <stage type="action">María Luisa. No pienses en eso ahora. Toma (le dá de tomar un vaso de agua con medicina, que le dió Victor).</stage>
+        <stage type="action">Victor. Es preciso llevarle de aquí. Buscad un coche. Hay complicación.</stage>
+        <stage type="action">Enrique. (Entre convulsiones) María, comprendo que no quieras perdonarme.....</stage>
+        <stage type="action">María Luisa. Doctor, Doctor.</stage>
+        <stage type="action">Victor. (Pone una bolsa de hielo en la cabeza y remagándose el brazo se prepara á hacer una zangría).</stage>
+        <stage type="action">Enrique. ¿No me perdonarás? ¡Me muero! (Alzando los brazos como si se ahogara) No me dejes</stage>
+        <stage type="action">María, no me dejes por piedad.</stage>
+        <stage type="action">María Luisa. (Se arrodilla llorando) Si Enrique. Yo te perdono con todo mi corazón. No temas, no he de dejarte. No.</stage>
+        <stage type="action">Enrique. (Entre espasmos sin verla) Angel de bondad,</stage>
+        <stage type="action">¿dónde estás? No te vayas. Ven. (Abre los brazos que se agitan convulsivamente).</stage>
+        <stage type="action">María Luisa. (Acercándose con piedad) Si soy yo. Tu</stage>
+        <stage type="action">María. Aquí estoy. (Cogiéndole y besándole con cariño).</stage>
+        <stage type="action">Enrique. (Tambaleando cae de bruces) ¡María, Perdón!</stage>
+        <stage type="action">Victor. (Aparte contemplando al enfermo). Podría dejarte morir. Se inicia un ataque cerebral y con la embriaguez que tiene.....</stage>
+        <stage type="action">Así la pobre María dejará de sufrir y quien sabe si con su muerte se abre para mí la puerta de la felicidad?</stage>
+        <stage type="action">María Luisa. (Arrastrándose de rodillas á los piés de Victor)</stage>
+        <stage type="action">¡Victor! ¡por Dios! ino le dejes morir!</stage>
+        <stage type="action">¡cúrale! ¡sálvale! ¡por lo que más ames!</stage>
+        <stage type="action">¡por mis hijos! ¡por mi!</stage>
+        <stage type="action">Victor. (Con amarga decisión) Si, María. Aún me acuerdo de tus palabras: «Cuando el amor nos deje aún nos queda el deber.» No seré menos que tú, no. Sí, le curaré por mi deber y por tí, pobre mártir, por tí, santa mujer, que aún besas las cadenas que te oprimieron sin piedad..... por tí dulce y bella «PRISIONERA DE AMOR. (Ausculta al herido mientras solloza María á los pies del moribundo) Los niños se acercan- tímidamente llorando á los pies del moribundo.</stage>
+        <stage type="action">Se oye desde dentro los compases de una música triste y trágica mientras se cierra lentamente el telón.</stage>
+        <stage type="action">FIN.</stage>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>
