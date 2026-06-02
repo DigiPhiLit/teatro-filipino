@@ -26,7 +26,7 @@ Este repositorio tiene los siguientes objetivos:
 
 ## Corpus
 
-El corpus con el que trabajamos se compone de un conjunto de 15 obras teatrales escritas en lengua española por personas filipinas entre 1880 y 1954 coincidiendo con la época de mayor esplendor de la literatura filipina en lengua española llamada por Luis Mariñas Otero “Edad de oro” (1974). 
+El corpus con el que trabajamos se compone de un conjunto de 17 obras teatrales escritas en lengua española por personas filipinas entre 1880 y 1954 coincidiendo con la época de mayor esplendor de la literatura filipina en lengua española llamada por Luis Mariñas Otero “Edad de oro” (1974). 
 
 | Nº | Título | Autor/a | Fecha | Género / descripción | Fuente o edición de referencia | Localización / repositorio | URL |
 |---:|---|---|---|---|---|---|---|
@@ -47,6 +47,22 @@ El corpus con el que trabajamos se compone de un conjunto de 15 obras teatrales 
 | obra_15 | *Ricos y pobres* | Isabelo de los Reyes | Publicada entre noviembre de 1903 y diciembre de 1904 | Zarzuela filipina en tres actos | Publicada por entregas en el periódico *La Redención del obrero* | Hemeroteca Digital de la Biblioteca Nacional de España | https://hemerotecadigital.bne.es/hd/es/card?sid=5c49e3b5-fbb1-4e94-9a90-16b4599a2082 |
 | obra_16 | *Filipinizad a los filipinos* | Jesús Balmori | 1940 | Comedia en tres jornadas | Obra mecanografiada inédita | National Library of the Philippines/ Biblioteca Virtual Miguel de Cervantes | https://www.cervantesvirtual.com/nd/ark:/59851/bmc69901 |
 | obra_17 | *Solo entre las sombras* | Claro M. Recto | 1917 | Drama en un acto y en prosa | Obra mecanografiada inédita | Biblioteca de filipiniana del Instituto Cervantes de Manila/ Biblioteca Virtual Miguel de Cervantes | https://www.cervantesvirtual.com/nd/ark:/59851/bmc5t5c4 |
+
+## Autores
+A continuación se consigna una tabla con los autores de los textos
+
+|Apellidos | Nombre | Fecha de nacimiento | Muerte | Género | Wikidata ID |
+|---:|---|---|---|---|---|
+| Balmori | Jesús | 1887 | 1948 | Hombre | https://www.wikidata.org/wiki/Q517332 |
+| Cruz Rivera | José | ? | ? | Hombre |  |
+| De los Reyes | Isabelo | 1864 | 1938 | Hombre | https://www.wikidata.org/wiki/Q3550199 |
+| Gamboa | José Belleza | 1889 | 1970 | Hombre |  |
+| Gurrea | Adelina | 1896 | 1971 | Mujer | https://www.wikidata.org/wiki/Q2824209 |
+| Recto | Claro M. | 1890 | 1960 | Hombre | https://www.wikidata.org/wiki/Q1095906 |
+| Reyes | Severino | 1861 | 1942 | Hombre | https://www.wikidata.org/wiki/Q3548400 |
+| Rizal | José | 1861 | 1896 | Hombre | https://www.wikidata.org/wiki/Q1500 |
+| Sevilla de Alvero | Rosa | 1879 | 1954 | Mujer | https://www.wikidata.org/wiki/Q12970135 |
+| Zulueta de los Ángeles | Juan | 1844 | 1896 | Hombre |  |
 
 ## Cita
 
