@@ -1,0 +1,6 @@
+metric,formula,description
+precision,P = TP / (TP + FP),Proporción de etiquetas generadas por el sistema que coinciden con el gold standard.
+recall,R = TP / (TP + FN),Proporción de etiquetas presentes en el gold standard que el sistema recupera.
+f1,F1 = 2·P·R / (P + R),Media armónica de precisión y recall. Es la métrica principal de comparación.
+macro_f1,Promedio macro de F1,Promedio de F1 sobre el conjunto de etiquetas evaluadas por obra.
+tp_approximation,"TP = min(pred, gold)",Aproximación usada para el recuento agregado por etiqueta; el F1 reportado debe interpretarse como límite superior.

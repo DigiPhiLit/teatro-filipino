@@ -1,0 +1,6 @@
+Categoría de error,RegEx,Gemma
+Falta de cobertura,"Subdetección sistemática de <stage> cortas o intercaladas (−2 a −45 por obra). No implementa <roleDesc>, <l> ni <lg>.","Subdetección selectiva del elenco en Brumas y voces (−8 <persName>, −8 <person>). Puntual y no estructural."
+Fallo estructural,Colapso total en Filipinas: auto histórico — 167 parlamentos clasificados como <stage> (387 generadas). F1 = 0.050.,Sobrepredicción de parlamentos en Filipinizad a los filipinos (+158 <sp>). Precisión cae a 0.736.
+Clasificación errónea,"Títulos de acto como <p> o <speaker> (p.ej. «PRIMER ACTO», «FILIPINIZAD A LOS FILIPINOS»). Indicaciones de entrada como nombre de hablante («DICHOS SUSANA», «ESGENA CUARTA»).",Absorción de acotaciones muy cortas dentro de <p>. Sobrearticulación de <div>/<head> (p.ej. +3 en Brumas y voces y Filipinizad).
+Invención de etiquetas,No aplica. El sistema no genera etiquetas fuera de su conjunto predefinido.,Ninguna etiqueta fuera del vocabulario TEI. Introduce <roleDesc> en 8/9 obras (15–20 instancias) y <respStmt> en una. Todas son TEI válidas.
+Sobreinterpretación,Puntual: algunas acotaciones de encabezado son marcadas como <stage> sin serlo estrictamente.,<stage> descriptivos de gran extensión (>200 caracteres) en obras con acotaciones de apertura densas (29 casos en Brumas y voces).

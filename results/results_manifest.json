@@ -1,0 +1,26 @@
+{
+  "created": "2026-06-04",
+  "source": "Artículo-evaluación.docx",
+  "description": "Resultados de evaluación comparativa RegEx vs Gemma para marcado XML-TEI en teatro filipino en español.",
+  "files": [
+    "README.md",
+    "results_manifest.json",
+    "tables/corpus_overview.csv",
+    "tables/global_comparison.csv",
+    "tables/per_label_metrics_all.csv",
+    "tables/error_typology.csv",
+    "tables/metric_definitions.csv",
+    "tables/per_work/alma_filipina.csv",
+    "tables/per_work/brumas_y_voces.csv",
+    "tables/per_work/el_consejo_de_los_dioses.csv",
+    "tables/per_work/filipinas_auto_historico.csv",
+    "tables/per_work/filipinizad_a_los_filipinos.csv",
+    "tables/per_work/solo_entre_las_sombras.csv",
+    "tables/per_work/fortalezas.csv",
+    "tables/per_work/la_mejor_ofrenda.csv",
+    "tables/per_work/jose_el_carpintero.csv",
+    "summaries/evaluation_methodology.md",
+    "summaries/global_results_summary.md",
+    "summaries/limitations.md"
+  ]
+}

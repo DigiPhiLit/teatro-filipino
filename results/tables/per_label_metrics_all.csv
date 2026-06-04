@@ -1,0 +1,98 @@
+obra_id,obra_titulo,etiqueta,gold_n,regex_n,regex_precision,regex_recall,regex_f1,gemma_n,gemma_precision,gemma_recall,gemma_f1
+alma_filipina,Alma filipina,<sp>,234,228,1.000,0.974,0.987,233,1.000,0.996,0.998
+alma_filipina,Alma filipina,<speaker>,234,228,1.000,0.974,0.987,233,1.000,0.996,0.998
+alma_filipina,Alma filipina,<p>,234,246,0.951,1.000,0.975,233,1.000,0.996,0.998
+alma_filipina,Alma filipina,<stage>,118,73,1.000,0.619,0.764,113,1.000,0.958,0.978
+alma_filipina,Alma filipina,<persName>,8,7,1.000,0.875,0.933,8,1.000,1.000,1.000
+alma_filipina,Alma filipina,<div>,8,7,1.000,0.875,0.933,7,1.000,0.875,0.933
+alma_filipina,Alma filipina,<person>,7,6,1.000,0.875,0.923,7,1.000,1.000,1.000
+alma_filipina,Alma filipina,<castItem>,7,6,1.000,0.857,0.923,7,1.000,1.000,1.000
+alma_filipina,Alma filipina,<role>,7,6,1.000,0.857,0.923,7,1.000,1.000,1.000
+alma_filipina,Alma filipina,Macro,---,---,0.995,0.876,0.928,---,1.000,0.969,0.984
+brumas_y_voces,Brumas y voces,<sp>,768,479,1.000,0.624,0.768,763,1.000,0.993,0.997
+brumas_y_voces,Brumas y voces,<speaker>,768,479,1.000,0.624,0.768,763,1.000,0.993,0.997
+brumas_y_voces,Brumas y voces,<p>,768,499,1.000,0.650,0.788,763,1.000,0.993,0.997
+brumas_y_voces,Brumas y voces,<stage>,522,396,1.000,0.759,0.863,503,1.000,0.964,0.981
+brumas_y_voces,Brumas y voces,<persName>,22,22,1.000,1.000,1.000,14,1.000,0.636,0.778
+brumas_y_voces,Brumas y voces,<person>,22,21,1.000,1.000,1.000,13,1.000,0.619,0.765
+brumas_y_voces,Brumas y voces,<div>,21,4,0.750,1.000,0.857,6,0.500,1.000,0.667
+brumas_y_voces,Brumas y voces,<head>,3,4,0.750,1.000,0.857,6,0.500,1.000,0.667
+brumas_y_voces,Brumas y voces,Macro,---,---,0.938,0.832,0.863,6,0.875,0.900,0.856
+el_consejo_de_los_dioses,El consejo de los dioses,<sp>,32,30,1.000,0.938,0.968,32,1.000,1.000,1.000
+el_consejo_de_los_dioses,El consejo de los dioses,<speaker>,32,30,1.000,0.938,0.968,32,1.000,1.000,1.000
+el_consejo_de_los_dioses,El consejo de los dioses,<p>,35,31,1.000,0.886,0.939,33,1.000,0.943,0.971
+el_consejo_de_los_dioses,El consejo de los dioses,<stage>,42,40,1.000,0.952,0.976,36,1.000,0.857,0.923
+el_consejo_de_los_dioses,El consejo de los dioses,<persName>,15,12,1.000,0.800,0.889,16,0.938,1.000,0.968
+el_consejo_de_los_dioses,El consejo de los dioses,<person>,13,11,1.000,0.846,0.917,14,0.929,1.000,0.963
+el_consejo_de_los_dioses,El consejo de los dioses,<div>,4,3,1.000,0.750,0.857,3,1.000,0.750,0.857
+el_consejo_de_los_dioses,El consejo de los dioses,<head>,3,3,1.000,1.000,1.000,3,1.000,1.000,1.000
+el_consejo_de_los_dioses,El consejo de los dioses,Macro,—,—,1.000,0.889,0.939,—,0.983,0.944,0.960
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<sp>,167,0,0.000,0.000,0.000,166,1.000,0.994,0.997
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<speaker>,167,0,0.000,0.000,0.000,166,1.000,0.994,0.997
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<p>,167,4,1.000,0.024,0.047,166,1.000,0.994,0.997
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<stage>,36,387,0.093,1.000,0.170,38,0.947,1.000,0.973
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<persName>,5,1,1.000,0.200,0.333,5,1.000,1.000,1.000
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<person>,4,0,0.000,0.000,0.000,4,1.000,1.000,1.000
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<castItem>,4,0,0.000,0.000,0.000,4,1.000,1.000,1.000
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<role>,4,0,0.000,0.000,0.000,4,1.000,1.000,1.000
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,<actor>,4,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+filipinas_auto_historico,Filipinas. Auto histórico sacramental,Macro,—,—,0.190,0.111,0.050,—,0.904,0.862,0.876
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<sp>,440,440,1.000,1.000,1.000,598,0.736,1.000,0.848
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<speaker>,440,440,1.000,1.000,1.000,598,0.736,1.000,0.848
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<p>,440,440,1.000,1.000,1.000,598,0.736,1.000,0.848
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<stage>,32,38,0.842,1.000,0.914,48,0.667,1.000,0.800
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<persName>,11,15,0.733,1.000,0.846,11,1.000,1.000,1.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<person>,10,14,0.714,1.000,0.833,10,1.000,1.000,1.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<castItem>,10,14,0.714,1.000,0.833,0,0.000,0.000,0.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<role>,10,14,0.714,1.000,0.833,0,0.000,0.000,0.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<l>,12,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,<lg>,3,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+filipinizad_a_los_filipinos,Filipinizad a los filipinos,MACRO,—,—,0.727,0.794,0.749,—,0.529,0.667,0.587
+solo_entre_las_sombras,Solo entre las sombras,<sp>,262,207,1.000,0.790,0.883,262,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<speaker>,262,207,1.000,0.790,0.883,262,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<p>,262,216,1.000,0.824,0.904,262,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<stage>,120,95,1.000,0.792,0.884,109,1.000,0.908,0.952
+solo_entre_las_sombras,Solo entre las sombras,<div>,14,10,1.000,0.714,0.833,14,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<head>,14,10,1.000,0.714,0.833,14,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<persName>,11,7,1.000,0.636,0.778,6,1.000,0.545,0.706
+solo_entre_las_sombras,Solo entre las sombras,<person>,5,6,0.833,1.000,0.909,5,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<castItem>,5,6,0.833,1.000,0.909,5,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<role>,5,6,0.833,1.000,0.909,5,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,<roleDesc>,5,0,0.000,0.000,0.000,5,1.000,1.000,1.000
+solo_entre_las_sombras,Solo entre las sombras,MACRO,—,—,0.864,0.751,0.793,—,1.000,0.950,0.969
+fortalezas,Fortalezas,<sp>,578,331,1.000,0.573,0.728,578,1.000,1.000,1.000
+fortalezas,Fortalezas,<speaker>,578,331,1.000,0.573,0.728,578,1.000,1.000,1.000
+fortalezas,Fortalezas,<p>,578,517,1.000,0.894,0.944,578,1.000,1.000,1.000
+fortalezas,Fortalezas,<stage>,311,273,1.000,0.878,0.935,311,1.000,1.000,1.000
+fortalezas,Fortalezas,<castItem>,15,1,1.000,0.067,0.125,15,1.000,1.000,1.000
+fortalezas,Fortalezas,<role>,15,1,1.000,0.067,0.125,15,1.000,1.000,1.000
+fortalezas,Fortalezas,<roleDesc>,8,0,0.000,0.000,0.000,15,0.533,1.000,0.696
+fortalezas,Fortalezas,<person>,14,1,1.000,0.071,0.133,15,0.933,1.000,0.966
+fortalezas,Fortalezas,<personGrp>,1,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+fortalezas,Fortalezas,<persName>,16,2,1.000,0.125,0.222,16,1.000,1.000,1.000
+fortalezas,Fortalezas,<div>,—,—,—,—,—,—,—,—,—
+fortalezas,Fortalezas,<head>,—,—,—,—,—,—,—,—,—
+fortalezas,Fortalezas,MACRO,—,—,0.600,0.294,0.362,—,0.891,0.927,0.902
+la_mejor_ofrenda,La mejor ofrenda,<sp>,265,1,1.000,0.004,0.008,266,0.996,1.000,0.998
+la_mejor_ofrenda,La mejor ofrenda,<speaker>,264,1,1.000,0.004,0.008,266,0.992,1.000,0.996
+la_mejor_ofrenda,La mejor ofrenda,<p>,283,6,1.000,0.021,0.042,266,1.000,0.940,0.969
+la_mejor_ofrenda,La mejor ofrenda,<stage>,102,872,0.117,1.000,0.209,82,1.000,0.804,0.891
+la_mejor_ofrenda,La mejor ofrenda,<castItem>,29,2,1.000,0.069,0.129,20,1.000,0.690,0.816
+la_mejor_ofrenda,La mejor ofrenda,<role>,29,2,1.000,0.069,0.129,20,1.000,0.690,0.816
+la_mejor_ofrenda,La mejor ofrenda,<roleDesc>,4,0,0.000,0.000,0.000,20,0.200,1.000,0.333
+la_mejor_ofrenda,La mejor ofrenda,<person>,22,2,1.000,0.091,0.167,20,1.000,0.909,0.952
+la_mejor_ofrenda,La mejor ofrenda,<personGrp>,7,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+la_mejor_ofrenda,La mejor ofrenda,<persName>,31,3,1.000,0.097,0.176,21,1.000,0.677,0.808
+la_mejor_ofrenda,La mejor ofrenda,<div>,20,16,1.000,0.800,0.889,17,1.000,0.850,0.919
+la_mejor_ofrenda,La mejor ofrenda,<head>,17,15,1.000,0.882,0.938,17,1.000,1.000,1.000
+la_mejor_ofrenda,La mejor ofrenda,MACRO,—,—,0.536,0.215,0.154,—,0.631,0.596,0.592
+jose_el_carpintero,José el Carpintero,<sp>,278,268,1.000,0.964,0.982,279,0.996,1.000,0.998
+jose_el_carpintero,José el Carpintero,<speaker>,278,268,1.000,0.964,0.982,279,0.996,1.000,0.998
+jose_el_carpintero,José el Carpintero,<p>,928,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+jose_el_carpintero,José el Carpintero,<stage>,278,0,0.000,0.000,0.000,0,0.000,0.000,0.000
+jose_el_carpintero,José el Carpintero,<castItem>,0,363,0.000,0.000,0.000,279,0.000,0.000,0.000
+jose_el_carpintero,José el Carpintero,<role>,71,69,1.000,0.972,0.986,73,0.973,1.000,0.986
+jose_el_carpintero,José el Carpintero,<roleDesc>,5,3,1.000,0.600,0.750,5,1.000,1.000,1.000
+jose_el_carpintero,José el Carpintero,<person>,5,3,1.000,0.600,0.750,5,1.000,1.000,1.000
+jose_el_carpintero,José el Carpintero,<personGrp>,5,0,0.000,0.000,0.000,5,1.000,1.000,1.000
+jose_el_carpintero,José el Carpintero,<persName>,5,3,1.000,0.600,0.750,5,1.000,1.000,1.000
