@@ -1,6 +1,8 @@
 # Teatro filipino en español: corpus, marcado TEI-DraCor y evaluación de métodos automáticos
 
 [![DOI](https://zenodo.org/badge/1246490470.svg)](https://doi.org/10.5281/zenodo.20545041)
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/06cd607b-5c38-4ec6-8da2-5b369f818b9a" />
+
 
 ## Descripción general
 
