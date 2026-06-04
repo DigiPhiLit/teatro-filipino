@@ -130,36 +130,38 @@ En macOS o Linux:
 
 ```bash
 python3 main.py
+```
 
 En Windows:
 
-python main.py
+`python main.py`
 
 Se abrirá una interfaz gráfica titulada Generador TEI con Gemma.
 
 El flujo de uso es el siguiente:
 
-Pulse Cargar archivo .txt.
-Seleccione una obra teatral en texto plano.
-Compruebe que el texto aparece correctamente en el área de entrada.
-Pulse Generar TEI.
-Espere a que el modelo devuelva el XML generado.
-Revise el resultado en el área XML TEI generado.
-Pulse Guardar XML para exportar el resultado como archivo .xml.
+- Pulse Cargar archivo .txt.
+- Seleccione una obra teatral en texto plano.
+- Compruebe que el texto aparece correctamente en el área de entrada.
+- Pulse Generar TEI.
+- Espere a que el modelo devuelva el XML generado.
+- Revise el resultado en el área XML TEI generado.
+- Pulse Guardar XML para exportar el resultado como archivo .xml.
 
 El archivo generado debe entenderse como una primera propuesta automática de marcado. Antes de incorporarlo al corpus, debe validarse contra el esquema DraCor y revisarse manualmente.
 
-###Carpeta de trabajo recomendada
+### Carpeta de trabajo recomendada
 
 Se recomienda mantener en una misma carpeta los archivos de la aplicación y los textos que se vayan a procesar. Por ejemplo:
 
-app_tei_gemma/
+```app_tei_gemma/
 ├── main.py
 ├── tei_generator.py
 ├── obra.txt
 └── obra_tei_gemma.xml
+```
 
-El archivo obra_tei_gemma.xml se generará cuando el usuario guarde el resultado desde la interfaz.
+El archivo `obra_tei_gemma.xml` se generará cuando el usuario guarde el resultado desde la interfaz.
 
 ## Entrada y salida
 
