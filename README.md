@@ -1,5 +1,7 @@
 # Teatro filipino en español: corpus, marcado TEI-DraCor y evaluación de métodos automáticos
 
+[![DOI](https://zenodo.org/badge/1246490470.svg)](https://doi.org/10.5281/zenodo.20545041)
+
 ## Descripción general
 
 Este repositorio reúne materiales, código y resultados derivados de un proyecto de Humanidades Digitales dedicado a la edición, codificación y evaluación computacional de obras de teatro filipinas escritas en español entre los siglos XIX y XX.
