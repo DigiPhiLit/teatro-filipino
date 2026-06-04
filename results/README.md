@@ -39,7 +39,7 @@ results/
 
 ## Archivos principales
 
-'tables/corpus_overview.csv'
+```tables/corpus_overview.csv```
 
 Relación de obras incluidas en el estudio, con título, autoría, año, editorial o fuente, ubicación y enlace.
 
