@@ -6,9 +6,42 @@ Esta carpeta contiene el código utilizado para automatizar la conversión de ob
 
 El sistema está diseñado para el procesamiento de textos dramáticos y genera automáticamente una propuesta de estructura TEI que incluye actos, escenas, parlamentos, personajes y acotaciones.
 
-La herramienta forma parte del proyecto **DigiPhiLit - Teatro filipino en español** y se ha desarrollado para comparar el marcado XML-TEI generado mediante modelos de lenguaje con el marcado producido mediante expresiones regulares y con un gold standard revisado manualmente.
+La herramienta forma parte del proyecto **DigiPhiLit - Teatro filipino en español** y se orienta a la generación semiautomática de marcado TEI para textos dramáticos.
 
 La salida generada debe entenderse como una primera propuesta automática de marcado. Por tanto, los archivos XML resultantes requieren validación posterior contra el esquema DraCor y revisión humana antes de considerarse versiones finales.
+
+## Archivos incluidos
+
+La carpeta contiene dos archivos principales:
+
+```text
+llm_markup_code/
+├── main.py
+└── tei_generator.py
+```
+
+### `main.py`
+
+Archivo principal de la aplicación gráfica. Implementa una interfaz con `tkinter` que permite:
+
+* cargar un archivo `.txt`;
+* visualizar el texto de entrada;
+* enviar el texto al generador TEI;
+* mostrar el XML-TEI producido;
+* guardar el resultado como archivo `.xml`.
+
+La generación se ejecuta en un hilo separado para evitar que la interfaz gráfica se bloquee durante la llamada al modelo.
+
+### `tei_generator.py`
+
+Módulo encargado de construir el prompt, llamar al modelo Gemma y devolver el XML generado.
+
+Incluye las siguientes funciones:
+
+* `build_tei_prompt(texto)`: construye el prompt de transformación de texto dramático a XML-TEI DraCor.
+* `generate_tei_xml(texto)`: envía el prompt al modelo y devuelve la respuesta generada.
+* `generate_tei_xml_largo(texto)`: función envoltorio para textos largos. En la versión actual llama directamente a `generate_tei_xml(texto)`.
+* `save_tei_to_file(tei_xml, filename)`: guarda el XML generado en disco.
 
 ## Requisitos
 
@@ -89,89 +122,44 @@ $env:GOOGLE_API_KEY="SU_CLAVE"
 python main.py
 ```
 
-## Ejecución
+## Ejecución y uso básico
 
-Una vez configurada la API Key, ejecute la aplicación desde la terminal:
+Una vez instaladas las dependencias y configurada la API Key, ejecute la aplicación desde la terminal.
+
+** En macOS o Linux:
 
 ```bash
 python3 main.py
-```
 
-En Windows:
+** En Windows:
 
-```bash
 python main.py
-```
 
-Se abrirá una interfaz gráfica titulada **Generador TEI con Gemma**.
+Se abrirá una interfaz gráfica titulada Generador TEI con Gemma.
 
 El flujo de uso es el siguiente:
 
-1. Pulse **Cargar archivo .txt**.
-2. Seleccione la obra teatral en texto plano.
-3. Compruebe que el texto aparece correctamente en el área de entrada.
-4. Pulse **Generar TEI**.
-5. Espere a que el modelo devuelva el XML generado.
-6. Pulse **Guardar XML** para exportar el resultado como archivo `.xml`.
+Pulse Cargar archivo .txt.
+Seleccione una obra teatral en texto plano.
+Compruebe que el texto aparece correctamente en el área de entrada.
+Pulse Generar TEI.
+Espere a que el modelo devuelva el XML generado.
+Revise el resultado en el área XML TEI generado.
+Pulse Guardar XML para exportar el resultado como archivo .xml.
 
+El archivo generado debe entenderse como una primera propuesta automática de marcado. Antes de incorporarlo al corpus, debe validarse contra el esquema DraCor y revisarse manualmente.
 
-## Archivos incluidos
+###Carpeta de trabajo recomendada
 
-La carpeta contiene dos archivos principales:
+Se recomienda mantener en una misma carpeta los archivos de la aplicación y los textos que se vayan a procesar. Por ejemplo:
 
-```text
-llm_markup_code/
+app_tei_gemma/
 ├── main.py
-└── tei_generator.py
-```
+├── tei_generator.py
+├── obra.txt
+└── obra_tei_gemma.xml
 
-### `main.py`
-
-Archivo principal de la aplicación gráfica. Implementa una interfaz con `tkinter` que permite:
-
-* cargar un archivo `.txt`;
-* visualizar el texto de entrada;
-* enviar el texto al generador TEI;
-* mostrar el XML-TEI producido;
-* guardar el resultado como archivo `.xml`.
-
-La generación se ejecuta en un hilo separado para evitar que la interfaz gráfica se bloquee durante la llamada al modelo.
-
-### `tei_generator.py`
-
-Módulo encargado de construir el prompt, llamar al modelo Gemma y devolver el XML generado.
-
-Incluye las siguientes funciones:
-
-* `build_tei_prompt(texto)`: construye el prompt de transformación de texto dramático a XML-TEI DraCor.
-* `generate_tei_xml(texto)`: envía el prompt al modelo y devuelve la respuesta generada.
-* `generate_tei_xml_largo(texto)`: función envoltorio para textos largos. En la versión actual llama directamente a `generate_tei_xml(texto)`.
-* `save_tei_to_file(tei_xml, filename)`: guarda el XML generado en disco.
-
-## Uso básico
-
-Ejecute la aplicación desde la terminal:
-
-```bash
-python3 main.py
-```
-
-En Windows:
-
-```bash
-python main.py
-```
-
-Se abrirá una interfaz gráfica titulada **Generador TEI con Gemma**.
-
-El flujo de uso es el siguiente:
-
-1. Pulse **Cargar archivo .txt**.
-2. Seleccione una obra teatral en texto plano.
-3. Revise que el texto se ha cargado correctamente en el área de entrada.
-4. Pulse **Generar TEI**.
-5. Espere a que la aplicación devuelva el XML generado.
-6. Pulse **Guardar XML** para exportar el resultado como archivo `.xml`.
+El archivo obra_tei_gemma.xml se generará cuando el usuario guarde el resultado desde la interfaz.
 
 ## Entrada y salida
 
@@ -219,7 +207,7 @@ El resultado debe incluir, idealmente:
 * `<p>` para el contenido verbal del parlamento;
 * `<stage type="action">` para acotaciones.
 
-## Modelo utilizado
+## Modelo y configuración
 
 La aplicación utiliza el modelo:
 
@@ -312,32 +300,19 @@ Si los tres intentos fallan, muestra un mensaje de error indicando que se ha exc
 
 Este mecanismo está implementado en `generate_in_background()` dentro de `main.py`.
 
-## Pipeline metodológico
+## Flujo de procesamiento
 
-Desde el punto de vista metodológico, el sistema se inscribe en un flujo más amplio de generación y evaluación de XML-TEI para teatro filipino en español.
+El flujo de procesamiento de la aplicación es el siguiente:
 
-El pipeline previsto para el enfoque basado en Gemma puede describirse así:
+1. El usuario carga un archivo `.txt` desde la interfaz.
+2. `main.py` lee el contenido del archivo y lo muestra en el área de entrada.
+3. Al pulsar **Generar TEI**, el texto se envía a `generate_tei_xml_largo()`.
+4. `tei_generator.py` construye el prompt mediante `build_tei_prompt(texto)`.
+5. El prompt se envía al modelo `gemma-4-26b-a4b-it`.
+6. La respuesta del modelo se muestra en la interfaz.
+7. El usuario puede guardar el resultado como archivo `.xml`.
 
-1. **Preparación del texto**
-   Se parte de una obra teatral en texto plano (`.txt`), preferentemente revisada para eliminar errores graves de OCR.
-
-2. **Construcción del prompt**
-   Se genera una instrucción que especifica la estructura TEI-DraCor esperada, las reglas mínimas de marcado y el texto que debe codificarse.
-
-3. **Llamada al modelo**
-   El texto se envía al modelo `gemma-4-26b-a4b-it` mediante la biblioteca `google-genai`.
-
-4. **Generación del XML**
-   El modelo devuelve una propuesta de XML-TEI.
-
-5. **Revisión de la salida**
-   La salida debe revisarse para comprobar que no contiene texto introductorio, bloques Markdown, etiquetas sin cerrar, identificadores duplicados o referencias `who` no declaradas.
-
-6. **Validación**
-   El archivo resultante debe validarse contra el esquema DraCor.
-
-7. **Postprocesado y corrección**
-   En caso necesario, deben corregirse duplicados de personajes, identificadores inconsistentes, numeración de actos o escenas y omisiones de atributos obligatorios.
+La versión actual no implementa división automática en fragmentos ni ensamblado de varios XML parciales. Para textos extensos, puede ser necesario dividir la obra manualmente o ampliar el código con un sistema de fragmentación y postprocesado.
 
 ## Ejemplo de uso del módulo desde Python
 
@@ -387,12 +362,11 @@ En ese caso, debe eliminarse manualmente o mediante un paso de limpieza automát
 
 A veces el modelo puede envolver el XML en un bloque como:
 
-````text
+~~~text
 ```xml
 ...
-````
-
-````
+```
+~~~
 
 Estos marcadores deben eliminarse antes de validar el documento.
 
