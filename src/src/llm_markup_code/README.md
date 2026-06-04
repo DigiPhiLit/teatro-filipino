@@ -339,23 +339,6 @@ El pipeline previsto para el enfoque basado en Gemma puede describirse así:
 7. **Postprocesado y corrección**
    En caso necesario, deben corregirse duplicados de personajes, identificadores inconsistentes, numeración de actos o escenas y omisiones de atributos obligatorios.
 
-## Relación con la metodología del artículo
-
-El artículo asociado al proyecto describe una metodología ampliada para el uso de Gemma en el marcado TEI de obras extensas. Esa metodología contempla:
-
-* división del texto en fragmentos o chunks;
-* prompts diferenciados para el primer fragmento, fragmentos intermedios y último fragmento;
-* ensamblado posterior de los XML parciales;
-* eliminación de declaraciones XML repetidas;
-* corrección de cierres prematuros del documento;
-* control de identificadores de personajes;
-* eliminación de duplicados en `<particDesc>`;
-* renumeración secuencial de actos y escenas.
-
-La versión actual del código de esta carpeta no implementa todavía todo ese pipeline ampliado. En particular, `generate_tei_xml_largo(texto)` funciona actualmente como un envoltorio que llama directamente a `generate_tei_xml(texto)`, por lo que el texto se envía en una única llamada al modelo.
-
-Por tanto, esta implementación debe entenderse como una versión funcional básica de la aplicación LLM. Para obras largas o con estructuras complejas, puede ser necesario añadir fragmentación, ensamblado y postprocesado.
-
 ## Ejemplo de uso del módulo desde Python
 
 Aunque la forma principal de uso es la interfaz gráfica, también es posible importar directamente las funciones desde otro script:
@@ -479,24 +462,6 @@ Para obtener mejores resultados:
 * revise manualmente `<listPerson>`, `<castList>` y los valores `who`;
 * documente la fecha de generación, el modelo usado y la configuración de inferencia;
 * no considere la salida como edición definitiva sin revisión humana.
-
-## Posibles mejoras futuras
-
-Se recomienda ampliar la aplicación con:
-
-* lectura de metadatos desde un archivo CSV o XML;
-* uso de variables de entorno para la clave de API;
-* fragmentación automática de obras largas;
-* prompts diferenciados para primer fragmento, fragmentos intermedios y último fragmento;
-* ensamblado automático de fragmentos;
-* limpieza de artefactos Markdown;
-* validación XML automática;
-* validación contra el esquema DraCor;
-* detección de `xml:id` duplicados;
-* comprobación de coherencia entre `<listPerson>` y `who`;
-* postprocesado de identificadores divergentes;
-* exportación de logs de ejecución;
-* registro de versión del modelo y configuración usada.
 
 ## Cita
 
