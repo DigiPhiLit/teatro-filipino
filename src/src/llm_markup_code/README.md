@@ -2,13 +2,118 @@
 
 ## Descripción
 
-Esta carpeta contiene una aplicación experimental para la generación automática de marcado XML-TEI a partir de obras teatrales en texto plano (`.txt`) mediante el modelo `gemma-4-26b-a4b-it`.
+Esta carpeta contiene el código utilizado para automatizar la conversión de obras de teatro filipino en formato de texto plano (`.txt`) a XML-TEI compatible con el esquema DraCor mediante el modelo de lenguaje `gemma-4-26b-a4b-it`.
 
-La herramienta forma parte del proyecto **DigiPhiLit - Teatro filipino en español** y se ha desarrollado para explorar el uso de modelos de lenguaje en tareas de codificación TEI conforme a las directrices de **DraCor** y **TEI-P5**.
+El sistema está diseñado para el procesamiento de textos dramáticos y genera automáticamente una propuesta de estructura TEI que incluye actos, escenas, parlamentos, personajes y acotaciones.
 
-El objetivo de la aplicación es transformar textos dramáticos sin marcado previo en documentos XML-TEI que puedan ser revisados, corregidos y comparados con otros métodos de automatización, especialmente con el sistema basado en expresiones regulares desarrollado en el mismo proyecto.
+La herramienta forma parte del proyecto **DigiPhiLit - Teatro filipino en español** y se ha desarrollado para comparar el marcado XML-TEI generado mediante modelos de lenguaje con el marcado producido mediante expresiones regulares y con un gold standard revisado manualmente.
 
-A diferencia del enfoque RegEx, que depende de patrones tipográficos explícitos, el enfoque basado en Gemma busca aprovechar la capacidad contextual de los modelos de lenguaje para inferir estructuras dramáticas como actos, escenas, hablantes, parlamentos, acotaciones y listas de personajes.
+La salida generada debe entenderse como una primera propuesta automática de marcado. Por tanto, los archivos XML resultantes requieren validación posterior contra el esquema DraCor y revisión humana antes de considerarse versiones finales.
+
+## Requisitos
+
+Para ejecutar la aplicación se necesita:
+
+* Python 3.10 o superior.
+* Los archivos `main.py` y `tei_generator.py`.
+* Una carpeta de trabajo, por ejemplo `app_tei_gemma`.
+* La biblioteca `google-genai`.
+* Una API Key de Google AI Studio.
+* Un archivo de entrada en formato `.txt`, preferentemente codificado en UTF-8.
+
+La interfaz gráfica utiliza `tkinter`, que suele venir incluido en la instalación estándar de Python.
+
+## Instalación
+
+Descargue los archivos `main.py` y `tei_generator.py` desde el repositorio y guárdelos en una misma carpeta de trabajo. Por ejemplo:
+
+```text
+app_tei_gemma/
+├── main.py
+└── tei_generator.py
+```
+
+Abra una terminal dentro de esa carpeta e instale la biblioteca necesaria:
+
+```bash
+pip install google-genai
+```
+
+## Configuración de la API Key
+
+Para obtener una API Key de Google AI Studio:
+
+1. Acceda a Google AI Studio: `https://aistudio.google.com/`
+2. Inicie sesión con una cuenta de Google.
+3. Vaya a la sección **Get API Key**.
+4. Seleccione **Create API Key**.
+5. Copie la clave generada.
+
+En la versión actual del código, la clave debe introducirse en el archivo `tei_generator.py`, en la línea correspondiente a la creación del cliente:
+
+```python
+client = genai.Client(api_key="TU_API_KEY")
+```
+
+También puede aparecer como:
+
+```python
+API_KEY = "PON AQUÍ TU API KEY"
+client = genai.Client(api_key=API_KEY)
+```
+
+En ese caso, sustituya `"PON AQUÍ TU API KEY"` por su clave real.
+
+> Importante: no suba nunca al repositorio una API Key real. Si va a publicar o compartir el código, elimine la clave antes de hacer `commit`.
+
+Para una versión más segura del código, se recomienda usar una variable de entorno:
+
+```python
+import os
+from google import genai
+
+client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
+```
+
+En macOS o Linux, la clave puede definirse así:
+
+```bash
+export GOOGLE_API_KEY="SU_CLAVE"
+python3 main.py
+```
+
+En Windows PowerShell:
+
+```powershell
+$env:GOOGLE_API_KEY="SU_CLAVE"
+python main.py
+```
+
+## Ejecución
+
+Una vez configurada la API Key, ejecute la aplicación desde la terminal:
+
+```bash
+python3 main.py
+```
+
+En Windows:
+
+```bash
+python main.py
+```
+
+Se abrirá una interfaz gráfica titulada **Generador TEI con Gemma**.
+
+El flujo de uso es el siguiente:
+
+1. Pulse **Cargar archivo .txt**.
+2. Seleccione la obra teatral en texto plano.
+3. Compruebe que el texto aparece correctamente en el área de entrada.
+4. Pulse **Generar TEI**.
+5. Espere a que el modelo devuelva el XML generado.
+6. Pulse **Guardar XML** para exportar el resultado como archivo `.xml`.
+
 
 ## Archivos incluidos
 
@@ -42,65 +147,6 @@ Incluye las siguientes funciones:
 * `generate_tei_xml(texto)`: envía el prompt al modelo y devuelve la respuesta generada.
 * `generate_tei_xml_largo(texto)`: función envoltorio para textos largos. En la versión actual llama directamente a `generate_tei_xml(texto)`.
 * `save_tei_to_file(tei_xml, filename)`: guarda el XML generado en disco.
-
-## Requisitos
-
-Para ejecutar la aplicación se necesita:
-
-* Python 3.10 o superior.
-* Una clave de API compatible con la biblioteca `google-genai`.
-* La biblioteca `google-genai`.
-* Acceso al modelo `gemma-4-26b-a4b-it`.
-
-La interfaz gráfica utiliza `tkinter`, que suele venir incluido en la instalación estándar de Python.
-
-## Instalación
-
-Clone el repositorio o descargue esta carpeta del proyecto:
-
-```bash
-git clone https://github.com/DigiPhiLit/teatro-filipino.git
-cd teatro-filipino/src/src/llm_markup_code
-```
-
-Instale la biblioteca necesaria:
-
-```bash
-pip install google-genai
-```
-
-## Configuración de la API
-
-En la versión actual, el archivo `tei_generator.py` contiene una variable para introducir la clave de API:
-
-```python
-API_KEY = "PON AQUÍ TU API KEY"
-```
-
-Antes de ejecutar la aplicación, sustituya ese valor por su clave de API.
-
-Por motivos de seguridad, no se recomienda subir claves de API reales al repositorio. Para una versión pública o compartida del código, se recomienda sustituir este sistema por una variable de entorno, por ejemplo:
-
-```python
-import os
-API_KEY = os.environ["GOOGLE_API_KEY"]
-```
-
-En ese caso, la clave se puede definir desde la terminal antes de ejecutar la aplicación.
-
-En macOS o Linux:
-
-```bash
-export GOOGLE_API_KEY="SU_CLAVE"
-python3 main.py
-```
-
-En Windows PowerShell:
-
-```powershell
-$env:GOOGLE_API_KEY="SU_CLAVE"
-python main.py
-```
 
 ## Uso básico
 
