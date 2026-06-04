@@ -10,7 +10,7 @@ El sistema está diseñado como una aproximación determinista, reproducible y e
 
 ## Funcionamiento
 
-La transformación se invoca desde la terminal, pasando como argumentos el texto fuente y los metadatos básicos de la obra: título, autoría, año e idioma.
+La transformación puede invocarse desde otro script de Python o integrarse en una interfaz de línea de comandos. En su versión actual, el archivo define las funciones necesarias para realizar la transformación, pero no implementa por sí mismo un parser de argumentos de terminal. Pasa como argumentos el texto fuente y los metadatos básicos de la obra: título, autoría, año e idioma.
 
 El sistema no requiere conexión a internet ni autenticación. La transformación se realiza íntegramente en local, de forma determinista e inmediata.
 
@@ -25,6 +25,28 @@ El motor aplica diecisiete correcciones de calidad documentadas internamente com
 * **Divisiones estructurales**: las líneas que comienzan por `ACTO` o `JORNADA`, seguidas de numerales romanos, arábigos u ordinales textuales como `PRIMERO`, `SEGUNDO` o `ÚNICO`, generan un `<div type="act">`. Las subdivisiones indicadas mediante `ESCENA`, `CUADRO` o `TABLEAU` generan un `<div type="scene">`, siempre anidado dentro del acto o jornada activa, según la corrección C-10.
 
 * **Patrones especiales**: el sistema contempla varios casos específicos, como la aparición de `telón` al final de la obra como `<stage>` independiente fuera del último `<sp>` según C-12; las notas a pie de página que comienzan por `(N)` o `(*)`, codificadas como `<p>` independientes según C-13; los marcadores de paginación OCR, como líneas compuestas únicamente por dígitos o guiones, que se descartan; y las canciones o versos intercalados entre comillas angulares, que se marcan como `<sp>` del personaje que canta según C-11.
+
+## Correcciones de calidad
+
+El sistema aplica diecisiete correcciones de calidad, identificadas como C-01 a C-17, cotejadas con el Gold Standard:
+
+- **C-01**: `xml:id` sin guiones bajos internos en el título.
+- **C-02**: `<title type="main">` con capitalización tipo oración.
+- **C-03**: `<forename>` y `<surname>` con mayúscula inicial, incluyendo tratamientos honoríficos como `Dr.`, `Fray` o `Don`.
+- **C-04**: fuente digital de la Biblioteca Virtual Miguel de Cervantes incluida como primer `<bibl type="digitalSource">`.
+- **C-05**: `<roleDesc>` nunca vacío si el texto fuente proporciona descripción; si no hay descripción, el elemento se omite.
+- **C-06**: nombres de roles en `<castList>` en mayúsculas y con tildes.
+- **C-07**: personajes históricos o literarios mencionados en diálogo, pero que no actúan en la obra, excluidos de `<listPerson>`.
+- **C-08**: `<head>` de actos y escenas en mayúsculas y con tildes correctas.
+- **C-09**: acotación inicial del acto codificada como un único `<stage type="action">`.
+- **C-10**: escenas, `<div type="scene">`, siempre anidadas dentro del acto, `<div type="act">`.
+- **C-11**: canciones o versos intercalados marcados como `<sp>` propio del personaje que canta.
+- **C-12**: `TELÓN.` marcado como `<stage type="action">TELÓN.</stage>` independiente después del último `<sp>`.
+- **C-13**: notas a pie de página como `<p>(N) texto…</p>` independientes.
+- **C-14**: personajes sin texto hablado, solo con acotación, marcados como `<stage type="action">`, sin abrir `<sp>`.
+- **C-15**: conservación de tildes y ortografía española en todos los elementos generados.
+- **C-16**: parlamento de cada personaje en un único `<p>`, sin fragmentar.
+- **C-17**: acotaciones internas dentro del `<p>` del parlamento, no como elementos hermanos.
 
 ## Pipeline
 
@@ -52,3 +74,72 @@ El marcado producido por esta herramienta debe considerarse una primera propuest
 
 Por este motivo, los archivos TEI-XML generados mediante este procedimiento requieren validación posterior y, en muchos casos, revisión manual o comparación con otros métodos de marcado.
 
+## Entrada y salida
+
+La herramienta está organizada como un módulo Python reutilizable. La función principal es `generar_tei()`, que recibe como entrada el contenido de una obra teatral en texto plano, junto con los metadatos básicos necesarios para construir el `teiHeader`.
+
+### Entrada
+
+La función `generar_tei()` espera los siguientes argumentos principales:
+
+- `texto`: contenido de la obra en formato `.txt`.
+- `titulo`: título de la obra.
+- `autor`: autoría de la obra.
+- `fecha`: fecha de publicación, representación o composición, si se conoce.
+- `idioma`: código de lengua, por defecto `es`.
+- `fuente_digital_titulo`: título de la fuente digital.
+- `fuente_digital_url`: URL de la fuente digital.
+- `fuente_digital_lugar`: lugar de publicación de la fuente digital.
+- `fuente_digital_fecha`: fecha de la fuente digital.
+- `fuente_impresa_lugar`: lugar de publicación de la fuente impresa.
+- `fuente_impresa_editorial`: editorial o imprenta de la fuente impresa.
+- `fuente_impresa_titulo`: título completo de la fuente impresa.
+- `subgenero`: subgénero dramático, si se conoce.
+- `forma`: forma textual, por defecto `prose`.
+- `resp_stmt_resp`: tipo de responsabilidad secundaria, por ejemplo `arreglada en forma teatral por`.
+- `resp_stmt_nombre`: nombre de la persona responsable de esa intervención secundaria.
+
+### Salida
+
+La función devuelve una cadena de texto con un documento TEI-XML completo. Este documento incluye:
+
+- declaración XML;
+- declaración `xml-model` asociada al esquema DraCor;
+- elemento raíz `<TEI>`;
+- `<teiHeader>` con metadatos bibliográficos, lingüísticos y de clasificación;
+- `<listPerson>` con los personajes detectados;
+- `<castList>` cuando se han identificado personajes;
+- `<body>` con el cuerpo dramático segmentado en actos, jornadas, escenas, parlamentos y acotaciones.
+
+El XML generado puede guardarse en disco mediante la función auxiliar `save_tei_to_file()`.
+
+### Ejemplo de uso desde Python
+
+```python
+from tei_generator_regex import generar_tei, save_tei_to_file
+
+with open("data/txt/alma_filipina.txt", "r", encoding="utf-8") as f:
+    texto = f.read()
+
+tei_xml = generar_tei(
+    texto=texto,
+    titulo="Alma filipina",
+    autor="Severino Reyes",
+    fecha="1911",
+    idioma="es",
+    fuente_digital_titulo="Biblioteca Virtual Miguel de Cervantes",
+    fuente_digital_url="https://www.cervantesvirtual.com/obra/alma-filipina---comedia-en-un-acto-y-en-prosa/",
+    fuente_digital_lugar="Alicante",
+    fuente_digital_fecha="2013",
+    fuente_impresa_lugar="Manila",
+    fuente_impresa_editorial="Imprenta Librería y Papelería de I. R. Morales",
+    fuente_impresa_titulo="Alma filipina",
+    subgenero="comedy",
+    forma="prose"
+)
+
+save_tei_to_file(tei_xml, "data/tei_regex/alma_filipina.xml")
+
+El resultado es un archivo .xml codificado en TEI, por ejemplo:
+
+data/tei_regex/alma_filipina.xml
