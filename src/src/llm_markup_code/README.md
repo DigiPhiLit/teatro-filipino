@@ -126,12 +126,12 @@ python main.py
 
 Una vez instaladas las dependencias y configurada la API Key, ejecute la aplicación desde la terminal.
 
-** En macOS o Linux:
+En macOS o Linux:
 
 ```bash
 python3 main.py
 
-** En Windows:
+En Windows:
 
 python main.py
 
