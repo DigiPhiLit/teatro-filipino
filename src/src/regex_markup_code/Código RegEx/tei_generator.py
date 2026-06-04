@@ -3,7 +3,11 @@ tei_generator_regex.py
 Pipeline de transformación .txt → XML-TEI para textos teatrales.
 Proyecto DIGIPHILIT - UNED
 
-Basado en la metodología de A. A. Rivera Parra (2023).
+Sistema de etiquetado propio basado en reglas (expresiones regulares),
+desarrollado para el corpus de teatro español e hispanofilipino del
+proyecto DIGIPHILIT-UNED. Las reglas de detección y las correcciones de
+calidad (C-01 a C-17) son resultado del análisis del corpus realizado
+en este trabajo, no de un sistema externo previo.
 Conforme con las directrices de DraCor y TEI-P5.
 
 No requiere API externa: usa expresiones regulares para detectar
@@ -217,8 +221,9 @@ def capitalizar_nombre_persona(nombre: str) -> str:
 
 def mayusculas_con_tildes(texto: str) -> str:
     """
-    [C-08, C-15] Convierte a mayúsculas preservando las tildes del español.
-    Ejemplo: 'Acto único' → 'ACTO ÚNICO'  (no 'ACTO UNICO')
+    [C-08, C-15] Convierte a mayúsculas. str.upper() de Python ya preserva
+    correctamente las tildes del español ('único' → 'ÚNICO', no 'UNICO'),
+    por lo que no se requiere ninguna lógica adicional.
     """
     return texto.upper()
 
@@ -394,11 +399,22 @@ def _acotacion_interna(texto_p: str) -> str:
     <stage type="action"> DENTRO del texto del párrafo.
     Solo reemplaza paréntesis que contienen texto suficientemente largo
     para ser acotaciones (≥10 caracteres), evitando notas como "(1)".
-    """
-    def reemplazar(m):
-        return f'<stage type="action">{_esc(m.group(1).strip())}</stage>'
 
-    return re.sub(r"\(([^)]{10,})\)", reemplazar, texto_p)
+    Recibe texto SIN escapar y aplica el escapado XML internamente: tanto
+    al texto que queda fuera de las etiquetas como al contenido de cada
+    acotación. De este modo se evita el doble escapado.
+    """
+    partes: list[str] = []
+    ultimo_fin = 0
+    for m in re.finditer(r"\(([^)]{10,})\)", texto_p):
+        # Texto previo a la acotación (fuera de <stage>): escapar
+        partes.append(_esc(texto_p[ultimo_fin:m.start()]))
+        # Contenido de la acotación: escapar una sola vez
+        partes.append(f'<stage type="action">{_esc(m.group(1).strip())}</stage>')
+        ultimo_fin = m.end()
+    # Texto restante tras la última acotación
+    partes.append(_esc(texto_p[ultimo_fin:]))
+    return "".join(partes)
 
 
 def transformar_cuerpo(texto: str, personajes_conocidos: dict[str, str]) -> str:
@@ -471,7 +487,7 @@ def transformar_cuerpo(texto: str, personajes_conocidos: dict[str, str]) -> str:
         if parlamento_acumulado:
             texto_p = " ".join(parlamento_acumulado).strip()
             if texto_p:
-                texto_p_marcado = _acotacion_interna(_esc(texto_p))
+                texto_p_marcado = _acotacion_interna(texto_p)
                 resultado.append(f"        <p>{texto_p_marcado}</p>")
             parlamento_acumulado = []
 
@@ -630,11 +646,12 @@ def transformar_cuerpo(texto: str, personajes_conocidos: dict[str, str]) -> str:
         m_cor = PAT_ACOT_COR.match(linea_s)
         if m_par or m_cor:
             contenido = (m_par or m_cor).group(1)
-            # [C-17] Si hay un parlamento en curso, la acotación va DENTRO del <p>
+            # [C-17] Si hay un parlamento en curso, la acotación va DENTRO del <p>.
+            # Se acumula como texto crudo entre paréntesis; _acotacion_interna
+            # la convertirá en <stage> en volcar_parlamento(), evitando que el
+            # escapado posterior afecte a la etiqueta.
             if sp_abierto and parlamento_acumulado:
-                parlamento_acumulado.append(
-                    f'<stage type="action">{_esc(contenido.strip())}</stage>'
-                )
+                parlamento_acumulado.append(f"({contenido.strip()})")
             else:
                 volcar_parlamento()
                 emitir_stage(contenido)
@@ -665,7 +682,7 @@ def transformar_cuerpo(texto: str, personajes_conocidos: dict[str, str]) -> str:
             if _es_candidato_personaje(nombre):
                 abrir_sp(nombre)
                 # [C-16, C-17] Todo en un único <p> con acotaciones internas
-                texto_p_marcado = _acotacion_interna(_esc(texto_p))
+                texto_p_marcado = _acotacion_interna(texto_p)
                 resultado.append(f"        <p>{texto_p_marcado}</p>")
                 continue
 
