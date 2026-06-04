@@ -48,6 +48,134 @@ El sistema aplica diecisiete correcciones de calidad, identificadas como C-01 a 
 - **C-16**: parlamento de cada personaje en un único `<p>`, sin fragmentar.
 - **C-17**: acotaciones internas dentro del `<p>` del parlamento, no como elementos hermanos.
 
+## Instalación y uso básico
+
+Esta herramienta convierte obras de teatro en formato de texto plano (`.txt`) a XML-TEI compatible con el esquema DraCor. Funciona íntegramente en local: no requiere conexión a internet, cuenta en ningún servicio externo ni clave de API.
+
+### Paso 1. Requisitos
+
+Para utilizar la herramienta se necesita:
+
+1. Tener instalado Python 3.10 o superior.
+2. Descargar el archivo `tei_generator.py` desde el repositorio y guardarlo en una carpeta de trabajo, por ejemplo `RegEx`.
+3. Disponer de uno o varios archivos `.txt` codificados en UTF-8.
+4. No es necesario instalar bibliotecas adicionales, ya que el script utiliza únicamente módulos estándar de Python.
+
+### Paso 2. Preparar el texto de entrada
+
+El texto de entrada debe ser un archivo `.txt` en codificación UTF-8.
+
+Antes de la conversión, se recomienda revisar que el archivo no contiene errores graves de OCR o transcripción que puedan afectar al marcado automático, por ejemplo:
+
+* palabras partidas incorrectamente;
+* números de página aislados;
+* caracteres extraños;
+* encabezados o pies de página repetidos;
+* cortes de línea que separen indebidamente nombres de personaje, actos o escenas.
+
+El sistema incorpora algunas reglas para limpiar y normalizar el texto, pero la calidad del XML generado depende en gran medida de la regularidad del archivo de entrada.
+
+### Paso 3. Crear el script de conversión
+
+Para cada obra, se puede crear un archivo `.py` en la misma carpeta de trabajo. Por ejemplo, `convertir_obra.py`.
+
+El archivo debe contener un código como el siguiente, sustituyendo los datos en mayúsculas por los datos de cada obra:
+
+```python
+from pathlib import Path
+from tei_generator import generar_tei
+
+texto = Path("NOMBRE_ARCHIVO.txt").read_text(encoding="utf-8")
+
+xml = generar_tei(
+    texto=texto,
+    titulo="TÍTULO DE LA OBRA",
+    autor="NOMBRE DEL AUTOR/A",
+    fecha="AÑO",
+    idioma="es"
+)
+
+Path("NOMBRE_SALIDA_tei.xml").write_text(xml, encoding="utf-8")
+
+print("Listo")
+```
+
+Por ejemplo:
+
+```python
+from pathlib import Path
+from tei_generator import generar_tei
+
+texto = Path("alma_filipina.txt").read_text(encoding="utf-8")
+
+xml = generar_tei(
+    texto=texto,
+    titulo="Alma filipina",
+    autor="Severino Reyes",
+    fecha="1911",
+    idioma="es"
+)
+
+Path("alma_filipina_tei.xml").write_text(xml, encoding="utf-8")
+
+print("Listo")
+```
+
+### Paso 4. Ejecutar la conversión desde la terminal
+
+Abra la terminal y navegue a la carpeta donde se encuentran el script de conversión, el archivo `.txt` y `tei_generator.py`.
+
+En macOS o Linux:
+
+```bash
+cd ~/Desktop/RegEx
+python3 convertir_obra.py
+```
+
+En Windows:
+
+```bash
+cd %USERPROFILE%\Desktop\RegEx
+python convertir_obra.py
+```
+
+El archivo XML-TEI se generará en la misma carpeta, con el nombre indicado en la línea final del script:
+
+```python
+Path("NOMBRE_SALIDA_tei.xml").write_text(xml, encoding="utf-8")
+```
+
+### Entrada y salida de la función
+
+La herramienta está organizada como un módulo Python reutilizable. La función principal es `generar_tei()`, que recibe como entrada el contenido de una obra teatral en texto plano y los metadatos básicos necesarios para construir el `teiHeader`.
+
+Los argumentos mínimos son:
+
+- `texto`: contenido de la obra en formato `.txt`.
+- `titulo`: título de la obra.
+- `autor`: autoría de la obra.
+- `fecha`: fecha de publicación, representación o composición, si se conoce.
+- `idioma`: código de lengua, por defecto `es`.
+
+La función también permite añadir metadatos bibliográficos más detallados, como la fuente digital, la URL de referencia, la fuente impresa, el subgénero, la forma textual o una responsabilidad secundaria.
+
+La salida de `generar_tei()` es una cadena de texto con un documento TEI-XML completo. Este documento incluye la declaración XML, el elemento raíz `<TEI>`, el `<teiHeader>`, la lista de personajes detectados y el cuerpo dramático segmentado en actos, jornadas, escenas, parlamentos y acotaciones.
+
+El XML puede guardarse en disco mediante `Path(...).write_text()` o mediante la función auxiliar `save_tei_to_file()`, si se desea utilizarla.
+
+### Resultado esperado
+
+Tras ejecutar el script, la carpeta de trabajo debería contener al menos estos archivos:
+
+```text
+RegEx/
+├── tei_generator.py
+├── NOMBRE_ARCHIVO.txt
+├── convertir_obra.py
+└── NOMBRE_SALIDA_tei.xml
+```
+El archivo `NOMBRE_SALIDA_tei.xml` contiene el marcado TEI-XML generado automáticamente a partir del texto plano.
+
 ## Pipeline
 
 El flujo de transformación sigue seis etapas secuenciales:
@@ -73,69 +201,3 @@ El flujo de transformación sigue seis etapas secuenciales:
 El marcado producido por esta herramienta debe considerarse una primera propuesta automática. El uso de expresiones regulares permite obtener resultados rápidos, reproducibles y explicables, pero presenta limitaciones ante variaciones tipográficas, inconsistencias editoriales, errores de OCR o estructuras dramáticas no convencionales.
 
 Por este motivo, los archivos TEI-XML generados mediante este procedimiento requieren validación posterior y, en muchos casos, revisión manual o comparación con otros métodos de marcado.
-
-## Entrada y salida
-
-La herramienta está organizada como un módulo Python reutilizable. La función principal es `generar_tei()`, que recibe como entrada el contenido de una obra teatral en texto plano, junto con los metadatos básicos necesarios para construir el `teiHeader`.
-
-### Entrada
-
-La función `generar_tei()` espera los siguientes argumentos principales:
-
-- `texto`: contenido de la obra en formato `.txt`.
-- `titulo`: título de la obra.
-- `autor`: autoría de la obra.
-- `fecha`: fecha de publicación, representación o composición, si se conoce.
-- `idioma`: código de lengua, por defecto `es`.
-- `fuente_digital_titulo`: título de la fuente digital.
-- `fuente_digital_url`: URL de la fuente digital.
-- `fuente_digital_lugar`: lugar de publicación de la fuente digital.
-- `fuente_digital_fecha`: fecha de la fuente digital.
-- `fuente_impresa_lugar`: lugar de publicación de la fuente impresa.
-- `fuente_impresa_editorial`: editorial o imprenta de la fuente impresa.
-- `fuente_impresa_titulo`: título completo de la fuente impresa.
-- `subgenero`: subgénero dramático, si se conoce.
-- `forma`: forma textual, por defecto `prose`.
-- `resp_stmt_resp`: tipo de responsabilidad secundaria, por ejemplo `arreglada en forma teatral por`.
-- `resp_stmt_nombre`: nombre de la persona responsable de esa intervención secundaria.
-
-### Salida
-
-La función devuelve una cadena de texto con un documento TEI-XML completo. Este documento incluye:
-
-- declaración XML;
-- declaración `xml-model` asociada al esquema DraCor;
-- elemento raíz `<TEI>`;
-- `<teiHeader>` con metadatos bibliográficos, lingüísticos y de clasificación;
-- `<listPerson>` con los personajes detectados;
-- `<castList>` cuando se han identificado personajes;
-- `<body>` con el cuerpo dramático segmentado en actos, jornadas, escenas, parlamentos y acotaciones.
-
-El XML generado puede guardarse en disco mediante la función auxiliar `save_tei_to_file()`.
-
-### Ejemplo de uso desde Python
-
-```python
-from tei_generator_regex import generar_tei, save_tei_to_file
-
-with open("data/txt/alma_filipina.txt", "r", encoding="utf-8") as f:
-    texto = f.read()
-
-tei_xml = generar_tei(
-    texto=texto,
-    titulo="Alma filipina",
-    autor="Severino Reyes",
-    fecha="1911",
-    idioma="es",
-    fuente_digital_titulo="Biblioteca Virtual Miguel de Cervantes",
-    fuente_digital_url="https://www.cervantesvirtual.com/obra/alma-filipina---comedia-en-un-acto-y-en-prosa/",
-    fuente_digital_lugar="Alicante",
-    fuente_digital_fecha="2013",
-    fuente_impresa_lugar="Manila",
-    fuente_impresa_editorial="Imprenta Librería y Papelería de I. R. Morales",
-    fuente_impresa_titulo="Alma filipina",
-    subgenero="comedy",
-    forma="prose"
-)
-
-save_tei_to_file(tei_xml, "data/tei_regex/alma_filipina.xml")
