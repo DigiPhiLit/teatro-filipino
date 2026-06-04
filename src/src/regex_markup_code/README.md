@@ -1,7 +1,7 @@
-##Aplicación basada en RegEx 
-#Descripción
+##Aplicación basada en RegEx## 
+#Descripción#
 La herramienta desarrollada en el presente trabajo está implementada en Python como un script de línea de comandos (tei_generator.py) que expone una función principal “generar_tei()”. El objetivo es intentar implementar un etiquetado de obras de teatro en TEI implementando RegEx pero sin preprocesar el texto marcándolo con markup u otras formas de marcado simplificado, directamente desde el txt. 
-#Funcionamiento
+#Funcionamiento#
 La transformación se invoca directamente desde la terminal pasando el texto fuente y los metadatos básicos de la obra (título, autor, año e idioma) como argumentos. El sistema no requiere conexión a internet ni autenticación, la transformación se realiza íntegramente en local, de manera determinista e instantánea.
 El motor aplica diecisiete correcciones de calidad documentadas internamente (C-01 a C-17), organizadas en cinco categorías de detección:
 - Inicio del texto dramático: una expresión regular detecta la primera señal estructural significativa (PERSONAJES, REPARTO, ACTO I, PRÓLOGO, etc.) para descartar la portada y los datos editoriales previos al cuerpo dramático.
@@ -9,7 +9,7 @@ El motor aplica diecisiete correcciones de calidad documentadas internamente (C-
 - Acotaciones escénicas: texto encerrado entre paréntesis o corchetes en línea propia, así como expresiones canónicas de dirección escénica (sale, entra, mutis, aparte, pausa, telón), codificadas como <stage type=“action”>. Las acotaciones incrustadas dentro de un parlamento (paréntesis de diez o más caracteres dentro del texto de un <p>) se marcan como <stage type= “action”> en el interior del elemento <p> (C-17).
 - Divisiones estructurales: líneas que comienzan por ACTO o JORNADA seguidos de numerales romanos, arábigos u ordinales textuales (PRIMERO, ÚNICO, etc.) generan un <div type= “act”>. Las subidivisiones ESCENA, CUADRO o TABLEAU general <div type= “scene”> siempre anidados dentro del acto activo (C-10).
 - Patrones especiales: telón al final de la obra como <stage> independiente fuera del último <sp> (C-12); notas a pie de página que comienzan por (N) o (*) como <p> independientes (C-13); marcadores de paginación OCR (líneas con solo dígitos o guiones) descartados; canciones o versos intercalados entre comillas angulares marcados como <sp> del personaje que canta (C-11).
-#Pipeline 
+#Pipeline# 
 El flujo de transformación sigue seis etapas secuenciales:
 - Normalización: el texto .txt se lee en UTF-8; se unifican saltos de línea, se eliminan espacios finales, se reconectan palabras partidas por guion de OCR y se colapsan línea en blanco múltiples. 
 - Separación de portada: se localiza la primera señal de inicio dramático y se descarta todo el texto anterior como material editorial no codificable.
