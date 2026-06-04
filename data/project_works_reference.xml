@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<works xml:lang="es">
+  <!--Reference metadata for the project GitHub page: Spanish-language Filipino theatre corpus.-->
+  <work xml:id="obra_01">
+    <title>Alma filipina</title>
+    <author>Severino Reyes</author>
+    <date>1911</date>
+    <genre>Comedia en un acto y en prosa</genre>
+    <source>Imprenta Librería y Papelería de I. R. Morales, Manila</source>
+    <repository>Main Library of the University of the Philippines, Diliman Campus / Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>https://www.cervantesvirtual.com/obra/alma-filipina---comedia-en-un-acto-y-en-prosa/</url>
+  </work>
+  <work xml:id="obra_02">
+    <title>Brumas y voces</title>
+    <author>Adelina Gurrea</author>
+    <date>Lectura pública en 1952</date>
+    <genre>Obra teatral en tres actos</genre>
+    <source>Obra mecanografiada inédita</source>
+    <repository>Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>https://www.cervantesvirtual.com/nd/ark:/59851/bmc059h1</url>
+  </work>
+  <work xml:id="obra_03">
+    <title>El consejo de los dioses</title>
+    <author>José Rizal; arreglada en forma teatral por Lope Blas Hucapte</author>
+    <date>1880 (1915)</date>
+    <genre>Alegoría arreglada en forma teatral</genre>
+    <source>Imprenta y taller de encuadernación del Día Filipino, Manila</source>
+    <repository>Project Gutenberg</repository>
+    <url>https://www.gutenberg.org/ebooks/14796</url>
+  </work>
+  <work xml:id="obra_04">
+    <title>La mejor ofrenda</title>
+    <author>Rosa Sevilla de Alvero</author>
+    <date>1917</date>
+    <genre>Fantástico melodrama en dos actos</genre>
+    <source>Imprenta Sevilla, Manila</source>
+    <repository>National Library of Australia</repository>
+    <url>https://catalogue.nla.gov.au/catalog/634074</url>
+  </work>
+  <work xml:id="obra_05">
+    <title>Fortalezas</title>
+    <author>Adelina Gurrea</author>
+    <date>1936</date>
+    <genre>Comedia en tres actos, en prosa</genre>
+    <source>Obra mecanografiada inédita</source>
+    <repository>Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>https://www.cervantesvirtual.com/nd/ark:/59851/bmcsr0t7</url>
+  </work>
+  <work xml:id="obra_06">
+    <title>José el Carpintero</title>
+    <author>Juan Zulueta de los Ángeles</author>
+    <date>1880</date>
+    <genre>Comedia en un acto y en verso de costumbres filipinas</genre>
+    <source>Imprenta de la Oceanía Española, Manila</source>
+    <repository>Biblioteca Nacional de Filipinas</repository>
+    <url>https://nlpdl.nlp.gov.ph/JB02/1880/NLPJBBK31021f/bs/datejpg.htm</url>
+  </work>
+  <work xml:id="obra_07">
+    <title>Filipinas</title>
+    <author>Adelina Gurrea</author>
+    <date>1954</date>
+    <genre>Auto histórico satírico</genre>
+    <source>Imprenta Agustiniana, Valladolid</source>
+    <repository>Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>http://www.cervantesvirtual.com/nd/ark:/59851/bmcrn560</url>
+  </work>
+  <work xml:id="obra_08">
+    <title>Filipinizad a los filipinos</title>
+    <author>Jesús Balmori</author>
+    <date>1940</date>
+    <genre>Comedia en tres jornadas</genre>
+    <source>Obra mecanografiada inédita</source>
+    <repository>National Library of the Philippines / Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>https://www.cervantesvirtual.com/nd/ark:/59851/bmc69901</url>
+  </work>
+  <work xml:id="obra_09">
+    <title>Solo entre las sombras</title>
+    <author>Claro M. Recto</author>
+    <date>1917</date>
+    <genre>Drama en un acto y en prosa</genre>
+    <source>Obra mecanografiada inédita</source>
+    <repository>Biblioteca de filipiniana del Instituto Cervantes de Manila / Biblioteca Virtual Miguel de Cervantes</repository>
+    <url>https://www.cervantesvirtual.com/nd/ark:/59851/bmc5t5c4</url>
+  </work>
+</works>
