@@ -139,7 +139,3 @@ tei_xml = generar_tei(
 )
 
 save_tei_to_file(tei_xml, "data/tei_regex/alma_filipina.xml")
-
-El resultado es un archivo .xml codificado en TEI, por ejemplo:
-
-data/tei_regex/alma_filipina.xml
