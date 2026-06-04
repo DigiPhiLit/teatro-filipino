@@ -1,49 +1,19 @@
 """
 tei_generator_regex.py
+
 Pipeline de transformación .txt → XML-TEI para textos teatrales.
-Proyecto DIGIPHILIT - UNED
 
-Sistema de etiquetado propio basado en reglas (expresiones regulares),
-desarrollado para el corpus de teatro español e hispanofilipino del
-proyecto DIGIPHILIT-UNED. Las reglas de detección y las correcciones de
-calidad (C-01 a C-17) son resultado del análisis del corpus realizado
-en este trabajo, no de un sistema externo previo.
-Conforme con las directrices de DraCor y TEI-P5.
+Sistema de etiquetado propio basado en reglas, desarrollado para el corpus
+de teatro español e hispanofilipino del proyecto DIGIPHILIT-UNED.
 
-No requiere API externa: usa expresiones regulares para detectar
-la estructura dramática del texto y generar el marcado TEI.
+El script utiliza expresiones regulares para detectar la estructura dramática
+del texto y generar marcado TEI conforme a las directrices de DraCor y TEI-P5.
 
-CORRECCIONES APLICADAS (cotejadas con el Gold Standard DraCor):
-  [C-01] xml:id sin guiones bajos internos en el título.
-  [C-02] <title type="main"> con capitalización tipo oración
-          (primera letra mayúscula + nombres propios).
-  [C-03] <forename>/<surname> con mayúscula inicial (incluye tratamiento
-          honorífico Dr., Fray, Don, etc.).
-  [C-04] Fuente digital Biblioteca Virtual Miguel de Cervantes incluida
-          siempre como primer <bibl type="digitalSource">.
-  [C-05] <roleDesc> nunca vacío si el texto fuente lo proporciona;
-          si no hay descripción, el elemento se omite.
-  [C-06] Nombres de roles en <castList> en MAYÚSCULAS con tildes.
-  [C-07] Personajes históricos/literarios mencionados en diálogo
-          (Homero, Virgilio, Cervantes…) excluidos de <listPerson>.
-  [C-08] <head> de actos y escenas en MAYÚSCULAS con tildes correctas.
-  [C-09] Acotación inicial del acto: un único <stage type="action">
-          con todo el texto, sin fragmentar.
-  [C-10] Las escenas (<div type="scene">) van siempre DENTRO del acto
-          (<div type="act">), correctamente anidadas.
-  [C-11] Canciones/versos intercalados marcados como <sp> propio del
-          personaje que canta, no integrados en otro parlamento.
-  [C-12] Telón como <stage type="action">TELÓN.</stage> independiente
-          DESPUÉS del último <sp>, nunca dentro de uno.
-  [C-13] Notas a pie de página como <p>(N) texto…</p> independientes,
-          nunca integradas en parlamentos.
-  [C-14] Personajes sin texto hablado (solo acotación) marcados como
-          <stage type="action">, sin abrir <sp>.
-  [C-15] Conservación de tildes y ortografía española en todos los
-          elementos generados (ÚNICA, no UNICA; TELÓN, no TELON).
-  [C-16] Parlamento de cada personaje en un único <p>, sin fragmentar.
-  [C-17] Acotaciones internas dentro del <p> del parlamento, nunca
-          como elementos hermanos.
+No requiere API externa ni conexión a internet.
+
+Las reglas de detección y las correcciones de calidad C-01 a C-17 son resultado
+del análisis del corpus realizado en este trabajo y se documentan en el README
+del módulo.
 """
 
 import re
