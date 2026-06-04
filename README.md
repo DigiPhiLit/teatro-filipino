@@ -36,7 +36,7 @@ El corpus con el que trabajamos se compone de un conjunto de 9 obras teatrales e
 | obra_04 | *La mejor ofrenda* | Rosa Sevilla de Alvero | 1917 | Fantástico melodrama en dos actos | Imprenta Sevilla, Manila | National Library of Australia | https://catalogue.nla.gov.au/catalog/634074 |
 | obra_05 | *Fortalezas* | Adelina Gurrea | 1936 | Comedia en tres actos, en prosa | Obra mecanografiada inédita | Biblioteca Virtual Miguel de Cervantes | https://www.cervantesvirtual.com/nd/ark:/59851/bmcsr0t7 |
 | obra_06 | *José el Carpintero* | Juan Zulueta de los Ángeles | 1880 | Comedia en un acto y en verso de costumbres filipinas |Imprenta de la Oceanía Española, Manila | Biblioteca Nacional de Filipinas | https://nlpdl.nlp.gov.ph/JB02/1880/NLPJBBK31021f/bs/datejpg.htm |
-| obra_7 | *Filipinas* | Adelina Gurrea | 1954 | Auto histórico satírico | Imprenta Agustiniana, Valladolid | Biblioteca Virtual Miguel de Cervantes | http://www.cervantesvirtual.com/nd/ark:/59851/bmcrn560 |
+| obra_07 | *Filipinas* | Adelina Gurrea | 1954 | Auto histórico satírico | Imprenta Agustiniana, Valladolid | Biblioteca Virtual Miguel de Cervantes | http://www.cervantesvirtual.com/nd/ark:/59851/bmcrn560 |
 | obra_08 | *Filipinizad a los filipinos* | Jesús Balmori | 1940 | Comedia en tres jornadas | Obra mecanografiada inédita | National Library of the Philippines/ Biblioteca Virtual Miguel de Cervantes | https://www.cervantesvirtual.com/nd/ark:/59851/bmc69901 |
 | obra_09 | *Solo entre las sombras* | Claro M. Recto | 1917 | Drama en un acto y en prosa | Obra mecanografiada inédita | Biblioteca de filipiniana del Instituto Cervantes de Manila/ Biblioteca Virtual Miguel de Cervantes | https://www.cervantesvirtual.com/nd/ark:/59851/bmc5t5c4 |
 
