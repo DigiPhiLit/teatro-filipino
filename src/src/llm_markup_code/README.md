@@ -1,4 +1,4 @@
-# Aplicación basada en Gemma para marcado XML-TEI
+# Aplicación basada en gemma-4b-26b-a4b-it para marcado XML-TEI
 
 ## Descripción
 
@@ -97,8 +97,6 @@ client = genai.Client(api_key=API_KEY)
 
 En ese caso, sustituya `"PON AQUÍ TU API KEY"` por su clave real.
 
-> Importante: no suba nunca al repositorio una API Key real. Si va a publicar o compartir el código, elimine la clave antes de hacer `commit`.
-
 Para una versión más segura del código, se recomienda usar una variable de entorno:
 
 ```python
@@ -136,7 +134,7 @@ En Windows:
 
 `python main.py`
 
-Se abrirá una interfaz gráfica titulada Generador TEI con Gemma.
+Se abrirá una interfaz gráfica titulada "Generador TEI con gemma".
 
 El flujo de uso es el siguiente:
 
